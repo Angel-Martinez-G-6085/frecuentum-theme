@@ -14,7 +14,6 @@
     </section>
 
     <section class="home-tercera-seccion-container contenedor-ancho grid col-2 peq-col-1">
-
         <div class="tercera-seccion-text">
             <div class="seccion-tres-title-container">
                 <h2 class="seccion-tres-title centrar">Estamos comprometidos</h2>
