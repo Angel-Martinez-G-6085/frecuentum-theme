@@ -78,13 +78,14 @@
 }
 
 .nav__menu {
+    position: relative;
     height: 100%;
     margin: 0;
     font-size: 18px;
     transition: transform 1s;
 }
 
-.nav__menu li {
+.menu-link {
     width: 100%;
     display: flex;
     text-align: center;
@@ -121,6 +122,10 @@
     transform: scaleX(1);
 }
 
+.inicio-link {
+    display: none;
+}
+
 .fixed {
     z-index: 1;
     position: fixed;
@@ -136,6 +141,10 @@
 }
 
 .nav-movil-icon {
+    display: none;
+}
+
+.menu-cerrar-button-container {
     display: none;
 }
 
@@ -217,6 +226,12 @@
         transform: translateX(-100%);
     }
 
+    .menu-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .header__menu-container {
         width: 0;
     }
@@ -224,5 +239,13 @@
     .open-menu {
         transition: all 1s;
         transform: translateX(0%);
+    }
+
+    .menu-cerrar-button-container {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 3%;
+        width: 6rem;
     }
 }

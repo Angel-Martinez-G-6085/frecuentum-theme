@@ -21,12 +21,31 @@
                     </a>
                 </div>
                 <div class="nav-movil-button-container">
-                    <img class="nav-movil-icon" src="<?php echo(IMG. 'movil-icon.svg')?>" alt="nav-logo">
+                    <img class="nav-movil-icon" src="<?php echo(ICON. 'movil-icon.svg')?>" alt="nav-logo">
                 </div>
             </div>
-            <?php wp_nav_menu(array(
-                'menu'=> 'header_menu',
-                'menu_class' => 'nav__menu grid col-4'
-            ));?>
+
+            <div class="menu-top-container">
+                <ul class="nav__menu grid col-4">
+                    <div class="menu-cerrar-button-container">
+                        <img class="nav-movil-cerrar-icon" src="<?php echo(IMG. 'x-icon-movil.svg')?>" alt="nav-logo">
+                    </div>
+                    <li class="menu-link inicio-link">
+                        <a href="<?php echo site_url('/inicio'); ?>">Inicio</a>
+                    </li>
+                    <li class="menu-link">
+                        <a href="<?php echo site_url('/nosotros'); ?>">Nosotros</a>
+                    </li>
+                    <li class="menu-link">
+                        <a href="<?php echo site_url('/servicios'); ?>">Servicios</a>
+                    </li>
+                    <li class="menu-link">
+                        <a href="<?php echo site_url('/contacto'); ?>">Contacto</a>
+                    </li>
+                    <li class="menu-link">
+                        <a href="<?php echo site_url('/inicio'); ?>">Agenda una llamada</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
