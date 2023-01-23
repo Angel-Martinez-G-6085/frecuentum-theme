@@ -115,7 +115,8 @@
         grid-template-rows: unset;
         background-size: unset;
         background-repeat: repeat;
-        background-position: unset;
+        background-position-x: 1.3rem;
+        background-position-y: 3rem;
     }
     .tercera-seccion-second-column {
         display: grid;
