@@ -84,7 +84,7 @@
     transition: transform 1s;
 }
 
-.nav__menu li {
+.menu-link {
     width: 100%;
     display: flex;
     text-align: center;
@@ -119,6 +119,10 @@
 .nav__menu a:hover::before {
     transform-origin: left;
     transform: scaleX(1);
+}
+
+.inicio-link {
+    display: none;
 }
 
 .fixed {
@@ -215,6 +219,12 @@
         left: 0;
         background-color: var(--azul-oscuro);
         transform: translateX(-100%);
+    }
+
+    .menu-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .header__menu-container {
