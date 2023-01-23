@@ -1,0 +1,40 @@
+.home-banner-container {
+    position: relative;
+    object-fit: cover;
+}
+
+.banner-container {
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.Imagotipo {
+    height: 20%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.hero-subtitle {
+    justify-content: center;
+    width: 100%;
+    font-size: 2.7rem;
+    margin-top: 10.4rem;
+    color: var(--verde);
+    letter-spacing: 15pt;
+}
+
+/* estilos para el tamaño de laptop */
+@media screen and (max-width: 1500px) {
+
+}
+
+/* estilos para el tamaño de celular */
+@media screen and (max-width: 576px) {
+    .hero-subtitle {
+        font-size: 1.2rem;
+        margin-top: 2.4rem;
+        letter-spacing: 5pt;
+    }
+}

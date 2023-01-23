@@ -1,0 +1,16 @@
+.servicios-sexta-seccion {
+    height: 80rem;
+    background-image: url('../../assets/images/fondo-blanco-onda-nuevo.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 3rem;
+    background-position-x: -5rem;
+}
+
+
+/* estilos para el tamaño de laptop */
+@media screen and (max-width: 1500px) {
+    .servicios-sexta-seccion {
+        height: 75rem;
+    }
+}

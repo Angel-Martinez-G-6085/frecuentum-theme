@@ -1,0 +1,58 @@
+.nosotros-sexta-seccion {
+    height: 68.8rem;
+    /* background-color: yellowgreen; */
+    /* background-image: url('../../assets/images/cables.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center; */
+}
+
+.nosotros-sexta-seccion-content-container {
+    margin-left: 3rem;
+}
+
+.nosotros-sexta-seccion-title {
+    color: var(--blanco);
+    font-size: 4.4rem;
+    width: 61%;
+    margin-bottom: 0;
+    color: var(--blanco);
+    -webkit-text-stroke: 2px var(--negro);
+    margin-top: 2rem;
+}
+
+.nosotros-sexta-seccion-comillas-container {
+    justify-content: center;
+}
+
+.nosotros-sexta-seccion-comillas {
+    width: 6rem;
+}
+
+.nosotros-sexta-seccion-comillas-abajo {
+    width: 6rem;
+    transform: rotate(186deg);
+}
+
+.nosotros-sexta-seccion-autor {
+    color: var(--blanco);
+    font-size: 2.2rem;
+    margin-left: 2rem;
+}
+
+.nosotros-sexta-seccion-profesion {
+    color: var(--blanco);
+    font-size: 1.6rem;
+    margin-left: 2rem;
+}
+
+/* estilos para el tamaño de laptop */
+@media screen and (max-width: 1500px) {
+    .nosotros-sexta-seccion {
+        height: 50.8rem;
+    }
+
+    .nosotros-sexta-seccion-title {
+        width: 70%;
+    }
+}

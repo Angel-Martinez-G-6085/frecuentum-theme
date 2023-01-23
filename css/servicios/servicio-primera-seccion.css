@@ -1,0 +1,64 @@
+.servicios-primera-seccion {
+    background-color: aquamarine;
+    /* height: 79rem; */
+    /* background-image: url('../../assets/images/mano-laptop-nueva.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -16rem; */
+}
+
+.servicios-primera-seccion-banner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.servicios-primera-seccion-image {
+    width: 100%;
+    height: 100%;
+}
+
+.servicios-banner-text-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    justify-content: center;
+}
+
+.servicios-banner-title {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.servicios-banner-description {
+    color: var(--blanco);
+    width: 80%;
+    font-size: 4rem;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+.servicios-banner-subtitle {
+    color: var(--blanco);
+    width: 100%;
+    font-size: 3rem;
+}
+
+.servicios-calculadora-container {
+    justify-content: center;
+}
+
+/* estilos para el tamaño de laptop */
+@media screen and (max-width: 1500px) {
+/* .servicios-primera-seccion {
+    height: 65rem;
+    margin-bottom: -11rem;
+} */
+
+    .servicios-banner-description {
+        font-size: 2.5rem;
+    }
+}

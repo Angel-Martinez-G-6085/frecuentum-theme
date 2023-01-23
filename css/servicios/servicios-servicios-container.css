@@ -1,0 +1,64 @@
+.servicios-servicios-container {
+    position: absolute;
+    background-color: var(--azul-oscuro);
+    width: 60%;
+    top: 95%;
+    left: 38.3rem;
+    padding: 4rem;
+    border-radius: 20px;
+}
+
+.servicios-opciones-container {
+    height: 60rem;
+    color: var(--blanco);
+    margin-top: 4rem;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.servicios-opcion-container {
+    margin-bottom: 1.5rem;
+}
+
+.servicios-rectangulo-container {
+    width: 6rem;
+    height: 2rem;
+    background-color: var(--verde);
+    margin-right: 1.5rem;
+}
+
+.servicios-title {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.servicios-opcion-text-container {
+    margin-bottom: 1.6rem;
+}
+
+.servicios-opcion-text {
+    font-size: 1.6rem;
+    color: var(--blanco);
+}
+
+.servicios-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.servicios-button {
+    background-color: var(--verde);
+    color: var(--blanco);
+}
+
+/* estilos para el tamaño de laptop */
+@media screen and (max-width: 1500px) {
+    .servicios-servicios-container {
+        left: 31.3rem;
+    }
+
+    .servicios-title {
+        font-size: 4.5rem;
+    }
+}

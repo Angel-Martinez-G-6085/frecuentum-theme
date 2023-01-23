@@ -1,0 +1,73 @@
+.servicios-tercera-seccion {
+    height: 80rem;
+    background-image: url('../../assets/images/fondoOndaBlamco.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -12.8rem;
+}
+
+.servicios-tercera-seccion-especialistas {
+    column-gap: 8rem;
+}
+
+.servicios-especialistas-text-container {
+    margin-top: 35rem;
+    padding: 6rem;
+    color: var(--blanco);
+    background-color: var(--azul-oscuro);
+}
+
+.servicios-especialistas-title {
+    font-size: 4.5rem;
+    margin-bottom: 2rem;
+}
+
+.servicios-especialistas-subtitle {
+    font-size: 2.6rem;
+}
+
+.servicios-especialistas-description {
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.servicios-especialistas-opcion-container {
+    justify-content: flex-end;
+}
+
+.especialistas-opcion-image {
+    width: 7rem;
+}
+
+.servicios-especialistas-opcion-title {
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.servicios-especialistas-opcion-description {
+    font-size: 2.2rem;
+}
+
+
+/* estilos para el tamaño de laptop */
+@media screen and (max-width: 1500px) {
+    .servicios-tercera-seccion-especialistas {
+        column-gap: 4rem;
+    }
+
+    .servicios-especialistas-title {
+        font-size: 3.5rem;
+    }
+
+    .servicios-especialistas-text-container {
+        margin-top: 20rem;
+    }
+
+    .servicios-especialistas-title {
+        font-size: 2.8rem;
+    }
+
+    .servicios-especialistas-description {
+        font-size: 2.3rem;
+    }
+}

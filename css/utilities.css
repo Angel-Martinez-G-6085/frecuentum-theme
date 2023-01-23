@@ -1,0 +1,23 @@
+.titulo {
+    font-size: 8rem;
+    color: var(--blanco);
+    -webkit-text-stroke: 0.25px var(--verde);
+    margin-bottom: 8rem;
+}
+
+.titulo-slider{
+    font-size: 4.4rem;
+    margin-bottom: 0;
+    color: var(--blanco);
+    -webkit-text-stroke: 2px var(--negro);
+    margin-top: 2rem;
+}
+
+.button {
+    font-size: 2rem;
+    background-color: var(--morado-claro);
+    color: black;
+    padding: 1.5rem 2rem;
+    border-radius: 20px;
+    font-weight: bold;
+}

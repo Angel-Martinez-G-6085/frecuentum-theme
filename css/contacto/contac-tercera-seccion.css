@@ -1,0 +1,82 @@
+.contact-tercera-seccion-container {
+    background-image: url("../../assets/images/fondoOndaBlamco.webp");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80rem;
+    margin-bottom: 3rem;
+}
+
+.tormenta-image-container {
+    width: 100%;
+    height: 100%;
+}
+
+.tormenta-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* background-color: brown; */
+}
+
+.slider-item {
+    transition: opacity 1.5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.image-container {
+    position: absolute;
+}
+
+.slider-comilla-container {
+    width: 100%;
+}
+
+.comilla-abajo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    transform: rotate(186deg);
+}
+
+.slider-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 2%;
+    width: 100%;
+    height: 100%;
+    /* background-color: yellowgreen; */
+}
+
+.slider-comilla-arriba,
+.slider-comillas-abajo {
+    width: 5rem;
+}
+
+.slider-item[data-show = "0"] {
+    opacity: 0;
+}
+
+.slider-item[data-show = "1"] {
+    opacity: 1;
+}
+
+/* estilos para el tamaño de laptop */
+@media screen and (max-width: 1500px) {
+
+    .contact-tercera-seccion-container {
+        height: 50rem;
+    }
+}

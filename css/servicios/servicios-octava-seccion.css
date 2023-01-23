@@ -1,0 +1,45 @@
+.servicios-octava-seccion-banner-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.servicios-octava-seccion-banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.servicios-octava-seccion-content-container {
+    position: absolute;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.servicios-octava-seccion-title {
+    width: 98%;
+    margin: 0 auto;
+    font-size: 5.6rem;
+    margin-bottom: 2rem;
+}
+
+.servicios-octava-seccion-subtitle {
+    font-weight: bold;
+    color: var(--blanco);
+    font-size: 3rem;
+}
+
+.servicios-octava-seccion-button-container {
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+/* estilos para el tamaño de laptop */
+@media screen and (max-width: 1500px) {
+    .servicios-octava-seccion-title {
+        font-size: 3.6rem;
+    }
+}

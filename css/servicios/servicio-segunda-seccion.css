@@ -1,0 +1,75 @@
+.servicios-segunda-seccion {
+    margin-top: -9%;
+}
+
+.servicios-segunda-seccion-banner-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.servicios-segunda-seccion-content-container {
+    row-gap: 0;
+    grid-template-rows: 36% 64%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.servicios-segunda-seccion-titles-container {
+    justify-content: flex-end;
+}
+
+.servicios-segunda-seccion-opciones-container {
+    gap: 4rem;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.servicios-segunda-seccion-opcion-text-container {
+    height: 59%;
+}
+
+.servicios-segunda-seccion-title {
+    font-size: 2rem;
+    color: var(--blanco);
+    margin-bottom: 0;
+}
+
+.servicios-segunda-seccion-subtitle {
+    font-size: 5rem;
+    margin-bottom: 0rem;
+}
+
+.servicios-segunda-seccion-opcion-image {
+    margin: 0 auto;
+    width: 13rem;
+    margin-bottom: 2rem;
+}
+
+.segunda-seccion-opcion-title {
+    text-align: center;
+    font-size: 2.4rem;
+    color: var(--blanco);
+}
+
+.segunda-seccion-opcion-description-container {
+    height: 78%;
+    display: flex;
+    align-items: center;
+}
+
+.segunda-seccion-opcion-description {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--blanco);
+}
+
+/* estilos para el tamaño de laptop */
+@media screen and (max-width: 1500px) {
+    .segunda-seccion-opcion-description {
+        font-size: 1.8rem;
+    }
+}

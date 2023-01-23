@@ -1,0 +1,71 @@
+.nosotros-octava-seccion {
+    position: relative;
+    width: 100%;
+    height: 64.8rem;
+}
+
+.nosotros-octava-seccion-image-container {
+    width: 100%;
+    height: 101%;
+}
+
+.nosotros-octava-seccion-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nosotros-octava-seccion-titles-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    padding-top: 8rem;
+}
+
+.nosotros-octava-seccion-title-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nosotros-octava-seccion-title {
+    transition: all 0.5s;
+    color: var(--blanco);
+    font-size: 2.3rem;
+    margin-bottom: 2.5rem;
+}
+
+.nosotros-octava-seccion-title:hover {
+    color: var(--verde);
+}
+
+.nosotros-octava-seccion-subtitle {
+    font-size: 3.7rem;
+    margin-bottom: 3rem;
+}
+
+
+.nosotros-octava-seccion-links-container {
+    justify-content: center;
+    align-items: center;
+}
+
+.nosotros-octava-seccion-button {
+    background-color: var(--azul-oscuro);
+    color: var(--blanco);
+}
+
+.nosotros-octava-seccion-whats-button {
+    width: 8rem;
+    margin-left: 3rem;
+}
+
+/* estilos para el tamaño de laptop */
+@media screen and (max-width: 1500px) {
+    .nosotros-octava-seccion {
+        height: 42.8rem;
+    }
+}

@@ -1,0 +1,26 @@
+.servicios-septima-seccion {
+    height: 80rem;
+    background-image: url('../../assets/images/fondo-blanco-onda-nuevo.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.slider-container-servicios {
+    display: flex;
+    align-items: center;
+    width: 100;
+    height: 90%;
+}
+
+.slider-servicios-wrapper {
+    width: 100%;
+    height: 90%;
+}
+
+/* estilos para el tamaño de laptop */
+@media screen and (max-width: 1500px) {
+    .servicios-septima-seccion {
+        height: 60rem;
+    }
+}

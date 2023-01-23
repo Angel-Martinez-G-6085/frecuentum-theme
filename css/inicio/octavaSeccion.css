@@ -1,0 +1,64 @@
+.octava-seccion-container {
+    position: relative;
+    /* background-color: aquamarine; */
+}
+
+.octava-seccion-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.octava-seccion-titles-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    justify-content: center;
+}
+
+.octava-seccion-title {
+    margin-bottom: 4.8rem;
+    color: var(--blanco);
+    font-size: 3.3rem;
+}
+
+.sexta-seccion-subtitle {
+    font-size: 6rem;
+    margin-bottom: 6rem;
+}
+
+.octava-seccion-button-container {
+    justify-content: center;
+}
+
+.octava-seccion-button {
+    transition: color 0.5s;
+    color: var(--blanco);
+    background-color: unset;
+    font-size: 3.2rem;
+}
+
+.octava-seccion-button:hover {
+    color: var(--verde);
+}
+
+/* estilos para el tamaño de laptop */
+@media screen and (max-width: 1500px) {
+    .sexta-seccion-subtitle {
+        font-size: 5rem;
+    }
+}
+
+/* estilos para el tamaño de celular */
+@media screen and (max-width: 576px) {
+    .octava-seccion-title {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .sexta-seccion-subtitle {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+}

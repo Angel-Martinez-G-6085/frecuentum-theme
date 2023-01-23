@@ -1,0 +1,46 @@
+.nosotros-banner-container {
+    position: relative;
+    background-color: aquamarine;
+}
+
+.nosotros-banner-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nosotros-banner-text-container {
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.nosotros-banner-title {
+    margin-bottom: 6.7rem;
+}
+
+.nosotros-banner-subtitle {
+    color: var(--blanco);
+    font-size: 3.5rem;
+}
+
+/* estilos para el tamaño de laptop */
+@media screen and (max-width: 1500px) {
+    .nosotros-banner-subtitle {
+        font-size: 2.3rem;
+    }
+}
+
+/* estilos para el tamaño de celular */
+@media screen and (max-width: 576px) {
+    .nosotros-banner-title {
+        margin-bottom: 2rem;
+        font-size: 5rem;
+    }
+
+    .nosotros-banner-subtitle {
+        font-size: 1.6rem;
+    }
+}

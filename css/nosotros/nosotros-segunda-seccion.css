@@ -1,0 +1,147 @@
+.nosotros-segunda-seccion {
+    position: relative;
+    margin-top: -8%;
+    color: var(--blanco);
+}
+
+.nosotros-segunda-seccion-container {
+    width: 100%;
+    height: 100%;
+}
+
+.nosotros-segunda-seccion-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nosotros-segunda-seccion-content-container {
+    position: absolute;
+    /* background-color: blueviolet; */
+    width: 100%;
+    height: 100%;
+}
+
+.nosotros-segunda-seccion-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nosotros-segunda-seccion-title {
+    font-size: 3.8rem;
+    margin-bottom: 2.3rem;
+    margin-top: 2rem
+}
+
+.nosotros-segunda-seccion-subtitle {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 2.4rem;
+}
+
+.nosotros-segunda-seccion-fundadoras-container {
+    width: 100%;
+    height: 100%;
+}
+
+.fundadoras-cards-container {
+    column-gap: 5rem;
+    align-items: center;
+    margin: 0 auto;
+    width: 40%;
+    height: 100%;
+}
+
+.fundadoras-card-container {
+    grid-template-columns: 70% 30%;
+    column-gap: 0;
+    width: 100%;
+    height: 75%;
+    background-color: blue;
+}
+
+.fundadoras-card-image-1-container,
+.fundadoras-card-image-2-container {
+    max-width: 100%;
+    height: 100%;
+    background-image: url('../../assets/images/Mari-final.webp');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-color: yellow;
+}
+
+.fundadoras-card-image-2-container {
+    background-image: url('../../assets/images/Adri-final.webp');
+}
+
+.fundadoras-card-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.fundadora-text-container {
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #BCD1DD;
+    opacity: 0.9;
+}
+
+.fundadora-description {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.fundadora-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.fundadoras-icons-container {
+    margin-left: 3.5rem;
+}
+
+.fundadora-icon {
+    transition: transform 1s;
+    margin-right: 1.7rem;
+    width: 5rem;
+}
+
+.fundadora-icon:hover {
+    transform: scale(1.3);
+}
+
+.fundadora-onda-container {
+    top: 88%;
+    position: absolute;
+}
+
+.fundadora-onda-image {
+    width: 60%;
+}
+
+/* estilos para el tamaño de laptop */
+@media screen and (max-width: 1500px) {
+    .nosotros-segunda-seccion {
+        margin-top: -9%;
+    }
+}
+
+/* estilos para el tamaño de celular */
+@media screen and (max-width: 576px) {
+    .nosotros-segunda-seccion {
+        margin-top: -16%;
+    }
+
+    .nosotros-segunda-seccion-subtitle {
+        font-size: 1.4rem;
+    }
+}
