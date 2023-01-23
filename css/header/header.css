@@ -203,6 +203,10 @@
         width: 100%;
     }
 
+    .menu-top-container {
+        width: unset;
+    }
+
     .nav-movil-button-container {
         display: flex;
         justify-content: flex-end;
