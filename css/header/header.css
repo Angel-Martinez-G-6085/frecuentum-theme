@@ -78,6 +78,7 @@
 }
 
 .nav__menu {
+    position: relative;
     height: 100%;
     margin: 0;
     font-size: 18px;
@@ -141,6 +142,13 @@
 
 .nav-movil-icon {
     display: none;
+}
+
+.menu-cerrar-button-container {
+    position: absolute;
+    top: 0;
+    right: 3%;
+    width: 6rem;
 }
 
 @keyframes smoothNav {
