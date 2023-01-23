@@ -145,10 +145,7 @@
 }
 
 .menu-cerrar-button-container {
-    position: absolute;
-    top: 0;
-    right: 3%;
-    width: 6rem;
+    display: none;
 }
 
 @keyframes smoothNav {
@@ -242,5 +239,13 @@
     .open-menu {
         transition: all 1s;
         transform: translateX(0%);
+    }
+
+    .menu-cerrar-button-container {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 3%;
+        width: 6rem;
     }
 }

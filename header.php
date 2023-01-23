@@ -21,7 +21,7 @@
                     </a>
                 </div>
                 <div class="nav-movil-button-container">
-                    <img class="nav-movil-icon" src="<?php echo(IMG. 'movil-icon.svg')?>" alt="nav-logo">
+                    <img class="nav-movil-icon" src="<?php echo(ICON. 'movil-icon.svg')?>" alt="nav-logo">
                 </div>
             </div>
 
