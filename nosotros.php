@@ -24,6 +24,7 @@
                 <h4 class="nosotros-segunda-seccion-title centrar">¿Quiénes somos?</h4>
                 <p class="nosotros-segunda-seccion-subtitle">En FREQUENTUM Consultoría, S.C., somos una consultoría boutique, con un equipo que cuenta con más de 15 años de experiencia en el sector regulatorio de la radiodifusión y las telecomunicaciones, nuestro objetivo es brindar a nuestros clientes servicios jurídicos, técnicos y administrativos especializados.</p>
             </div>
+        </div>
     </section>
 
     <!-- <section class="nosotros-septima-seccion contenedor-ancho grid col-1 peq-col-1">
