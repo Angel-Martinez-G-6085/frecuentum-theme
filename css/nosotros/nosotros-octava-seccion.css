@@ -69,3 +69,10 @@
         height: 42.8rem;
     }
 }
+
+/* estilos para el tamaño de celular */
+@media screen and (max-width: 576px) {
+    .nosotros-octava-seccion-subtitle {
+        font-size: 2.5rem;
+    }
+}
