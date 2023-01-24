@@ -251,26 +251,6 @@ UTILIDADES
     text-align: center;
 }
 
-.titulo-slider{
-    width: 70%;
-    font-size: 4.4rem;
-    margin-bottom: 0;
-    color: var(--blanco);
-    -webkit-text-stroke: 2px var(--negro);
-    margin-top: 2rem;
-}
-
-.autor-slider {
-    color: var(--blanco);
-    font-size: 2.2rem;
-    margin-left: 2rem;
-}
-
-.text-link {
-    transition: color 1s;
-    color: var(--blanco);
-}
-
 .text-link:hover {
     color: var(--verde);
 }

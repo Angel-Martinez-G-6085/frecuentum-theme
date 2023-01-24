@@ -23,7 +23,6 @@
     position: relative;
     width: 100%;
     height: 100%;
-    /* background-color: brown; */
 }
 
 .slider-item {
@@ -35,6 +34,29 @@
 
 .image-container {
     position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.titulo-slider{
+    width: 70%;
+    font-size: 4.4rem;
+    margin-bottom: 0;
+    color: var(--blanco);
+    -webkit-text-stroke: 2px var(--negro);
+    margin-top: 2rem;
+}
+
+.autor-slider {
+    color: var(--blanco);
+    font-size: 2.2rem;
+    margin-left: 2rem;
+}
+
+.text-link {
+    transition: color 1s;
+    color: var(--blanco);
 }
 
 .slider-comilla-container {
@@ -79,4 +101,34 @@
     .contact-tercera-seccion-container {
         height: 50rem;
     }
+}
+
+/* estilos para el tamaño de celular */
+@media screen and (max-width: 576px) {
+    .titulo-slider {
+        margin: 0 auto;
+        width: 95%;
+        font-size: 2rem;
+        -webkit-text-stroke: unset;
+        text-align: center;
+    }
+
+    .autor-slider {
+        font-size: 2.2rem;
+        margin-left: 0;
+    } 
+
+    .comilla-abajo-container {
+        justify-content: flex-start;
+    }
+
+    .slider-comilla-container {
+        width: 95%;
+    }
+
+    .slider-comilla-arriba, 
+    .slider-comillas-abajo {
+        width: 4rem;
+    }
+
 }
