@@ -73,3 +73,35 @@
         font-size: 1.8rem;
     }
 }
+
+/* estilos para el tamaño de móvil */
+@media screen and (max-width: 576px) {
+    /* .servicios-segunda-seccion {
+        margin-top: -11%;
+    } */
+    .servicios-segunda-seccion-content-container {
+        grid-template-rows: 10%;
+                   
+    }
+    .servicios-segunda-seccion-opciones-container {
+        width: 100%;
+    }
+    .servicios-segunda-seccion-title {
+        font-size: 1.6rem;
+        margin-bottom: 10px;    
+    }
+    .servicios-segunda-seccion-subtitle {
+        font-size: 2.8rem;
+        margin-bottom: 5rem;
+    }
+  
+    .segunda-seccion-opcion-description {
+        font-size: 1.7rem;
+        padding: 10px;        
+    }
+    .col-4 {
+        grid-template-columns: repeat(1,1fr);
+
+    }
+   
+}

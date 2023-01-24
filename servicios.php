@@ -8,7 +8,10 @@
 <div class="contenedor-ancho page-content-container grid col-1">
     <section class="servicios-primera-seccion-wrapper contenedor-ancho grid col-1">
         <div class="servicios-primera-seccion-banner">
-            <img src="<?php echo(IMG. 'mano-laptop-nueva.webp')?>" alt="" class="servicios-primera-seccion-image">
+            <picture>
+               <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'portadaMovil.webp')?>">
+               <img srcset="<?php echo(IMG. 'mano-laptop-nueva.webp')?>" alt="banner-image" loading="lazy" class="home-banner-image">
+            </picture>          
             <div class="servicios-banner-text-container flex f-column">
                 <h2 class="servicios-banner-title titulo centrar">Servicios</h2>
                 <p class="servicios-banner-description centrar">Contamos con un amplio catálogo de servicios para ayudarte con tus trámites en el sector de radiodifusión y telecomunicaciones</p>
@@ -17,7 +20,10 @@
         </div>
         <div class="servicios-segunda-seccion contenedor-ancho">
             <div class="servicios-segunda-seccion-banner-container">
-                <img src="<?php echo(IMG. 'ondaAzulVerde.webp')?>" alt="" class="servicios-segunda-seccion-image">
+                <picture>
+                  <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'segundaSec-servicios-movil.webp')?>">
+                  <img srcset="<?php echo(IMG. 'ondaAzulVerde.webp')?>" alt="banner-image" loading="lazy" class="servicios-segunda-seccion-image">
+                </picture>
                 <div class="servicios-segunda-seccion-content-container grid col-1">
                     <div class="servicios-segunda-seccion-titles-container flex f-column">
                         <h2 class="servicios-segunda-seccion-title centrar">Conoce cuales son nuestros servicios más populares</h2>
@@ -41,6 +47,9 @@
 
                         <div class="servicios-segunda-seccion-opcion-container">
                             <div class="servicios-segunda-seccion-opcion-image-container">
+                                <picture>
+
+                                </picture>
                                 <img class="servicios-segunda-seccion-opcion-image" src="<?php echo(ICON. 'sello-papel-morado.svg')?>" alt="opcion-image">
                             </div>
                             <div class="servicios-segunda-seccion-opcion-text-container">
@@ -85,10 +94,12 @@
             </div>
         </div>
     </section>
-
     <section class="servicios-quinta-seccion contenedor-ancho grid col-1">
         <div class="servicios-quinta-seccion-banner">
-            <img src="<?php echo(IMG. 'Foto-debajo-de-la-torre.webp')?>" alt="" class="servicios-quinta-seccion-banner-image">
+             <!-- <picture>
+               <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'segundaSec-servicios-movil.webp')?>">
+               <img srcset="<?php echo(IMG. 'Foto-debajo-de-la-torre.webp')?>" alt="banner-image" loading="lazy" class="home-banner-image">
+            </picture> -->
             <div class="servicios-quinta-seccion-content-container grid col-1">
                 <div class="servicios-quinta-seccion-titles-container flex f-column">
                     <h3 class="servicios-quinta-seccion-title centrar">Asesorías y trámites realizados</h3>
@@ -155,7 +166,7 @@
         </div>
     </section>
 
-    <section class="servicios-sexta-seccion contenedor-ancho grid col-1"></section>
+    <!-- <section class="servicios-sexta-seccion contenedor-ancho grid col-1"></section> -->
 
     <section class="servicios-septima-seccion contenedor-ancho grid col-1">
         <div class="slider-container contenedor-ancho">
@@ -221,7 +232,7 @@
         </div>
     </section>
 
-    <section class="servicios-octava-seccion contenedor-ancho grid col-1">
+    <!-- <section class="servicios-octava-seccion contenedor-ancho grid col-1">
         <div class="servicios-octava-seccion-banner-container">
             <img src="<?php echo(IMG. 'fondo-suscribirse-nuevo.webp')?>" alt="" class="servicios-octava-seccion-banner-image">
             <div class="servicios-octava-seccion-content-container flex f-column">
@@ -233,6 +244,6 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 </div>
 <?php get_footer();?> 
