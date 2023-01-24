@@ -1,2 +1,1 @@
 # Plantilla para frequentum
-# hola
