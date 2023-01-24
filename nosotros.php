@@ -18,7 +18,10 @@
     </section>
 
     <section class="nosotros-segunda-seccion contenedor-ancho grid col-1">
-        <img src="<?php echo(IMG. 'ondaAzulVerde.webp')?>" alt="nosotros-image" class="nosotros-segunda-seccion-image">
+        <picture>
+            <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'ondaAzulVerde-movil.webp')?>">
+            <img src="<?php echo(IMG. 'ondaAzulVerde.webp')?>" alt="nosotros-image" class="nosotros-segunda-seccion-image">
+        </picture>
         <div class="nosotros-segunda-seccion-content-container grid col-1">
             <div class="nosotros-segunda-seccion-text-container flex f-column">
                 <h4 class="nosotros-segunda-seccion-title centrar">¿Quiénes somos?</h4>
@@ -197,7 +200,10 @@
 
     <section class="nosotros-octava-seccion contenedor-ancho grid col-1">
         <div class="nosotros-octava-seccion-image-container">
-            <img src="<?php echo(IMG. 'nosotros-footer-image.webp')?>" alt="" class="nosotros-octava-seccion-image">
+            <picture>
+                <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'nosotros-footer-image-movil.webp')?>">
+                <img src="<?php echo(IMG. 'nosotros-footer-image.webp')?>" alt="" class="nosotros-octava-seccion-image">
+            </picture>
             <div class="nosotros-octava-seccion-titles-container flex f-column">
                 <h2 class="nosotros-octava-seccion-subtitle centrar titulo">Queremos brindarte una asesoría personalizada</h2>
                 <a href="#" class="nosotros-octava-seccion-title centrar">Conoce nuestra herramienta</a>
