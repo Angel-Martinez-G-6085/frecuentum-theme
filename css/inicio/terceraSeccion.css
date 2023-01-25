@@ -125,6 +125,10 @@
         grid-row-start: 2;
     }
 
+    .tercera-seccion-cards {
+        width: 110%;
+    }
+
     .tercera-seccion-text {
         display: grid;
         grid-column-start: 1;
@@ -154,6 +158,7 @@
     }
 
     .tercera-seccion-buttons-container {
+        width: 110%;
         grid-row-start: 5;
     }
 
