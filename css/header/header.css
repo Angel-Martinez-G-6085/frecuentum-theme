@@ -1,17 +1,14 @@
 .header {
     position: relative;
+    grid-template-columns: 30% 70%;
     width: 100%;
-    height: 10rem;
+    height: 13vh;
     background-color: #1d3a4d;
-}
-
-.header__nav {
-    display: flex;
 }
 
 .header__nav__logos-container {
     display: flex;
-    width: 30%;
+    width: 100%;
     height: 100%;
 }
 
@@ -90,7 +87,6 @@
     display: flex;
     text-align: center;
     align-items: center;
-    margin-right: 65px;
 }
 
 .nav__menu a {
@@ -174,19 +170,20 @@
 
 /* estilos para el tamaño de celular */
 @media screen and (max-width: 576px) {
+    .header {
+        height: 7vh;
+        position: relative;
+        grid-template-columns: 1fr;
+    }
     .fixed {
         position: fixed !important;
         z-index: 2;
         opacity: unset;
     }
 
-    .header {
-        position: relative;
-    }
-
     .nav__mascota-container {
         display: flex;
-        width: 80%;
+        width: 45%;
         justify-content: flex-start;
         align-items: center;
     }
@@ -212,11 +209,12 @@
         justify-content: flex-end;
         margin-right: 10%;
         width: 100%;
+        margin-top: 1rem;
     }
 
     .nav-movil-icon {
         display: block;
-        width: 8rem;
+        width: 5rem;
     }
 
     .nav__menu {
@@ -230,6 +228,10 @@
         transform: translateX(-100%);
     }
 
+    .nav-logo {
+        height: unset;
+    }
+
     .menu-link {
         display: flex;
         justify-content: center;
@@ -241,6 +243,8 @@
     }
 
     .open-menu {
+        row-gap: 0;
+        padding: 0;
         transition: all 1s;
         transform: translateX(0%);
     }

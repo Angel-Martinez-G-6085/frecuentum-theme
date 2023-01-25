@@ -125,3 +125,83 @@
         font-size: 2rem;
     }
 }
+
+/* estilos para el tamaño de celular */
+@media screen and (max-width: 576px) {
+    .contact-segunda-seccion-banner-container {
+        margin-top: -17%;
+        height: unset;
+    }
+
+    .contact-segunda-seccion-columns-container {
+        row-gap: 0;
+    }
+
+    .contact-opciones-container {
+        width: 100%;
+    }
+
+    .opciones-title {
+        text-align: center;
+        margin-top: 1.5rem;
+        font-size: 2.5rem;
+    }
+
+    .opciones-subtitle {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .herramienta-container,
+    .llamada-container,
+    .consultora-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .herramienta-image,
+    .agenda-image,
+    .personas-blanco-image {
+        margin-left: 0;
+    }
+
+    .herramienta-title {
+        text-align: center;
+    }
+
+    .ubicacion-1-container,
+    .ubicacion-2-container,
+    .celular-container,
+    .correo-container {
+        flex-direction: column;
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .ubicacion-icon-container,
+    .celular-icon-container,
+    .correo-icon-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ubicacion-text-container {
+        display: block;
+    }
+
+    .ubicacion-title,
+    .telefono-title,
+    .correo-title {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .ubicacion-address,
+    .telefonos,
+    .correos {
+        width: 95%;
+        text-align: center;
+        margin: 0 auto;
+    }
+}

@@ -9,7 +9,10 @@
 <div class="page-content-container contenedor-ancho grid col-1">
     <section class="contact-primera-seccion-wrapper contenedor-ancho grid col-1">
         <div class="contact-primera-seccion-banner">
-            <img src="<?php echo(IMG. 'contacto-portada.webp')?>" alt="" class="contact-primera-seccion-banner-image">
+            <picture>
+                <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'contacto-portada-movil.webp')?>">
+                <img src="<?php echo(IMG. 'contacto-portada.webp')?>" alt="" class="contact-primera-seccion-banner-image">
+            </picture>
             <div class="contact-primera-seccion-content-container grid col-1">
                 <div class="primeros-textos">
                     <h2 class="contact-primera-seccion-title titulo centrar">¿Cómo podemos ayudarte?</h2>
@@ -18,14 +21,19 @@
                 </div>
             </div>
         </div>
-        
-        <div class="contact-segunda-seccion-container contenedor-ancho grid col-1">
-            <div class="contact-segunda-seccion-banner-container">
+    </section>
+
+    <section class="contact-segunda-seccion-container contenedor-ancho grid col-1">
+        <div class="contact-segunda-seccion-banner-container">
+            <picture>
+                <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'contacto-movil-image.webp')?>">
                 <img src="<?php echo(IMG. 'fondo-prueba.webp')?>" alt="" class="contact-segunda-seccion-banner-image">
-                <div class="contact-segunda-seccion-content-container flex">
-                    <div class="contact-segunda-seccion-container">
-                    <div class="contact-segunda-seccion-columns-container grid col-2">
+            </picture>
+            <div class="contact-segunda-seccion-content-container flex">
+                <div class="contact-segunda-seccion-container">
+                    <div class="contact-segunda-seccion-columns-container grid col-2 peq-col-1">
                         <div class="contact-opciones-container flex f-column">
+
                             <div class="opciones-titles-container">
                                 <h2 class="opciones-title">Contáctanos ahora</h2>
                                 <h3 class="opciones-subtitle">Estás a un click de resolver tus dudas de forma personalizada</h3>
@@ -36,18 +44,19 @@
                                     <img src="<?php echo(ICON . 'calendario.svg')?>" alt="calendario-icon" class="herramienta-image">
                                     <a href="<?php echo site_url('#');?>" class="herramienta-title text-link">Conoce nuestra herramienta</a>
                                 </div>
+                            </div>
 
-                                <div class="llamada-container">
-                                    <img src="<?php echo(ICON . 'audifonos.svg')?>" alt="agenda" class="agenda-image">
-                                    <a href="<?php echo site_url('#');?>" class="llamada-title text-link">Agenda una llamada</a>
-                                </div>
+                            <div class="llamada-container">
+                                <img src="<?php echo(ICON . 'audifonos.svg')?>" alt="agenda" class="agenda-image">
+                                <a href="<?php echo site_url('#');?>" class="llamada-title text-link">Agenda una llamada</a>
+                            </div>
 
-                                <div class="consultora-container">
-                                    <img src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco" class="personas-blanco-image">
-                                    <a href="<?php echo site_url('#');?>" class="consultora-title text-link">Hablar con un consultor ahora</a>
-                                </div>
+                            <div class="consultora-container">
+                                <img src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco" class="personas-blanco-image">
+                                <a href="<?php echo site_url('#');?>" class="consultora-title text-link">Hablar con un consultor ahora</a>
                             </div>
                         </div>
+
                         <div class="contact-opciones-contacto-container">
                             <div class="contacto-container flex f-column">
                                 <div class="ubicacion-1-container flex">
@@ -59,7 +68,7 @@
                                         <p class="ubicacion-address">Ángel Urraza 807, Primer Piso Col. del Valle Centro, Benito Juárez, 03100 Ciudad de México, CDMX.</p>
                                     </div>
                                 </div>
-
+                                
                                 <div class="celular-container flex">
                                     <div class="celular-icon-container">
                                         <img src="<?php echo(ICON. 'telefono-morado-icon.svg')?>" alt="telefono" class="telefono-icon">
@@ -67,8 +76,8 @@
                                     <div class="telefono-text-container">
                                         <h2 class="telefono-title">Celular</h2>
                                         <p class="telefonos">
-                                        Cel. 55 4037 0369<br>
-                                        Cel. 55 2486 9444<br>
+                                            Cel. 55 4037 0369<br>
+                                            Cel. 55 2486 9444<br>
                                         </p>
                                     </div>
                                 </div>

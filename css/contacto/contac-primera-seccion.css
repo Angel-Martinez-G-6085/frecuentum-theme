@@ -48,3 +48,26 @@
 /* estilos para el tamaño de laptop */
 @media screen and (max-width: 1500px) {
 }
+
+/* estilos para el tamaño de celular */
+@media screen and (max-width: 576px) {
+    .primeros-textos {
+        margin-top: 1.5rem;
+        justify-content: center;
+    }
+
+    .contact-primera-seccion-title {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .contact-primera-seccion-description {
+        margin-bottom: 0;
+        font-size: 1.5rem;
+    }
+
+    .contact-primera-seccion-ultimo-texto {
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+}
