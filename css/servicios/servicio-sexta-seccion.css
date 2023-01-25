@@ -14,3 +14,10 @@
         height: 75rem;
     }
 }
+
+/* estilos para el tamaño de laptop */
+@media screen and (max-width: 576px) {
+    .servicios-sexta-seccion {
+        height: 230px;
+    }
+}

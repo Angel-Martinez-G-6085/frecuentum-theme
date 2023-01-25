@@ -21,7 +21,7 @@
         <div class="servicios-segunda-seccion contenedor-ancho">
             <div class="servicios-segunda-seccion-banner-container">
                 <picture>
-                  <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'segundaSec-servicios-movil.webp')?>">
+                  <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'foto-parabolica-movil.webp')?>">
                   <img srcset="<?php echo(IMG. 'ondaAzulVerde.webp')?>" alt="banner-image" loading="lazy" class="servicios-segunda-seccion-image">
                 </picture>
                 <div class="servicios-segunda-seccion-content-container grid col-1">
@@ -166,7 +166,7 @@
         </div>
     </section>
 
-    <!-- <section class="servicios-sexta-seccion contenedor-ancho grid col-1"></section> -->
+    <section class="servicios-sexta-seccion contenedor-ancho grid col-1"></section>
 
     <section class="servicios-septima-seccion contenedor-ancho grid col-1">
         <div class="slider-container contenedor-ancho">
@@ -232,9 +232,12 @@
         </div>
     </section>
 
-    <!-- <section class="servicios-octava-seccion contenedor-ancho grid col-1">
+    <section class="servicios-octava-seccion contenedor-ancho grid col-1">
         <div class="servicios-octava-seccion-banner-container">
-            <img src="<?php echo(IMG. 'fondo-suscribirse-nuevo.webp')?>" alt="" class="servicios-octava-seccion-banner-image">
+            <picture>
+               <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'nosotros-footer-image-movil.webp')?>">
+               <img srcset="<?php echo(IMG. 'fondo-suscribirse-nuevo.webp')?>" alt="banner-image" loading="lazy" class="home-banner-image">
+            </picture>
             <div class="servicios-octava-seccion-content-container flex f-column">
                 <div class="servicios-octava-seccion-title-container">
                     <h2 class="servicios-octava-seccion-title titulo centrar">Conoce más sobre nuestra amplia gama de servicios</h2>
@@ -244,6 +247,6 @@
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 </div>
 <?php get_footer();?> 
