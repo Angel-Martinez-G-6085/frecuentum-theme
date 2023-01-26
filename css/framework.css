@@ -52,6 +52,8 @@ VARIABLES
 ==============
 */
 :root {
+    --slide-transform: 0;
+    --transition: transform 1s;
     --blanco: white;
     --negro: black;
     --morado: #903f8f;
