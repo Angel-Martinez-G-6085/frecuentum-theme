@@ -52,8 +52,9 @@
     .servicios-octava-seccion-subtitle {
         font-size: 2rem;
     }
-    .servicios-octava-seccion{
-        padding: 20px;
-    }
+    /* .servicios-octava-seccion{
+        position: relative;
+        top: -25px;
+    } */
 
 }

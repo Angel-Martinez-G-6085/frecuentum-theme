@@ -9,19 +9,19 @@
     <section class="servicios-primera-seccion-wrapper contenedor-ancho grid col-1">
         <div class="servicios-primera-seccion-banner">
             <picture>
-               <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'portadaMovil.webp')?>">
+               <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'movil2.webp')?>">
                <img srcset="<?php echo(IMG. 'mano-laptop-nueva.webp')?>" alt="banner-image" loading="lazy" class="home-banner-image">
             </picture>          
             <div class="servicios-banner-text-container flex f-column">
-                <h2 class="servicios-banner-title titulo centrar">Servicios</h2>
+                <h2 class="servicios-banner-title  titulo titulo-servicios centrar">Servicios</h2>
                 <p class="servicios-banner-description centrar">Contamos con un amplio catálogo de servicios para ayudarte con tus trámites en el sector de radiodifusión y telecomunicaciones</p>
                 <h4 class="servicios-banner-subtitle centrar">¿Tienes tus trámites en regla? ¡Podemos ayudarte!</h4>
             </div>
         </div>
-        <div class="servicios-segunda-seccion contenedor-ancho">
+        <!-- <div class="servicios-segunda-seccion contenedor-ancho">
             <div class="servicios-segunda-seccion-banner-container">
                 <picture>
-                  <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'foto-parabolica-movil.webp')?>">
+                  <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'servicios-segundaSec-movil.webp')?>">
                   <img srcset="<?php echo(IMG. 'ondaAzulVerde.webp')?>" alt="banner-image" loading="lazy" class="servicios-segunda-seccion-image">
                 </picture>
                 <div class="servicios-segunda-seccion-content-container grid col-1">
@@ -92,14 +92,14 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </section>
-    <section class="servicios-quinta-seccion contenedor-ancho grid col-1">
+    <!-- <section class="servicios-quinta-seccion contenedor-ancho grid col-1">
         <div class="servicios-quinta-seccion-banner">
-             <!-- <picture>
-               <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'segundaSec-servicios-movil.webp')?>">
+            <picture>
+               <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'movil1.webp')?>">
                <img srcset="<?php echo(IMG. 'Foto-debajo-de-la-torre.webp')?>" alt="banner-image" loading="lazy" class="home-banner-image">
-            </picture> -->
+            </picture>
             <div class="servicios-quinta-seccion-content-container grid col-1">
                 <div class="servicios-quinta-seccion-titles-container flex f-column">
                     <h3 class="servicios-quinta-seccion-title centrar">Asesorías y trámites realizados</h3>
@@ -164,7 +164,7 @@
                 </div>
             </div>
         </div>
-    </section>
+   </section>
 
     <section class="servicios-sexta-seccion contenedor-ancho grid col-1"></section>
 
@@ -235,7 +235,7 @@
     <section class="servicios-octava-seccion contenedor-ancho grid col-1">
         <div class="servicios-octava-seccion-banner-container">
             <picture>
-               <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'nosotros-footer-image-movil.webp')?>">
+               <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'servicios-octavaSec-movil.webp')?>">
                <img srcset="<?php echo(IMG. 'fondo-suscribirse-nuevo.webp')?>" alt="banner-image" loading="lazy" class="home-banner-image">
             </picture>
             <div class="servicios-octava-seccion-content-container flex f-column">
@@ -247,6 +247,6 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>  -->
 </div>
 <?php get_footer();?> 

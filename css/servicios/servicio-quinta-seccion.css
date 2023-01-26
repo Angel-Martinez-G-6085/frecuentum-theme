@@ -83,18 +83,16 @@
 @media screen and (max-width: 576px) {
     .onda-servicios{
         left: 16rem;
-        top: -18rem;
-        width: 25rem;
+        top: -17rem;
+        width: 20rem;
     }
     .servicios-quinta-seccion-banner {
-        width: 410px;
-        height: 1000px;
-        background-color: #424245;
         bottom: 40px
     }
     .servicios-quinta-seccion-content-container {
         grid-template-rows: 5% 50%;
         top: 15rem;
+        height: 55%;
     }
     .quinta-seccion-solucion-container {
         width: 85%;
@@ -107,6 +105,9 @@
     .servicios-quinta-seccion-subtitle {
         font-size: 3rem;
         margin-bottom: 15rem;
+    }
+    .solucion-description {
+        font-size: 1.8rem;
     }
 
 

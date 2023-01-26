@@ -68,8 +68,11 @@
     .servicios-servicios-container {
         left: 1rem;
         width: 95%;
-        top: 700px;
+        top: 690px;
         height: 500px;
+    }
+    .servicios-opciones-container {
+        height: 40rem;
     }
     .servicios-title {
         font-size: 2.3rem;
