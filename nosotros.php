@@ -30,109 +30,13 @@
         </div>
     </section>
 
-    <!-- <section class="nosotros-septima-seccion contenedor-ancho grid col-1 peq-col-1">
+    <section class="nosotros-septima-seccion contenedor-ancho grid col-1 peq-col-1">
         <div class="nosotros-septima-seccion-titles-container">
             <h2 class="nosotros-septima-seccion-title centrar">Nuestro equipo</h2>
             <h3 class="nosotros-septima-seccion-subtitle centrar">Ellos son una parte importante para nosotros, ya que trabajando junto con ellos buscamos darles una mejor calidad de atención</h3>
         </div>
-        <div class="nosotros-equipo-container">
-            <div class="nosotros-equipo-slider-container">
-                <div class="nosotros-equipo-slider flex">
-                    <div class="slider-section section-1 flex">
-                        <div class="team-member-card grid">
-                            <div class="team-description-container flex f-column">
-                                <div class="team-member-info">
-                                    <p class="team-member-description flex f-column">Licenciada en Derecho con especialización en Derecho Administrativo, ambas, por la Universidad Nacional Autónoma de México, con más de 10 años de experiencia en regulación de los servicios públicos de radiodifusión y telecomunicaciones.</p>
-                                    <h2 class="team-name centrar">Bianidxi Resendiz</h2>
-                                </div>
-                                
-                                <div class="team-member-icons-container flex">
-                                    <a href="#">
-                                        <img src="<?php echo(ICON. 'whattsIcon.svg')?>" alt="" class="team-card-icon">
-                                    </a>
-                                    <a href="#">
-                                        <img src="<?php echo(ICON. 'facebook-icon.svg')?>" alt="" class="team-card-icon">
-                                    </a>
-                                    <a href="#">
-                                        <img src="<?php echo(ICON. 'instagramIcon.svg')?>" alt="" class="team-card-icon">
-                                    </a>
-                                    <a target="_blank" href="#">
-                                        <img src="<?php echo(ICON. 'twiter-icon.svg')?>" alt="" class="team-card-icon">
-                                    </a>
-                                    <a target="_blank" href="#">
-                                        <img src="<?php echo(ICON. 'linkedin-icon.svg')?>" alt="" class="team-card-icon">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="team-foto-container persona-1"></div>
-                        </div>
-                    </div>
-
-                    <div class="slider-section section-2 flex">
-                        <div class="team-member-card grid">
-                            <div class="team-description-container flex f-column">
-                                <div class="team-member-info">
-                                    <p class="team-member-description flex f-column">Licenciada en Derecho con especialización en Derecho Administrativo, ambas, por la Universidad Nacional Autónoma de México, con más de 10 años de experiencia en regulación de los servicios públicos de radiodifusión y telecomunicaciones.</p>
-                                    <h2 class="team-name centrar">Carlos Espinosa Reyna</h2>
-                                </div>
-                                
-                                <div class="team-member-icons-container flex">
-                                    <a href="#">
-                                        <img src="<?php echo(ICON. 'whattsIcon.svg')?>" alt="" class="team-card-icon">
-                                    </a>
-                                    <a href="#">
-                                        <img src="<?php echo(ICON. 'facebook-icon.svg')?>" alt="" class="team-card-icon">
-                                    </a>
-                                    <a href="#">
-                                        <img src="<?php echo(ICON. 'instagramIcon.svg')?>" alt="" class="team-card-icon">
-                                    </a>
-                                    <a target="_blank" href="#">
-                                        <img src="<?php echo(ICON. 'twiter-icon.svg')?>" alt="" class="team-card-icon">
-                                    </a>
-                                    <a target="_blank" href="#">
-                                        <img src="<?php echo(ICON. 'linkedin-icon.svg')?>" alt="" class="team-card-icon">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="team-foto-container persona-2"></div>
-                        </div>
-                    </div>
-
-                    <div class="slider-section section-2 flex">
-                        <div class="team-member-card grid">
-                            <div class="team-description-container flex f-column">
-                                <div class="team-member-info">
-                                    <p class="team-member-description flex f-column">Licenciada en Derecho con especialización en Derecho Administrativo, ambas, por la Universidad Nacional Autónoma de México, con más de 10 años de experiencia en regulación de los servicios públicos de radiodifusión y telecomunicaciones.</p>
-                                    <h2 class="team-name centrar">Adriana Cortés Espidio</h2>
-                                </div>
-                                
-                                <div class="team-member-icons-container flex">
-                                    <a href="#">
-                                        <img src="<?php echo(ICON. 'whattsIcon.svg')?>" alt="" class="team-card-icon">
-                                    </a>
-                                    <a href="#">
-                                        <img src="<?php echo(ICON. 'facebook-icon.svg')?>" alt="" class="team-card-icon">
-                                    </a>
-                                    <a href="#">
-                                        <img src="<?php echo(ICON. 'instagramIcon.svg')?>" alt="" class="team-card-icon">
-                                    </a>
-                                    <a target="_blank" href="#">
-                                        <img src="<?php echo(ICON. 'twiter-icon.svg')?>" alt="" class="team-card-icon">
-                                    </a>
-                                    <a target="_blank" href="#">
-                                        <img src="<?php echo(ICON. 'linkedin-icon.svg')?>" alt="" class="team-card-icon">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="team-foto-container persona-3"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <img src="<?php echo(ICON. 'flecha_azul_derecha.svg')?>" alt="" class="flecha-azul-derecha flecha-azul">
-            <img src="<?php echo(ICON. 'flecha_azul_izquierda.svg')?>" alt="" class="flecha-azul-izquierda flecha-azul">
-        </div>
-    </section> -->
+        <div class="nosotros-slider-contenedor"></div>
+    </section>
 
     <section class="nosotros-sexta-seccion contenedor-ancho grid col-1">
         <div class="slider-container contenedor-ancho">

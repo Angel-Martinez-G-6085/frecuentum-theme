@@ -22,83 +22,28 @@
     margin-bottom: 6.5rem;
 }
 
-.nosotros-slider {
-    width: 100%;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-}
-
-.nosotros-equipo-container {
-    /* background-color: brown; */
+.nosotros-slider-contenedor {
     position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.nosotros-equipo-slider-container {
-    overflow: hidden;
-    width: 95%;
-    height: 100%;
     margin: 0 auto;
-}
-
-.nosotros-equipo-slider {
-    width: 300%;
-    height: 100%;
-    margin-left: 0%;
-}
-
-.slider-section {
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-
-.flecha-azul {
-    width: 7rem;
-}
-
-.flecha-azul-derecha {
-    cursor: pointer;
-    top: 50%;
-    position: absolute;
-    left: 80%;
-}
-
-.flecha-azul-izquierda {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    right:80%;
-}
-
-.team-member-card {
-    column-gap: 0;
-    grid-template-columns: 70% 30%;
-    background-color: #BCD1DD;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 60%;
+    width: 70%;
     height: 80%;
+    background-color: cadetblue;
+    align-self: flex-start;
+    overflow: hidden;
 }
 
-.team-description-container {
-    justify-content: center;
+.imagen {
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .team-foto-container {
     width: 100%;
     height: 100%;
-    background-color: yellowgreen;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center bottom;
 }
 
 .persona-1 {
@@ -111,43 +56,6 @@
 
 .persona-3 {
     background-image: url('../../assets/images/Adri-final.webp');
-}
-
-.team-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.team-onda-image {
-    width: 20rem;
-}
-
-.team-member-description {
-    width: 90%;
-    margin: 0 auto;
-    font-size: 2rem;
-    text-align: center;
-}
-
-.team-member-icons-container {
-    justify-content: center;
-    margin-top: 1rem;
-}
-
-.team-card-icon {
-    transition: transform 1s;
-    width: 4.2rem;
-    margin-right: 3rem;
-}
-
-.team-card-icon:hover {
-    transform: scale(1.2);
-}
-
-.team-name {
-    margin-top: 2rem;
-    font-size: 2rem;
 }
 
 /* estilos para el tamaño de laptop */
