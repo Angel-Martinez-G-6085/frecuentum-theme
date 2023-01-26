@@ -43,10 +43,6 @@
 
 /* estilos para el tamaño de laptop */
 @media screen and (max-width: 1500px) {
-    .maps_and_icons_container {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
     .mapa-seccion {
         font-size: 4rem;
     }
@@ -62,5 +58,16 @@
 
     .maps-icon {
         width: 6rem;
+    }
+}
+
+/* estilos para el tamaño de celular */
+@media screen and (max-width: 576px) {
+    .maps-icon-container {
+        position: relative;
+    }
+    .maps_and_icons_container {
+        grid-template-columns: repeat(1, 1fr);
+        height: 58rem;
     }
 }
