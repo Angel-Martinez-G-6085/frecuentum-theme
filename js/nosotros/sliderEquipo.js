@@ -1,38 +1,68 @@
-const botonNext = document.querySelector('.flecha-azul-derecha');
-const botonprev = document.querySelector('.flecha-azul-izquierda');
-const SLIDER = document.querySelector('.nosotros-equipo-slider');
-let sliderSection = document.querySelectorAll('.slider-section');
-let sliderSectionLast = sliderSection[sliderSection.length-1];
+const sliderContainer = document.querySelector('.nosotros-slider-contenedor');
+const slider = document.querySelector('.nosotros-slider');
+const buttonLeft = document.querySelector('.button-left');
+const buttonRight = document.querySelector('.button-right');
 
-SLIDER.insertAdjacentElement('afterbegin', sliderSectionLast);
+const sliderElements = document.querySelectorAll('.slider__element');
 
-function moveRight() {
-    let sliderSectionFirstd = document.querySelectorAll('.slider-section')[0];
-    SLIDER.style.marginLeft = "-100%";
-    SLIDER.style.transition = "all 0.5s";
-    setTimeout(function() {
-        SLIDER.style.transition = "none";
-        SLIDER.insertAdjacentElement("beforeend", sliderSectionFirstd);
-        SLIDER.style.marginLeft = "-0%";
-    }, 500)
-}
+const rootStyles = document.documentElement.style;
 
-function moveLeft() {
-    let sliderSection = document.querySelectorAll('.slider-section');
-    let sliderSectionLast = sliderSection[sliderSection.length-1];
-    SLIDER.style.marginLeft = "0%"
-    SLIDER.style.transition = "all 0.5s"
-    setTimeout(() => {
-        SLIDER.style.transition = "none";
-        SLIDER.insertAdjacentElement('afterbegin', sliderSectionLast);
-        SLIDER.style.marginLeft = "-100%"
-    }, 500)
-}
+let slideCounter = 0;
+let isInTransition = false;
 
-botonNext.addEventListener("click", () => {
-    moveRight();
-})
+const DIRECTION = {
+  RIGHT: 'RIGHT',
+  LEFT: 'LEFT'
+};
 
-botonprev.addEventListener("click", () => {
-    moveLeft();
-})
+const getTransformValue = () =>
+  Number(rootStyles.getPropertyValue('--slide-transform').replace('px', ''));
+
+const reorderSlide = () => {
+  const transformValue = getTransformValue();
+  rootStyles.setProperty('--transition', 'none');
+  if (slideCounter === sliderElements.length - 1) {
+    slider.appendChild(slider.firstElementChild);
+    rootStyles.setProperty(
+      '--slide-transform',
+      `${transformValue + sliderElements[slideCounter].scrollWidth}px`
+    );
+    slideCounter--;
+  } else if (slideCounter === 0) {
+    slider.prepend(slider.lastElementChild);
+    rootStyles.setProperty(
+      '--slide-transform',
+      `${transformValue - sliderElements[slideCounter].scrollWidth}px`
+    );
+    slideCounter++;
+  }
+
+  isInTransition = false;
+};
+
+const moveSlide = direction => {
+  if (isInTransition) return;
+  const transformValue = getTransformValue();
+  rootStyles.setProperty('--transition', 'transform 1s');
+  isInTransition = true;
+  if (direction === DIRECTION.LEFT) {
+    rootStyles.setProperty(
+      '--slide-transform',
+      `${transformValue + sliderElements[slideCounter].scrollWidth}px`
+    );
+    slideCounter--;
+  } else if (direction === DIRECTION.RIGHT) {
+    rootStyles.setProperty(
+      '--slide-transform',
+      `${transformValue - sliderElements[slideCounter].scrollWidth}px`
+    );
+    slideCounter++;
+  }
+};
+
+buttonRight.addEventListener('click', () => moveSlide(DIRECTION.RIGHT));
+buttonLeft.addEventListener('click', () => moveSlide(DIRECTION.LEFT));
+
+slider.addEventListener('transitionend', reorderSlide);
+
+reorderSlide();
