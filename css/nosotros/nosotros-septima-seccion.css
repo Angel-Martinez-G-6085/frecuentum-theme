@@ -71,10 +71,6 @@
   background-position: center top;
 }
 
-.team-description-container {
-  justify-content: center;
-}
-
 .team-member-description {
   width: 90%;
   margin: 0 auto;
@@ -88,6 +84,7 @@
 }
 
 .team-member-icons-container {
+  background-color: yellowgreen;
   justify-content: center;
   margin-top: 1rem;
 }
@@ -163,15 +160,28 @@
         margin-bottom: unset;
     }
 
-    .flecha-azul {
-        width: 5rem;
-    }
+      .nosotros-septima-seccion {
+          row-gap: 0;
+      }
+  
+      .nosotros-slider-contenedor {
+          width: 90%;
+          height: 84%
+      }
+  
+      .nosotros-septima-seccion-titles-container {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+      }
+  
+      .slider__element {
+          grid-template-columns: 1fr 1fr;
+          grid-template-rows: 60% 1fr;
+      }
 
-    .flecha-azul-derecha {
-        left: 85%;
-    }
-
-    .flecha-azul-izquierda {
-        right: 85%;
-    }
-}
+      .team-foto-container {
+        grid-column-start: 2;
+        background-position: center;
+      }
+  }
