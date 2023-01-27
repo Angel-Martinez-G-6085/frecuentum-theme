@@ -163,6 +163,7 @@
     .herramienta-image,
     .agenda-image,
     .personas-blanco-image {
+        width: 7rem;
         margin-left: 0;
     }
 
