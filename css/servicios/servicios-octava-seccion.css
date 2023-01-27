@@ -1,7 +1,9 @@
+
 .servicios-octava-seccion-banner-container {
     position: relative;
     width: 100%;
     height: 100%;
+    top: 4rem;
 }
 
 .servicios-octava-seccion-banner-image {
@@ -47,14 +49,12 @@
 /* estilos para el tamaño móvil */
 @media screen and (max-width: 576px) {
     .servicios-octava-seccion-title {
-        font-size: 2.4rem;
+        font-size: 2.3rem;
     }
     .servicios-octava-seccion-subtitle {
         font-size: 2rem;
     }
-    /* .servicios-octava-seccion{
-        position: relative;
-        top: -25px;
-    } */
+    
+   
 
 }

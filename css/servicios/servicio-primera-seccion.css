@@ -70,37 +70,19 @@
 /* estilos para el tamaño móvil */
 @media screen and (max-width: 576px) {
 
-        /* .servicios-banner-title {
+        .servicios-banner-title {
         margin-top: 4rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
         }
         .servicios-banner-description {
             font-size: 1.5rem;
             margin-bottom: 2rem;
+            width: auto;
         }
         .servicios-banner-subtitle {
-            font-size: 1.4rem;
+            font-size: 1.5rem;
         }
         .titulo-servicios{
             font-size: 5rem;
-        } */
-        /* .servicios-banner-description {
-            font-size: 1.5rem;
-            margin: 0 auto;
-            margin-bottom: 1.3rem;
         }
-        .servicios-banner-title {
-        margin-top: 4rem;
-        margin-bottom: 3rem;
-        }
-        /* .titulo{
-            font-size: 5rem;
-        } */
-        .servicios-banner-subtitle {
-            font-size: 1.5rem;
-        }
-        .servicios-banner-text-container {
-            top: -10px;
-            
-        } */
     }

@@ -18,11 +18,11 @@
                 <h4 class="servicios-banner-subtitle centrar">¿Tienes tus trámites en regla? ¡Podemos ayudarte!</h4>
             </div>
         </div>
-        <!-- <div class="servicios-segunda-seccion contenedor-ancho">
+        <div class="servicios-segunda-seccion contenedor-ancho">
             <div class="servicios-segunda-seccion-banner-container">
                 <picture>
                   <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'servicios-segundaSec-movil.webp')?>">
-                  <img srcset="<?php echo(IMG. 'ondaAzulVerde.webp')?>" alt="banner-image" loading="lazy" class="servicios-segunda-seccion-image">
+                  <img srcset="<?php echo(IMG. 'fondo-prueba.webp')?>" alt=""  class="servicios-segunda-seccion-image">
                 </picture>
                 <div class="servicios-segunda-seccion-content-container grid col-1">
                     <div class="servicios-segunda-seccion-titles-container flex f-column">
@@ -92,13 +92,13 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
     </section>
-    <!-- <section class="servicios-quinta-seccion contenedor-ancho grid col-1">
+    <section class="servicios-quinta-seccion contenedor-ancho grid col-1">
         <div class="servicios-quinta-seccion-banner">
             <picture>
-               <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'movil1.webp')?>">
-               <img srcset="<?php echo(IMG. 'Foto-debajo-de-la-torre.webp')?>" alt="banner-image" loading="lazy" class="home-banner-image">
+               <source media="(max-width: 576px)" srcset="<?php echo(IMG. '1.webp')?>">
+               <img srcset="<?php echo(IMG. 'Foto-debajo-de-la-torre.webp')?>" alt="banner-image" loading="lazy" class="servicios-quinta-seccion-banner-image">
             </picture>
             <div class="servicios-quinta-seccion-content-container grid col-1">
                 <div class="servicios-quinta-seccion-titles-container flex f-column">
@@ -236,7 +236,7 @@
         <div class="servicios-octava-seccion-banner-container">
             <picture>
                <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'servicios-octavaSec-movil.webp')?>">
-               <img srcset="<?php echo(IMG. 'fondo-suscribirse-nuevo.webp')?>" alt="banner-image" loading="lazy" class="home-banner-image">
+               <img srcset="<?php echo(IMG. 'fondo-suscribirse-nuevo.webp')?>" alt="banner-image" loading="lazy" class="servicios-octava-seccion-banner-image">
             </picture>
             <div class="servicios-octava-seccion-content-container flex f-column">
                 <div class="servicios-octava-seccion-title-container">
@@ -247,6 +247,6 @@
                 </div>
             </div>
         </div>
-    </section>  -->
+    </section> 
+    <?php get_footer();?>
 </div>
-<?php get_footer();?> 

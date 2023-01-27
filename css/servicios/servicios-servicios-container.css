@@ -66,10 +66,11 @@
 /* estilos para el tamaño de movil */
 @media screen and (max-width: 576px) {
     .servicios-servicios-container {
+        position: relative;
         left: 1rem;
         width: 95%;
-        top: 690px;
-        height: 500px;
+        top: -1rem;
+        /* height: 500px; */
     }
     .servicios-opciones-container {
         height: 40rem;
