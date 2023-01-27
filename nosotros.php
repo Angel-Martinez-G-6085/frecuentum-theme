@@ -38,11 +38,13 @@
         <div class="nosotros-slider-contenedor">
             <div class="nosotros-slider">
                 <div class="slider__element slider__element--lightcoral grid col-2">
-                    <div class="team-description-container flex f-column">
-                        <p class="team-member-description">Ingeniera en Comunicaciones y Electrónica por el Instituto Politécnico Nacional, actualmente cursa la Maestría en Regulación y Competencia Económica en Telecomunicaciones, en el Centro de Investigación e Innovación en TIC. Tiene más de 18 años de experiencia en el sector de las telecomunicaciones y radiodifusión.</p>
-                        <h2 class="team-name">Bianidxi Resendiz</h2>
+                    <div class="team-description-content-container grid col-1 span-2">
+                        <div class="team-description-content">
+                            <p class="team-member-description">Ingeniera en Comunicaciones y Electrónica por el Instituto Politécnico Nacional, actualmente cursa la Maestría en Regulación y Competencia Económica en Telecomunicaciones, en el Centro de Investigación e Innovación en TIC. Tiene más de 18 años de experiencia en el sector de las telecomunicaciones y radiodifusión.</p>
+                            <h2 class="team-name">Bianidxi Resendiz</h2>
+                        </div>
 
-                        <div class="team-member-icons-container flex">
+                        <!-- <div class="team-member-icons-container flex">
                             <a href="#">
                                 <img src="<?php echo(ICON . 'whattsIcon.svg')?>" alt="" class="team-card-icon">
                             </a>
@@ -58,13 +60,13 @@
                             <a target="_blank" href="https://www.linkedin.com/in/adriana-cortes-741528169/">
                                 <img src="<?php echo(ICON . 'linkedin-icon.svg')?>" alt="" class="team-card-icon">
                             </a>
-                        </div>
-                        <img src="<?php echo(IMG . 'OndSeparador.png')?>" alt="" class="nosotros-onda-image">
+                        </div> -->
+                        <!-- <img src="<?php echo(IMG . 'OndSeparador.png')?>" alt="" class="nosotros-onda-image"> -->
                     </div>
                     <div class="team-foto-container persona-1"></div>
                 </div>
 
-                <div class="slider__element slider__element--lightgreen grid col-2">
+                <div class="slider__element slider__element--lightgreen grid col-2 peq-col-1">
                     <div class="team-description-container flex f-column">
                         <div class="team-description-container flex f-column">
                             <p class="team-member-description">Ingeniera en Comunicaciones y Electrónica por el Instituto Politécnico Nacional, actualmente cursa la Maestría en Regulación y Competencia Económica en Telecomunicaciones, en el Centro de Investigación e Innovación en TIC. Tiene más de 18 años de experiencia en el sector de las telecomunicaciones y radiodifusión.</p>
@@ -92,7 +94,7 @@
                     </div>
                     <div class="team-foto-container persona-2"></div>
                 </div>
-                <div class="slider__element slider__element--lightskyblue grid col-2">
+                <div class="slider__element slider__element--lightskyblue grid col-2 peq-col-1">
                     <div class="team-description-container flex f-column">
                         <div class="team-description-container flex f-column">
                             <p class="team-member-description">Ingeniera en Comunicaciones y Electrónica por el Instituto Politécnico Nacional, actualmente cursa la Maestría en Regulación y Competencia Económica en Telecomunicaciones, en el Centro de Investigación e Innovación en TIC. Tiene más de 18 años de experiencia en el sector de las telecomunicaciones y radiodifusión.</p>
@@ -122,12 +124,12 @@
                 </div>
             </div>
         </div>
-        <div class="flecha-azul button-left">
+        <!-- <div class="flecha-azul button-left">
             <img src="<?php echo(ICON . 'flecha_azul_izquierda.svg')?>" alt="">
-        </div>
-        <div class="flecha-azul button-right">
+        </div> -->
+        <!-- <div class="flecha-azul button-right">
             <img src="<?php echo(ICON . 'flecha_azul_derecha.svg')?>" alt="">
-        </div>
+        </div> -->
     </section>
 
     <section class="nosotros-sexta-seccion contenedor-ancho grid col-1">
