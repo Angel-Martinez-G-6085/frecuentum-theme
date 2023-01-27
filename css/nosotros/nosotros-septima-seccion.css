@@ -2,7 +2,11 @@
     position: relative;
     grid-template-rows: 30% 70%;
     height: 75.8rem;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
+    background-image: url('../../assets/images/fondo-blanco-onda-nuevo.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -5px;
 }
 
 .nosotros-septima-seccion-title {
@@ -71,6 +75,16 @@
   background-position: center top;
 }
 
+.team-description-content-container {
+  row-gap: 0;
+}
+
+.team-description-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
 .team-member-description {
   width: 90%;
   margin: 0 auto;
@@ -84,7 +98,7 @@
 }
 
 .team-member-icons-container {
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
   justify-content: center;
   margin-top: 1rem;
 }
@@ -150,6 +164,10 @@
 
 /* estilos para el tamaño de celular */
 @media screen and (max-width: 576px)  {
+  .nosotros-septima-seccion {
+    background-position-x: -100px;
+  }
+
     .nosotros-septima-seccion-title {
         font-size: 3rem;
         margin-top: 2rem;
@@ -176,12 +194,57 @@
       }
   
       .slider__element {
+          row-gap: 0;
           grid-template-columns: 1fr 1fr;
-          grid-template-rows: 60% 1fr;
+          grid-template-rows: 50% 1fr;
       }
 
       .team-foto-container {
         grid-column-start: 2;
         background-position: center;
+      }
+
+      .team-description-content-container {
+        grid-column: span 2;
+      }
+
+      .team-member-description {
+        font-size: 1.7rem;
+      }
+
+      .team-member-icons-container {
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+        margin: 0;
+        width: 50%;
+        height: 150%;
+        grid-row-start: 2;
+      }
+
+      .team-card-icon {
+        margin: 0;
+      }
+
+      .nosotros-team-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .button-right {
+        width: 6rem;
+        top: 90%;
+        right: 20%;
+      }
+
+      .button-left {
+        width: 6rem;
+        top: 90%;
+        left: 16%;
+      }
+
+      .nosotros-onda-image {
+        top: 90%;
+        width: 17rem;
       }
   }

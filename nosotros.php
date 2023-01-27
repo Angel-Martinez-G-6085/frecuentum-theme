@@ -38,98 +38,100 @@
         <div class="nosotros-slider-contenedor">
             <div class="nosotros-slider">
                 <div class="slider__element slider__element--lightcoral grid col-2">
-                    <div class="team-description-content-container grid col-1 span-2">
+                    <div class="team-description-content-container grid col-1">
                         <div class="team-description-content">
                             <p class="team-member-description">Ingeniera en Comunicaciones y Electrónica por el Instituto Politécnico Nacional, actualmente cursa la Maestría en Regulación y Competencia Económica en Telecomunicaciones, en el Centro de Investigación e Innovación en TIC. Tiene más de 18 años de experiencia en el sector de las telecomunicaciones y radiodifusión.</p>
                             <h2 class="team-name">Bianidxi Resendiz</h2>
                         </div>
 
-                        <!-- <div class="team-member-icons-container flex">
-                            <a href="#">
+                        <div class="team-member-icons-container flex">
+                            <a class="nosotros-team-link" href="#">
                                 <img src="<?php echo(ICON . 'whattsIcon.svg')?>" alt="" class="team-card-icon">
                             </a>
-                            <a href="#">
+                            <a class="nosotros-team-link" href="#">
                                 <img src="<?php echo(ICON . 'facebook-icon.svg')?>" alt="" class="team-card-icon">
                             </a>
-                            <a href="#">
+                            <a class="nosotros-team-link" href="#">
                                 <img src="<?php echo(ICON . 'instagramIcon.svg')?>" alt="" class="team-card-icon">
                             </a>
-                            <a target="_blank" href="https://twitter.com/ACEc_1">
+                            <a class="nosotros-team-link" target="_blank" href="https://twitter.com/ACEc_1">
                                 <img src="<?php echo(ICON . 'twiter-icon.svg')?>" alt="" class="team-card-icon">
                             </a>
-                            <a target="_blank" href="https://www.linkedin.com/in/adriana-cortes-741528169/">
+                            <a class="nosotros-team-link" target="_blank" href="https://www.linkedin.com/in/adriana-cortes-741528169/">
                                 <img src="<?php echo(ICON . 'linkedin-icon.svg')?>" alt="" class="team-card-icon">
                             </a>
-                        </div> -->
-                        <!-- <img src="<?php echo(IMG . 'OndSeparador.png')?>" alt="" class="nosotros-onda-image"> -->
+                        </div>
+                        <img src="<?php echo(IMG . 'OndSeparador.png')?>" alt="" class="nosotros-onda-image">
                     </div>
                     <div class="team-foto-container persona-1"></div>
                 </div>
 
-                <div class="slider__element slider__element--lightgreen grid col-2 peq-col-1">
-                    <div class="team-description-container flex f-column">
-                        <div class="team-description-container flex f-column">
+                <div class="slider__element slider__element--lightcoral grid col-2">
+                    <div class="team-description-content-container grid col-1">
+                        <div class="team-description-content">
                             <p class="team-member-description">Ingeniera en Comunicaciones y Electrónica por el Instituto Politécnico Nacional, actualmente cursa la Maestría en Regulación y Competencia Económica en Telecomunicaciones, en el Centro de Investigación e Innovación en TIC. Tiene más de 18 años de experiencia en el sector de las telecomunicaciones y radiodifusión.</p>
-                            <h2 class="team-name">Carlos Espinosa Reyna</h2>
-
-                            <div class="team-member-icons-container flex">
-                                <a href="#">
-                                    <img src="<?php echo(ICON . 'whattsIcon.svg')?>" alt="" class="team-card-icon">
-                                </a>
-                                <a href="#">
-                                    <img src="<?php echo(ICON . 'facebook-icon.svg')?>" alt="" class="team-card-icon">
-                                </a>
-                                <a href="#">
-                                    <img src="<?php echo(ICON . 'instagramIcon.svg')?>" alt="" class="team-card-icon">
-                                </a>
-                                <a target="_blank" href="https://twitter.com/ACEc_1">
-                                    <img src="<?php echo(ICON . 'twiter-icon.svg')?>" alt="" class="team-card-icon">
-                                </a>
-                                <a target="_blank" href="https://www.linkedin.com/in/adriana-cortes-741528169/">
-                                    <img src="<?php echo(ICON . 'linkedin-icon.svg')?>" alt="" class="team-card-icon">
-                                </a>
-                            </div>
-                            <img src="<?php echo(IMG . 'OndSeparador.png')?>" alt="" class="nosotros-onda-image">
+                            <h2 class="team-name">Bianidxi Resendiz</h2>
                         </div>
+
+                        <div class="team-member-icons-container flex">
+                            <a class="nosotros-team-link" href="#">
+                                <img src="<?php echo(ICON . 'whattsIcon.svg')?>" alt="" class="team-card-icon">
+                            </a>
+                            <a class="nosotros-team-link" href="#">
+                                <img src="<?php echo(ICON . 'facebook-icon.svg')?>" alt="" class="team-card-icon">
+                            </a>
+                            <a class="nosotros-team-link" href="#">
+                                <img src="<?php echo(ICON . 'instagramIcon.svg')?>" alt="" class="team-card-icon">
+                            </a>
+                            <a class="nosotros-team-link" target="_blank" href="https://twitter.com/ACEc_1">
+                                <img src="<?php echo(ICON . 'twiter-icon.svg')?>" alt="" class="team-card-icon">
+                            </a>
+                            <a class="nosotros-team-link" target="_blank" href="https://www.linkedin.com/in/adriana-cortes-741528169/">
+                                <img src="<?php echo(ICON . 'linkedin-icon.svg')?>" alt="" class="team-card-icon">
+                            </a>
+                        </div>
+                        <img src="<?php echo(IMG . 'OndSeparador.png')?>" alt="" class="nosotros-onda-image">
                     </div>
                     <div class="team-foto-container persona-2"></div>
                 </div>
-                <div class="slider__element slider__element--lightskyblue grid col-2 peq-col-1">
-                    <div class="team-description-container flex f-column">
-                        <div class="team-description-container flex f-column">
-                            <p class="team-member-description">Ingeniera en Comunicaciones y Electrónica por el Instituto Politécnico Nacional, actualmente cursa la Maestría en Regulación y Competencia Económica en Telecomunicaciones, en el Centro de Investigación e Innovación en TIC. Tiene más de 18 años de experiencia en el sector de las telecomunicaciones y radiodifusión.</p>
-                            <h2 class="team-name">Adriana Cortés Espidio</h2>
 
-                            <div class="team-member-icons-container flex">
-                                <a href="#">
-                                    <img src="<?php echo(ICON . 'whattsIcon.svg')?>" alt="" class="team-card-icon">
-                                </a>
-                                <a href="#">
-                                    <img src="<?php echo(ICON . 'facebook-icon.svg')?>" alt="" class="team-card-icon">
-                                </a>
-                                <a href="#">
-                                    <img src="<?php echo(ICON . 'instagramIcon.svg')?>" alt="" class="team-card-icon">
-                                </a>
-                                <a target="_blank" href="https://twitter.com/ACEc_1">
-                                    <img src="<?php echo(ICON . 'twiter-icon.svg')?>" alt="" class="team-card-icon">
-                                </a>
-                                <a target="_blank" href="https://www.linkedin.com/in/adriana-cortes-741528169/">
-                                    <img src="<?php echo(ICON . 'linkedin-icon.svg')?>" alt="" class="team-card-icon">
-                                </a>
-                            </div>
-                            <img src="<?php echo(IMG . 'OndSeparador.png')?>" alt="" class="nosotros-onda-image">
+                <div class="slider__element slider__element--lightcoral grid col-2">
+                    <div class="team-description-content-container grid col-1">
+                        <div class="team-description-content">
+                            <p class="team-member-description">Ingeniera en Comunicaciones y Electrónica por el Instituto Politécnico Nacional, actualmente cursa la Maestría en Regulación y Competencia Económica en Telecomunicaciones, en el Centro de Investigación e Innovación en TIC. Tiene más de 18 años de experiencia en el sector de las telecomunicaciones y radiodifusión.</p>
+                            <h2 class="team-name">Bianidxi Resendiz</h2>
                         </div>
+
+                        <div class="team-member-icons-container flex">
+                            <a class="nosotros-team-link" href="#">
+                                <img src="<?php echo(ICON . 'whattsIcon.svg')?>" alt="" class="team-card-icon">
+                            </a>
+                            <a class="nosotros-team-link" href="#">
+                                <img src="<?php echo(ICON . 'facebook-icon.svg')?>" alt="" class="team-card-icon">
+                            </a>
+                            <a class="nosotros-team-link" href="#">
+                                <img src="<?php echo(ICON . 'instagramIcon.svg')?>" alt="" class="team-card-icon">
+                            </a>
+                            <a class="nosotros-team-link" target="_blank" href="https://twitter.com/ACEc_1">
+                                <img src="<?php echo(ICON . 'twiter-icon.svg')?>" alt="" class="team-card-icon">
+                            </a>
+                            <a class="nosotros-team-link" target="_blank" href="https://www.linkedin.com/in/adriana-cortes-741528169/">
+                                <img src="<?php echo(ICON . 'linkedin-icon.svg')?>" alt="" class="team-card-icon">
+                            </a>
+                        </div>
+                        <img src="<?php echo(IMG . 'OndSeparador.png')?>" alt="" class="nosotros-onda-image">
                     </div>
                     <div class="team-foto-container persona-3"></div>
                 </div>
             </div>
         </div>
-        <!-- <div class="flecha-azul button-left">
-            <img src="<?php echo(ICON . 'flecha_azul_izquierda.svg')?>" alt="">
-        </div> -->
-        <!-- <div class="flecha-azul button-right">
+        <div class="flecha-azul button-left">
+            <img class="flecha-azul button-left" src="<?php echo(ICON . 'flecha_azul_izquierda.svg')?>" alt="">
+        </div>
+        
+        <div class="flecha-azul button-right">
             <img src="<?php echo(ICON . 'flecha_azul_derecha.svg')?>" alt="">
-        </div> -->
+        </div>
     </section>
 
     <section class="nosotros-sexta-seccion contenedor-ancho grid col-1">
@@ -208,5 +210,5 @@
             </div>
         </div>
     </section>
-    <?php get_footer();?>
 </div>
+<?php get_footer();?>
