@@ -24,3 +24,12 @@
         height: 60rem;
     }
 }
+
+/* estilos para el tamaño móvil */
+@media screen and (max-width: 576px){
+    .servicios-septima-seccion {
+        height: 50rem;
+        position: relative;
+        top: 65px;
+    }
+}

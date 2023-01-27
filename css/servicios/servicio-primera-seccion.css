@@ -18,6 +18,10 @@
     width: 100%;
     height: 100%;
 }
+.servicios-primera-seccion-wrapper {
+    position: relative;
+    object-fit: cover;
+}
 
 .servicios-banner-text-container {
     position: absolute;
@@ -65,22 +69,20 @@
 
 /* estilos para el tamaño móvil */
 @media screen and (max-width: 576px) {
-        .servicios-primera-seccion-banner{
-            top: 25px;
+
+        .servicios-banner-title {
+        margin-top: 4rem;
+        margin-bottom: 1rem;
         }
         .servicios-banner-description {
             font-size: 1.5rem;
-            margin: 0 auto;
-            margin-bottom: 1.3rem;
+            margin-bottom: 2rem;
+            width: auto;
         }
-        .servicios-banner-title {
-            margin-top: 7rem;
-            margin-bottom: 1rem;
-        }
-        /* .titulo{
-            font-size: 5rem;
-        } */
         .servicios-banner-subtitle {
             font-size: 1.5rem;
+        }
+        .titulo-servicios{
+            font-size: 5rem;
         }
     }
