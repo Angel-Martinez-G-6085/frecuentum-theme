@@ -68,6 +68,17 @@
     }
     .maps_and_icons_container {
         grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 18% 82%;
         height: 58rem;
+    }
+
+    .maps-link {
+        height: 100%;
+    }
+
+    .map-whatts-link,
+    .map-twiter-link,
+    .map-telefono-link {
+        display: flex;
     }
 }

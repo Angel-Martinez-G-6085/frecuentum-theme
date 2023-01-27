@@ -204,22 +204,22 @@
                 <iframe class="map_frame_container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.686211710604!2d-99.16857458561866!3d19.382735047297054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ffa038a977e3%3A0xc9ceb41bef9d7f55!2sAngel%20Urraza%20807%2C%20Col%20del%20Valle%20Centro%2C%20Benito%20Ju%C3%A1rez%2C%2003100%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1672792416181!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="maps-icon-container flex f-column">
-                <a href="#">
+                <a class="maps-link map-auto-link" href="#">
                     <img class="maps-icon" src="<?php echo(ICON. 'autoBlanco.svg')?>" alt="auto-blanco">
                 </a>
-                <a href="#">
+                <a class="maps-link  map-whatts-link" href="#">
                     <img class="maps-icon" src="<?php echo(ICON. 'whattsIcon.svg')?>" alt="whattsIcon">
                 </a>
-                <a href="#">
+                <a class="maps-link map-facebook-link" href="#">
                     <img class="maps-icon" src="<?php echo(ICON. 'facebook-icon.svg')?>" alt="facebook-blanco">
                 </a>
-                <a href="#">
+                <a class="maps-link map-twiter-link" href="#">
                     <img class="maps-icon" src="<?php echo(ICON. 'twiter-icon.svg')?>" alt="twiter-blanco">
                 </a>
-                <a href="#">
+                <a class="maps-link map-linkedin-link" href="#">
                     <img class="maps-icon" src="<?php echo(ICON. 'linkedin-icon.svg')?>" alt="linkedin-blanco">
                 </a>
-                <a href="#">
+                <a class="maps-link map-telefono-link" href="#">
                     <img class="maps-icon" src="<?php echo(ICON. 'telefonoBlanco.svg')?>" alt="telefono-blanco">
                 </a>
             </div>
