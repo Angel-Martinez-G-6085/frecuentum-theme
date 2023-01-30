@@ -217,18 +217,37 @@
 /* estilos para el tamaño de celular */
 @media screen and (max-width: 576px) {
     .footer {
+        /* height: 80rem; */
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
     }
 
-    .footer-contacto-column {
-        grid-row-start: 2;
-        grid-row-end: 3;
-        margin-top: 0;
+    .footer-logo {
+        margin: 0;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        width: 18rem;
     }
 
-    .footer-logo {
-        margin-top: 0;
-        margin-left: 0;
-        margin-right: 0;
+    .footer-contacto-column {
+        /* background-color: chocolate; */
+        grid-row-start: 2;
+        margin: 0;
+    }
+
+    .footer-mascota-container {
+        justify-content: center;
+    }
+
+    .footer-mascota {
+        width: 94%;
+    }
+
+    .footer-mascota-icons-container {
+        margin: 0;
+    }
+
+    .footer-mascota-icon {
+        margin: 0;
     }
 }
