@@ -1,7 +1,7 @@
 <footer class="footer grid col-4 ">
         <div class="footer-description-column flex f-column">
             <img class="footer-logo" src="<?php echo(IMG. 'Imagotipo-FREQUENTUM-1.svg')?>" alt="logo">
-            <div class="description-text-container">
+            <div class="description-text-container flex f-column">
                 <p class="footer-description">Somos una consultoría boutique, formada por un equipo con más de 15 años de experiencia en el sector regulatorio de la radiodifusión y las telecomunicaciones.</p>
                 <div class="privacidad-text-container">
                     <h4 class="privacidad-text centrar text-link">Aviso de privacidad</h4>
@@ -32,10 +32,11 @@
             </div>
         </div>
 
-        <!-- <div class="footer-menu-column flex f-column">
-            <h4 class="footer-menu-title">FREQUENTUM</h4>
-            <div class="menu-pie-menu-container">
-                <ul class="menu-pie-menu flex f-column">
+        <div class="footerWrapper grid">
+            <div class="footer-menu-column flex f-column">
+                <h4 class="footer-menu-title">FREQUENTUM</h4>
+                <div class="menu-pie-menu-container">
+                    <ul class="menu-pie-menu flex f-column">
                     <li class="menu-link-container">
                         <a href="<?php echo site_url('/nosotros'); ?>" class="menu-link-footer">Nosotros</a>
                     </li>
@@ -45,33 +46,34 @@
                     <li class="menu-link-container">
                     <a href="<?php echo site_url('/contacto'); ?>" class="menu-link-footer">Contacto</a>
                     </li>
-                </ul>
+                    </ul>
+                </div>
             </div>
-        </div> -->
 
-        <div class="footer-mascota-container flex f-column">
-            <img src="<?php echo(IMG.'MascotaCentada.webp')?>" alt="footer-mascota" class="footer-mascota">
-            
-            <div class="footer-mascota-icons-container">
-                <a href="#">
-                    <img src="<?php echo(ICON. 'facebookBlanco.svg')?>" alt="footer-mascota-icon" class="flex face-icon footer-mascota-icon">
-                </a>
+            <div class="footer-mascota-container flex f-column">
+                <img src="<?php echo(IMG.'MascotaCentada.webp')?>" alt="footer-mascota" class="footer-mascota">
 
-                <a href="#">
-                    <img src="<?php echo(ICON. 'insta-icon.svg')?>" alt="insta-icon" class="footer-mascota-icon">
-                </a>
+                <div class="footer-mascota-icons-container">
+                    <a href="#">
+                        <img src="<?php echo(ICON. 'facebookBlanco.svg')?>" alt="footer-mascota-icon" class="flex face-icon footer-mascota-icon">
+                    </a>
 
-                <a href="#">
-                    <img src="<?php echo(ICON. 'linkedin-icon-blanco.svg')?>" alt="footer-mascota-icon" class="footer-mascota-icon">
-                </a>
+                    <a href="#">
+                        <img src="<?php echo(ICON. 'insta-icon.svg')?>" alt="insta-icon" class="footer-mascota-icon">
+                    </a>
 
-                <a href="#">
-                    <img src="<?php echo(ICON. 'whats-icon-blanco.svg')?>" alt="footer-mascota-icon" class="footer-mascota-icon">
-                </a>
+                    <a href="#">
+                        <img src="<?php echo(ICON. 'linkedin-icon-blanco.svg')?>" alt="footer-mascota-icon" class="footer-mascota-icon">
+                    </a>
 
-                <a href="#">
-                    <img src="<?php echo(ICON. 'twiter-icon-blanco.svg')?>" alt="footer-mascota-icon" class="footer-mascota-icon">
-                </a>
+                    <a href="#">
+                        <img src="<?php echo(ICON. 'whats-icon-blanco.svg')?>" alt="footer-mascota-icon" class="footer-mascota-icon">
+                    </a>
+
+                    <a href="#">
+                        <img src="<?php echo(ICON. 'twiter-icon-blanco.svg')?>" alt="footer-mascota-icon" class="footer-mascota-icon">
+                    </a>
+                </div>
             </div>
         </div>
     <?php wp_footer();?>

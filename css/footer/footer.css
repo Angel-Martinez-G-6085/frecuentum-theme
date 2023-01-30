@@ -144,6 +144,7 @@
 }
 
 .footer-mascota-container {
+    grid-column-start: 4;
     justify-content: flex-end;
 }
 
@@ -201,6 +202,10 @@
         font-size: 1.6rem;
     }
 
+    .footerWrapper {
+        column-gap: 2rem;
+    }
+
     .footer-mascota-icon {
         width: 4rem;
         margin-right: 1.7rem;
@@ -217,9 +222,10 @@
 /* estilos para el tamaño de celular */
 @media screen and (max-width: 576px) {
     .footer {
-        /* height: 80rem; */
+        height: 80rem;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
+        gap: 0;
     }
 
     .footer-logo {
@@ -229,12 +235,31 @@
         width: 18rem;
     }
 
+    .description-text-container {
+        justify-content: center;
+    }
+
     .footer-contacto-column {
-        /* background-color: chocolate; */
+        justify-content: center;
         grid-row-start: 2;
         margin: 0;
     }
 
+    .footerWrapper {
+        grid-template-rows: repeat(2, 1fr);
+        row-gap: 0;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        column-gap: 0;
+    }
+
+    .footer-mascota-container {
+        grid-column-start: unset;
+    }
+
+    .footer-menu-title {
+        margin-top: 5rem;
+    }
     .footer-mascota-container {
         justify-content: center;
     }
