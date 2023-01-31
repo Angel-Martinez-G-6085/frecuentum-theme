@@ -82,8 +82,15 @@
 /* estilos para el tamaño de movil */
 @media screen and (max-width: 576px) {
     .onda-servicios {
-        left: 14rem;
-        width: 20rem;
+        right: 0;
+        width: 12rem;
+        top: 3%;
+        left:auto;
+   
+    }
+    .servicios-quinta-seccion {
+        background: red;
+        margin-top: -40px;
     }
     .servicios-quinta-seccion-title {
         font-size: 1.3rem;
@@ -95,22 +102,17 @@
     .solucion-description {
         font-size: 1.5rem;
     }    
-    .servicios-quinta-seccion-banner {
+    /* .servicios-quinta-seccion-banner {
     bottom: 40px;
-    }    
+    }     */
     .servicios-quinta-seccion-content-container {
         top: -4rem;
         grid-template-rows: 15% 50%;
         left: 0;
-
-
     }
     .quinta-seccion-solucion-container {
         width: 90%;
-    
     }
-
- 
 }
 
 

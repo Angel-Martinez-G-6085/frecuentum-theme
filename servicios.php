@@ -30,7 +30,7 @@
                         <h2 class="servicios-segunda-seccion-subtitle titulo centrar">Estos son los servicios más solicitados</h2>
                     </div>
 
-                    <div class="servicios-segunda-seccion-opciones-container grid col-4">
+                    <div class="servicios-segunda-seccion-opciones-container peq-col-1 grid col-4">
                         <div class="servicios-segunda-seccion-opcion-container">
                             <div class="servicios-segunda-seccion-opcion-image-container">
                                 <img class="servicios-segunda-seccion-opcion-image" src="<?php echo(ICON. 'torre-microfono-morado.svg')?>" alt="opcion-image">
@@ -105,7 +105,7 @@
                     <h3 class="servicios-quinta-seccion-title centrar">Asesorías y trámites realizados</h3>
                     <h2 class="servicios-quinta-seccion-subtitle titulo centrar">“Soluciones en movimiento”</h2>
                 </div>
-                <div class="servicios-quinta-seccion-soluciones-container grid col-4">
+                <div class="servicios-quinta-seccion-soluciones-container peq-col-1 grid col-4">
                     <div class="quinta-seccion-solucion-container">
                         <p class="solucion-description centrar text-link">Presentación de los estatutos sociales con la inserción íntegra y expresa del Artículo 112 de la Ley Federal de Telecomunicaciones y Radiodifusión.</p>
                     </div>
@@ -147,6 +147,20 @@
                             </div>
                         </div>
 
+                        <div class="servicios-opcion-container flex">
+                            <div class="servicios-rectangulo-container"></div>
+                            <div class="servicios-opcion-text-container">
+                                <a href="<?php echo site_url('#');?>" class="servicios-opcion-text">Solicitud de concesión única para uso comercial.</a>
+                            </div>
+                        </div>
+
+                        <div class="servicios-opcion-container flex">
+                            <div class="servicios-rectangulo-container"></div>
+                            <div class="servicios-opcion-text-container">
+                                <a href="<?php echo site_url('#');?>" class="servicios-opcion-text">Solicitud de asignación de numeración geográfica.</a>
+                            </div>
+                        </div>
+                        <!-- prueba -->
                         <div class="servicios-opcion-container flex">
                             <div class="servicios-rectangulo-container"></div>
                             <div class="servicios-opcion-text-container">
