@@ -1,9 +1,11 @@
 <?php /* Template Name: Inicio */ ?>
+
 <?php get_header();?>
 <div class="contenedor-ancho page-content-container grid col-1">
     <section class="home-banner-container contenedor-ancho grid col-1">
         <picture>
             <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'prueba-movil.webp')?>">
+            <source media="(max-width: 768px)" srcset="<?php echo(IMG. 'prueba-movil.webp')?>">
             <img srcset="<?php echo(IMG. 'torre-radio.webp')?>" alt="banner-image" loading="lazy" class="home-banner-image">
         </picture>
 
@@ -23,7 +25,7 @@
             </div>
         </div>
 
-        <div class="tercera-seccion-cards grid col-2 peq-col-1">
+        <div class="tercera-seccion-cards grid col-2">
             <div class="tercera-seccion-card flex f-column">
                 <div class="tercera-seccion-icon-card-container">
                     <img loading="lazy" class="icon-card" src="<?php echo(ICON. 'copa.svg')?>" alt="">
@@ -63,6 +65,7 @@
 
     <section class="home-cuarta-seccion-container contenedor-ancho grid col-1">
         <picture>
+            <source media="(max-width: 768px)" srcset="<?php echo(IMG. 'foto-parabolica-movil.webp')?>">
             <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'foto-parabolica-movil.webp')?>">
             <img loading="lazy" src="<?php echo(IMG. 'foto-parabolica-nueva.webp')?>" alt="cuarta-seccion-image" class="cuarta-seccion-banner-image">
         </picture>
@@ -199,6 +202,7 @@
             <h2 class="mapa-seccion centrar">Te invitamos</h2>
             <h3 class="mapa-seccion-subtitles centrar">A descubrir más sobre nosotros y los servicios que ofrecemos.</h3>
         </div>
+
         <div class="maps_and_icons_container contenedor-ancho peq-col-1">
             <div class="mapa-container">
                 <iframe class="map_frame_container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.686211710604!2d-99.16857458561866!3d19.382735047297054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ffa038a977e3%3A0xc9ceb41bef9d7f55!2sAngel%20Urraza%20807%2C%20Col%20del%20Valle%20Centro%2C%20Benito%20Ju%C3%A1rez%2C%2003100%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1672792416181!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
