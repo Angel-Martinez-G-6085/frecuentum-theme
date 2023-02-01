@@ -84,12 +84,10 @@
     .onda-servicios {
         right: 0;
         width: 12rem;
-        top: 3%;
+        top: -15px;
         left:auto;
-   
     }
     .servicios-quinta-seccion {
-        background: red;
         margin-top: -40px;
     }
     .servicios-quinta-seccion-title {
@@ -97,21 +95,23 @@
     }
     .servicios-quinta-seccion-subtitle {
         font-size: 2.5rem;
-        margin-bottom: -5rem;
+        margin-bottom: 1rem;
     }
     .solucion-description {
         font-size: 1.5rem;
-    }    
-    /* .servicios-quinta-seccion-banner {
-    bottom: 40px;
-    }     */
+    }
+    .servicios-quinta-seccion-soluciones-container {
+        height: auto;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }        
     .servicios-quinta-seccion-content-container {
-        top: -4rem;
-        grid-template-rows: 15% 50%;
+        /* top: -4rem; */
+        grid-template-rows: 10% 50%;
         left: 0;
     }
     .quinta-seccion-solucion-container {
-        width: 90%;
+        width: auto;
     }
 }
 

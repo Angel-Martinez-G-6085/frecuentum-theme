@@ -1,4 +1,9 @@
-
+/* mover la ultima imagen */
+.servicios-octava-seccion {
+    position: relative;
+    top: 50px;
+}
+/*------------------------------- */
 .servicios-octava-seccion-banner-container {
     position: relative;
     width: 100%;
@@ -38,6 +43,7 @@
     justify-content: center;
 }
 
+
 /* estilos para el tamaño de laptop */
 @media screen and (max-width: 1500px) {
     .servicios-octava-seccion-title {
@@ -53,10 +59,10 @@
     .servicios-octava-seccion-subtitle {
         font-size: 2rem;
     }
-    .servicios-octava-seccion {
+    /* .servicios-octava-seccion {
         position: relative;
         top: 50px;
-    }
+    } */
     
    
 

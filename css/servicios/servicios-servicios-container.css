@@ -69,13 +69,23 @@
         position: relative;
         left: 1rem;
         width: 95%;
-        top: -4rem;
-        /* height: 500px; */
+        top: 1rem;
     }
     .servicios-opciones-container {
-        height: 40rem;
+        height: 32rem;
     }
     .servicios-title {
         font-size: 2.3rem;
     }
+    .servicios-opcion-text-container {
+        width: 100%;
+    }
+    .servicios-opcion-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 3rem;
+    }
+    .servicios-opcion-text-container {
+        margin-bottom: 0;
+    }    
 }
