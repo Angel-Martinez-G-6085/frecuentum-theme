@@ -154,7 +154,7 @@
 }
 
 .footer-mascota {
-    width: 80%;
+    width: 60%;
 }
 
 .footer-mascota-icon {
@@ -174,7 +174,7 @@
 /* estilos para el tamaño de laptop */
 @media screen and (max-width: 1500px) {
     .footer-mascota {
-        width: 85%;
+        width: 90%;
         margin-bottom: 3rem;
     }
 
@@ -207,12 +207,12 @@
     }
 
     .footer-mascota-icon {
-        width: 4rem;
+        width: 2.3rem;
         margin-right: 1.7rem;
     }
 
     .face-icon {
-        width: 2.5rem;
+        width: 1.5rem;
     }
 
     .privacidad-text {
