@@ -26,8 +26,18 @@
 }
 
 /* estilos para el tamaño de laptop */
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1280px) {
 
+}
+
+/* estilos para el tamaño de tablet */
+@media screen and (max-width: 768px) {
+    .hero-subtitle {
+        width: 95%;
+        font-size: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 /* estilos para el tamaño de celular */
