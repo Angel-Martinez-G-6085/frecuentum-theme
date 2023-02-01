@@ -7,6 +7,11 @@
     background-size: cover;
 }
 
+.tercera-seccion-text {
+    width: 90%;
+    margin: 0 auto;
+}
+
 .tercera-seccion-first-column {
     width: 100%;
     height: 100%;
@@ -34,7 +39,7 @@
     font-size: 4.2rem;
     color: var(--morado);
     font-weight: bold;
-    width: 95%;
+    width: 100%;
 }
 
 .seccion-tres-description {
@@ -42,20 +47,21 @@
 }
 
 .tercera-seccion-cards {
-    height: 50%;
-    width: 100%;
+    height: 100%;
+    width: 95%;
+    margin: 0 auto;
     align-items: center;
     gap: 5rem;
 }
 
 .tercera-seccion-card {
     margin: 0 auto;
-    width: 95%;
+    width: 90%;
     height: 100%;
 }
 
 .tercera-seccion-title-card{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -66,7 +72,7 @@
 
 .tercera-seccion-description-card {
     width: 100%;
-    font-size: 1.6rem;
+    font-size: 2.3rem;
 }
 
 .tercera-seccion-buttons-container {
@@ -98,19 +104,89 @@
 }
 
 /* estilos para el tamaño de laptop */
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1280px) {
+    .seccion-tres-title {
+        font-size: 3.2rem;
+    }
+
+    .tercera-seccion-title-card {
+        font-size: 1.5rem;
+    }
+
+    .tercera-seccion-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .home-tercera-seccion-container {
+        grid-template-rows: 35% 40% 15%;
         background-position-x: -50px;
         background-position-y: -80px;
     }
+
     .seccion-tres-description {
         font-size: 2rem;
         padding: 0;
     }
+
+    .tercera-seccion-card {
+        justify-content: center;
+    }
+
+    .tercera-seccion-description-card {
+        font-size: 1.6rem;
+    }
+}
+
+/* estilos para el tamaño de tablet */
+@media screen and (max-width: 768px) {
+    .home-tercera-seccion-container {
+        grid-template-rows: unset;
+        background-size: unset;
+        background-repeat: repeat;
+        background-position-x: 1.3rem;
+        background-position-y: 3rem;
+    }
+
+    .tercera-seccion-cards {
+        grid-template-columns: 1fr;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .tercera-seccion-buttons-container {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .tercera-seccion-text-card-container {
+        text-align: center;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .tercera-seccion-text {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .tercera-seccion-icon-card-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .tercera-seccion-second-column {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+    }
 }
 
 /* estilos para el tamaño de celular */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 375px) {
     .home-tercera-seccion-container {
         grid-template-rows: unset;
         background-size: unset;

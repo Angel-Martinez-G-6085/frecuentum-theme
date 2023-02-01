@@ -1,4 +1,4 @@
-<footer class="footer grid col-4 ">
+<footer class="footer grid col-3">
         <div class="footer-description-column flex f-column">
             <img class="footer-logo" src="<?php echo(IMG. 'Imagotipo-FREQUENTUM-1.svg')?>" alt="logo">
             <div class="description-text-container flex f-column">
