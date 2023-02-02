@@ -90,9 +90,18 @@
     .servicios-segunda-seccion-opciones-container {
         margin-left: auto;
         margin-right: auto;
+        height: 100%;
     }
 }
 
-@media screen and (min-width: 1400px) {}
+@media screen and (min-width: 1400px) {
+    .segunda-seccion-opcion-description {
+        font-size: 2.4rem;
+    }
+
+    .servicios-segunda-seccion-title {
+        font-size: 2.2rem;
+    }
+}
 
 @media screen and (min-width: 1500px) {}
