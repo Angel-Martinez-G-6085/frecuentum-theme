@@ -97,7 +97,7 @@
     <section class="servicios-quinta-seccion contenedor-ancho grid col-1">
         <div class="servicios-quinta-seccion-banner">
             <picture>
-               <source media="(max-width: 576px)" srcset="<?php echo(IMG. '1.webp')?>">
+               <source media="(max-width: 576px)" srcset="<?php echo(IMG. '3.webp')?>">
                <img srcset="<?php echo(IMG. 'Foto-debajo-de-la-torre.webp')?>" alt="banner-image" loading="lazy" class="servicios-quinta-seccion-banner-image">
             </picture>
             <div class="servicios-quinta-seccion-content-container grid col-1">

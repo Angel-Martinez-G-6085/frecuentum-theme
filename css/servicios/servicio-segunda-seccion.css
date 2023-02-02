@@ -78,17 +78,11 @@
     .servicios-segunda-seccion {
         margin-top: -18%;
     }
-    .servicios-segunda-seccion-title {
-        /* font-size: 1.5rem;
-        margin-bottom: 2.4rem; */
+    .servicios-segunda-seccion-title {      
         font-size: 1.5rem;
-       /* margin-bottom: 1.9rem; */
     }
     .servicios-segunda-seccion-subtitle {
-        /* font-size: 2.5rem;
-        margin-bottom: 1rem; */
         font-size: 2.5rem;
-        /* margin-bottom: 40rem; */
         margin-bottom: 34rem;
         margin-top: 30px;
     }
@@ -97,14 +91,9 @@
         width: 100%;
     }
     .servicios-segunda-seccion-content-container {
-        /* top: 10rem;
-        padding-bottom: 50px; */
-
         top: -27rem;
-        /* padding-top: 844px; */
         padding-left: 1rem;
         padding-right: 1rem;
-        /* background: red; */
         margin-top: 270px;         
     }
     .servicios-segunda-seccion-opcion-image {
