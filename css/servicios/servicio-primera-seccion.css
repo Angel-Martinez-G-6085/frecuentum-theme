@@ -24,6 +24,7 @@
 }
 
 .servicios-banner-text-container {
+    color: var(--blanco);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -33,61 +34,46 @@
 }
 
 .servicios-banner-title {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
 }
 
 .servicios-banner-description {
-    color: var(--blanco);
-    width: 80%;
-    font-size: 4rem;
-    margin: 0 auto;
-    margin-bottom: 5rem;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    width: auto;
 }
 
 .servicios-banner-subtitle {
-    color: var(--blanco);
-    width: 100%;
-    font-size: 3rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: auto;
 }
 
 .servicios-calculadora-container {
     justify-content: center;
 }
 
-/* estilos para el tamaño de laptop */
-@media screen and (max-width: 1500px) {
-/* .servicios-primera-seccion {
-    height: 65rem;
-    margin-bottom: -11rem;
-} */
+.titulo-servicios{
+    font-size: 5rem;
+}
 
+@media screen and (min-width: 1200px) {
     .servicios-banner-description {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 2.5rem;
         font-size: 2.5rem;
+    }
+
+    .servicios-banner-subtitle {
+        font-size: 2rem;
     }
 }
 
-/* estilos para el tamaño móvil */
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 1400px) {}
 
-        .servicios-banner-title {
-        margin-top: 4rem;
-        margin-bottom: 1rem;
-        }
-        .servicios-banner-description {
-            font-size: 1.5rem;
-            margin-right: 1rem;
-            margin-bottom: 3rem;
-            margin-left: 1rem;
-            width: auto;
-        }
-        .servicios-banner-subtitle {
-            font-size: 1.5rem;
-            margin-left: 1rem;
-            margin-right: 1rem;
-            width: auto;
-        }
-        .titulo-servicios{
-            font-size: 5rem;
-        }
-    }
+@media screen and (min-width: 1500px) {}
