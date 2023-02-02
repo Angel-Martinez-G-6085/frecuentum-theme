@@ -25,13 +25,13 @@
             </div>
 
             <nav class="header__nav">
-                <ul class="nav__menu grid col-4">
+                <ul class="nav__menu grid col-1">
                     <div class="menu-cerrar-button-container">
                         <img class="nav-movil-cerrar-icon" src="<?php echo(ICON. 'tache.svg')?>" alt="nav-logo">
                     </div>
-                    <li class="menu-link inicio-link">
+                    <li class="menu-link mobile-link-inicio">
                         <a href="<?php echo site_url('/inicio'); ?>">
-                            <img class="nav-logo" src="<?php echo(IMG. 'Imagotipo-FREQUENTUM-1.svg')?>" alt="nav-logo">
+                            <img src="<?php echo(IMG . "logo-freq.webp")?>" alt="logo">
                         </a>
                     </li>
                     <li class="menu-link">
