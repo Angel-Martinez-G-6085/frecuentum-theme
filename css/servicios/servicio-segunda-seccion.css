@@ -1,5 +1,5 @@
 .servicios-segunda-seccion {
-    margin-top: -9%;
+    margin-top: -18%;
 }
 
 .servicios-segunda-seccion-banner-container {
@@ -9,12 +9,15 @@
 }
 
 .servicios-segunda-seccion-content-container {
+    top: -27rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 270px;
     row-gap: 0;
     grid-template-rows: 36% 64%;
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 0;
     left: 0;
 }
 
@@ -25,25 +28,27 @@
 .servicios-segunda-seccion-opciones-container {
     gap: 4rem;
     width: 95%;
-    margin: 0 auto;
+    margin-top: -278px;
 }
 
 .servicios-segunda-seccion-opcion-text-container {
-    height: 59%;
+    height: auto;
 }
 
 .servicios-segunda-seccion-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--blanco);
     margin-bottom: 0;
 }
 
 .servicios-segunda-seccion-subtitle {
-    font-size: 5rem;
-    margin-bottom: 0rem;
+    font-size: 2.5rem;
+    margin-bottom: 34rem;
+    margin-top: 30px;
 }
 
 .servicios-segunda-seccion-opcion-image {
+    width: 10rem;
     margin: 0 auto;
     width: 13rem;
     margin-bottom: 2rem;
@@ -62,49 +67,32 @@
 }
 
 .segunda-seccion-opcion-description {
+    width: 100%;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: var(--blanco);
 }
 
-/* estilos para el tamaño de laptop */
-@media screen and (max-width: 1500px) {
-    .segunda-seccion-opcion-description {
-        font-size: 1.8rem;
-    }
-}
-/* estilos para el tamaño de móvil */
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 1200px) {
     .servicios-segunda-seccion {
-        margin-top: -18%;
+        margin-top: -10%;
     }
-    .servicios-segunda-seccion-title {      
-        font-size: 1.5rem;
+
+    .servicios-segunda-seccion-content-container{
+        padding: 0;
+        margin-top: 55rem;
     }
+
     .servicios-segunda-seccion-subtitle {
-        font-size: 2.5rem;
-        margin-bottom: 34rem;
-        margin-top: 30px;
-    }
-    .segunda-seccion-opcion-description {
-        font-size: 1.5rem;
-        width: 100%;
-    }
-    .servicios-segunda-seccion-content-container {
-        top: -27rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        margin-top: 270px;         
-    }
-    .servicios-segunda-seccion-opcion-image {
-        width: 10rem;
-    }
-   .servicios-segunda-seccion-opcion-text-container {
-        height: auto;
+        margin-bottom: 30rem;
     }
 
     .servicios-segunda-seccion-opciones-container {
-        margin-top: -278px;
-
+        margin-left: auto;
+        margin-right: auto;
     }
 }
+
+@media screen and (min-width: 1400px) {}
+
+@media screen and (min-width: 1500px) {}
