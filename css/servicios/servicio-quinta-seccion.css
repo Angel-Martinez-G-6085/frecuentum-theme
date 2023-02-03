@@ -63,3 +63,9 @@
     margin-top: 2rem;
     font-size: 2.5rem;
 }
+
+@media screen and (min-width: 1400px) {
+    .solucion-description {
+        font-size: 2.5;
+    }
+}
