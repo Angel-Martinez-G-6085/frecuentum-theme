@@ -18,7 +18,9 @@
 
 .hero-subtitle {
     justify-content: center;
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
     font-size: 2.7rem;
     margin-top: 10.4rem;
     color: var(--verde);
