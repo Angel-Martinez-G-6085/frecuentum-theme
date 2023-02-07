@@ -15,7 +15,7 @@
         </div>
     </section>
 
-    <section class="home-tercera-seccion-container contenedor-ancho grid col-2 peq-col-1">
+    <section class="home-tercera-seccion-container contenedor-ancho grid col-2">
         <div class="tercera-seccion-text">
             <div class="seccion-tres-title-container">
                 <h2 class="seccion-tres-title centrar">Estamos comprometidos</h2>
@@ -71,6 +71,9 @@
         </picture>
 
         <div class="cuarta-seccion-content-container grid col-1">
+            <div class="cuarta-seccion-primera-fila">
+                <div class="cuarta-seccion-titles-container"></div>
+            </div>
             <div class="cuarta-seccion-titles-container flex f-column">
                 <h2 class="cuarta-seccion-title titulo centrar">Nos respalda nuestra experiencia</h2>
                 <h4 class="cuarta-seccion-subtitle centrar">Nuestro equipo cuenta con más de 15 años de experiencia en el sector regulatorio en temas de radiodifusión y telecomunicaciones.</h4>
@@ -228,6 +231,6 @@
                 </a>
             </div>
         </div>
-            <?php get_footer();?>
     </section>
 </div>
+<?php get_footer();?>
