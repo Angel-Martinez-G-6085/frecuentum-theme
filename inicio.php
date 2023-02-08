@@ -21,7 +21,7 @@
                 <h2 class="seccion-tres-title centrar">Estamos comprometidos</h2>
             </div>
             <div class="seccion-tres-description-container">
-                <p class="seccion-tres-description centrar">Como profesionales nos comprometemos a ofrecer un servicio enfocado a dar solución a todo tipo de necesidades relacionadas con la prestación de servicios en telecomunicaciones y radiodifusión.</p>
+                <p class="seccion-tres-description centrar">Como profesionales nos comprometemos a ofrecer un servicio de confianza enfocado a dar solución a todo tipo de necesidad relacionada con la prestación de servicios en telecomunicaciones y radiodifusión</p>
             </div>
         </div>
 
@@ -72,12 +72,12 @@
 
         <div class="cuarta-seccion-content-container grid col-1">
             <div class="cuarta-seccion-primera-fila">
-                <div class="cuarta-seccion-titles-container"></div>
+                <div class="cuarta-seccion-titles-container flex f-column">
+                    <h2 class="cuarta-seccion-title titulo centrar">Nos respalda nuestra experiencia</h2>
+                    <h4 class="cuarta-seccion-subtitle centrar">Nuestro equipo cuenta con más de 15 años de experiencia en el sector regulatorio en temas de radiodifusión y telecomunicaciones.</h4>
+                </div>
             </div>
-            <div class="cuarta-seccion-titles-container flex f-column">
-                <h2 class="cuarta-seccion-title titulo centrar">Nos respalda nuestra experiencia</h2>
-                <h4 class="cuarta-seccion-subtitle centrar">Nuestro equipo cuenta con más de 15 años de experiencia en el sector regulatorio en temas de radiodifusión y telecomunicaciones.</h4>
-            </div>
+
             <div class="segunda-mitad">
                 <div class="cuarta-seccion-objetivos grid col-5 peq-col-1">
                     <div class="objetivo flex f-column">
@@ -86,6 +86,7 @@
                             <div class="objetivo-title-container">
                                 <h2 class="objetivo-title centrar">Misión</h2>
                             </div>
+
                             <div class="objetivo-text-container flex">
                                 <div class="objetivo-description-container flex">
                                     <p class="objetivo-description centrar">Brindar a nuestros clientes asesoría especializada en nuestras áreas de experiencia para el logro de los objetivos de la empresa.</p>
@@ -104,6 +105,7 @@
                             <div class="objetivo-title-container">
                                 <h2 class="objetivo-title centrar">Visión</h2>
                             </div>
+
                             <div class="objetivo-text-container flex">
                                 <div class="objetivo-description-container flex">
                                     <p class="objetivo-description centrar">Somos una opción innovadora para los concesionarios, autorizados e interesados en la prestación de los servicios públicos de telecomunicaciones y radiodifusión.</p>
@@ -126,6 +128,7 @@
                                 <div class="objetivo-description-container flex">
                                     <p class="objetivo-description centrar">Nos define el profesionalismo, experiencia, disciplina, responsabilidad y honestidad.</p>
                                 </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -133,7 +136,7 @@
         </div>
     </section>
 
-    <section class="home-quinta-seccion-container contenedor-ancho grid col-1">
+    <!-- <section class="home-quinta-seccion-container contenedor-ancho grid col-1">
         <div class="home-quinta-seccion-content-container grid col-2 peq-col-1">
             <div class="quinta-seccion-image-container">
                 <img class="quinta-seccion-image" src="<?php echo(IMG. 'imagenMano.webp')?>" alt="computadora-mano">
@@ -182,9 +185,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section class="octava-seccion-container contenedor-ancho grid col-1">
+    <!-- <section class="octava-seccion-container contenedor-ancho grid col-1">
         <div class="octava-seccion-image-container">
             <picture>
                 <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'contacto-nuevo-movil.webp')?>">
@@ -198,9 +201,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section class="seccion-mapa-container contenedor-ancho grid col-1">
+    <!-- <section class="seccion-mapa-container contenedor-ancho grid col-1">
         <div class="mapa-seccion-titles-container">
             <h2 class="mapa-seccion centrar">Te invitamos</h2>
             <h3 class="mapa-seccion-subtitles centrar">A descubrir más sobre nosotros y los servicios que ofrecemos.</h3>
@@ -231,6 +234,6 @@
                 </a>
             </div>
         </div>
-    </section>
+    </section> -->
 </div>
-<?php get_footer();?>
+<!-- <?php get_footer();?> -->

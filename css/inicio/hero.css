@@ -24,29 +24,31 @@
     font-size: 2.7rem;
     margin-top: 10.4rem;
     color: var(--verde);
-    letter-spacing: 15pt;
+    letter-spacing: 6pt;
 }
 
 /* estilos para el tamaño de laptop */
 @media screen and (max-width: 1280px) {
-
+    .hero-subtitle {
+        margin-top: 5.4rem;
+    }
 }
 
 /* estilos para el tamaño de tablet */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .hero-subtitle {
         width: 95%;
         font-size: 1.5rem;
         margin-left: auto;
         margin-right: auto;
     }
-}
+} */
 
 /* estilos para el tamaño de celular */
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) {
     .hero-subtitle {
         font-size: 1.2rem;
         margin-top: 2.4rem;
         letter-spacing: 5pt;
     }
-}
+} */
