@@ -65,7 +65,7 @@
     left: -100vw;
     width: 100vw;
     height: 100vh;
-    transition: transform 1s;
+    transition: left 1s;
 }
 
 .menu-cerrar-button-container {
@@ -135,10 +135,10 @@
 }
 
 .open-menu {
-    row-gap: 0;
     padding: 0;
     transition: all 1s;
-    transform: translateX(0%);
+    transform: left;
+    left: 0;
 }
 
 @keyframes smoothNav {

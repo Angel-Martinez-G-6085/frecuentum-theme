@@ -98,7 +98,7 @@
         <div class="servicios-quinta-seccion-banner">
             <picture>
                <source media="(max-width: 576px)" srcset="<?php echo(IMG. '3.webp')?>">
-               <img srcset="<?php echo(IMG. 'Foto-debajo-de-la-torre.webp')?>" alt="banner-image" loading="lazy" class="servicios-quinta-seccion-banner-image">
+               <img srcset="<?php echo(IMG. 'planeta.webp')?>" alt="banner-image" loading="lazy" class="servicios-quinta-seccion-banner-image">
             </picture>
             <div class="servicios-quinta-seccion-content-container grid col-1">
                 <div class="servicios-quinta-seccion-titles-container flex f-column">
@@ -121,7 +121,6 @@
                     <div class="quinta-seccion-solucion-container">
                         <p class="solucion-description centrar text-link">Solicitud de presentación de renuncia de concesión, permiso o autorización en materia de telecomunicaciones y radiodifusión.</p>
                     </div>
-                    <img src="<?php echo(IMG.'OndSeparador.png')?>" alt="" class="onda-servicios">
                 </div>
                 <div class="servicios-servicios-container">
                     <h2 class="servicios-title titulo centrar">Nuestro catálogo de servicios</h2>

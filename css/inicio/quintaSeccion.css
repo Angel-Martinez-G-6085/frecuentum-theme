@@ -14,7 +14,6 @@
 .quinta-seccion-image-container {
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
 
 .quinta-seccion-image {
@@ -62,12 +61,17 @@
 .quinta-seccion-content-buttons-container {
     width: 100%;
     height: 100%;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
 }
 
 
 /* estilos para el tamaño de laptop */
-@media screen and (max-width: 1500px) {
+@media screen and (min-width: 1200px) {
+    .quinta-seccion-image-container {
+        padding: 9% 5%;
+    }
+
     .quinta-seccion-servicios-container {
         row-gap: 2rem;
     }
@@ -75,10 +79,11 @@
     .quinta-seccion-content-container {
         width: 98%;
         margin: 0 auto;
+        padding: 9% 5%;
     }
 
     .quinta-seccion-servicio-description  {
-        font-size: 1.8rem;
+        font-size: clamp(1rem, 2vw + 1rem, 2rem);
     }
 
     .quinta-seccion-title {
@@ -92,10 +97,6 @@
 
     .quinta-seccion-servicio-icon {
         width: 6rem;
-    }
-
-    .quinta-seccion-content-buttons-container {
-        margin-top: 2rem;
     }
 }
 
@@ -112,5 +113,24 @@
     .quinta-seccion-title {
         font-size: 2rem;
         text-align: center;
+    }
+
+    .quinta-seccion-servicios-container {
+        row-gap: 3rem;
+    }
+
+    .quinta-seccion-servicio {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .quinta-seccion-servicio-description {
+        width: 90%;
+        margin: 0 auto;
+        text-align: justify;
+    }
+
+    .oculto {
+        display: none;
     }
 }

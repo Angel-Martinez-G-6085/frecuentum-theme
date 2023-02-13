@@ -162,6 +162,28 @@
     }
 }
 
+@media screen and (min-width: 1200px) {
+  .nosotros-septima-seccion-content-container {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    /* background-color: aqua; */
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .nosotros-septima-seccion-subtitle {
+    width: 90%;
+  }
+
+  .nosotros-slider-contenedor {
+    height: 60%;
+  }
+
+  .team-member-description {
+    text-align: justify;
+  }
+}
+
 /* estilos para el tamaño de celular */
 @media screen and (max-width: 576px)  {
   .nosotros-septima-seccion {

@@ -115,43 +115,61 @@
     line-height: 3rem;
 }
 
+@media screen and (max-width: 1200px) {
+    .cuarta-seccion-title {
+        font-size: 2.3rem;
+        margin-top: 1rem;
+    }
+}
+
 @media screen and (min-width: 769px) {
     .cuarta-seccion-primera-fila {
         width: 100%;
         height: calc(100% - 30%);
-        background-color: cadetblue;
+        /* background-color: cadetblue; */
         opacity: 0.6;
         align-self: flex-end;
         justify-content: center;
     }
     .cuarta-seccion-content-container {
-        grid-template-rows: 35% 65%;
+        grid-template-rows: 45% 55%;
+    }
+
+    .cuarta-seccion-objetivos {
+        align-content: center;
+        height: 100%;
     }
 
     .cuarta-seccion-title {
         margin-top: 0;
-        font-size: clamp(1.3rem, 2vw + 1rem, 3rem);
-        margin-bottom: 1%;
+        font-size: clamp(1.3rem, 2vw + 1rem, 5rem);
+        margin-bottom: 3%;
     }
 
     .cuarta-seccion-subtitle {
+        font-size: clamp(1.3rem, 2vw + 1rem, 2.5rem);
         margin-bottom: 3%;
+        text-align: justify;
+        width: unset;
     }
 
     .segunda-mitad {
         width: 100%;
         height: calc(100% - 8%);
-        background-color: violet;
+        /* background-color: violet; */
         opacity: 0.6;
     }
 
     .objetivo-title {
         font-size:clamp(1.3rem, 2vw + 1rem, 2rem);
-        margin: 5% 0;
+        padding: 5% 0;
     }
 
     .objetivo-description {
-        font-size:clamp(1.3rem, 2vw + 1rem, 1.5rem);;
+        width: unset;
+        margin: unset;
+        text-align: justify;
+        font-size:clamp(1rem, 2vw + 1rem, 1.8rem);;
     }
 }
 

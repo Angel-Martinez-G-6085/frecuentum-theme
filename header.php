@@ -16,7 +16,7 @@
             </div>
             <div class="nav-frequentum-container">
                 <a href="<?php echo site_url('/inicio'); ?>">
-                    <img class="nav-logo" src="<?php echo(IMG. 'Imagotipo-FREQUENTUM-1.svg')?>" alt="nav-logo">
+                    <img class="nav-logo" src="<?php echo(IMG. 'logo-freq.webp')?>" alt="nav-logo">
                 </a>
             </div>
                 <div class="nav-movil-button-container">

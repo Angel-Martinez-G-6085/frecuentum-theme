@@ -1,6 +1,6 @@
-<footer class="footer grid col-3">
+<footer class="footer grid col-4 peq-col-1">
         <div class="footer-description-column flex f-column">
-            <img class="footer-logo" src="<?php echo(IMG. 'Imagotipo-FREQUENTUM-1.svg')?>" alt="logo">
+            <img class="footer-logo" src="<?php echo(IMG. 'logo-freq.webp')?>" alt="logo">
             <div class="description-text-container flex f-column">
                 <p class="footer-description">Somos una consultoría boutique, formada por un equipo con más de 15 años de experiencia en el sector regulatorio de la radiodifusión y las telecomunicaciones.</p>
                 <div class="privacidad-text-container">
@@ -32,7 +32,6 @@
             </div>
         </div>
 
-        <div class="footerWrapper grid">
             <div class="footer-menu-column flex f-column">
                 <h4 class="footer-menu-title">FREQUENTUM</h4>
                 <div class="menu-pie-menu-container">
@@ -75,6 +74,5 @@
                     </a>
                 </div>
             </div>
-        </div>
     <?php wp_footer();?>
 </footer>
