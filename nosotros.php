@@ -25,7 +25,7 @@
         <div class="nosotros-segunda-seccion-content-container grid col-1">
             <div class="nosotros-segunda-seccion-text-container flex f-column">
                 <h4 class="nosotros-segunda-seccion-title centrar">¿Quiénes somos?</h4>
-                <p class="nosotros-segunda-seccion-subtitle">En FREQUENCYLEX CONSULTORÍA, somos una consultoría boutique, con un equipo que cuenta con más de 15 años de experiencia en el sector regulatorio de la radiodifusión y las telecomunicaciones, nuestro objetivo es brindar a nuestros clientes servicios jurídicos, técnicos y administrativos especializados</p>
+                <p class="nosotros-segunda-seccion-subtitle">FREQUENCYLEX consultoría, es un equipo conformado por un grupo de abogados con más de 10 años de experiencia en el sector regulatorio de la radiodifusión y las telecomunicaciones, nuestro objetivo es brindar servicios jurídicos y administrativos especializados en nuestras áreas de experiencia.</p>
             </div>
         </div>
     </section>

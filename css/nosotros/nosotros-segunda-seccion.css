@@ -138,6 +138,8 @@
 
     .nosotros-segunda-seccion-subtitle {
         font-size: clamp(2rem, 2vw + 1rem, 3rem);
+        text-align: justify;
+        word-spacing: 2.2px;
     }
 }
 

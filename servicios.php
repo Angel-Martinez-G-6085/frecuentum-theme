@@ -36,11 +36,11 @@
                                 <img class="servicios-segunda-seccion-opcion-image" src="<?php echo(ICON. 'torre-microfono-morado.svg')?>" alt="opcion-image">
                             </div>
                             <div class="servicios-segunda-seccion-opcion-text-container">
-                                <div class="segunda-seccion-opcion-title-container">
-                                    <h2 class="segunda-seccion-opcion-title contador" data-value="80">0</h2>
-                                </div>
                                 <div class="segunda-seccion-opcion-description-container">
                                     <p class="segunda-seccion-opcion-description">Solicitud de donación de equipos transmisores que hayan pasado a propiedad de la nación, como consecuencia de los supuestos establecidos en la Ley Federal de Telecomunicaciones y Radiodifusión.</p>
+                                </div>
+                                <div class="segunda-seccion-opcion-title-container">
+                                    <h2 class="segunda-seccion-opcion-title contador" data-value="80">0</h2>
                                 </div>
                             </div>
                         </div>
@@ -53,11 +53,11 @@
                                 <img class="servicios-segunda-seccion-opcion-image" src="<?php echo(ICON. 'sello-papel-morado.svg')?>" alt="opcion-image">
                             </div>
                             <div class="servicios-segunda-seccion-opcion-text-container">
-                                <div class="segunda-seccion-opcion-title-container">
-                                    <h2 class="segunda-seccion-opcion-title contador" data-value="60">0</h2>
-                                </div>
                                 <div class="segunda-seccion-opcion-description-container">
                                     <p class="segunda-seccion-opcion-description">Presentación de información técnica, legal, programática y económica por parte de concesionarios (uso comercial, público, social incluyendo comunitarias e indígenas) de estaciones de radiodifusión (AM, FM y TDT).</p>
+                                </div>
+                                <div class="segunda-seccion-opcion-title-container">
+                                    <h2 class="segunda-seccion-opcion-title contador" data-value="60">0</h2>
                                 </div>
                             </div>
                         </div>
@@ -67,11 +67,11 @@
                                 <img class="servicios-segunda-seccion-opcion-image" src="<?php echo(ICON. 'torre-morado.svg')?>" alt="opcion-image">
                             </div>
                             <div class="servicios-segunda-seccion-opcion-text-container">
-                                <div class="segunda-seccion-opcion-title-container">
-                                    <h2 class="segunda-seccion-opcion-title contador" data-value="45">0</h2>
-                                </div>
                                 <div class="segunda-seccion-opcion-description-container">
                                     <p class="segunda-seccion-opcion-description">Presentación anual de la información relativa a la fuente y destino de los ingresos de los concesionarios de uso social que presten el servicio de radiodifusión.</p>
+                                </div>
+                                <div class="segunda-seccion-opcion-title-container">
+                                    <h2 class="segunda-seccion-opcion-title contador" data-value="45">0</h2>
                                 </div>
                             </div>
                         </div>
@@ -81,11 +81,11 @@
                                 <img class="servicios-segunda-seccion-opcion-image" src="<?php echo(ICON. 'radio-morado.svg')?>" alt="opcion-image">
                             </div>
                             <div class="servicios-segunda-seccion-opcion-text-container">
-                                <div class="segunda-seccion-opcion-title-container">
-                                    <h2 class="segunda-seccion-opcion-title contador" data-value="30">0</h2>
-                                </div>
                                 <div class="segunda-seccion-opcion-description-container">
                                     <p class="segunda-seccion-opcion-description">Pago anual para el uso de frecuencias del espectro radioeléctrico.</p>
+                                </div>
+                                <div class="segunda-seccion-opcion-title-container">
+                                    <h2 class="segunda-seccion-opcion-title contador" data-value="30">0</h2>
                                 </div>
                             </div>
                         </div>

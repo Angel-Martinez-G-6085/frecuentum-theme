@@ -63,10 +63,15 @@
 
 @media screen and (min-width: 1200px) {
     .servicios-banner-description {
-        width: 90%;
+        width: 60%;
         margin: 0 auto;
         margin-bottom: 2.5rem;
         font-size: 2.5rem;
+        background: blue;
+        text-align: justify;
+        word-spacing: 4.6px;
+}
+
     }
 
     .servicios-banner-subtitle {
