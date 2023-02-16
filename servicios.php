@@ -97,7 +97,7 @@
     <section class="servicios-quinta-seccion contenedor-ancho grid col-1">
         <div class="servicios-quinta-seccion-banner">
             <picture>
-               <source media="(max-width: 576px)" srcset="<?php echo(IMG. '3.webp')?>">
+               <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'mundo-movil.webp')?>">
                <img srcset="<?php echo(IMG. 'planeta.webp')?>" alt="banner-image" loading="lazy" class="servicios-quinta-seccion-banner-image">
             </picture>
             <div class="servicios-quinta-seccion-content-container grid col-1">
@@ -209,7 +209,7 @@
                         <img src="<?php echo(ICON. "comillas 1.svg")?>" alt="" class="slider-comillas-abajo">
                     </div>
                     <h3 class="autor-slider">Hallie Flanagan</h3>
-                    <h3 class="autor-slider"></h3>
+                    <h3 class="autor-slider">Dramaturga, directora, autora y productora</h3>
                 </div>
             </div>
 

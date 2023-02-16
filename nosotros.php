@@ -58,7 +58,7 @@
                         <img src="<?php echo(ICON. "comillas 1.svg")?>" alt="" class="slider-comillas-abajo">
                     </div>
                     <h3 class="autor-slider">Hallie Flanagan</h3>
-                    <h3 class="autor-slider"></h3>
+                    <h3 class="autor-slider">Dramaturga, directora, autora y productora</h3>
                 </div>
             </div>
 
