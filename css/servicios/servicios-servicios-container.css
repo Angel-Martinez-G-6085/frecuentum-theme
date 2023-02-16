@@ -53,13 +53,33 @@
 }
 
 /* estilos para el tamaño de laptop */
-@media screen and (max-width: 1500px) {
+@media screen and (min-width: 1200px) {
+    .servicios-quinta-seccion-content-container {
+        left: 0;
+        height: 80%;
+    }
+
     .servicios-servicios-container {
+        top: 125%;
         left: 31.3rem;
     }
 
     .servicios-title {
         font-size: 4.5rem;
+    }
+
+    .servicios-quinta-seccion-title {
+        font-size: clamp(1rem, 2vw + 1rem, 1.7rem);
+    }
+
+    .servicios-quinta-seccion-subtitle {
+        font-size: clamp(2rem, 2vw + 1rem, 5.5rem);
+    }
+
+    .solucion-description {
+        font-size: clamp(1.3rem, 2vw + 1rem, 2rem);
+        cursor: pointer;
+        padding-bottom: 8%;
     }
 }
 
@@ -70,6 +90,8 @@
         left: 1rem;
         width: 95%;
         top: 1rem;
+        padding: 2rem;
+        grid-template-rows: unset;
     }
     .servicios-opciones-container {
         height: 32rem;

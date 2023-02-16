@@ -44,7 +44,13 @@
 }
 
 /* estilos para el tamaño de laptop */
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1200px) {
+    .octava-seccion-title {
+        font-size: clamp(2rem, 2vw + 1rem, 4rem);
+        margin-bottom: 3%;
+        font-weight: 100;
+    }
+
     .sexta-seccion-subtitle {
         font-size: 5rem;
     }
@@ -53,12 +59,16 @@
 /* estilos para el tamaño de celular */
 @media screen and (max-width: 576px) {
     .octava-seccion-title {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         margin-bottom: 2rem;
     }
 
     .sexta-seccion-subtitle {
         font-size: 2rem;
         margin-bottom: 2rem;
+    }
+
+    .octava-seccion-button {
+        font-size: 2.2rem;
     }
 }

@@ -20,6 +20,7 @@
     color: var(--blanco);
     font-size: 1.8rem;
     margin-bottom: 1.5rem;
+    text-align: justify;
 }
 
 .description-text-container {
@@ -222,18 +223,17 @@
 }
 /* estilos para el tamaño de celular */
 @media screen and (max-width: 576px) {
-    .footer {
-        height: 80rem;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        gap: 0;
+
+    .footer-description-column {
+        justify-content: center;
+        align-items: center;
     }
 
     .footer-logo {
         margin: 0;
         margin-top: 5rem;
         margin-bottom: 2rem;
-        width: 18rem;
+        width: 25rem;
     }
 
     .description-text-container {
@@ -246,16 +246,20 @@
         margin: 0;
     }
 
-    .footerWrapper {
-        grid-template-rows: repeat(2, 1fr);
-        row-gap: 0;
-        grid-column-start: 2;
-        grid-column-end: 3;
-        column-gap: 0;
+    .footer-menu-column {
+        grid-row-start: 3;
+    }
+
+    .footer-phone-section,
+    .footer-mail-section,
+    .footer-location-seccion {
+        flex-direction: column;
+        align-items: center;
     }
 
     .footer-mascota-container {
         grid-column-start: unset;
+        grid-row-start: 4;
     }
 
     .footer-menu-title {
@@ -271,9 +275,11 @@
 
     .footer-mascota-icons-container {
         margin: 0;
+        justify-content: space-around;
     }
 
     .footer-mascota-icon {
         margin: 0;
+        width: 5rem;
     }
 }

@@ -25,112 +25,8 @@
         <div class="nosotros-segunda-seccion-content-container grid col-1">
             <div class="nosotros-segunda-seccion-text-container flex f-column">
                 <h4 class="nosotros-segunda-seccion-title centrar">¿Quiénes somos?</h4>
-                <p class="nosotros-segunda-seccion-subtitle">En FREQUENTUM Consultoría, S.C., somos una consultoría boutique, con un equipo que cuenta con más de 15 años de experiencia en el sector regulatorio de la radiodifusión y las telecomunicaciones, nuestro objetivo es brindar a nuestros clientes servicios jurídicos, técnicos y administrativos especializados.</p>
+                <p class="nosotros-segunda-seccion-subtitle">En FREQUENCYLEX CONSULTORÍA, somos una consultoría boutique, con un equipo que cuenta con más de 15 años de experiencia en el sector regulatorio de la radiodifusión y las telecomunicaciones, nuestro objetivo es brindar a nuestros clientes servicios jurídicos, técnicos y administrativos especializados</p>
             </div>
-        </div>
-    </section>
-
-    <section class="nosotros-septima-seccion contenedor-ancho grid col-1 peq-col-1">
-        <div class="nosotros-septima-seccion-titles-container">
-            <h2 class="nosotros-septima-seccion-title centrar">Nuestro equipo</h2>
-            <h3 class="nosotros-septima-seccion-subtitle centrar">Ellos son una parte importante para nosotros, ya que trabajando junto con ellos buscamos darles una mejor calidad de atención</h3>
-        </div>
-        <div class="nosotros-slider-contenedor">
-            <div class="nosotros-slider">
-                <div class="slider__element slider__element--lightcoral grid col-2">
-                    <div class="team-description-content-container grid col-1">
-                        <div class="team-description-content">
-                            <p class="team-member-description">Ingeniera en Comunicaciones y Electrónica por el Instituto Politécnico Nacional, actualmente cursa la Maestría en Regulación y Competencia Económica en Telecomunicaciones, en el Centro de Investigación e Innovación en TIC. Tiene más de 18 años de experiencia en el sector de las telecomunicaciones y radiodifusión.</p>
-                            <h2 class="team-name">Bianidxi Resendiz</h2>
-                        </div>
-
-                        <div class="team-member-icons-container flex">
-                            <a class="nosotros-team-link" href="#">
-                                <img src="<?php echo(ICON . 'whattsIcon.svg')?>" alt="" class="team-card-icon">
-                            </a>
-                            <a class="nosotros-team-link" href="#">
-                                <img src="<?php echo(ICON . 'facebook-icon.svg')?>" alt="" class="team-card-icon">
-                            </a>
-                            <a class="nosotros-team-link" href="#">
-                                <img src="<?php echo(ICON . 'instagramIcon.svg')?>" alt="" class="team-card-icon">
-                            </a>
-                            <a class="nosotros-team-link" target="_blank" href="https://twitter.com/ACEc_1">
-                                <img src="<?php echo(ICON . 'twiter-icon.svg')?>" alt="" class="team-card-icon">
-                            </a>
-                            <a class="nosotros-team-link" target="_blank" href="https://www.linkedin.com/in/adriana-cortes-741528169/">
-                                <img src="<?php echo(ICON . 'linkedin-icon.svg')?>" alt="" class="team-card-icon">
-                            </a>
-                        </div>
-                        <img src="<?php echo(IMG . 'OndSeparador.png')?>" alt="" class="nosotros-onda-image">
-                    </div>
-                    <div class="team-foto-container persona-1"></div>
-                </div>
-
-                <div class="slider__element slider__element--lightcoral grid col-2">
-                    <div class="team-description-content-container grid col-1">
-                        <div class="team-description-content">
-                            <p class="team-member-description">Ingeniera en Comunicaciones y Electrónica por el Instituto Politécnico Nacional, actualmente cursa la Maestría en Regulación y Competencia Económica en Telecomunicaciones, en el Centro de Investigación e Innovación en TIC. Tiene más de 18 años de experiencia en el sector de las telecomunicaciones y radiodifusión.</p>
-                            <h2 class="team-name">Bianidxi Resendiz</h2>
-                        </div>
-
-                        <div class="team-member-icons-container flex">
-                            <a class="nosotros-team-link" href="#">
-                                <img src="<?php echo(ICON . 'whattsIcon.svg')?>" alt="" class="team-card-icon">
-                            </a>
-                            <a class="nosotros-team-link" href="#">
-                                <img src="<?php echo(ICON . 'facebook-icon.svg')?>" alt="" class="team-card-icon">
-                            </a>
-                            <a class="nosotros-team-link" href="#">
-                                <img src="<?php echo(ICON . 'instagramIcon.svg')?>" alt="" class="team-card-icon">
-                            </a>
-                            <a class="nosotros-team-link" target="_blank" href="https://twitter.com/ACEc_1">
-                                <img src="<?php echo(ICON . 'twiter-icon.svg')?>" alt="" class="team-card-icon">
-                            </a>
-                            <a class="nosotros-team-link" target="_blank" href="https://www.linkedin.com/in/adriana-cortes-741528169/">
-                                <img src="<?php echo(ICON . 'linkedin-icon.svg')?>" alt="" class="team-card-icon">
-                            </a>
-                        </div>
-                        <img src="<?php echo(IMG . 'OndSeparador.png')?>" alt="" class="nosotros-onda-image">
-                    </div>
-                    <div class="team-foto-container persona-2"></div>
-                </div>
-
-                <div class="slider__element slider__element--lightcoral grid col-2">
-                    <div class="team-description-content-container grid col-1">
-                        <div class="team-description-content">
-                            <p class="team-member-description">Ingeniera en Comunicaciones y Electrónica por el Instituto Politécnico Nacional, actualmente cursa la Maestría en Regulación y Competencia Económica en Telecomunicaciones, en el Centro de Investigación e Innovación en TIC. Tiene más de 18 años de experiencia en el sector de las telecomunicaciones y radiodifusión.</p>
-                            <h2 class="team-name">Bianidxi Resendiz</h2>
-                        </div>
-
-                        <div class="team-member-icons-container flex">
-                            <a class="nosotros-team-link" href="#">
-                                <img src="<?php echo(ICON . 'whattsIcon.svg')?>" alt="" class="team-card-icon">
-                            </a>
-                            <a class="nosotros-team-link" href="#">
-                                <img src="<?php echo(ICON . 'facebook-icon.svg')?>" alt="" class="team-card-icon">
-                            </a>
-                            <a class="nosotros-team-link" href="#">
-                                <img src="<?php echo(ICON . 'instagramIcon.svg')?>" alt="" class="team-card-icon">
-                            </a>
-                            <a class="nosotros-team-link" target="_blank" href="https://twitter.com/ACEc_1">
-                                <img src="<?php echo(ICON . 'twiter-icon.svg')?>" alt="" class="team-card-icon">
-                            </a>
-                            <a class="nosotros-team-link" target="_blank" href="https://www.linkedin.com/in/adriana-cortes-741528169/">
-                                <img src="<?php echo(ICON . 'linkedin-icon.svg')?>" alt="" class="team-card-icon">
-                            </a>
-                        </div>
-                        <img src="<?php echo(IMG . 'OndSeparador.png')?>" alt="" class="nosotros-onda-image">
-                    </div>
-                    <div class="team-foto-container persona-3"></div>
-                </div>
-            </div>
-        </div>
-        <div class="flecha-azul button-left">
-            <img class="flecha-azul button-left" src="<?php echo(ICON . 'flecha_azul_izquierda.svg')?>" alt="">
-        </div>
-        
-        <div class="flecha-azul button-right">
-            <img src="<?php echo(ICON . 'flecha_azul_derecha.svg')?>" alt="">
         </div>
     </section>
 
@@ -162,7 +58,7 @@
                         <img src="<?php echo(ICON. "comillas 1.svg")?>" alt="" class="slider-comillas-abajo">
                     </div>
                     <h3 class="autor-slider">Hallie Flanagan</h3>
-                    <h3 class="autor-slider"></h3>
+                    <h3 class="autor-slider">Dramaturga, directora, autora y productora</h3>
                 </div>
             </div>
 
@@ -195,6 +91,114 @@
                     <h3 class="autor-slider">Abogado</h3>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section class="nosotros-septima-seccion contenedor-ancho grid col-1 peq-col-1">
+        <div class="nosotros-septima-seccion-content-container">
+            <div class="nosotros-septima-seccion-titles-container">
+                <h2 class="nosotros-septima-seccion-title centrar">Nuestro equipo</h2>
+                <h3 class="nosotros-septima-seccion-subtitle centrar">Ellos son una parte importante para nosotros, ya que trabajando <br> junto con ellos buscamos darles una mejor calidad de atención</h3>
+            </div>
+
+            <div class="nosotros-slider-contenedor">
+                <div class="nosotros-slider">
+                    <div class="slider__element slider__element--lightcoral grid col-2">
+                        <div class="team-description-content-container grid col-1">
+                            <div class="team-description-content">
+                                <p class="team-member-description">Licenciada en Derecho con especialización en Derecho Administrativo, ambas, por la Universidad Nacional Autónoma de México, con más de 10 años de experiencia en regulación de los servicios públicos de radiodifusión y telecomunicaciones</p>
+                                <h2 class="team-name">Bianidxi Resendiz</h2>
+                            </div>
+
+                            <div class="team-member-icons-container flex">
+                                <a class="nosotros-team-link" href="#">
+                                    <img src="<?php echo(ICON . 'whattsIcon.svg')?>" alt="" class="team-card-icon">
+                                </a>
+                                <a class="nosotros-team-link" href="#">
+                                    <img src="<?php echo(ICON . 'facebook-icon.svg')?>" alt="" class="team-card-icon">
+                                </a>
+                                <a class="nosotros-team-link" href="#">
+                                    <img src="<?php echo(ICON . 'instagramIcon.svg')?>" alt="" class="team-card-icon">
+                                </a>
+                                <a class="nosotros-team-link" target="_blank" href="https://twitter.com/ACEc_1">
+                                    <img src="<?php echo(ICON . 'twiter-icon.svg')?>" alt="" class="team-card-icon">
+                                </a>
+                                <a class="nosotros-team-link" target="_blank" href="https://www.linkedin.com/in/adriana-cortes-741528169/">
+                                    <img src="<?php echo(ICON . 'linkedin-icon.svg')?>" alt="" class="team-card-icon">
+                                </a>
+                            </div>
+                            <img src="<?php echo(IMG . 'OndSeparador.png')?>" alt="" class="nosotros-onda-image">
+                        </div>
+                        <div class="team-foto-container persona-1"></div>
+                    </div>
+
+                    <div class="slider__element slider__element--lightcoral grid col-2">
+                        <div class="team-description-content-container grid col-1">
+                            <div class="team-description-content">
+                                <p class="team-member-description">Ingeniera en Comunicaciones y Electrónica por el Instituto Politécnico Nacional, actualmente cursa la Maestría en Regulación y Competencia Económica en Telecomunicaciones, en el Centro de Investigación e Innovación en TIC. Tiene más de 18 años de experiencia en el sector de las telecomunicaciones y radiodifusión.</p>
+                                <h2 class="team-name">Bianidxi Resendiz</h2>
+                            </div>
+
+                            <div class="team-member-icons-container flex">
+                                <a class="nosotros-team-link" href="#">
+                                    <img src="<?php echo(ICON . 'whattsIcon.svg')?>" alt="" class="team-card-icon">
+                                </a>
+                                <a class="nosotros-team-link" href="#">
+                                    <img src="<?php echo(ICON . 'facebook-icon.svg')?>" alt="" class="team-card-icon">
+                                </a>
+                                <a class="nosotros-team-link" href="#">
+                                    <img src="<?php echo(ICON . 'instagramIcon.svg')?>" alt="" class="team-card-icon">
+                                </a>
+                                <a class="nosotros-team-link" target="_blank" href="https://twitter.com/ACEc_1">
+                                    <img src="<?php echo(ICON . 'twiter-icon.svg')?>" alt="" class="team-card-icon">
+                                </a>
+                                <a class="nosotros-team-link" target="_blank" href="https://www.linkedin.com/in/adriana-cortes-741528169/">
+                                    <img src="<?php echo(ICON . 'linkedin-icon.svg')?>" alt="" class="team-card-icon">
+                                </a>
+                            </div>
+                            <img src="<?php echo(IMG . 'OndSeparador.png')?>" alt="" class="nosotros-onda-image">
+                        </div>
+                        <div class="team-foto-container persona-2"></div>
+                    </div>
+
+                    <div class="slider__element slider__element--lightcoral grid col-2">
+                        <div class="team-description-content-container grid col-1">
+                            <div class="team-description-content">
+                                <p class="team-member-description">Ingeniera en Comunicaciones y Electrónica por el Instituto Politécnico Nacional, actualmente cursa la Maestría en Regulación y Competencia Económica en Telecomunicaciones, en el Centro de Investigación e Innovación en TIC. Tiene más de 18 años de experiencia en el sector de las telecomunicaciones y radiodifusión.</p>
+                                <h2 class="team-name">Bianidxi Resendiz</h2>
+                            </div>
+
+                            <div class="team-member-icons-container flex">
+                                <a class="nosotros-team-link" href="#">
+                                    <img src="<?php echo(ICON . 'whattsIcon.svg')?>" alt="" class="team-card-icon">
+                                </a>
+                                <a class="nosotros-team-link" href="#">
+                                    <img src="<?php echo(ICON . 'facebook-icon.svg')?>" alt="" class="team-card-icon">
+                                </a>
+                                <a class="nosotros-team-link" href="#">
+                                    <img src="<?php echo(ICON . 'instagramIcon.svg')?>" alt="" class="team-card-icon">
+                                </a>
+                                <a class="nosotros-team-link" target="_blank" href="https://twitter.com/ACEc_1">
+                                    <img src="<?php echo(ICON . 'twiter-icon.svg')?>" alt="" class="team-card-icon">
+                                </a>
+                                <a class="nosotros-team-link" target="_blank" href="https://www.linkedin.com/in/adriana-cortes-741528169/">
+                                    <img src="<?php echo(ICON . 'linkedin-icon.svg')?>" alt="" class="team-card-icon">
+                                </a>
+                            </div>
+                            <img src="<?php echo(IMG . 'OndSeparador.png')?>" alt="" class="nosotros-onda-image">
+                        </div>
+                        <div class="team-foto-container persona-3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flecha-azul button-left">
+            <img class="flecha-azul button-left" src="<?php echo(ICON . 'flecha_azul_izquierda.svg')?>" alt="">
+        </div>
+        
+        <div class="flecha-azul button-right">
+            <img src="<?php echo(ICON . 'flecha_azul_derecha.svg')?>" alt="">
         </div>
     </section>
 

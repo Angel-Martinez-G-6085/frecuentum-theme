@@ -129,9 +129,15 @@
 }
 
 /* estilos para el tamaño de laptop */
-@media screen and (max-width: 1500px) {
-    .nosotros-segunda-seccion {
-        margin-top: -9%;
+@media screen and (min-width: 1200px) {
+    .nosotros-segunda-seccion-title {
+        margin-top: 0;
+        margin-bottom: 4%;
+        font-size: clamp(2rem, 2vw + 1rem, 5.5rem);
+    }
+
+    .nosotros-segunda-seccion-subtitle {
+        font-size: clamp(2rem, 2vw + 1rem, 3rem);
     }
 }
 

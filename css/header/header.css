@@ -1,49 +1,31 @@
 .header {
-    position: relative;
-    grid-template-columns: 30% 70%;
     width: 100%;
-    height: 100px;
-    background-color: #1d3a4d;
+    height: 10vh;
+    position: relative;
+    background-color:var(--azul-oscuro);
+}
+
+.header__nav__logos-container {
+    width: 10rem;
 }
 
 .header__nav__logos-container {
     display: flex;
     width: 100%;
-    height: 100%;
-}
-
-.nav__mascota-container {
-    position: relative;
-    width: 50%;
-    height: 100%;
-}
-
-.mascota {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-}
-
-.nav-frequentum-container {
-    position: relative;
-    width: 50%;
-    height: 100%;
+    justify-content: space-between;
+    margin-top: 1rem;
 }
 
 .nav-logo {
-    width: 100%;
-    height: 100%;
+    display: none;
 }
 
-.menu-top-container {
-    width: 70%;
-    height: 100%;
+.nav__mascota-container {
+    width: 10rem;
 }
 
-.header__menu {
-    width: 95%;
-    height: 100%;
-    margin: 0 auto;
+.nav-movil-button-container {
+    width: 6rem;
 }
 
 .nav-frequentum-container::before {
@@ -75,12 +57,22 @@
 }
 
 .nav__menu {
-    padding: 0;
-    position: relative;
-    height: 100%;
+    position: absolute;
+    background-color: var(--azul-oscuro);
     margin: 0;
-    font-size: 18px;
-    transition: transform 1s;
+    padding: 0;
+    top: 0;
+    left: -100vw;
+    width: 100vw;
+    height: 100vh;
+    transition: left 1s;
+}
+
+.menu-cerrar-button-container {
+    width: 8rem;
+    position: absolute;
+    top: 0;
+    left: 80%;
 }
 
 .menu-link {
@@ -124,6 +116,10 @@
     display: none;
 }
 
+.mobile-link-inicio {
+    align-items: flex-end;
+}
+
 .fixed {
     z-index: 1;
     position: fixed;
@@ -138,12 +134,11 @@
     height: 100%;
 }
 
-.nav-movil-icon {
-    display: none;
-}
-
-.menu-cerrar-button-container {
-    display: none;
+.open-menu {
+    padding: 0;
+    transition: all 1s;
+    transform: left;
+    left: 0;
 }
 
 @keyframes smoothNav {
@@ -155,201 +150,62 @@
     }
 }
 
-/* estilos para el tamaño de laptop */
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 769px) {
     .header {
-        grid-template-columns: 26% 70%;
-    }
-    
-    .nav__menu li {
-        margin-right: 20px;
+        column-gap: 0;
+        height: 100px;
+        grid-template-columns: 30% 70%;
     }
 
-    .icono-busqueda {
-        margin-left: 1rem;
-    }
-
-    .mascota {
-        height: 88px;
-    }
-}
-
-/* estilos para el tamaño de tablet */
-@media screen  and (max-width: 768px) {
-    .header {
-        height: 7vh;
+    .nav-frequentum-container {
+        display: flex;
+        align-items: center;
         position: relative;
-        grid-template-columns: 1fr;
-    }
-    .fixed {
-        position: fixed !important;
-        z-index: 2;
-        opacity: unset;
+        width: 50%;
+        height: 100%;
     }
 
     .nav__mascota-container {
         display: flex;
-        width: 23%;
-        justify-content: flex-start;
-        align-items: unset;
-    }
-
-    .mascota {
-        height: unset;
-    }
-
-    .nav-frequentum-container {
-        display: none;
-    }
-
-    .header__nav__logos-container {
-        width: 100%;
-    }
-
-    .menu-top-container {
-        width: unset;
-    }
-
-    .nav-movil-button-container {
-        display: flex;
-        justify-content: flex-end;
-        margin-right: 4%;
-        width: 100%;
-        margin-top: 2rem;
-    }
-
-    .nav-movil-icon {
-        display: block;
-        width: 5rem;
-    }
-
-    .nav__menu {
-        position: absolute;
-        width: 100vw;
-        height: 100vh;
-        grid-template-columns: 1fr;
-        top: 0;
-        left: 0;
-        background-color: var(--azul-oscuro);
-        transform: translateX(-100%);
+        align-items: center;
+        width: 18rem;
     }
 
     .nav-logo {
-        height: unset;
-    }
-
-    .menu-link {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .header__menu-container {
-        width: 0;
-    }
-
-    .open-menu {
-        row-gap: 0;
-        padding: 0;
-        transition: all 1s;
-        transform: translateX(0%);
-    }
-
-    .menu-cerrar-button-container {
         display: block;
-        position: absolute;
-        top: 0;
-        right: 3%;
-        width: 6rem;
-    }
-}
-
-/* estilos para el tamaño de celular */
-@media screen and (max-width: 576px) {
-    .header {
-        height: 7vh;
-        position: relative;
-        grid-template-columns: 1fr;
-    }
-    .fixed {
-        position: fixed !important;
-        z-index: 2;
-        opacity: unset;
-    }
-
-    .nav__mascota-container {
-        display: flex;
-        width: 45%;
-        justify-content: flex-start;
-        align-items: center;
-    }
-
-    .mascota {
-        height: unset;
-    }
-
-    .nav-frequentum-container {
-        display: none;
-    }
-
-    .header__nav__logos-container {
-        width: 100%;
-    }
-
-    .menu-top-container {
-        width: unset;
     }
 
     .nav-movil-button-container {
-        display: flex;
-        justify-content: flex-end;
-        margin-right: 10%;
-        width: 100%;
-        margin-top: 1rem;
-    }
-
-    .nav-movil-icon {
-        display: block;
-        width: 5rem;
+        display: none;
     }
 
     .nav__menu {
-        position: absolute;
-        width: 100vw;
-        height: 100vh;
-        grid-template-columns: 1fr;
-        top: 0;
-        left: 0;
-        background-color: var(--azul-oscuro);
-        transform: translateX(-100%);
+        grid-template-columns: repeat(4, 1fr);
+        position: unset;
+        background-color: unset;
+        margin: unset;
+        width: unset;
+        height: 100%;
+        transition: unset;
     }
 
-    .nav-logo {
-        height: unset;
-    }
-
-    .menu-link {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .header__menu-container {
-        width: 0;
-    }
-
-    .open-menu {
-        row-gap: 0;
-        padding: 0;
-        transition: all 1s;
-        transform: translateX(0%);
+    .mobile-link-inicio {
+        display: none;
     }
 
     .menu-cerrar-button-container {
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 3%;
-        width: 6rem;
+        display: none;
+    }
+
+    .menu-link {
+        font-size: 1.5rem;
     }
 }
+
+@media screen and (min-width: 1400px) {
+    .menu-link {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1500px) {}

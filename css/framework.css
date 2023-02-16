@@ -59,7 +59,7 @@ VARIABLES
     --morado: #903f8f;
     --verde: #71b531;
     --azul-oscuro: #263b4e;
-    --morado-claro: #9babd8;
+    --morado-claro: #cad7ed;
     --fuente: 'Roboto', sans-serif;
     --ancho-contenedor: 1200px;
 }
@@ -244,7 +244,7 @@ UTILIDADES
     font-size: 2rem;
     background-color: var(--morado-claro);
     color: black;
-    padding: 1.5rem 2rem;
+    padding: 1.3rem 3rem;
     border-radius: 20px;
     font-weight: bold;
 }

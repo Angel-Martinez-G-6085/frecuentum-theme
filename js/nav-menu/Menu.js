@@ -20,6 +20,7 @@ $(document).ready(function(){
 function abrirMenu() {
     openButton.addEventListener("click", () => {
         HeaderMenu.classList.add('open-menu');
+        console.log("hola amigo");
     })
 }
 

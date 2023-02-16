@@ -1,3 +1,7 @@
+.servicios-quinta-seccion {
+    margin-top: -40px;
+}
+
 .servicios-quinta-seccion-banner {
     position: relative;
     width: 100%;
@@ -11,13 +15,11 @@
 }
 
 .servicios-quinta-seccion-content-container {
-    grid-template-rows: 40% 50%;
+    grid-template-rows: 25% 75%;
     position: absolute;
     top: 0;
     left: -20px;
     width: 100%;
-    height: 100%;
-    /* background-color: brown; */
 }
 
 .servicios-quinta-seccion-titles-container {
@@ -27,19 +29,21 @@
 
 .servicios-quinta-seccion-title {
     padding-top: 4rem;
-    font-size: 2.5rem;
+    font-size: 1.3rem;
 }
 
 .servicios-quinta-seccion-subtitle {
-    font-size: 6rem;
-    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
 }
 
 .servicios-quinta-seccion-soluciones-container {
-    height: 64%;
+    height: auto;
+    margin-left: 2rem;
 }
 
 .quinta-seccion-solucion-container {
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,7 +56,7 @@
     height: 100%;
     display: flex;
     align-items: center;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 
 .solucion-number {
@@ -60,59 +64,15 @@
     font-size: 2.5rem;
 }
 
-.onda-servicios {
-    position: absolute;
-    top: 2%;
-    left: 76%;
-    width: 40rem;
-}
-
-/* estilos para el tamaño de laptop */
-@media screen and (max-width: 1500px) {
+@media screen and (min-width: 1400px) {
     .solucion-description {
-        font-size: 2rem;
-    }
-
-    .onda-servicios {
-        left: 75%;
-        width: 32rem;
+        font-size: 2.5;
     }
 }
 
-/* estilos para el tamaño de movil */
-@media screen and (max-width: 576px) {
-    .onda-servicios {
-        right: 0;
-        width: 12rem;
-        top: -15px;
-        left:auto;
-    }
-    .servicios-quinta-seccion {
-        margin-top: -40px;
-    }
-    .servicios-quinta-seccion-title {
-        font-size: 1.3rem;
-    }
-    .servicios-quinta-seccion-subtitle {
-        font-size: 2.5rem;
-        margin-bottom: 1rem;
-    }
-    .solucion-description {
-        font-size: 1.5rem;
-    }
-    .servicios-quinta-seccion-soluciones-container {
-        height: auto;
-        margin-left: 2rem;
-        margin-right: 2rem;
-    }        
+@media screen and (min-width: 375px) {
     .servicios-quinta-seccion-content-container {
-        /* top: -4rem; */
-        grid-template-rows: 10% 50%;
+        grid-template-rows: unset;
         left: 0;
     }
-    .quinta-seccion-solucion-container {
-        width: auto;
-    }
 }
-
-

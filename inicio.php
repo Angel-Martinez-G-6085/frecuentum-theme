@@ -10,35 +10,35 @@
         </picture>
 
         <div class="banner-container contenedor-ancho flex f-column">
-            <img class="Imagotipo" loading="lazy" src="<?php echo(IMG. 'Imagotipo-FREQUENTUM-1.svg')?>" alt="Imagotipo">
+            <img class="Imagotipo" loading="lazy" src="<?php echo(IMG. 'logo-svg.svg')?>" alt="Imagotipo">
             <h3 class="hero-subtitle flex">"Soluciones en movimiento"</h3>
         </div>
     </section>
 
-    <section class="home-tercera-seccion-container contenedor-ancho grid col-2 peq-col-1">
+    <section class="home-tercera-seccion-container contenedor-ancho grid col-2">
         <div class="tercera-seccion-text">
             <div class="seccion-tres-title-container">
                 <h2 class="seccion-tres-title centrar">Estamos comprometidos</h2>
             </div>
             <div class="seccion-tres-description-container">
-                <p class="seccion-tres-description centrar">Como profesionales nos comprometemos a ofrecer un servicio enfocado a dar solución a todo tipo de necesidades relacionadas con la prestación de servicios en telecomunicaciones y radiodifusión.</p>
+                <p class="seccion-tres-description centrar">Como profesionales nos comprometemos a ofrecer un servicio de confianza enfocado a dar solución a todo tipo de necesidad relacionada con la prestación de servicios en telecomunicaciones y radiodifusión</p>
             </div>
         </div>
 
         <div class="tercera-seccion-cards grid col-2">
             <div class="tercera-seccion-card flex f-column">
                 <div class="tercera-seccion-icon-card-container">
-                    <img loading="lazy" class="icon-card" src="<?php echo(ICON. 'copa.svg')?>" alt="">
+                    <img loading="lazy" class="icon-card" src="<?php echo(ICON. 'nueva-copa.svg')?>" alt="">
                 </div>
                 <div class="tercera-seccion-text-card-container">
                     <h2 class="tercera-seccion-title-card">Conoce todo sobre tu trámite</h2>
-                    <p class="tercera-seccion-description-card">Abarcando de forma extensa los servicios, trámites y servicios ligados a las telecomunicaciones y la radiodifusión.</p>
+                    <p class="tercera-seccion-description-card">Abarcando de forma extensa los diversos trámites y obligaciones ligadas a la prestación de servicios relacionados con las telecomunicaciones y la radiodifusión</p>
                 </div>
             </div>
 
             <div class="tercera-seccion-card flex f-column">
                 <div class="tercera-seccion-icon-card-container">
-                    <img loading="lazy" class="icon-card" src="<?php echo(ICON. 'copa.svg')?>" alt="">
+                    <img loading="lazy" class="icon-card" src="<?php echo(ICON. 'clip-icon.svg')?>" alt="">
                 </div>
                 <div class="tercera-seccion-text-card-container">
                     <h2 class="tercera-seccion-title-card">Conoce nuestros principales servicios</h2>
@@ -52,13 +52,13 @@
                 <img class="foto-torre" src="<?php echo(IMG. 'Foto torre.webp')?>" alt="foto-torre">
             </div>
         </div>
-        <div class="tercera-seccion-buttons-container grid col-2">
+            <div class="tercera-seccion-buttons-container grid col-2">
                 <div class="tercera-seccion-button-container">
                     <a class="tercera-seccion-button button" href="<?php echo site_url('/herramienta');?>">Conoce más</a>
                 </div>
 
                 <div class="tercera-seccion-button-container">
-                    <a class="tercera-seccion-button button" href="<?php echo site_url('/servicios');?>">Servicios</a>
+                    <a class=" button tercera-seccion-button" href="<?php echo site_url('/servicios');?>">Servicios</a>
                 </div>
             </div>
     </section>
@@ -71,10 +71,13 @@
         </picture>
 
         <div class="cuarta-seccion-content-container grid col-1">
-            <div class="cuarta-seccion-titles-container flex f-column">
-                <h2 class="cuarta-seccion-title titulo centrar">Nos respalda nuestra experiencia</h2>
-                <h4 class="cuarta-seccion-subtitle centrar">Nuestro equipo cuenta con más de 15 años de experiencia en el sector regulatorio en temas de radiodifusión y telecomunicaciones.</h4>
+            <div class="cuarta-seccion-primera-fila">
+                <div class="cuarta-seccion-titles-container flex f-column">
+                    <h2 class="cuarta-seccion-title titulo centrar">Nos respalda nuestra experiencia</h2>
+                    <h4 class="cuarta-seccion-subtitle centrar">Nuestro equipo cuenta con más de 15 años de experiencia en el <br> sector regulatorio en temas de radiodifusión y telecomunicaciones.</h4>
+                </div>
             </div>
+
             <div class="segunda-mitad">
                 <div class="cuarta-seccion-objetivos grid col-5 peq-col-1">
                     <div class="objetivo flex f-column">
@@ -83,9 +86,10 @@
                             <div class="objetivo-title-container">
                                 <h2 class="objetivo-title centrar">Misión</h2>
                             </div>
+
                             <div class="objetivo-text-container flex">
                                 <div class="objetivo-description-container flex">
-                                    <p class="objetivo-description centrar">Brindar a nuestros clientes asesoría especializada en nuestras áreas de experiencia para el logro de los objetivos de la empresa.</p>
+                                    <p class="objetivo-description centrar">Brindar a nuestros clientes asesoría especializada en nuestras áreas de expertise para el logro de los objetivos de la empresa</p>
                                 </div>
                             </div>
                         </div>
@@ -101,9 +105,10 @@
                             <div class="objetivo-title-container">
                                 <h2 class="objetivo-title centrar">Visión</h2>
                             </div>
+
                             <div class="objetivo-text-container flex">
                                 <div class="objetivo-description-container flex">
-                                    <p class="objetivo-description centrar">Somos una opción innovadora para los concesionarios, autorizados e interesados en la prestación de los servicios públicos de telecomunicaciones y radiodifusión.</p>
+                                    <p class="objetivo-description centrar">Somos una opción innovadora en el sector de concesionarios, autorizados e interesados en la prestación de los servicios públicos que tienen que ver con las telecomunicaciones y la radiodifusión</p>
                                 </div>
                             </div>
                         </div>
@@ -121,8 +126,9 @@
                             </div>
                             <div class="objetivo-text-container flex">
                                 <div class="objetivo-description-container flex">
-                                    <p class="objetivo-description centrar">Nos define el profesionalismo, experiencia, disciplina, responsabilidad y honestidad.</p>
+                                    <p class="objetivo-description centrar">Profesionalismo, experiencia, disciplina, responsabilidad y honestidad son algunos de los valores que nos definen</p>
                                 </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -135,23 +141,24 @@
             <div class="quinta-seccion-image-container">
                 <img class="quinta-seccion-image" src="<?php echo(IMG. 'imagenMano.webp')?>" alt="computadora-mano">
             </div>
+
             <div class="quinta-seccion-content-container">
                 <div class="quinta-seccion-titles">
                     <h2 class="quinta-seccion-title titulo">Algunos de nuestros servicios son:</h2>
                 </div>
 
                 <div class="quinta-seccion-servicios-container grid col-1">
-                    <a href="<?php echo site_url('/herramienta')?>" class="quinta-seccion-servicio flex">
+                    <a href="<?php echo site_url('/herramienta')?>" class="quinta-seccion-servicio oculto flex">
                         <img class="quinta-seccion-servicio-icon" src="<?php echo(ICON. 'mano-libro-blanco.svg')?>" alt="selloLapiz">
                         <p class="quinta-seccion-servicio-description">Trámites y procedimientos especializados ante el Instituto Federal de Telecomunicaciones (IFT), Instituto Nacional Electoral (INE), Secretaría de Gobernación (SEGOB), Agencia Federal de Aviación Civil (AFAC), Organismo Promotor de Inversiones en Telecomunicaciones (PROMTEL), y Comisión Federal para la Protección contra Riesgos Sanitarios (COFEPRIS).</p>
                     </a>
 
-                    <a href="<?php echo site_url('/herramienta')?>;" class="quinta-seccion-servicio flex">
+                    <a href="<?php echo site_url('/herramienta')?>;" class="quinta-seccion-servicio oculto flex">
                         <img class="quinta-seccion-servicio-icon" src="<?php echo(ICON. 'tabla-check.svg')?>" alt="selloLapiz">
                         <p class="quinta-seccion-servicio-description">Asesoría y trámites para la obtención de concesiones de uso público, social (incluyendo las comunitarias e Indígenas) y para uso privado; para prestar servicios de telecomunicaciones y radiodifusión.</p>
                     </a>
 
-                    <a href="<?php echo site_url('/herramienta')?>;" class="quinta-seccion-servicio flex">
+                    <a href="<?php echo site_url('/herramienta')?>;" class="quinta-seccion-servicio oculto flex">
                         <img class="quinta-seccion-servicio-icon" src="<?php echo(ICON. 'torre-libros-blancos.svg')?>" alt="selloLapiz">
                         <p class="quinta-seccion-servicio-description">Asesoría y seguimiento para la obtención de autorizaciones para establecer, operar y explotar una comercializadora de servicios de telecomunicaciones.</p>
                     </a>
@@ -172,6 +179,10 @@
                     </a>
 
                     <div class="quinta-seccion-content-buttons-container flex">
+                        <div class="quinta-seccion-button">
+                            <a href="<?php echo site_url('/servicios'); ?>" class="button">Conoce más</a>
+                        </div>
+
                         <div class="quinta-seccion-button">
                             <a href="<?php echo site_url('/servicios'); ?>" class="button">Servicios</a>
                         </div>
@@ -228,6 +239,6 @@
                 </a>
             </div>
         </div>
-            <?php get_footer();?>
     </section>
 </div>
+<?php get_footer();?>

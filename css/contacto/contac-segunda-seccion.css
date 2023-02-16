@@ -124,6 +124,15 @@
     .correos, .telefonos {
         font-size: 2rem;
     }
+
+    /* .contact-segunda-seccion-container {
+        display: flex;
+        align-items: flex-end;
+    } */
+
+    .contact-segunda-seccion-columns {
+        height: calc(100% - 20%);
+    }
 }
 
 /* estilos para el tamaño de celular */
