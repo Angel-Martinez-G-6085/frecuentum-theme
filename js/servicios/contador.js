@@ -28,3 +28,4 @@ const observer = new IntersectionObserver(animarContadores, {
 contadores.forEach((contador) => {
     observer.observe(contador);
 })
+

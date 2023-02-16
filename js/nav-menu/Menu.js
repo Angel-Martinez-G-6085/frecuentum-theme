@@ -29,3 +29,4 @@ function cerrarMenu() {
         HeaderMenu.classList.toggle('open-menu');
     })
 }
+
