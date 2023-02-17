@@ -136,7 +136,7 @@
     }
 
     .tercera-seccion-description-card {
-        font-size: clamp(1.3rem, 2vw + 1rem, 1.9rem);
+        font-size: clamp(1.3rem, 2vw + 1rem, 1.7rem);
         text-align: justify;
     }
 }

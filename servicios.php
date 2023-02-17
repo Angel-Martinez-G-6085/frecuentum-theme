@@ -107,19 +107,19 @@
                 </div>
                 <div class="servicios-quinta-seccion-soluciones-container peq-col-1 grid col-4">
                     <div class="quinta-seccion-solucion-container">
-                        <p class="solucion-description centrar text-link">Presentación de los estatutos sociales con la inserción íntegra y expresa del Artículo 112 de la Ley Federal de Telecomunicaciones y Radiodifusión.</p>
+                        <p class="solucion-description text-link">Presentación del aviso de las manifestaciones de los concesionarios y autorizados sobre el ejercicio de medición de los índices de calidad, de las estaciones de Televisión, Equipos Auxiliares y Complementarios</p>
                     </div>
 
                     <div class="quinta-seccion-solucion-container">
-                        <p class="solucion-description centrar text-link">Presentación del aviso de las manifestaciones de los concesionarios y autorizados sobre el ejercicio de medición de los índices de calidad, de las estaciones de Televisión, Equipos Auxiliares y Complementarios.</p>
+                        <p class="solucion-description text-link">Solicitud de inscripción de tarifas al público de los servicios de telecomunicaciones en el Registro Público de Concesiones, mediante el Sistema Electrónico de Registro de Tarifas</p>
                     </div>
 
                     <div class="quinta-seccion-solucion-container">
-                        <p class="solucion-description centrar text-link">Solicitud de inscripción de tarifas al público de los servicios de telecomunicaciones en el Registro Público de Concesiones, mediante el Sistema Electrónico de Registro de Tarifas.</p>
+                        <p class="solucion-description text-link">Presentación de los estatutos sociales con la inserción íntegra y expresa del Artículo 112 de la Ley Federal de Telecomunicaciones y Radiodifusión</p>
                     </div>
 
                     <div class="quinta-seccion-solucion-container">
-                        <p class="solucion-description centrar text-link">Solicitud de presentación de renuncia de concesión, permiso o autorización en materia de telecomunicaciones y radiodifusión.</p>
+                        <p class="solucion-description text-link">Solicitud de presentación de renuncia de concesión, permiso o autorización en materia de telecomunicaciones y radiodifusión</p>
                     </div>
                 </div>
                 <div class="servicios-servicios-container">

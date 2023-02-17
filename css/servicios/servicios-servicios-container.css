@@ -77,7 +77,8 @@
     }
 
     .solucion-description {
-        font-size: clamp(1.3rem, 2vw + 1rem, 2rem);
+        font-size: clamp(1.3rem, 2vw + 1rem, 1.7rem);
+        text-align: justify;
         cursor: pointer;
         padding-bottom: 8%;
     }
@@ -90,7 +91,7 @@
         left: 1rem;
         width: 95%;
         top: 1rem;
-        padding: 2rem;
+        padding: 1.2rem;
         grid-template-rows: unset;
     }
     .servicios-opciones-container {
