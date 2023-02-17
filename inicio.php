@@ -32,7 +32,11 @@
                 </div>
                 <div class="tercera-seccion-text-card-container">
                     <h2 class="tercera-seccion-title-card">Conoce todo sobre tu trámite</h2>
-                    <p class="tercera-seccion-description-card">Abarcando de forma extensa los diversos trámites y obligaciones ligadas a la prestación de servicios relacionados con las telecomunicaciones y la radiodifusión</p>
+                    <!-- <p class="tercera-seccion-description-card">Abarcando de forma extensa los diversos trámites y obligaciones ligadas a la prestación de servicios relacionados con las telecomunicaciones y la radiodifusión</p> -->
+                    <p>Abarcando de forma extensa los diversos</p>
+                    <p>trámites y obligaciones ligadas a la</p>
+                    <p>prestación de servicios relacionados con</p>
+                    <p>las telecomunicaciones y la radiodifusión</p>
                 </div>
             </div>
 
@@ -80,7 +84,7 @@
 
             <div class="segunda-mitad">
                 <div class="cuarta-seccion-objetivos grid col-5 peq-col-1">
-                    <div class="objetivo flex f-column">
+                    <div class="objetivo objetivo-mision flex f-column">
                         <img class="objetivo-icon" src="<?php echo(ICON. 'flechaDiana.svg')?>" alt="objetivo-icon">
                         <div class="objetivo-text-container flex f-column">
                             <div class="objetivo-title-container">
@@ -89,7 +93,7 @@
 
                             <div class="objetivo-text-container flex">
                                 <div class="objetivo-description-container flex">
-                                    <p class="objetivo-description centrar">Brindar a nuestros clientes asesoría especializada en nuestras áreas de expertise para el logro de los objetivos de la empresa</p>
+                                    <p class="objetivo-description mision-description centrar">Brindar a nuestros clientes asesoría especializada en nuestras áreas de expertise para el logro de los objetivos de la empresa</p>
                                 </div>
                             </div>
                         </div>
@@ -99,7 +103,7 @@
                         <img class="OndSeparador" src="<?php echo(IMG. 'OndSeparador.png')?>" alt="OndSeparador">
                     </div>
 
-                    <div class="objetivo flex f-column">
+                    <div class="objetivo objetivo-vision flex f-column">
                         <img class="objetivo-icon" src="<?php echo(ICON. 'ojoMorado.svg')?>" alt="objetivo-icon">
                         <div class="objetivo-text-container flex f-column">
                             <div class="objetivo-title-container">
@@ -118,7 +122,7 @@
                         <img class="OndSeparador" src="<?php echo(IMG. 'OndSeparador.png')?>" alt="OndSeparador">
                     </div>
 
-                    <div class="objetivo flex f-column">
+                    <div class="objetivo objetivo-valores flex f-column">
                         <img class="objetivo-icon" src="<?php echo(ICON. 'manoMorada.svg')?>" alt="objetivo-icon">
                         <div class="objetivo-text-container flex f-column">
                             <div class="objetivo-title-container">

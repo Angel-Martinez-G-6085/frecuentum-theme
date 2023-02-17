@@ -135,9 +135,30 @@
         grid-template-rows: 45% 55%;
     }
 
+    .objetivo-mision {
+        height: 100%;
+        width: 100%;
+        /* background-color: cadetblue; */
+    }
+
+    .objetivo-vision {
+        width: 100%;
+        height: 100%;
+        /* background-color: crimson; */
+    }
+
+    .objetivo-valores {
+        width: 100%;
+        height: 100%;
+        /* background-color: violet; */
+    }
+
     .cuarta-seccion-objetivos {
+        grid-template-columns: 18% 15% 30% 15% 19%;
+        /* background-color: yellow; */
         align-content: center;
         height: 100%;
+        column-gap: 0;
     }
 
     .cuarta-seccion-title {
@@ -170,6 +191,10 @@
         margin: unset;
         text-align: justify;
         font-size:clamp(1rem, 2vw + 1rem, 1.8rem);;
+    }
+
+    .mision-description {
+        font-size: clamp(1rem, 2vw + 1rem, 1.8rem);
     }
 }
 
