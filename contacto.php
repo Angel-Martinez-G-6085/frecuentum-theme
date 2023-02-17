@@ -27,7 +27,7 @@
         <div class="contact-segunda-seccion-banner-container">
             <picture>
                 <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'contacto-movil-image.webp')?>">
-                <img src="<?php echo(IMG. 'fondo-prueba.webp')?>" alt="" class="contact-segunda-seccion-banner-image">
+                <img src="<?php echo(IMG. 'prueba2023.webp')?>" alt="" class="contact-segunda-seccion-banner-image">
             </picture>
             <div class="contact-segunda-seccion-content-container flex">
                 <div class="contact-segunda-seccion-container">

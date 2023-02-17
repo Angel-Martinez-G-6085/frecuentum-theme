@@ -1,6 +1,8 @@
 .nosotros-banner-container {
     position: relative;
     background-color: aquamarine;
+    /* nuevos cambios */
+    top: 1rem;
 }
 
 .nosotros-banner-image {
@@ -18,7 +20,9 @@
 }
 
 .nosotros-banner-title {
-    margin-bottom: 6.7rem;
+    /* margin-bottom: 6.7rem; */
+    /* nuevos cambios */
+    margin-bottom: 5rem;    
 }
 
 .nosotros-banner-subtitle {
@@ -31,13 +35,11 @@
     .nosotros-banner-subtitle {
         font-size: 2.3rem;
     /* //nuevo cambios */
-        font-size: 2.3rem;
-        background: blue;
-        margin-left: 330px;
-        margin-right: 330px;
         text-align: justify;
-        word-spacing: 6px;
+        word-spacing: 1rem;
         letter-spacing: 1px;
+        width: 50%;
+        margin: 0 auto;
     }
 }
 
@@ -46,9 +48,18 @@
     .nosotros-banner-title {
         margin-bottom: 2rem;
         font-size: 5rem;
+        
     }
 
     .nosotros-banner-subtitle {
-        font-size: 1.6rem;
+        /* font-size: 1.6rem; */
+        /* nuevos cambios */
+        font-size: 1.4rem;
+        padding-left: 20px;
+        width: 100%;
+        word-spacing: 1px;
+        letter-spacing: 1px;
+        padding-right: 20px;
+    
     }
 }

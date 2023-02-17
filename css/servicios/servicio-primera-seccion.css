@@ -34,16 +34,24 @@
 }
 
 .servicios-banner-title {
-    margin-top: 4rem;
-    margin-bottom: 1rem;
+    /* margin-top: 4rem;
+    margin-bottom: 1rem; */
+    /* nuevos cambios */
+    margin-top: 5rem;
+    margin-bottom: 3rem;
 }
 
 .servicios-banner-description {
     font-size: 1.5rem;
-    margin-right: 1rem;
-    margin-bottom: 3rem;
-    margin-left: 1rem;
+    /* margin-right: 1rem; */
+    /* margin-bottom: 3rem; */
+    /* margin-left: 1rem; */
     width: auto;
+    /* nuevos cambios */
+    text-align: justify;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
 }
 
 .servicios-banner-subtitle {
@@ -58,26 +66,35 @@
 }
 
 .titulo-servicios{
-    font-size: 5rem;
+    font-size: clamp(5rem, 10vw, 8rem);
 }
+
+/* nuevos cambios */
+@media screen and (max-width: 576px){
+    .servicios-banner-title {
+        margin-top: 7rem;
+    }
+}
+
 
 @media screen and (min-width: 1200px) {
     .servicios-banner-description {
         width: 60%;
         margin: 0 auto;
-        margin-bottom: 2.5rem;
-        font-size: 2.5rem;
-        background: blue;
+        margin-bottom: 3rem;
+        font-size: 2.3rem;
         text-align: justify;
         word-spacing: 4.6px;
-}
-
-    }
-
+    } 
     .servicios-banner-subtitle {
         font-size: 2rem;
     }
 }
+
+
+
+   
+
 
 @media screen and (min-width: 1400px) {}
 

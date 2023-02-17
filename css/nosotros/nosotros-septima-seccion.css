@@ -172,7 +172,11 @@
   }
 
   .nosotros-septima-seccion-subtitle {
-    width: 90%;
+    /* width: 90%; */
+    /* nuevos cambios */
+    width: 58%;
+    text-align: justify;
+  
   }
 
   .nosotros-slider-contenedor {
@@ -196,8 +200,13 @@
     }
 
     .nosotros-septima-seccion-subtitle {
-        font-size: 1.6rem;
-        margin-bottom: unset;
+        /* font-size: 1.6rem;
+        margin-bottom: unset; */
+        /* nuevos cambios */
+        text-align: justify;
+        font-size: 1.4rem;
+        margin-bottom: revert;
+        width: 90%;
     }
 
       .nosotros-septima-seccion {

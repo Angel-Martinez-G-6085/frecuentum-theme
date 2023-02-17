@@ -20,6 +20,7 @@
     top: 0;
     left: -20px;
     width: 100%;
+    
 }
 
 .servicios-quinta-seccion-titles-container {
@@ -40,25 +41,36 @@
 .servicios-quinta-seccion-soluciones-container {
     height: auto;
     margin-left: 2rem;
+
+    /* nuevos cambios */
+    margin-right: 2rem;
+    font-size: 1.6rem;
 }
 
 .quinta-seccion-solucion-container {
-    width: auto;
+    /* width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: var(--blanco);
-    width: 80%;
+    margin: 0 auto; */
+
+    /* nuevos cambios */
+    width: auto;
+    color: var(--blanco);
     margin: 0 auto;
 }
 
-.solucion-description {
+/* nuevos cambios-comentado */
+/* .solucion-description {
     height: 100%;
     display: flex;
     align-items: center;
     font-size: 1.5rem;
+}  */
+p.solucion-description.centrar.text-link {
+    text-align: justify;
 }
-
 .solucion-number {
     margin-top: 2rem;
     font-size: 2.5rem;

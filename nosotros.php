@@ -98,7 +98,7 @@
         <div class="nosotros-septima-seccion-content-container">
             <div class="nosotros-septima-seccion-titles-container">
                 <h2 class="nosotros-septima-seccion-title centrar">Nuestro equipo</h2>
-                <h3 class="nosotros-septima-seccion-subtitle centrar">Ellos son una parte importante para nosotros, ya que trabajando <br> junto con ellos buscamos darles una mejor calidad de atención</h3>
+                <h3 class="nosotros-septima-seccion-subtitle centrar">Ellos son una parte importante de nosotros, ya que trabajando en conjunto buscamos darles siempre la mejor atención </h3>
             </div>
 
             <div class="nosotros-slider-contenedor">

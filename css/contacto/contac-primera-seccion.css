@@ -17,6 +17,8 @@
     left: 0;
     width: 100%;
     height: 100%;
+    /* nuevos cambios */
+    top: 1rem;
 }
 
 .primeros-textos {
@@ -26,7 +28,9 @@
 }
 
 .contact-primera-seccion-title {
-    margin-bottom: 7rem;
+    /* margin-bottom: 7rem; */
+    /* nuevos cambios */
+    margin-bottom: 2.5rem;
 }
 
 .contact-primera-seccion-description,
@@ -37,8 +41,12 @@
 }
 
 .contact-primera-seccion-description {
-    margin-bottom: 5rem;
+    /* margin-bottom: 5rem; */
     font-size: 2.5rem;
+    /* nuevos cambios */
+    margin-bottom: 4rem;
+    text-align: justify;
+    width: 60%;
 }
 
 .contact-primera-seccion-ultimo-texto {
@@ -64,6 +72,8 @@
     .contact-primera-seccion-description {
         margin-bottom: 0;
         font-size: 1.5rem;
+        /* nuevos cambios */
+        width: 80%;
     }
 
     .contact-primera-seccion-ultimo-texto {
