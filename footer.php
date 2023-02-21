@@ -30,7 +30,7 @@
 
             <div class="footer-location-seccion flex">
                 <img src="<?php echo(ICON. 'ubicacion-morado-icon.svg')?>" alt="footer-location-icon" class="footer-location-icon">
-                <p>Ángel Urraza 807, Primer Piso Col. del Valle Centro, Benito Juárez, 03100 Ciudad de México, CDMX.</p>
+                <p class="ubicacion-text">Ángel Urraza 807, Primer Piso Col. del Valle Centro, Benito Juárez, 03100 Ciudad de México, CDMX.</p>
             </div>
         </div>
 

@@ -108,18 +108,22 @@
                 <div class="servicios-quinta-seccion-soluciones-container peq-col-1 grid col-4">
                     <div class="quinta-seccion-solucion-container">
                         <p class="solucion-description text-link">Presentación del aviso de las manifestaciones de los concesionarios y autorizados sobre el ejercicio de medición de los índices de calidad, de las estaciones de Televisión, Equipos Auxiliares y Complementarios</p>
+                        <img src="<?php echo(ICON . "palito.svg")?>" alt="" class="servicios-palito">
                     </div>
 
                     <div class="quinta-seccion-solucion-container">
                         <p class="solucion-description text-link">Solicitud de inscripción de tarifas al público de los servicios de telecomunicaciones en el Registro Público de Concesiones, mediante el Sistema Electrónico de Registro de Tarifas</p>
+                        <img src="<?php echo(ICON . "palito.svg")?>" alt="" class="servicios-palito">
                     </div>
 
                     <div class="quinta-seccion-solucion-container">
                         <p class="solucion-description text-link">Presentación de los estatutos sociales con la inserción íntegra y expresa del Artículo 112 de la Ley Federal de Telecomunicaciones y Radiodifusión</p>
+                        <img src="<?php echo(ICON . "palito.svg")?>" alt="" class="servicios-palito">
                     </div>
 
                     <div class="quinta-seccion-solucion-container">
                         <p class="solucion-description text-link">Solicitud de presentación de renuncia de concesión, permiso o autorización en materia de telecomunicaciones y radiodifusión</p>
+                        <img src="<?php echo(ICON . "palito.svg")?>" alt="" class="servicios-palito">
                     </div>
                 </div>
                 <div class="servicios-servicios-container">
@@ -171,6 +175,55 @@
                             <div class="servicios-rectangulo-container"></div>
                             <div class="servicios-opcion-text-container">
                                 <a href="<?php echo site_url('#');?>" class="servicios-opcion-text">Solicitud de asignación de numeración geográfica.</a>
+                            </div>
+                        </div>
+
+                        <div class="servicios-opcion-container flex">
+                            <div class="servicios-rectangulo-container"></div>
+                            <div class="servicios-opcion-text-container">
+                                <a href="<?php echo site_url('#');?>" class="servicios-opcion-text">Solicitud de asesoría a usuarios con discapacidad.</a>
+                            </div>
+                        </div>
+
+                        <div class="servicios-opcion-container flex">
+                            <div class="servicios-rectangulo-container"></div>
+                            <div class="servicios-opcion-text-container">
+                                <a href="<?php echo site_url('#');?>" class="servicios-opcion-text">Justificación de Centros de Atención no Accesibles.</a>
+                            </div>
+                        </div>
+
+                        <div class="servicios-opcion-container flex">
+                            <div class="servicios-rectangulo-container"></div>
+                            <div class="servicios-opcion-text-container">
+                                <a href="<?php echo site_url('#');?>" class="servicios-opcion-text">Aviso de solicitud de bloqueo de contenidos programáticos.</a>
+                            </div>
+                        </div>
+
+                        <div class="servicios-opcion-container flex">
+                            <div class="servicios-rectangulo-container"></div>
+                            <div class="servicios-opcion-text-container">
+                                <a href="<?php echo site_url('#');?>" class="servicios-opcion-text">Solicitud de autorización de un Organismo de Certificación.</a>
+                            </div>
+                        </div>
+
+                        <div class="servicios-opcion-container flex">
+                            <div class="servicios-rectangulo-container"></div>
+                            <div class="servicios-opcion-text-container">
+                                <a href="<?php echo site_url('#');?>" class="servicios-opcion-text">Solicitud de asignación de numeración no geográfica específica.</a>
+                            </div>
+                        </div>
+
+                        <div class="servicios-opcion-container flex">
+                            <div class="servicios-rectangulo-container"></div>
+                            <div class="servicios-opcion-text-container">
+                                <a href="<?php echo site_url('#');?>" class="servicios-opcion-text">Pago anual para el uso de frecuencias del espectro radioeléctrico.</a>
+                            </div>
+                        </div>
+
+                        <div class="servicios-opcion-container flex">
+                            <div class="servicios-rectangulo-container"></div>
+                            <div class="servicios-opcion-text-container">
+                                <a href="<?php echo site_url('#');?>" class="servicios-opcion-text">Solicitud de Certificado de Homologación Definitivo con Antecedentes.</a>
                             </div>
                         </div>
                     </div>

@@ -130,6 +130,10 @@
 
 /* estilos para el tamaño de laptop */
 @media screen and (min-width: 1200px) {
+    .nosotros-segunda-seccion {
+        margin-top: -9%;
+    }
+    
     .nosotros-segunda-seccion-title {
         margin-top: 0;
         margin-bottom: 4%;

@@ -94,9 +94,13 @@
     }
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
     .segunda-seccion-opcion-description {
-        font-size: 2rem;
+        font-size: 1.6rem;
+    }
+
+    .segunda-seccion-opcion-title {
+        margin-top: 1rem;
     }
 
     .servicios-segunda-seccion-title {

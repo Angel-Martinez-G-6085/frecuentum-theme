@@ -77,7 +77,8 @@
     }
 
     .solucion-description {
-        font-size: clamp(1.3rem, 2vw + 1rem, 1.7rem);
+        font-size: clamp(1.3rem, 2vw + 1rem, 1.5rem);
+        column-gap: 0;
         text-align: justify;
         cursor: pointer;
         padding-bottom: 8%;

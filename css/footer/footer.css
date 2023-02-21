@@ -250,11 +250,22 @@
         grid-row-start: 3;
     }
 
+    .footer-phone-icon,
+    .footer-mail-icon,
+    .footer-location-icon {
+        margin-bottom: 1.5rem;
+    }
+
     .footer-phone-section,
     .footer-mail-section,
     .footer-location-seccion {
         flex-direction: column;
         align-items: center;
+    }
+
+    .ubicacion-text {
+        width: 70%;
+        margin: 0 auto;
     }
 
     .footer-mascota-container {

@@ -32,11 +32,11 @@
                 </div>
                 <div class="tercera-seccion-text-card-container">
                     <h2 class="tercera-seccion-title-card">Conoce todo sobre tu trámite</h2>
-                    <!-- <p class="tercera-seccion-description-card">Abarcando de forma extensa los diversos trámites y obligaciones ligadas a la prestación de servicios relacionados con las telecomunicaciones y la radiodifusión</p> -->
-                    <p class="tercera-seccion-description-card">Abarcando de forma extensa los diversos</p>
+                    <p class="tercera-seccion-description-card">Abarcando de forma extensa los diversos trámites y obligaciones ligadas a la prestación de servicios relacionados con las telecomunicaciones y la radiodifusión</p>
+                    <!-- <p class="tercera-seccion-description-card">Abarcando de forma extensa los diversos</p>
                     <p class="tercera-seccion-description-card">trámites y obligaciones ligadas a la</p>
                     <p class="tercera-seccion-description-card">prestación de servicios relacionados con</p>
-                    <p class="tercera-seccion-description-card">las telecomunicaciones y la radiodifusión</p>
+                    <p class="tercera-seccion-description-card">las telecomunicaciones y la radiodifusión</p> -->
                 </div>
             </div>
 

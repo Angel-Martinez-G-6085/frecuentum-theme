@@ -164,6 +164,9 @@
 
 @media screen and (min-width: 1200px) {
   .nosotros-septima-seccion-content-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 25% 75%;
     grid-row-start: 1;
     grid-row-end: 3;
     /* background-color: aqua; */
@@ -187,7 +190,13 @@
 /* estilos para el tamaño de celular */
 @media screen and (max-width: 576px)  {
   .nosotros-septima-seccion {
-    background-position-x: -100px;
+    row-gap: 0;
+  }
+
+  .nosotros-septima-seccion-content-container {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 70%;
   }
 
     .nosotros-septima-seccion-title {
@@ -199,10 +208,6 @@
         font-size: 1.6rem;
         margin-bottom: unset;
     }
-
-      .nosotros-septima-seccion {
-          row-gap: 0;
-      }
   
       .nosotros-slider-contenedor {
           width: 90%;
@@ -210,6 +215,7 @@
       }
   
       .nosotros-septima-seccion-titles-container {
+        margin-bottom: 2rem;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -235,6 +241,7 @@
       }
 
       .team-member-icons-container {
+        align-content: end;
         grid-template-columns: 1fr 1fr;
         display: grid;
         margin: 0;

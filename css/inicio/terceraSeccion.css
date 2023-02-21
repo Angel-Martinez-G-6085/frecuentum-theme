@@ -131,12 +131,16 @@
         padding: 0;
     }
 
+    .tercera-seccion-cards {
+        column-gap: 0;
+    }
+
     .tercera-seccion-card {
         justify-content: center;
     }
 
     .tercera-seccion-description-card {
-        font-size: clamp(1.3rem, 2vw + 1rem, 1.7rem);
+        font-size: clamp(1.3rem, 2vw + 1rem, 1.5rem);
         text-align: justify;
     }
 }

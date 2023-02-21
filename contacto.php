@@ -27,7 +27,7 @@
         <div class="contact-segunda-seccion-banner-container">
             <picture>
                 <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'contacto-movil-image.webp')?>">
-                <img src="<?php echo(IMG. 'fondo-prueba.webp')?>" alt="" class="contact-segunda-seccion-banner-image">
+                <img src="<?php echo(IMG. 'prueba2023.webp')?>" alt="" class="contact-segunda-seccion-banner-image">
             </picture>
             <div class="contact-segunda-seccion-content-container flex">
                 <div class="contact-segunda-seccion-container">
@@ -89,8 +89,10 @@
                                     <div class="correo-text-container">
                                         <h2 class="correo-title">Correo</h2>
                                         <div class="correos">
-                                            <h4 class="correo">adriana.cortes@frequentum.mx</h4>
-                                            <h4 class="correo">notificaciones@frequentum.mx</h4>
+                                            <h4 class="correo">notificaciones@frequencylex.mx</h4>
+                                            <h4 class="correo">adriana.cortes@frequencylex.mx</h4>
+                                            <h4 class="correo">bianidxi.resendiz@frequencylex.mx</h4>
+                                            <h4 class="correo">carlos.espinosa@frequencylex.mx</h4>
                                         </div>
                                     </div>
                                 </div>

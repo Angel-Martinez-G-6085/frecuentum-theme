@@ -32,7 +32,6 @@
         font-size: 2.3rem;
     /* //nuevo cambios */
         font-size: 2.3rem;
-        background: blue;
         margin-left: 330px;
         margin-right: 330px;
         text-align: justify;
@@ -49,6 +48,8 @@
     }
 
     .nosotros-banner-subtitle {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
+        width: 90%;
+        margin: 0 auto;
     }
 }
