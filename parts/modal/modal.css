@@ -1,0 +1,38 @@
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s;
+    position: fixed;
+    z-index: 2;
+    top: -50%;
+    left: 30%;
+    height: 50%;
+    width: 50%;
+    background-color: var(--morado);
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
+.modal-show {
+    top: 30%;
+}
+
+.modal-pregunta {
+    font-size: 1.6rem;
+    color: white;
+}
+
+.modal-links-container {
+    display: flex;
+}
+
+.modal-link {
+    border: 4px dotted var(--verde);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    margin-right: 2rem;
+    width: 90px;
+    height: 90px;
+    background-color: aqua;
+}

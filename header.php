@@ -8,7 +8,8 @@
     <?php wp_head();?>
 </head>
 <body>
-    <?php get_template_part('parts/whatssapButton');?> 
+<?php get_template_part('parts/modal/modal');?>
+    <?php get_template_part('parts/whatssButton/whatssapButton');?> 
     <header class="header grid">
         <div class="header__nav__logos-container">
             <div class="nav__mascota-container">
@@ -44,7 +45,7 @@
                         <a href="<?php echo site_url('/contacto'); ?>">Contacto</a>
                     </li>
                     <li class="menu-link">
-                        <a href="<?php echo site_url('/inicio'); ?>">Agenda una llamada</a>
+                        <a class="formulario-link" href="#">Agenda una llamada</a>
                     </li>
                 </ul>
             </nav>

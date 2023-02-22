@@ -1,5 +1,6 @@
 @import url('./framework.css');
-@import url('../parts/whatssButton.css');
+@import url('../parts/whatssButton/whatssButton.css');
+@import url('../parts/modal/modal.css');
 @import url('./header/header.css');
 @import url('./footer/footer.css');
 @import url('./inicio.css');
