@@ -8,8 +8,8 @@
     <?php wp_head();?>
 </head>
 <body>
-<?php get_template_part('parts/modal/modal');?>
-    <?php get_template_part('parts/whatssButton/whatssapButton');?> 
+    <?php get_template_part('parts/modal/modal');?>
+    <?php get_template_part('parts/whatssapButton');?> 
     <header class="header grid">
         <div class="header__nav__logos-container">
             <div class="nav__mascota-container">
@@ -17,7 +17,7 @@
             </div>
             <div class="nav-frequentum-container">
                 <a href="<?php echo site_url('/inicio'); ?>">
-                    <img class="nav-logo" src="<?php echo(IMG. 'logo-freq.webp')?>" alt="nav-logo">
+                    <img class="nav-logo" src="<?php echo(IMG. 'Imagotipo-FREQUENTUM-1.svg')?>" alt="nav-logo">
                 </a>
             </div>
                 <div class="nav-movil-button-container">
@@ -26,13 +26,13 @@
             </div>
 
             <nav class="header__nav">
-                <ul class="nav__menu grid col-1">
+                <ul class="nav__menu grid col-4">
                     <div class="menu-cerrar-button-container">
                         <img class="nav-movil-cerrar-icon" src="<?php echo(ICON. 'tache.svg')?>" alt="nav-logo">
                     </div>
-                    <li class="menu-link mobile-link-inicio">
+                    <li class="menu-link inicio-link">
                         <a href="<?php echo site_url('/inicio'); ?>">
-                            <img src="<?php echo(IMG . "logo-freq.webp")?>" alt="logo">
+                            <img class="nav-logo" src="<?php echo(IMG. 'Imagotipo-FREQUENTUM-1.svg')?>" alt="nav-logo">
                         </a>
                     </li>
                     <li class="menu-link">
