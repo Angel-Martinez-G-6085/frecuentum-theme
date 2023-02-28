@@ -67,17 +67,17 @@
         margin: 0 auto;
         margin-bottom: 2.5rem;
         font-size: 2.5rem;
-        background: blue;
         text-align: justify;
         word-spacing: 4.6px;
-}
-
     }
 
     .servicios-banner-subtitle {
         font-size: 2rem;
     }
+
 }
+
+    
 
 @media screen and (min-width: 1400px) {}
 
