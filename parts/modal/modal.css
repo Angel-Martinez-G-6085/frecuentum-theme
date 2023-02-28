@@ -97,15 +97,18 @@
     border: 4px dotted var(--verde);
     /* clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 91%, 62% 93%, 30% 88%, 0 93%, 0% 20%); */
     margin: 0;
-    width: 150px;
+    width: 200px;
     /* background-color: aqua; */
     text-align: center;
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 1rem;
     /* margin-top: 3rem; */
     transition: width 2s, transform 1s;
-   
+}
+.ift{
+    padding: 2rem;
+    width: 185px;
 }
 .modal-link:hover{
     border: 4px dotted white;
@@ -117,7 +120,9 @@
     background-color: var(--fondo-input-modal);
     width: 300px;
     height: 30px;
-    border-radius: 10px
+    border-radius: 10px;
+    color: white;
+
 }
 ::placeholder { color: white; }
 .following{
@@ -131,7 +136,7 @@
 }
 
 .img-modal{
-    background-color: var(--verde);
+    color: white;
     width: 10%;
     text-align: center;
     margin: 0 auto;

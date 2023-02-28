@@ -35,7 +35,7 @@
         </div>
 
             <div class="footer-menu-column flex f-column">
-                <h4 class="footer-menu-title">FREQUENTUM</h4>
+                <h4 class="footer-menu-title">FREQUENCYLEX</h4>
                 <div class="menu-pie-menu-container">
                     <ul class="menu-pie-menu flex f-column">
                     <li class="menu-link-container">
