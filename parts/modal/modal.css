@@ -24,37 +24,61 @@
     flex-wrap: wrap;
     z-index: 2;
     top: -100%;
-    left: 10%;
-    width: 80%;
-    height: 70%;
+    left: 5%;
+    width: 90%;
+    height: 80%;
     max-height: 600px;
-    background-color: var(--morado);
-    border-radius: 10px;
+    background-color: #4C3D65;
+    border-radius: 20px;
     opacity: 0.9;
 }
 
 .modal-show {
     /* top: 30%; */
     /* nuevos cambios */
-    top: 20%;
+    top: 16%;
 }
 
-.content-modal{
+.content-modal-inicio{
     width: 100%;
     height: auto;
     text-align: center;
     color: white;
 }
-.modal-pregunta {
-    font-size: 2.5rem;
+.modal-pregunta-inicio{
+    font-size: 4rem;
     color: white;
     text-align: center;
+    margin-bottom: 23px;
+    margin-top: 38px;
+}
+.content-modal{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: flex-start; */
+    flex-wrap: wrap;
+}
+.persona{
+    width: 90px;
+    margin-left: 40px;
+}
+.modal-pregunta {
+    font-size: 3.5rem;
+    color: white;
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    margin-left: 50px;
 }
 .modal-sub-pregunta {
-    font-size: 2rem;
+    font-size: 3.5rem;
 }
 .modal-subtitle-pregunta{
-    font-size: 1.8rem;
+    font-size: 3rem;
 }
 .img-content {
     width: 50%;
@@ -86,60 +110,142 @@
 
 .modal-links-container {
     display: flex;
-    justify-content: center;
+    gap: 30px;
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-template-rows: 1fr; */
+    /* justify-items: center; */
     align-items: center;
-    flex-wrap: wrap;
-    gap: 10px;
+    justify-content: center;
+    margin-top: 84px;
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
 }
 
+.modal-links-container-modal3{
+    display: flex;
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* grid-template-rows: 1fr; */
+    /* justify-items: center; */
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 75%;
+    gap: 30px;
+    margin: auto;
+    margin-top: 40px;
+}
+.modal-links-container-icons{
+    /* display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center; */
+
+        /* display: grid; */
+        gap: 10px;
+        /* grid-template-columns: repeat(4, 1fr); */
+        /* grid-template-rows: repeat(2, 1fr); */
+        /* justify-items: center; */
+        /* align-items: center; */
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+        margin: auto;
+        height: 230px;
+}
+.div1{
+    grid-area: 2 / 1 / 3 / 5;
+}
+.modal-links-container-inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+}
 .modal-link {
     border-radius: 0 50% 0 50%;    
-    border: 4px dotted var(--verde);
+    border: 4px dashed var(--verde);
     /* clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 91%, 62% 93%, 30% 88%, 0 93%, 0% 20%); */
-    margin: 0;
-    width: 200px;
+    margin: 0 auto;
+    width: 34%;
     /* background-color: aqua; */
     text-align: center;
     color: white;
     font-size: 2rem;
-    padding: 1rem;
+    padding: 3rem;
     /* margin-top: 3rem; */
     transition: width 2s, transform 1s;
 }
+.tele{
+    width: 140px;
+}
+.radio{
+    width: 158px;
+}
+.inter{
+    width: 140px;
+}
+.fon{
+    width: 140px;
+}
+
+/* .consultora{
+    width: 220px;
+} */
+.svg-modal4{
+    background-color: blueviolet;
+}
 .ift{
-    padding: 2rem;
+    padding: 2.5rem;
     width: 185px;
 }
+.profeco{
+    padding: 2rem;
+    width: 275px;
+}
+.segob{
+    padding: 2rem;
+    width: 275px;
+}
+.ine{
+    padding: 3rem;
+    width: 270px
+}
 .modal-link:hover{
-    border: 4px dotted white;
+    border: 5px dashed white;
     color: var(--verde);
     transform : scale(1.2);
 }
 
 .input-link{
-    background-color: var(--fondo-input-modal);
-    width: 300px;
-    height: 30px;
-    border-radius: 10px;
+    background-color: #66597B;
+    width: 50%;
+    height: 44px;
+    border-radius: 31px;
     color: white;
-
+    border: none;
+    font-size: 25px;
+    padding-left: 10px;
 }
 ::placeholder { color: white; }
-.following{
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 25px 0 25px 50px;
-    border-color: transparent transparent transparent #ffffff;
-    margin-left: 20px;
-    margin-top: -10px;
-}
 
 .img-modal{
+    /* color: white;
+    width: 16%;
+    text-align: center;
+    margin: 0 auto; */
+
     color: white;
-    width: 10%;
+    width: 16%;
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 15px;
 }
 
 /* cerrar modal */
@@ -153,4 +259,10 @@
     position: absolute;
     top: 0;
     right: 10px;
+}
+
+.modal-pregunta-calendar{
+    font-size: 10rem;
+    margin: 0 auto;
+    cursor: pointer;
 }
