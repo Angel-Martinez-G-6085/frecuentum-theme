@@ -126,8 +126,6 @@
     .cuarta-seccion-primera-fila {
         width: 100%;
         height: calc(100% - 30%);
-        /* background-color: cadetblue; */
-        opacity: 0.6;
         align-self: flex-end;
         justify-content: center;
     }
@@ -178,7 +176,6 @@
         width: 100%;
         height: calc(100% - 8%);
         /* background-color: violet; */
-        opacity: 0.6;
     }
 
     .objetivo-title {
