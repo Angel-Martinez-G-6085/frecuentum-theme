@@ -70,12 +70,15 @@
         /* background: blue; */
         text-align: justify;
         word-spacing: 4.6px;
-}
+    }
 
     .servicios-banner-subtitle {
         font-size: 2rem;
     }
+
 }
+
+    
 
 @media screen and (min-width: 1400px) {}
 

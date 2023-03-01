@@ -35,7 +35,11 @@
         </div>
 
             <div class="footer-menu-column flex f-column">
+<<<<<<< HEAD
                 <h4 class="footer-menu-title">Frequencylex</h4>
+=======
+                <h4 class="footer-menu-title">FREQUENCYLEX</h4>
+>>>>>>> modal-celendar
                 <div class="menu-pie-menu-container">
                     <ul class="menu-pie-menu flex f-column">
                     <li class="menu-link-container">
