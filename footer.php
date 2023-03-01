@@ -35,7 +35,11 @@
         </div>
 
             <div class="footer-menu-column flex f-column">
+<<<<<<< HEAD
                 <h4 class="footer-menu-title">FREQUENCYLEX</h4>
+=======
+                <h4 class="footer-menu-title">Frequencylex</h4>
+>>>>>>> 4e8474bfd4d3b8a8a8a66015543bbd64b9b79c03
                 <div class="menu-pie-menu-container">
                     <ul class="menu-pie-menu flex f-column">
                     <li class="menu-link-container">
