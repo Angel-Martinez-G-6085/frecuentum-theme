@@ -76,8 +76,9 @@ nombreInput.addEventListener("keydown", (e) =>{
     if(e.key === "Enter" && nombreInput.value !== ''){
         Modal5.classList.add('modal-show');
         Modal4.classList.remove('modal-show');
+        const nombre = document.getElementById("nombre").value;
+        localStorage.setItem("nombre",nombre)
         nombreInput.value = "";
-        console.log("con esto cambiaremos de modal")
     }
 })
 
@@ -93,6 +94,8 @@ empresaInput.addEventListener("keydown", (e) =>{
     if(e.key === "Enter" && empresaInput.value !== ''){
         Modal6.classList.add('modal-show');
         Modal5.classList.remove('modal-show');
+        const empresa = document.getElementById("empresa").value;
+        localStorage.setItem("empresa",empresa)
         empresaInput.value = "";
         console.log("con esto cambiaremos de modal")
     }
@@ -111,6 +114,8 @@ numeroInput.addEventListener("keydown", (e) =>{
     if(e.key === "Enter" && numeroInput.value !== ''){
         Modal7.classList.add('modal-show');
         Modal6.classList.remove('modal-show');
+        const contacto = document.getElementById("contacto").value;
+        localStorage.setItem("contacto",contacto);
         numeroInput.value = "";
         console.log("con esto cambiaremos de modal")
     }
@@ -128,6 +133,8 @@ correoInput.addEventListener("keydown", (e) =>{
     if(e.key === "Enter" && correoInput.value !== ''){
         Modal8.classList.add('modal-show');
         Modal7.classList.remove('modal-show');
+        const correo = document.getElementById("correo").value;
+        localStorage.setItem("correo",correo);
         correoInput.value = "";
         console.log("con esto cambiaremos de modal")
     }
@@ -139,16 +146,33 @@ cerraModal8.addEventListener("click",()=>{
     Modal8.classList.remove("modal-show")
 }) 
 
-// Calendario
-const ModalCalendar = document.querySelector('.modal-cld');
-const BotonModalcld = document.querySelector(".calendar");
 
-BotonModalcld.addEventListener("click", () => {
-    ModalCalendar.classList.add('modal-show');
+// Evento para enviar los datos al calendario
+const ModalEvent = document.querySelector('.modal-envent-calendar');
+const BotonModalEvent= document.querySelector(".event-calendar");
+
+BotonModalEvent.addEventListener("click", () => {
+    ModalEvent.classList.add('modal-show');
     Modal8.classList.remove('modal-show');
 })
 
-const cerraCalendar = document.querySelector(".closed-cld");
-cerraCalendar.addEventListener("click",()=>{
-    ModalCalendar.classList.remove("modal-show")
+const cerrarEvent = document.querySelector(".closed-event");
+cerrarEvent.addEventListener("click",()=>{
+    ModalEvent.classList.remove("modal-show")
+})
+
+
+// Modal Final
+const ModalFinal = document.querySelector('.modal-final');
+const BotonFin= document.querySelector(".mod-fin");
+
+BotonFin.addEventListener("click", () => {
+    ModalFinal.classList.add('modal-show');
+    ModalEvent.classList.remove('modal-show');
+    localStorage.clear();
+})
+
+const cerraFin = document.querySelector(".closed-fin");
+cerraFin.addEventListener("click",()=>{
+    ModalFinal.classList.remove("modal-show")
 }) 
