@@ -17,16 +17,17 @@
 
 .modal-container{
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 1s;
     position: fixed;
+    flex-wrap: wrap;
     z-index: 2;
     top: -100%;
-    left: 15%;
+    left: 10%;
+    width: 80%;
     height: 70%;
-    width: 70%;
+    max-height: 600px;
     background-color: var(--morado);
     border-radius: 10px;
     opacity: 0.9;
@@ -38,6 +39,12 @@
     top: 20%;
 }
 
+.content-modal{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+}
 .modal-pregunta {
     font-size: 2.5rem;
     color: white;
@@ -45,16 +52,20 @@
 }
 .modal-sub-pregunta {
     font-size: 2rem;
-    color: white;
-    text-align: center;
 }
 .modal-subtitle-pregunta{
     font-size: 1.8rem;
-    color: white;
+}
+.img-content {
+    width: 50%;
+    margin: auto;
 }
 .person{
-    width: 25%;
-    margin: 0 auto;
+    width: 20%;
+    cursor: pointer;
+    max-width: 80px;
+    margin-left: 47%;
+    margin-top: 6rem;
     height: auto;
     transition: width 2s, transform 1s;
 }
@@ -71,26 +82,33 @@
         transform: scale(0);
     }
 }
-
 /* --------------------------------- */
+
 .modal-links-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .modal-link {
     border-radius: 0 50% 0 50%;    
     border: 4px dotted var(--verde);
     /* clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 91%, 62% 93%, 30% 88%, 0 93%, 0% 20%); */
-    margin-right: 2rem;
-    width: 150px;
+    margin: 0;
+    width: 200px;
     /* background-color: aqua; */
     text-align: center;
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding: 1rem;
-    margin-top: 5rem;
+    /* margin-top: 3rem; */
     transition: width 2s, transform 1s;
-   
+}
+.ift{
+    padding: 2rem;
+    width: 185px;
 }
 .modal-link:hover{
     border: 4px dotted white;
@@ -102,7 +120,9 @@
     background-color: var(--fondo-input-modal);
     width: 300px;
     height: 30px;
-    border-radius: 10px
+    border-radius: 10px;
+    color: white;
+
 }
 ::placeholder { color: white; }
 .following{
@@ -116,8 +136,21 @@
 }
 
 .img-modal{
-    background-color: var(--verde);
+    color: white;
     width: 10%;
     text-align: center;
     margin: 0 auto;
+}
+
+/* cerrar modal */
+.w3-closebtn{
+    font-size: 5rem;
+    cursor: pointer;
+    align-self: end;
+    margin-bottom: 40px;
+    margin-right: 10px;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 10px;
 }
