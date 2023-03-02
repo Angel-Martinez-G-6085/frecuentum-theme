@@ -21,7 +21,13 @@ BotonModal2.addEventListener("click", () => {
 const cerraModal2 = document.querySelector(".closed-2");
 cerraModal2.addEventListener("click",()=>{
     Modal2.classList.remove("modal-show")
-}) 
+})
+// left-mod-2
+const leftMod2 = document.querySelector(".left-mod-2"); 
+leftMod2.addEventListener("click",()=>{
+    Modal2.classList.remove("modal-show");
+    MODAL.classList.add('modal-show');
+})
 
 // modal NO
 const ModalNo = document.querySelector('.modalNo');
@@ -36,6 +42,13 @@ const cerraModalNo = document.querySelector(".closed-no");
 cerraModalNo.addEventListener("click",()=>{
     ModalNo.classList.remove("modal-show")
 }) 
+
+// left-modal-NO
+const leftModNo = document.querySelector(".left-mod-no"); 
+leftModNo.addEventListener("click",()=>{
+    ModalNo.classList.remove("modal-show");
+    Modal2.classList.add('modal-show');
+})
 // modal 3
 const Modal3 = document.querySelector('.modal-3');
 const BotonModal3 = document.querySelector(".mod3");
@@ -50,15 +63,41 @@ cerraModal3.addEventListener("click",()=>{
     Modal3.classList.remove("modal-show")
 }) 
 
+// left-modal-3
+const leftMod3 = document.querySelector(".left-mod-3"); 
+leftMod3.addEventListener("click",()=>{
+    Modal3.classList.remove("modal-show");
+    Modal2.classList.add('modal-show');
+})
+
 // modal 4 - repetible
-const modales = (Modal4,BotonModal4,Modal3,ModalNo,Modal2,cerraModal4)=>{
-    BotonModal4.forEach(function(click){
-        click.addEventListener("click",function(){
+// const idModal = "";
+const modales = (Modal4,BotonModal4,Modal3,ModalNo,Modal2,cerraModal4,leftMod4)=>{
+    let id = "";
+    let left3 = "";
+    BotonModal4.forEach((click)=>{
+        click.addEventListener("click",(e)=>{
+            console.log(e.srcElement.classList[3]);
+            left3 = e.srcElement.classList[3];
+            id = e.srcElement.classList[2];
+            console.log(e.srcElement.classList[2]);
             Modal4.classList.add("modal-show");
             Modal3.classList.remove('modal-show');
             ModalNo.classList.remove('modal-show');
             Modal2.classList.remove('modal-show');
         })
+    })
+
+    leftMod4.addEventListener("click",()=>{
+        if (id===id) {
+            Modal4.classList.remove("modal-show");
+            ModalNo.classList.add('modal-show');
+        }
+        if(left3 === left3){
+            Modal4.classList.remove("modal-show");
+            Modal3.classList.add('modal-show');
+        }
+
     })
     cerraModal4.addEventListener("click",()=>{
         Modal4.classList.remove("modal-show")
@@ -67,8 +106,31 @@ const modales = (Modal4,BotonModal4,Modal3,ModalNo,Modal2,cerraModal4)=>{
 const Modal4 = document.querySelector('.modal-4');
 const BotonModal4 = document.querySelectorAll(".mod4");
 const cerraModal4 = document.querySelector(".closed-4");
+const leftMod4 = document.querySelector(".left-mod-4");
 
-modales(Modal4,BotonModal4,Modal3,ModalNo,Modal2,cerraModal4)
+modales(Modal4,BotonModal4,Modal3,ModalNo,Modal2,cerraModal4,leftMod4)
+
+// left-modal-4 pero del modalNo
+// const modalLeft = (leftMod4,BotonModal4)=>{
+//         // leftMod4.addEventListener("click",(e)=>{
+//         //     console.log(e)
+//         //     Modal3.classList.add('modal-show');
+//         // })
+//         BotonModal4.addEventListener("click",(e)=>{
+//             console.log(e)
+//         })
+    
+//     // cerraModal4.addEventListener("click",()=>{
+//     //     Modal4.classList.remove("modal-show")
+//     // }) 
+// }
+// const leftMod4 = document.querySelector(".left-mod-4");
+// modalLeft(leftMod4,BotonModal4);
+
+// leftMod4.addEventListener("click",()=>{
+//     Modal4.classList.remove("modal-show");
+//     Modal3.classList.add('modal-show');
+// })
 
 // metodo para cambiar de modales, dando enter // modal 5
 const nombreInput = document.querySelector('.nombre-input');

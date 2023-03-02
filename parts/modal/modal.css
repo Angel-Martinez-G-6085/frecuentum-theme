@@ -306,3 +306,13 @@
         transform: scale(0);
     }
 }
+
+
+/* boton regreso */
+.btn-regreso{
+    font-size: 3rem;
+    margin-left: 10px;
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+}

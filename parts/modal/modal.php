@@ -12,6 +12,7 @@
 
 <div class="modal-container modal-2">
     <div class="content-modal">
+        <span class="btn-regreso left-mod-2">🡰</span>
         <span class="w3-closebtn closed-2">&times;</span>
         <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
         <h4 class="modal-pregunta">¿Eres actualmente concesionario y/o autorizado para la prestación de servicios de telecomunicaciones y/o radiofusión?</h4>
@@ -26,15 +27,16 @@
 <!-- No -->
 <div class="modal-container modalNo">
     <div class="content-modal">
+        <span class="btn-regreso left-mod-no">🡰</span>
         <span class="w3-closebtn closed-no">&times;</span>
         <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
         <h4 class="modal-pregunta">¿Estás interesado en prestar servicios relacionado con...?</h4>
         <div class="modal-links-container-icons">
-            <a href="#" class="img-modal mod4"><img class="tele"  src="<?php echo(ICON. 'tele-verde.svg')?>" alt="opcion-image">Televisión</a>
-            <a href="#" class="img-modal mod4"><img class="radio" src="<?php echo(ICON. 'radio-verde.svg')?>" alt="opcion-image">Radio</a>
-            <a href="#" class="img-modal mod4"><img class="inter" src="<?php echo(ICON. 'busqueda-verde.svg')?>" alt="opcion-image">Internet</a>
-            <a href="#" class="img-modal mod4"><img class="fon" src="<?php echo(ICON. 'telefonoVerde.svg')?>" alt="opcion-image">Telefonía</a>
-            <a href="#" class="modal-link mod4">No estoy seguro</a>
+            <a href="#" class="img-modal mod4 leftno"><img class="tele"  src="<?php echo(ICON. 'tele-verde.svg')?>" alt="opcion-image">Televisión</a>
+            <a href="#" class="img-modal mod4 leftno"><img class="radio" src="<?php echo(ICON. 'radio-verde.svg')?>" alt="opcion-image">Radio</a>
+            <a href="#" class="img-modal mod4 leftno"><img class="inter" src="<?php echo(ICON. 'busqueda-verde.svg')?>" alt="opcion-image">Internet</a>
+            <a href="#" class="img-modal mod4 leftno"><img class="fon" src="<?php echo(ICON. 'telefonoVerde.svg')?>" alt="opcion-image">Telefonía</a>
+            <a href="#" class="modal-link mod4 leftno">No estoy seguro</a>
         </div>
     </div>
 </div>
@@ -42,15 +44,16 @@
 <!-- --si -->
 <div class="modal-container modal-3">
     <div class="content-modal">
+        <span class="btn-regreso left-mod-3">🡰</span>
         <span class="w3-closebtn closed-3">&times;</span>
         <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
         <h4 class="modal-pregunta">¿Te gustaria recibir asesoría relacionada con algún trámite para...?</h4>
         <div  class="modal-links-container-modal3">
-            <a href="#" class="modal-link mod4 ine"><img src="<?php echo(ICON. 'INE-blanco.svg')?>" alt="opcion-image"></a>
-            <a href="#" class="modal-link mod4 segob"><img src="<?php echo(ICON. 'segob-blanco.svg')?>" alt="opcion-image"></a>
-            <a href="#" class="modal-link mod4 profeco"><img src="<?php echo(ICON. 'profeco-blanco.svg')?>" alt="opcion-image"></a>
-            <a href="#" class="modal-link mod4 ift"><img src="<?php echo(ICON. 'ift-blanco.svg')?>" alt="opcion-image"></a>
-            <a href="#" class="modal-link mod4">OTRO</a>
+            <a href="#" class="modal-link mod4 ine left3"><img src="<?php echo(ICON. 'INE-blanco.svg')?>" alt="opcion-image"></a>
+            <a href="#" class="modal-link mod4 segob left3"><img src="<?php echo(ICON. 'segob-blanco.svg')?>" alt="opcion-image"></a>
+            <a href="#" class="modal-link mod4 profeco left3"><img src="<?php echo(ICON. 'profeco-blanco.svg')?>" alt="opcion-image"></a>
+            <a href="#" class="modal-link mod4 ift left3"><img src="<?php echo(ICON. 'ift-blanco.svg')?>" alt="opcion-image"></a>
+            <a href="#" class="modal-link mod4 left3">OTRO</a>
         </div>
     </div>
 </div>
@@ -58,6 +61,7 @@
 <!-- --INE, SEGOG ETC. -->
 <div class="modal-container modal-4">
     <div class="content-modal">
+        <span class="btn-regreso left-mod-4">🡰</span>
         <span class="w3-closebtn closed-4">&times;</span>
         <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
         <h4 class="modal-pregunta">¡Cuéntanos!¿Con quien haremos equipo hoy?</h4>
