@@ -22,9 +22,6 @@
                 <img src="<?php echo(ICON. 'correo-morado-icon.svg')?>" alt="footer-mail-icon" class="footer-mail-icon">
                 <div class="footer-mails-container flex f-column">
                     <h4 class="footer-mails-correo">notificaciones@frequencylex.mx</h4>
-                    <h4 class="footer-mails-correo">adriana.cortes@frequencylex.mx</h4>
-                    <h4 class="footer-mails-correo">bianidxi.resendiz@frequencylex.mx</h4>
-                    <h4 class="footer-mails-correo">carlos.espinosa@frequencylex.mx</h4>
                 </div>
             </div>
 

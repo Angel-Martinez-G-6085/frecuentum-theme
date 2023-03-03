@@ -20,7 +20,7 @@
     <section class="nosotros-segunda-seccion contenedor-ancho grid col-1">
         <picture>
             <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'ondaAzulVerde-movil.webp')?>">
-            <img src="<?php echo(IMG. 'ondaAzulVerde.webp')?>" alt="nosotros-image" class="nosotros-segunda-seccion-image">
+            <img src="<?php echo(IMG. 'Nosotros-degradado.webp')?>" alt="nosotros-image" class="nosotros-segunda-seccion-image">
         </picture>
         <div class="nosotros-segunda-seccion-content-container grid col-1">
             <div class="nosotros-segunda-seccion-text-container flex f-column">
@@ -111,13 +111,13 @@
                             </div>
 
                             <div class="team-member-icons-container flex">
-                                <a class="nosotros-team-link" href="#">
+                                <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
                                     <img src="<?php echo(ICON . 'whattsIcon.svg')?>" alt="" class="team-card-icon">
                                 </a>
-                                <a class="nosotros-team-link" href="#">
+                                <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
                                     <img src="<?php echo(ICON . 'facebook-icon.svg')?>" alt="" class="team-card-icon">
                                 </a>
-                                <a class="nosotros-team-link" href="#">
+                                <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
                                     <img src="<?php echo(ICON . 'instagramIcon.svg')?>" alt="" class="team-card-icon">
                                 </a>
                                 <a class="nosotros-team-link" target="_blank" href="https://twitter.com/ACEc_1">
@@ -140,13 +140,13 @@
                             </div>
 
                             <div class="team-member-icons-container flex">
-                                <a class="nosotros-team-link" href="#">
+                                <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
                                     <img src="<?php echo(ICON . 'whattsIcon.svg')?>" alt="" class="team-card-icon">
                                 </a>
-                                <a class="nosotros-team-link" href="#">
+                                <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
                                     <img src="<?php echo(ICON . 'facebook-icon.svg')?>" alt="" class="team-card-icon">
                                 </a>
-                                <a class="nosotros-team-link" href="#">
+                                <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
                                     <img src="<?php echo(ICON . 'instagramIcon.svg')?>" alt="" class="team-card-icon">
                                 </a>
                                 <a class="nosotros-team-link" target="_blank" href="https://twitter.com/ACEc_1">
@@ -169,13 +169,13 @@
                             </div>
 
                             <div class="team-member-icons-container flex">
-                                <a class="nosotros-team-link" href="#">
+                                <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
                                     <img src="<?php echo(ICON . 'whattsIcon.svg')?>" alt="" class="team-card-icon">
                                 </a>
-                                <a class="nosotros-team-link" href="#">
+                                <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
                                     <img src="<?php echo(ICON . 'facebook-icon.svg')?>" alt="" class="team-card-icon">
                                 </a>
-                                <a class="nosotros-team-link" href="#">
+                                <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
                                     <img src="<?php echo(ICON . 'instagramIcon.svg')?>" alt="" class="team-card-icon">
                                 </a>
                                 <a class="nosotros-team-link" target="_blank" href="https://twitter.com/ACEc_1">

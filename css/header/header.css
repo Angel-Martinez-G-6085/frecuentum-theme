@@ -2,7 +2,7 @@
     width: 100%;
     height: 10vh;
     position: relative;
-    background-color:var(--azul-oscuro);
+    background:var(--fondo-degradado-azul-header);
 }
 
 .header__nav__logos-container {
@@ -126,7 +126,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    opacity: 0.9;
+    opacity: 0.95;
     animation: smoothNav 1s forwards;
 }
 

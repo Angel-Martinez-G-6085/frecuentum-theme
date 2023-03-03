@@ -58,11 +58,15 @@ VARIABLES
     --negro: black;
     --morado: #903f8f;
     --verde: #71b531;
-    --azul-oscuro: #263b4e;
+    --azul-oscuro: #26598c;
     --morado-claro: #cad7ed;
     --fuente: 'Roboto', sans-serif;
     --ancho-contenedor: 1200px;
-    --fondo-input-modal:#4C3D65;
+    --fondo-degradado-modal: linear-gradient(#aa34ad, #142430);
+    --fondo-degradado-azul-footer: linear-gradient(#23588c, #142430);
+    --fondo-degradado-azul-header: linear-gradient(#142430, #23588c);
+    --fondo-degradado-caja-servicios: linear-gradient(#25588c, #142430);
+    --fondo-degradado-caja-equipo: linear-gradient(#cad7ed, #9cacd9);
 }
 
 /*

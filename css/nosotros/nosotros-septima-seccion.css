@@ -27,7 +27,7 @@
     margin: 0 auto;
     width: 50%;
     height: 80%;
-    background-color:#BCD1DD;
+    background:var(--fondo-degradado-caja-equipo);
     align-self: flex-start;
     overflow: hidden;
 }
@@ -184,6 +184,14 @@
 
   .team-member-description {
     text-align: justify;
+  }
+
+  .button-left {
+    top: 45%;
+  }
+
+  .button-right {
+    top: 45%;
   }
 }
 

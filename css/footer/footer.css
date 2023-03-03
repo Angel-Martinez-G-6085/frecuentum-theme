@@ -1,5 +1,5 @@
 .footer {
-    background-color: var(--azul-oscuro);
+    background: var(--fondo-degradado-azul-footer)
 }
 
 .footer-description-column {
@@ -186,6 +186,7 @@
 
     .footer-mails-container {
         font-size: 1.6rem;
+        justify-content: center;
     }
 
     .footer-location-seccion {

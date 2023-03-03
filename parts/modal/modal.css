@@ -28,9 +28,9 @@
     width: 90%;
     height: 80vh;
     max-height: 600px;
-    background-color: #4C3D65;
+    background: var(--fondo-degradado-modal);
     border-radius: 20px;
-    opacity: 0.9;
+    opacity: 0.95;
 }
 
 .modal-show {

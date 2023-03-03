@@ -1,5 +1,5 @@
 .home-quinta-seccion-container {
-    background-image: url('../../assets/images/Fondo-azul-correcto.webp');
+    background-image: url('../../assets/images/Menu-inicio-degadrado.webp');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -68,6 +68,9 @@
 
 /* estilos para el tamaño de laptop */
 @media screen and (min-width: 1200px) {
+    .home-quinta-seccion-container {
+        margin-top: -3%;
+    }
     .quinta-seccion-image-container {
         padding: 9% 5%;
     }
@@ -83,7 +86,7 @@
     }
 
     .quinta-seccion-servicio-description  {
-        font-size: clamp(1rem, 2vw + 1rem, 2rem);
+        font-size: clamp(1rem, 2vw + 1rem, 1.3rem);
     }
 
     .quinta-seccion-title {
