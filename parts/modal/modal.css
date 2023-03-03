@@ -41,12 +41,12 @@
 
 .content-modal-inicio{
     width: 100%;
-    height: auto;
+    height: 80vh;
     text-align: center;
     color: white;
 }
 .modal-pregunta-inicio{
-    font-size: 4rem;
+    font-size: 4vw;
     color: white;
     text-align: center;
     margin-bottom: 23px;
@@ -67,7 +67,7 @@
     margin-left: 40px;
 }
 .modal-pregunta {
-    font-size: 3.5rem;
+    font-size: 3.5vw;
     color: white;
     text-align: center;
     width: 800px;
@@ -78,11 +78,20 @@
     font-size: 3.5rem;
 }
 .modal-subtitle-pregunta{
-    font-size: 3rem;
+    font-size: 3vw;
 }
 .img-content {
+    /* width: 50%;
+    margin: auto; */
+
     width: 50%;
-    margin: auto;
+    margin: 0 auto;
+    height: 25vh;
+    background: #801515;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
 .person{
     width: 20%;
@@ -192,10 +201,6 @@
 .fon{
     width: 140px;
 }
-
-/* .consultora{
-    width: 220px;
-} */
 .svg-modal4{
     background-color: blueviolet;
 }

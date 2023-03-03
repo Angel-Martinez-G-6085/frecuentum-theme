@@ -19,7 +19,7 @@
         <div class="modal-links-container">
             <a  href="#" class="modal-link mod3">Si</a>
             <a  href="#" class="modal-link modNo">No</a>
-            <a href="#" class="modal-link consultora mod4">Hablar con una consultora ahora</a>
+            <a href="#" class="modal-link left2 mod4">Hablar con una consultora ahora</a>
         </div>
     </div>
 </div>
@@ -66,7 +66,7 @@
         <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
         <h4 class="modal-pregunta">¡Cuéntanos!¿Con quien haremos equipo hoy?</h4>
     <div class="modal-links-container-inputs">
-            <input id="nombre" class="input-link nombre-input" type="text" placeholder="Nombre..." required>
+        <input id="nombre" class="input-link nombre-input" type="text" placeholder="Nombre..." required>
     </div>
     </div>
 </div>
@@ -74,6 +74,7 @@
 <!-- --Nombre - empresa -->
 <div class="modal-container modal-5">
     <div class="content-modal">
+        <span class="btn-regreso left-mod-5">🡰</span>
         <span class="w3-closebtn closed-5">&times;</span>
         <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
         <h4 class="modal-pregunta">¿Cual es el nombre del proyecto/empresa en el que trabajas?</h4>
@@ -86,6 +87,7 @@
 <!-- --Nombre - empresa -->
 <div class="modal-container modal-6">
     <div class="content-modal">
+        <span class="btn-regreso left-mod-6">🡰</span>
         <span class="w3-closebtn closed-6">&times;</span>
         <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
         <h4 class="modal-pregunta">¿Dónde podemos contactarte?</h4>
@@ -98,6 +100,7 @@
 <!-- --Correo -->
 <div class="modal-container modal-7">
     <div class="content-modal">
+    <span class="btn-regreso left-mod-7">🡰</span>
     <span class="w3-closebtn closed-7">&times;</span>
     <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
     <h4 class="modal-pregunta">¿Cuál es tu correo electrónico?</h4>
@@ -110,6 +113,7 @@
 <!-- --Agendar llamada -->
 <div class="modal-container modal-8">
     <div class="content-modal">
+        <span class="btn-regreso left-mod-8">🡰</span>
         <span class="w3-closebtn closed-8">&times;</span>
         <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
         <h4 class="modal-pregunta">¿Te gustaría hablar con un consultor ahora?</h4>
@@ -124,6 +128,7 @@
 <!-- --Enviar evento del calendario -->
 <div class="modal-container modal-envent-calendar">
     <div class="content-modal-event">
+        <span class="btn-regreso left-mod-calendar">🡰</span>
         <span class="w3-closebtn closed-event">&times;</span>
         <p  class="event-pregunta">Registrate en el calendario</p>
         <div class="modal-links-event">
