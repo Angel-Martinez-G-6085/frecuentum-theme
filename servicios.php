@@ -22,7 +22,7 @@
             <div class="servicios-segunda-seccion-banner-container">
                 <picture>
                   <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'servicios-segundaSec-movil.webp')?>">
-                  <img srcset="<?php echo(IMG. 'fondo-prueba.webp')?>" alt=""  class="servicios-segunda-seccion-image">
+                  <img srcset="<?php echo(IMG. 'Nosotros-degradado.webp')?>" alt=""  class="servicios-segunda-seccion-image">
                 </picture>
                 <div class="servicios-segunda-seccion-content-container grid col-1">
                     <div class="servicios-segunda-seccion-titles-container flex f-column">

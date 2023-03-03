@@ -118,6 +118,13 @@ numeroInput.addEventListener("keydown", (e) =>{
         localStorage.setItem("contacto",contacto);
         numeroInput.value = "";
         console.log("con esto cambiaremos de modal")
+        let informacion = {
+            empresa: localStorage.getItem("empresa"),
+            correo: localStorage.getItem("correo"),
+            contacto: localStorage.getItem("contacto")
+        }
+        JSON.stringify(informacion);
+        insertData(informacion);
     }
 })
 const Modal7 = document.querySelector('.modal-7');

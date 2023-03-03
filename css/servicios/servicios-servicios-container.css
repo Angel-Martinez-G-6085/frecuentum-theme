@@ -1,6 +1,6 @@
 .servicios-servicios-container {
     position: absolute;
-    background-color: var(--azul-oscuro);
+    background: var(--fondo-degradado-caja-servicios);
     width: 60%;
     top: 95%;
     left: 38.3rem;

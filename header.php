@@ -26,13 +26,13 @@
             </div>
 
             <nav class="header__nav">
-                <ul class="nav__menu grid col-4">
+                <ul class="nav__menu grid col-4 peq-col-1">
                     <div class="menu-cerrar-button-container">
                         <img class="nav-movil-cerrar-icon" src="<?php echo(ICON. 'tache.svg')?>" alt="nav-logo">
                     </div>
                     <li class="menu-link inicio-link">
-                        <a href="<?php echo site_url('/inicio'); ?>">
-                            <img class="nav-logo" src="<?php echo(IMG. 'Imagotipo-FREQUENTUM-1.svg')?>" alt="nav-logo">
+                        <a href="<?php echo site_url('/inicio')?>" class="formulario-link" href="#">
+                            <img src="<?php echo(IMG. 'logo-svg.svg')?>" alt="">
                         </a>
                     </li>
                     <li class="menu-link">
