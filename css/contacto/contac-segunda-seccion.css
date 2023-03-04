@@ -137,6 +137,10 @@
 
 /* estilos para el tamaño de celular */
 @media screen and (max-width: 576px) {
+    .contacto-container {
+        justify-content: center;
+    }
+    
     .contact-segunda-seccion-banner-container {
         margin-top: -17%;
         height: unset;

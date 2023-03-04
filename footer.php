@@ -52,23 +52,23 @@
                 <img src="<?php echo(IMG.'MascotaCentada.webp')?>" alt="footer-mascota" class="footer-mascota">
 
                 <div class="footer-mascota-icons-container">
-                    <a href="#">
+                    <a target="_blank" href="https://wa.me/5215540370369">
                         <img src="<?php echo(ICON. 'facebookBlanco.svg')?>" alt="footer-mascota-icon" class="flex face-icon footer-mascota-icon">
                     </a>
 
-                    <a href="#">
+                    <a target="_blank" href="https://wa.me/5215540370369">
                         <img src="<?php echo(ICON. 'insta-icon.svg')?>" alt="insta-icon" class="footer-mascota-icon">
                     </a>
 
-                    <a href="#">
+                    <a target="_blank" href="https://wa.me/5215540370369">
                         <img src="<?php echo(ICON. 'linkedin-icon-blanco.svg')?>" alt="footer-mascota-icon" class="footer-mascota-icon">
                     </a>
 
-                    <a href="#">
+                    <a target="_blank" href="https://wa.me/5215540370369">
                         <img src="<?php echo(ICON. 'whats-icon-blanco.svg')?>" alt="footer-mascota-icon" class="footer-mascota-icon">
                     </a>
 
-                    <a href="#">
+                    <a target="_blank" href="https://wa.me/5215540370369">
                         <img src="<?php echo(ICON. 'twiter-icon-blanco.svg')?>" alt="footer-mascota-icon" class="footer-mascota-icon">
                     </a>
                 </div>

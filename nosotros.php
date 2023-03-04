@@ -19,7 +19,7 @@
 
     <section class="nosotros-segunda-seccion contenedor-ancho grid col-1">
         <picture>
-            <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'ondaAzulVerde-movil.webp')?>">
+            <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'Nosotros-movil-degradado.webp')?>">
             <img src="<?php echo(IMG. 'Nosotros-degradado.webp')?>" alt="nosotros-image" class="nosotros-segunda-seccion-image">
         </picture>
         <div class="nosotros-segunda-seccion-content-container grid col-1">
@@ -106,28 +106,28 @@
                     <div class="slider__element slider__element--lightcoral grid col-2">
                         <div class="team-description-content-container grid col-1">
                             <div class="team-description-content">
-                                <p class="team-member-description">Licenciada en Derecho con especialización en Derecho Administrativo, ambas, por la Universidad Nacional Autónoma de México, con más de 10 años de experiencia en regulación de los servicios públicos de radiodifusión y telecomunicaciones</p>
+                                <p class="team-member-description">Licenciada en derecho con especialización en derecho administrativo, por la Facultad de Derecho de la Universidad Nacional Autónoma de México. Cuenta con más de 10 años de experiencia como especialista en regulación de los servicios públicos de radiodifusión y telecomunicaciones.</p>
                                 <h2 class="team-name">Bianidxi Resendiz</h2>
                             </div>
 
                             <div class="team-member-icons-container flex">
-                                <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
+                                <!-- <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
                                     <img src="<?php echo(ICON . 'whattsIcon.svg')?>" alt="" class="team-card-icon">
-                                </a>
-                                <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
+                                </a> -->
+                                <!-- <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
                                     <img src="<?php echo(ICON . 'facebook-icon.svg')?>" alt="" class="team-card-icon">
-                                </a>
-                                <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
+                                </a> -->
+                                <!-- <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
                                     <img src="<?php echo(ICON . 'instagramIcon.svg')?>" alt="" class="team-card-icon">
-                                </a>
-                                <a class="nosotros-team-link" target="_blank" href="https://twitter.com/ACEc_1">
+                                </a> -->
+                                <a class="nosotros-team-link" target="_blank" href="https://twitter.com/biani_resendiz">
                                     <img src="<?php echo(ICON . 'twiter-icon.svg')?>" alt="" class="team-card-icon">
                                 </a>
-                                <a class="nosotros-team-link" target="_blank" href="https://www.linkedin.com/in/adriana-cortes-741528169/">
+                                <a class="nosotros-team-link" target="_blank" href="https://www.linkedin.com/in/bianidxi-resendiz-a736a917a/">
                                     <img src="<?php echo(ICON . 'linkedin-icon.svg')?>" alt="" class="team-card-icon">
                                 </a>
                             </div>
-                            <img src="<?php echo(IMG . 'OndSeparador.png')?>" alt="" class="nosotros-onda-image">
+                            <!-- <img src="<?php echo(IMG . 'OndSeparador.png')?>" alt="" class="nosotros-onda-image"> -->
                         </div>
                         <div class="team-foto-container persona-1"></div>
                     </div>
@@ -135,28 +135,28 @@
                     <div class="slider__element slider__element--lightcoral grid col-2">
                         <div class="team-description-content-container grid col-1">
                             <div class="team-description-content">
-                                <p class="team-member-description">Ingeniera en Comunicaciones y Electrónica por el Instituto Politécnico Nacional, actualmente cursa la Maestría en Regulación y Competencia Económica en Telecomunicaciones, en el Centro de Investigación e Innovación en TIC. Tiene más de 18 años de experiencia en el sector de las telecomunicaciones y radiodifusión.</p>
-                                <h2 class="team-name">Bianidxi Resendiz</h2>
+                                <p class="team-member-description">Licenciado en Derecho por la Barra Nacional de Abogados. Con más de 10 años de experiencia como especialista en regulación de las telecomunicaciones.<br> Por su trayectoria profesional como servidor público, tiene amplia experiencia como especialista y ahora consultor en regulación de los servicios públicos de telecomunicaciones</p>
+                                <h2 class="team-name">Carlos Espinosa Reyna</h2>
                             </div>
 
                             <div class="team-member-icons-container flex">
-                                <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
+                                <!-- <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
                                     <img src="<?php echo(ICON . 'whattsIcon.svg')?>" alt="" class="team-card-icon">
-                                </a>
-                                <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
+                                </a> -->
+                                <!-- <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
                                     <img src="<?php echo(ICON . 'facebook-icon.svg')?>" alt="" class="team-card-icon">
-                                </a>
-                                <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
+                                </a> -->
+                                <!-- <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
                                     <img src="<?php echo(ICON . 'instagramIcon.svg')?>" alt="" class="team-card-icon">
-                                </a>
-                                <a class="nosotros-team-link" target="_blank" href="https://twitter.com/ACEc_1">
+                                </a> -->
+                                <a class="nosotros-team-link" target="_blank" href="https://twitter.com/CarlosE86Reyna">
                                     <img src="<?php echo(ICON . 'twiter-icon.svg')?>" alt="" class="team-card-icon">
                                 </a>
-                                <a class="nosotros-team-link" target="_blank" href="https://www.linkedin.com/in/adriana-cortes-741528169/">
+                                <a class="nosotros-team-link" target="_blank" href="https://www.linkedin.com/in/carlos-espinosa-reyna-7649a924a/">
                                     <img src="<?php echo(ICON . 'linkedin-icon.svg')?>" alt="" class="team-card-icon">
                                 </a>
                             </div>
-                            <img src="<?php echo(IMG . 'OndSeparador.png')?>" alt="" class="nosotros-onda-image">
+                            <!-- <img src="<?php echo(IMG . 'OndSeparador.png')?>" alt="" class="nosotros-onda-image"> -->
                         </div>
                         <div class="team-foto-container persona-2"></div>
                     </div>
@@ -164,28 +164,28 @@
                     <div class="slider__element slider__element--lightcoral grid col-2">
                         <div class="team-description-content-container grid col-1">
                             <div class="team-description-content">
-                                <p class="team-member-description">Ingeniera en Comunicaciones y Electrónica por el Instituto Politécnico Nacional, actualmente cursa la Maestría en Regulación y Competencia Económica en Telecomunicaciones, en el Centro de Investigación e Innovación en TIC. Tiene más de 18 años de experiencia en el sector de las telecomunicaciones y radiodifusión.</p>
-                                <h2 class="team-name">Bianidxi Resendiz</h2>
+                                <p class="team-member-description">Licenciada en derecho con especialización en derecho administrativo, por la Facultad de Derecho de la Universidad Nacional Autónoma de México. Cuenta con más de 10 años de experiencia en la consultoría en regulación de los servicios públicos de radiodifusión y telecomunicaciones y procedimientos de dictaminación técnica. Adriana Cortés Espidio. Abogada.</p>
+                                <h2 class="team-name">Adriana Cortés Espidio</h2>
                             </div>
 
                             <div class="team-member-icons-container flex">
-                                <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
+                                <!-- <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
                                     <img src="<?php echo(ICON . 'whattsIcon.svg')?>" alt="" class="team-card-icon">
-                                </a>
-                                <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
+                                </a> -->
+                                <!-- <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
                                     <img src="<?php echo(ICON . 'facebook-icon.svg')?>" alt="" class="team-card-icon">
-                                </a>
-                                <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
+                                </a> -->
+                                <!-- <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
                                     <img src="<?php echo(ICON . 'instagramIcon.svg')?>" alt="" class="team-card-icon">
-                                </a>
+                                </a> -->
                                 <a class="nosotros-team-link" target="_blank" href="https://twitter.com/ACEc_1">
                                     <img src="<?php echo(ICON . 'twiter-icon.svg')?>" alt="" class="team-card-icon">
                                 </a>
-                                <a class="nosotros-team-link" target="_blank" href="https://www.linkedin.com/in/adriana-cortes-741528169/">
+                                <a class="nosotros-team-link" target="_blank" href="https://www.linkedin.com/in/adriana-cortes-741528169">
                                     <img src="<?php echo(ICON . 'linkedin-icon.svg')?>" alt="" class="team-card-icon">
                                 </a>
                             </div>
-                            <img src="<?php echo(IMG . 'OndSeparador.png')?>" alt="" class="nosotros-onda-image">
+                            <!-- <img src="<?php echo(IMG . 'OndSeparador.png')?>" alt="" class="nosotros-onda-image"> -->
                         </div>
                         <div class="team-foto-container persona-3"></div>
                     </div>

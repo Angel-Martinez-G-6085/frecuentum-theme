@@ -150,6 +150,18 @@
     }
 }
 
+@media screen and (max-width: 576px) {
+    .header {
+        height: 8vh;
+    }
+
+    .inicio-link {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+}
+
 @media screen and (min-width: 769px) {
     .header {
         column-gap: 0;

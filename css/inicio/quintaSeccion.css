@@ -106,7 +106,7 @@
 /* estilos para el tamaño de celular */
 @media screen and (max-width: 576px) {
     .home-quinta-seccion-container {
-        background-image: url('../../assets/images/Fondo-azul-lineVerde-movil.webp');
+        background-image: url('../../assets/images/menu-inicio-movil.webp');
     }
 
     .quinta-seccion-content-container {

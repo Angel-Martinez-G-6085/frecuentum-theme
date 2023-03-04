@@ -21,8 +21,8 @@
         <div class="servicios-segunda-seccion contenedor-ancho">
             <div class="servicios-segunda-seccion-banner-container">
                 <picture>
-                  <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'servicios-segundaSec-movil.webp')?>">
-                  <img srcset="<?php echo(IMG. 'Nosotros-degradado.webp')?>" alt=""  class="servicios-segunda-seccion-image">
+                  <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'Servicio-movil.webp')?>">
+                  <img srcset="<?php echo(IMG. 'Servicios-imagen-degradado.webp')?>" alt=""  class="servicios-segunda-seccion-image">
                 </picture>
                 <div class="servicios-segunda-seccion-content-container grid col-1">
                     <div class="servicios-segunda-seccion-titles-container flex f-column">
@@ -132,98 +132,98 @@
                         <div class="servicios-opcion-container flex">
                             <div class="servicios-rectangulo-container"></div>
                             <div class="servicios-opcion-text-container">
-                                <a href="<?php echo site_url('#');?>" class="servicios-opcion-text">Notificación de Concentración.</a>
+                                <a target="_blank" href="https://wa.me/5215540370369" class="servicios-opcion-text">Notificación de Concentración.</a>
                             </div>
                         </div>
 
                         <div class="servicios-opcion-container flex">
                             <div class="servicios-rectangulo-container"></div>
                                 <div class="servicios-opcion-text-container">
-                                <a href="<?php echo site_url('#');?>" class="servicios-opcion-text">Solicitud de Licencia de Estación de Barco.</a>
+                                <a target="_blank" href="https://wa.me/5215540370369" class="servicios-opcion-text">Solicitud de Licencia de Estación de Barco.</a>
                             </div>
                         </div>
 
                         <div class="servicios-opcion-container flex">
                             <div class="servicios-rectangulo-container"></div>
                             <div class="servicios-opcion-text-container">
-                                <a href="<?php echo site_url('#');?>" class="servicios-opcion-text">Solicitud de Licencia de Estación de Aeronave.</a>
+                                <a target="_blank" href="https://wa.me/5215540370369" class="servicios-opcion-text">Solicitud de Licencia de Estación de Aeronave.</a>
                             </div>
                         </div>
 
                         <div class="servicios-opcion-container flex">
                             <div class="servicios-rectangulo-container"></div>
                             <div class="servicios-opcion-text-container">
-                                <a href="<?php echo site_url('#');?>" class="servicios-opcion-text">Solicitud de concesión única para uso comercial.</a>
+                                <a target="_blank" href="https://wa.me/5215540370369" class="servicios-opcion-text">Solicitud de concesión única para uso comercial.</a>
                             </div>
                         </div>
 
                         <div class="servicios-opcion-container flex">
                             <div class="servicios-rectangulo-container"></div>
                             <div class="servicios-opcion-text-container">
-                                <a href="<?php echo site_url('#');?>" class="servicios-opcion-text">Solicitud de asignación de numeración geográfica.</a>
+                                <a target="_blank" href="https://wa.me/5215540370369" class="servicios-opcion-text">Solicitud de asignación de numeración geográfica.</a>
                             </div>
                         </div>
                         <!-- prueba -->
                         <div class="servicios-opcion-container flex">
                             <div class="servicios-rectangulo-container"></div>
                             <div class="servicios-opcion-text-container">
-                                <a href="<?php echo site_url('#');?>" class="servicios-opcion-text">Solicitud de concesión única para uso comercial.</a>
+                                <a target="_blank" href="https://wa.me/5215540370369" class="servicios-opcion-text">Solicitud de concesión única para uso comercial.</a>
                             </div>
                         </div>
 
                         <div class="servicios-opcion-container flex">
                             <div class="servicios-rectangulo-container"></div>
                             <div class="servicios-opcion-text-container">
-                                <a href="<?php echo site_url('#');?>" class="servicios-opcion-text">Solicitud de asignación de numeración geográfica.</a>
+                                <a target="_blank" href="https://wa.me/5215540370369" class="servicios-opcion-text">Solicitud de asignación de numeración geográfica.</a>
                             </div>
                         </div>
 
                         <div class="servicios-opcion-container flex">
                             <div class="servicios-rectangulo-container"></div>
                             <div class="servicios-opcion-text-container">
-                                <a href="<?php echo site_url('#');?>" class="servicios-opcion-text">Solicitud de asesoría a usuarios con discapacidad.</a>
+                                <a target="_blank" href="https://wa.me/5215540370369" class="servicios-opcion-text">Solicitud de asesoría a usuarios con discapacidad.</a>
                             </div>
                         </div>
 
                         <div class="servicios-opcion-container flex">
                             <div class="servicios-rectangulo-container"></div>
                             <div class="servicios-opcion-text-container">
-                                <a href="<?php echo site_url('#');?>" class="servicios-opcion-text">Justificación de Centros de Atención no Accesibles.</a>
+                                <a target="_blank" href="https://wa.me/5215540370369" class="servicios-opcion-text">Justificación de Centros de Atención no Accesibles.</a>
                             </div>
                         </div>
 
                         <div class="servicios-opcion-container flex">
                             <div class="servicios-rectangulo-container"></div>
                             <div class="servicios-opcion-text-container">
-                                <a href="<?php echo site_url('#');?>" class="servicios-opcion-text">Aviso de solicitud de bloqueo de contenidos programáticos.</a>
+                                <a target="_blank" href="https://wa.me/5215540370369" class="servicios-opcion-text">Aviso de solicitud de bloqueo de contenidos programáticos.</a>
                             </div>
                         </div>
 
                         <div class="servicios-opcion-container flex">
                             <div class="servicios-rectangulo-container"></div>
                             <div class="servicios-opcion-text-container">
-                                <a href="<?php echo site_url('#');?>" class="servicios-opcion-text">Solicitud de autorización de un Organismo de Certificación.</a>
+                                <a target="_blank" href="https://wa.me/5215540370369" class="servicios-opcion-text">Solicitud de autorización de un Organismo de Certificación.</a>
                             </div>
                         </div>
 
                         <div class="servicios-opcion-container flex">
                             <div class="servicios-rectangulo-container"></div>
                             <div class="servicios-opcion-text-container">
-                                <a href="<?php echo site_url('#');?>" class="servicios-opcion-text">Solicitud de asignación de numeración no geográfica específica.</a>
+                                <a target="_blank" href="https://wa.me/5215540370369" class="servicios-opcion-text">Solicitud de asignación de numeración no geográfica específica.</a>
                             </div>
                         </div>
 
                         <div class="servicios-opcion-container flex">
                             <div class="servicios-rectangulo-container"></div>
                             <div class="servicios-opcion-text-container">
-                                <a href="<?php echo site_url('#');?>" class="servicios-opcion-text">Pago anual para el uso de frecuencias del espectro radioeléctrico.</a>
+                                <a target="_blank" href="https://wa.me/5215540370369" class="servicios-opcion-text">Pago anual para el uso de frecuencias del espectro radioeléctrico.</a>
                             </div>
                         </div>
 
                         <div class="servicios-opcion-container flex">
                             <div class="servicios-rectangulo-container"></div>
                             <div class="servicios-opcion-text-container">
-                                <a href="<?php echo site_url('#');?>" class="servicios-opcion-text">Solicitud de Certificado de Homologación Definitivo con Antecedentes.</a>
+                                <a target="_blank" href="https://wa.me/5215540370369" class="servicios-opcion-text">Solicitud de Certificado de Homologación Definitivo con Antecedentes.</a>
                             </div>
                         </div>
                     </div>
@@ -309,7 +309,7 @@
                     <h2 class="servicios-octava-seccion-title titulo centrar">Conoce más sobre nuestra amplia gama de servicios</h2>
                 </div>
                 <div class="servicios-octava-seccion-button-container flex">
-                    <a href="#" class="servicios-octava-seccion-subtitle centrar text-link">Quiero saber más</a>
+                    <a href="https://wa.me/5215540370369" class="servicios-octava-seccion-subtitle centrar text-link">Quiero saber más</a>
                 </div>
             </div>
         </div>
