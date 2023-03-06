@@ -103,7 +103,7 @@ const OpenModals = (BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,
 
 }
 
-const BotonModal = document.querySelector(".formulario-link");
+const BotonModal = document.querySelector("#modal-link");
 const BotonModal2 = document.querySelector(".mod2");
 const BotonModalNo = document.querySelector(".modNo");
 const BotonModal3 = document.querySelector(".mod3");

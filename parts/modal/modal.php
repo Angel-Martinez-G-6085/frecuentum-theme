@@ -1,7 +1,7 @@
 <div class="modal-container">
     <div class="content-modal-inicio">
         <span class="w3-closebtn closed-1">&times;</span>    
-        <h4 class="modal-pregunta-inicio">¡Bienvenido a FREQUENCYLEX CONSULTORIA!</h4>
+        <h4 class="modal-pregunta-inicio">¡Bienvenido a FREQUENCYLEX CONSULTORÍA!</h4>
         <h6 class="modal-sub-pregunta">Estamos a unos clicks de ayudarte</h6>
         <h5 class="modal-subtitle-pregunta">¡Vamos!</h5>
         <div class="img-content">
@@ -17,9 +17,9 @@
         <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
         <h4 class="modal-pregunta">¿Eres actualmente concesionario y/o autorizado para la prestación de servicios de telecomunicaciones y/o radiofusión?</h4>
         <div class="modal-links-container">
-            <a  href="#" class="modal-link mod3">Si</a>
-            <a  href="#" class="modal-link modNo">No</a>
-            <a href="#" class="modal-link left2 mod4">Hablar con una consultora ahora</a>
+            <a  href="#" class="modal-link-2 mod3">Si</a>
+            <a  href="#" class="modal-link-2 modNo">No</a>
+            <a href="#" class="modal-link-2 left2 mod4">Hablar con un consultor ahora</a>
         </div>
     </div>
 </div>
@@ -30,7 +30,7 @@
         <span class="btn-regreso left-mod-no">🡰</span>
         <span class="w3-closebtn closed-no">&times;</span>
         <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
-        <h4 class="modal-pregunta">¿Estás interesado en prestar servicios relacionado con...?</h4>
+        <h4 class="modal-pregunta">¿Estás interesado en prestar servicios relacionados con...?</h4>
         <div class="modal-links-container-icons">
             <a href="#" class="img-modal mod4 leftno"><img class="tele"  src="<?php echo(ICON. 'tele-verde.svg')?>" alt="opcion-image">Televisión</a>
             <a href="#" class="img-modal mod4 leftno"><img class="radio" src="<?php echo(ICON. 'radio-verde.svg')?>" alt="opcion-image">Radio</a>
@@ -43,17 +43,17 @@
 
 <!-- --si -->
 <div class="modal-container modal-3">
-    <div class="content-modal">
+    <div class="content-modal-3">
         <span class="btn-regreso left-mod-3">🡰</span>
         <span class="w3-closebtn closed-3">&times;</span>
         <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
-        <h4 class="modal-pregunta">¿Te gustaria recibir asesoría relacionada con algún trámite para...?</h4>
+        <h4 class="modal-pregunta-3">¿Te gustaria recibir asesoría relacionada con algún trámite para...?</h4>
         <div  class="modal-links-container-modal3">
-            <a href="#" class="modal-link mod4 ine left3"><img src="<?php echo(ICON. 'INE-blanco.svg')?>" alt="opcion-image"></a>
-            <a href="#" class="modal-link mod4 segob left3"><img src="<?php echo(ICON. 'segob-blanco.svg')?>" alt="opcion-image"></a>
-            <a href="#" class="modal-link mod4 profeco left3"><img src="<?php echo(ICON. 'profeco-blanco.svg')?>" alt="opcion-image"></a>
-            <a href="#" class="modal-link mod4 ift left3"><img src="<?php echo(ICON. 'ift-blanco.svg')?>" alt="opcion-image"></a>
-            <a href="#" class="modal-link mod4 left3">OTRO</a>
+            <a href="#" class="modal-link-3 mod4 ine left3"><img src="<?php echo(ICON. 'INE-blanco.svg')?>" alt="opcion-image"></a>
+            <a href="#" class="modal-link-3 mod4 segob left3"><img src="<?php echo(ICON. 'segob-blanco.svg')?>" alt="opcion-image"></a>
+            <a href="#" class="modal-link-3 mod4 profeco left3"><img src="<?php echo(ICON. 'profeco-blanco.svg')?>" alt="opcion-image"></a>
+            <a href="#" class="modal-link-3 mod4 ift left3"><img src="<?php echo(ICON. 'ift-blanco.svg')?>" alt="opcion-image"></a>
+            <a href="#" class="modal-link-3 mod4 left3">OTRO</a>
         </div>
     </div>
 </div>
@@ -90,7 +90,7 @@
         <span class="btn-regreso left-mod-6">🡰</span>
         <span class="w3-closebtn closed-6">&times;</span>
         <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
-        <h4 class="modal-pregunta">¿Dónde podemos contactarte?</h4>
+        <h4 class="modal-pregunta">¿Dónde podemos contáctarte?</h4>
         <div class="modal-links-container-inputs">
             <input id="contacto" class="input-link num-input" type="text" placeholder="+52...">
         </div>
@@ -105,7 +105,7 @@
     <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
     <h4 class="modal-pregunta">¿Cuál es tu correo electrónico?</h4>
         <div class="modal-links-container-inputs">
-            <input id="correo" class="input-link correo-input" type="text" placeholder="ejemplo@gmail.com">
+            <input id="correo" class="input-link correo-input" type="text" placeholder="Correo@gmail.com">
         </div>
     </div>
 </div>
@@ -130,7 +130,7 @@
     <div class="content-modal-event">
         <span class="btn-regreso left-mod-calendar">🡰</span>
         <span class="w3-closebtn closed-event">&times;</span>
-        <p  class="event-pregunta">Registrate en el calendario</p>
+        <p  class="event-pregunta">Regístrate en el calendario</p>
         <div class="modal-links-event">
             <div class="formulario">
                 <div class="form-input">
