@@ -35,15 +35,18 @@
                 <h4 class="footer-menu-title">FREQUENCYLEX</h4>
                 <div class="menu-pie-menu-container">
                     <ul class="menu-pie-menu flex f-column">
-                    <li class="menu-link-container">
-                        <a href="<?php echo site_url('/nosotros'); ?>" class="menu-link-footer">Nosotros</a>
-                    </li>
-                    <li class="menu-link-container">
-                        <a href="<?php echo site_url('/servicios'); ?>" class="menu-link-footer">Servicios</a>
-                    </li>
-                    <li class="menu-link-container">
-                    <a href="<?php echo site_url('/contacto'); ?>" class="menu-link-footer">Contacto</a>
-                    </li>
+                        <li class="menu-link-container">
+                            <a href="<?php echo site_url('/inicio'); ?>" class="menu-link-footer">Inicio</a>
+                        </li>
+                        <li class="menu-link-container">
+                            <a href="<?php echo site_url('/nosotros'); ?>" class="menu-link-footer">Nosotros</a>
+                        </li>
+                        <li class="menu-link-container">
+                            <a href="<?php echo site_url('/servicios'); ?>" class="menu-link-footer">Servicios</a>
+                        </li>
+                        <li class="menu-link-container">
+                        <a href="<?php echo site_url('/contacto'); ?>" class="menu-link-footer">Contacto</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -52,23 +55,23 @@
                 <img src="<?php echo(IMG.'MascotaCentada.webp')?>" alt="footer-mascota" class="footer-mascota">
 
                 <div class="footer-mascota-icons-container">
-                    <a href="#">
+                    <a target="_blank" href="https://wa.me/5215540370369">
                         <img src="<?php echo(ICON. 'facebookBlanco.svg')?>" alt="footer-mascota-icon" class="flex face-icon footer-mascota-icon">
                     </a>
 
-                    <a href="#">
+                    <a target="_blank" href="https://wa.me/5215540370369">
                         <img src="<?php echo(ICON. 'insta-icon.svg')?>" alt="insta-icon" class="footer-mascota-icon">
                     </a>
 
-                    <a href="#">
+                    <a target="_blank" href="https://wa.me/5215540370369">
                         <img src="<?php echo(ICON. 'linkedin-icon-blanco.svg')?>" alt="footer-mascota-icon" class="footer-mascota-icon">
                     </a>
 
-                    <a href="#">
+                    <a target="_blank" href="https://wa.me/5215540370369">
                         <img src="<?php echo(ICON. 'whats-icon-blanco.svg')?>" alt="footer-mascota-icon" class="footer-mascota-icon">
                     </a>
 
-                    <a href="#">
+                    <a target="_blank" href="https://wa.me/5215540370369">
                         <img src="<?php echo(ICON. 'twiter-icon-blanco.svg')?>" alt="footer-mascota-icon" class="footer-mascota-icon">
                     </a>
                 </div>

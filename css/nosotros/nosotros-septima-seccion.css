@@ -166,7 +166,7 @@
   .nosotros-septima-seccion-content-container {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 25% 75%;
+    grid-template-rows: 30% 70%;
     grid-row-start: 1;
     grid-row-end: 3;
     /* background-color: aqua; */

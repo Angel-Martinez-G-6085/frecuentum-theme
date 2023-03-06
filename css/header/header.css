@@ -139,6 +139,7 @@
     transition: all 1s;
     transform: left;
     left: 0;
+    z-index: 1;
 }
 
 @keyframes smoothNav {
@@ -147,6 +148,22 @@
     }
     100% {
         transform: translateY(0%);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header {
+        height: 8vh;
+    }
+
+    .inicio-link {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .menu-link {
+        font-size: 5vw;
     }
 }
 

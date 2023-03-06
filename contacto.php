@@ -26,7 +26,7 @@
     <section class="contact-segunda-seccion-container contenedor-ancho grid col-1">
         <div class="contact-segunda-seccion-banner-container">
             <picture>
-                <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'contacto-movil-image.webp')?>">
+                <source media="(max-width: 576px)" srcset="<?php echo(IMG. 'Contacto-movil.webp')?>">
                 <img src="<?php echo(IMG. 'Contacto-degradado.webp')?>" alt="" class="contact-segunda-seccion-banner-image">
             </picture>
             <div class="contact-segunda-seccion-content-container flex">
@@ -42,18 +42,18 @@
                             <div class="opciones-container">
                                 <div class="herramienta-container">
                                     <img src="<?php echo(ICON . 'calendario.svg')?>" alt="calendario-icon" class="herramienta-image">
-                                    <a href="<?php echo site_url('#');?>" class="herramienta-title text-link">Conoce nuestra herramienta</a>
+                                    <a target="_blank" href="https://wa.me/5215540370369" class="herramienta-title text-link">Conoce nuestra herramienta</a>
                                 </div>
                             </div>
 
                             <div class="llamada-container">
                                 <img src="<?php echo(ICON . 'audifonos.svg')?>" alt="agenda" class="agenda-image">
-                                <a href="<?php echo site_url('#');?>" class="llamada-title text-link">Agenda una llamada</a>
+                                <a target="_blank" href="https://wa.me/5215540370369" class="llamada-title text-link">Agenda una llamada</a>
                             </div>
 
                             <div class="consultora-container">
                                 <img src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco" class="personas-blanco-image">
-                                <a href="<?php echo site_url('#');?>" class="consultora-title text-link">Hablar con un consultor ahora</a>
+                                <a target="_blank" href="https://wa.me/5215540370369" class="consultora-title text-link">Hablar con un consultor ahora</a>
                             </div>
                         </div>
 

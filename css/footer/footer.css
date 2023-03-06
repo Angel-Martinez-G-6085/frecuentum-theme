@@ -224,6 +224,22 @@
 }
 /* estilos para el tamaño de celular */
 @media screen and (max-width: 576px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-mascota {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-description {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     .footer-description-column {
         justify-content: center;
@@ -279,10 +295,6 @@
     }
     .footer-mascota-container {
         justify-content: center;
-    }
-
-    .footer-mascota {
-        width: 94%;
     }
 
     .footer-mascota-icons-container {
