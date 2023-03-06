@@ -35,15 +35,18 @@
                 <h4 class="footer-menu-title">FREQUENCYLEX</h4>
                 <div class="menu-pie-menu-container">
                     <ul class="menu-pie-menu flex f-column">
-                    <li class="menu-link-container">
-                        <a href="<?php echo site_url('/nosotros'); ?>" class="menu-link-footer">Nosotros</a>
-                    </li>
-                    <li class="menu-link-container">
-                        <a href="<?php echo site_url('/servicios'); ?>" class="menu-link-footer">Servicios</a>
-                    </li>
-                    <li class="menu-link-container">
-                    <a href="<?php echo site_url('/contacto'); ?>" class="menu-link-footer">Contacto</a>
-                    </li>
+                        <li class="menu-link-container">
+                            <a href="<?php echo site_url('/inicio'); ?>" class="menu-link-footer">Inicio</a>
+                        </li>
+                        <li class="menu-link-container">
+                            <a href="<?php echo site_url('/nosotros'); ?>" class="menu-link-footer">Nosotros</a>
+                        </li>
+                        <li class="menu-link-container">
+                            <a href="<?php echo site_url('/servicios'); ?>" class="menu-link-footer">Servicios</a>
+                        </li>
+                        <li class="menu-link-container">
+                        <a href="<?php echo site_url('/contacto'); ?>" class="menu-link-footer">Contacto</a>
+                        </li>
                     </ul>
                 </div>
             </div>

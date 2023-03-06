@@ -145,6 +145,16 @@
     }
 }
 
+@media screen and (min-width: 1500px) {
+    .seccion-tres-description {
+        font-size: 1.4vw;
+    }
+
+    .tercera-seccion-description-card {
+        font-size: 1vw;
+    }
+}
+
 /* estilos para el tamaño de tablet */
 @media screen and (max-width: 768px) {
     .home-tercera-seccion-container {

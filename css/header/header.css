@@ -139,6 +139,7 @@
     transition: all 1s;
     transform: left;
     left: 0;
+    z-index: 1;
 }
 
 @keyframes smoothNav {
@@ -159,6 +160,10 @@
         display: flex;
         align-items: flex-end;
         justify-content: center;
+    }
+
+    .menu-link {
+        font-size: 5vw;
     }
 }
 
