@@ -204,7 +204,7 @@
 }
 
 /* estilos para el tamaño de celular */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 576px) {
     .home-tercera-seccion-container {
         grid-template-rows: unset;
         background-size: unset;
@@ -215,6 +215,11 @@
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 2;
+    }
+
+    .seccion-tres-description {
+        font-size: 3.8vw;
+        text-align: justify;
     }
 
     .tercera-seccion-cards {
@@ -231,10 +236,6 @@
         font-size: 2.6rem;
     }
 
-    .seccion-tres-description {
-        font-size: 1.8rem;
-    }
-
     .tercera-seccion-icon-card-container {
         display: flex;
         justify-content: center;
@@ -243,9 +244,11 @@
     .tercera-seccion-title-card {
         text-align: center;
         font-weight: 900;
+        font-size: 4vw;
     }
 
     .tercera-seccion-description-card {
+        font-size: 4.6vw;
         text-align: justify;
     }
 
