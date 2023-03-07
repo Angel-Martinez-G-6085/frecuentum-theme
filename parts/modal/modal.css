@@ -19,6 +19,10 @@
     top: 16%;
 }
 
+
+
+
+
 /* Modal inicio  */
 .content-modal-inicio{
     width: 100%;
@@ -26,24 +30,50 @@
     color: white;
 }
 .modal-pregunta-inicio{
-    font-size: calc(2em + 1vw);;
+    font-size: 4rem;
     color: white;
     text-align: center;
     margin-bottom: 23px;
     margin-top: 38px;    
 }
 .modal-sub-pregunta {
-    font-size: calc(1.8em + 1vw);
+    font-size: 3rem;
     padding: 10px;
     margin-bottom: 46px;
 }
 .modal-subtitle-pregunta{
-    font-size: calc(1.5em + 1vw);
+    font-size: 2.5rem;
 }
 .persona{
-    width: 8%;
+    width: 7%;
     margin-left: 40px;
 }
+.person{
+    width: 20%;
+    cursor: pointer;
+    max-width: 71px;
+    margin-left: 48%;
+    margin-top: 0;
+    height: auto;
+    transition: width 2s, transform 1s;
+}
+.person:hover{
+    transform : scale(1.3);
+}
+/* //animacion de personaje */
+.modal-show .person{
+    animation: scale 1s 1.5s backwards;
+}
+
+@keyframes scale{
+    0%{
+        transform: scale(0);
+    }
+}
+
+
+
+
 
 /* //Segundo modal */
 .content-modal{
@@ -60,7 +90,6 @@
     text-align: center;
     width: 82%;
     margin-block: auto;
-    /* margin-left: 50px; */
 }
 .modal-links-container {
     display: flex;   
@@ -83,27 +112,14 @@
     transition: transform 1s;
 } 
 .modal-link-2:hover {
+    border: 5px dashed white;
+    color: var(--verde);
     transform: scale(1.2); 
 }
-@media screen and (max-width: 576px){
-    .modal-pregunta{
-        width: 100%;
-        padding-left: 10px;
-        font-size: 2rem;
-        padding-right: 10px;
-    }
-    .modal-link-2{
-        width: 60%;
-        margin: auto;
-        font-size: 1.3rem;
-        margin-top: 3rem;
-    }
-    .persona{
-        width: 18%;
-        margin: auto;
-        margin-bottom: 10px;
-    }
-}
+
+
+
+
 
 
 /* Tercer modal */
@@ -115,71 +131,32 @@
     display: flex;
     flex-wrap: wrap;
 }
+.persona-mod-3{
+    width: 7%;
+    margin-left: 40px;
+    margin-bottom: -69px;
+}
 .modal-pregunta-3{
     font-size: 3rem;
     color: white;
     text-align: center;
-    width: 82%;
     margin-block: auto;
+    margin-bottom: -46px;
+}
+.modal-link-ine{
+    padding: 3rem;
+}
+.modal-link-segob{
+    padding: 2rem;
+}
+.modal-link-ift{
+    padding: 6.9rem;
 }
 .modal-link-3{
-    border-radius: 0 50% 0 50%;    
-    border: 4px dashed var(--verde);
-    width: 23%;
-    text-align: center;
     color: white;
-    font-size: 2.2rem;
-    font-weight: bold;
-    margin-top: 10rem;
-    padding: 2rem;
-    transition: transform 1s;
-} 
-
-.img-content {
-    /* width: 50%;
-    margin: auto; */
-    width: 100%;
-    /* margin: 0 auto; */
 }
-.person{
-    /* width: 20%;
-    cursor: pointer;
-    max-width: 80px;
-    margin-left: 47%;
-    margin-top: 6rem;
-    height: auto;
-    transition: width 2s, transform 1s; */
-
-    width: 20%;
-    cursor: pointer;
-    max-width: 71px;
-    margin-left: 48%;
-    margin-top: 0;
-    height: auto;
-    transition: width 2s, transform 1s;
-}
-.person:hover{
-    transform : scale(1.3);
-}
-/* //animacion de personaje */
-.modal-show .person{
-    animation: scale 1s 1.5s backwards;
-}
-
-@keyframes scale{
-    0%{
-        transform: scale(0);
-    }
-}
-/* --------------------------------- */
-
-
-
 .modal-links-container-modal3{
     display: flex;
-    /* grid-template-columns: repeat(3, 1fr); */
-    /* grid-template-rows: 1fr; */
-    /* justify-items: center; */
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -187,31 +164,111 @@
     width: 75%;
     gap: 30px;
     margin: auto;
-    margin-top: 40px;
+    margin-bottom: -30px;
+    margin-top: 100px;
 }
+.modal-link-padre{
+    border-radius: 0 50% 0 50%;
+    border: 4px dashed var(--verde);
+    width: 260px;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    /* margin-top: 10rem; */
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1s;
+}
+.modal-link-padre:hover {
+    transform: scale(1.2); 
+}
+
+
+
+
+
+/* Modal NO */
 .modal-links-container-icons{
-    /* display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    justify-items: center;
-    align-items: center; */
-
-        /* display: grid; */
-        gap: 10px;
-        /* grid-template-columns: repeat(4, 1fr); */
-        /* grid-template-rows: repeat(2, 1fr); */
-        /* justify-items: center; */
-        /* align-items: center; */
-        display: flex;
-        /* justify-content: center; */
-        align-items: center;
-        width: 100%;
-        flex-wrap: wrap;
-        margin: auto;
-        height: 230px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    gap: 20px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: -50px;
+}
+.modal-link-img{
+    margin: 0 auto;
+    width: 200px;
+    height: 160px;
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1s;
+}
+.modal-link-img:hover{
+    transform: scale(1.2);
+}
+.img-modal-tv{
+    padding: 45px;
+    color: white;
 }
 
+.img-modal-radio{
+    padding: 33px;
+    color: white;
+}
+.img-modal-intert{
+    padding: 44px;
+    color: white;
+}
+.img-modal-fon{
+    padding: 37px;
+    color: white;
+}
+.modal-link-no{
+    border-radius: 0 50% 0 50%;
+    border: 4px dashed var(--verde);
+    width: 199px;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    height: 70px;
+    padding: 17px;
+    transition: transform 1s;
+}
+.modal-link-no:hover{
+    border: 5px dashed white;
+    color: var(--verde);
+    padding: 15px;
+}
+.tele{
+    margin-bottom: 29px;
+}
+.radio{
+    margin-bottom: 16px;
+    margin-top: -12px;
+}
+.inter{
+    margin-bottom: 30px;
+}
+.fon{
+    margin-bottom: 25px;
+    margin-top: -13px;
+}
+
+
+
+
+
+/* Modal inputs */
 .modal-links-container-inputs{
     display: flex;
     justify-content: center;
@@ -219,57 +276,6 @@
     height: 200px;
     width: 100%;
 }
-.modal-link {
-    border-radius: 0 50% 0 50%;    
-    border: 4px dashed var(--verde);
-    /* clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 91%, 62% 93%, 30% 88%, 0 93%, 0% 20%); */
-    margin: 0 auto;
-    width: 34%;
-    /* background-color: aqua; */
-    text-align: center;
-    color: white;
-    font-size: 2rem;
-    padding: 3rem;
-    /* margin-top: 3rem; */
-    transition: width 2s, transform 1s;
-}
-.tele{
-    width: 140px;
-}
-.radio{
-    width: 158px;
-}
-.inter{
-    width: 140px;
-}
-.fon{
-    width: 140px;
-}
-.svg-modal4{
-    background-color: blueviolet;
-}
-.ift{
-    padding: 2.5rem;
-    width: 185px;
-}
-.profeco{
-    padding: 2rem;
-    width: 275px;
-}
-.segob{
-    padding: 2rem;
-    width: 275px;
-}
-.ine{
-    padding: 3rem;
-    width: 270px
-}
-.modal-link:hover{
-    border: 5px dashed white;
-    color: var(--verde);
-    transform : scale(1.2);
-}
-
 .input-link{
     background-color: #66597B;
     width: 50%;
@@ -282,58 +288,110 @@
 }
 ::placeholder { color: white; }
 
-.img-modal{
-    /* color: white;
-    width: 16%;
+
+
+
+
+
+/* Modal agendar una llamada */
+.modal-links-agendar{
+    margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.modal-agendar{
+    width: 174px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-link{
+    border-radius: 0 50% 0 50%;
+    border: 4px dashed var(--verde);
     text-align: center;
-    margin: 0 auto; */
-
     color: white;
-    width: 16%;
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 15px;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 23px;
+    margin-top: 70px;
+    transition: transform 1s;
+}
+.modal-link:hover{
+    transform: scale(1.2);
+    border: 5px dashed white;
+    color: var(--verde);
 }
 
-/* cerrar modal */
-.w3-closebtn{
-    font-size: 5rem;
-    cursor: pointer;
-    align-self: end;
-    margin-bottom: 40px;
-    margin-right: 10px;
-    color: white;
-    position: absolute;
-    top: 0;
-    right: 10px;
-}
 
-.modal-pregunta-calendar{
-    font-size: 10rem;
-    margin: 0 auto;
-    cursor: pointer;
-}
+
+
+
+/* Modal evento del calendario */
 .event-pregunta{
     font-size: 3rem;
     text-align: center;
+    margin: auto;
 }
-.content-modal-event{
-    width: 100%;
-    height: auto;
-    text-align: center;
-    color: white;
-    /* flex-direction: column; */
-    /* align-items: flex-start; */
-    flex-wrap: wrap;
-}
-.formulario {
-    margin-top: 109px;
-}
-.modal-links-event{
-    margin-top: 57px;
+.modal-links-event{ 
+        margin: auto;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 60px;
+        margin-bottom: -70px;    
 }
 .form-input{
-    margin-top: 34px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 60%;
+        height: 65px;
+        margin-bottom: 20px;
+}
+.col-form-label{
+    font-size: 2rem;
+}
+.form-control{
+    width: 200px;
+    height: 38px;
+    border-radius: 10px;
+    border: none;
+    background-color: #66597B;
+    color: white;
+}
+.btn-enviar{
+    width: 100px;
+    height: 34px;
+    border-radius: 20px;
+    border: none;
+    transition: transform 1s;
+}
+.btn-enviar:hover{
+    color: white;
+    transform: scale(1.2);
+    background-color: var(--verde);
+}
+
+
+
+
+
+/* Modal final  */
+.modal-pregunta-final{
+    font-size: 3rem;
+}
+.modal-sub-pregunta-fin{
+    font-size: 2rem;
+}
+.img-content-final {
+    width: 50%;
+    margin: auto;
 }
 .person-fin{
     width: 50%;
@@ -357,6 +415,9 @@
 }
 
 
+
+
+
 /* boton regreso */
 .btn-regreso{
     font-size: 3rem;
@@ -364,4 +425,140 @@
     position: absolute;
     top: 10px;
     cursor: pointer;
+}
+
+
+
+
+
+/* cerrar modal */
+.w3-closebtn{
+    font-size: 5rem;
+    cursor: pointer;
+    align-self: end;
+    margin-bottom: 40px;
+    margin-right: 10px;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+
+
+
+
+/* @media screen */
+/* --------------------------------- */
+@media screen and (max-width: 576px){
+    /* modal inicio*/
+    .person{
+        margin-left: 45%;
+    }
+    .modal-pregunta-inicio {
+        font-size: 2.2rem;
+    }
+    .modal-sub-pregunta {
+        font-size: 2rem;
+    }
+    .modal-subtitle-pregunta {
+        font-size: 2rem;
+    }
+
+    /* Modal segundo */
+    .modal-pregunta{
+        width: 100%;
+        padding-left: 10px;
+        font-size: 2rem;
+        padding-right: 10px;
+    }
+    .modal-link-2{
+        width: 60%;
+        margin: auto;
+        font-size: 1.3rem;
+        margin-top: 3rem;
+    }
+    .persona{
+        width: 18%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    /* tercer modal */
+    .modal-links-container-modal3 {
+        width: 100%;
+        gap: 30px;
+        margin: auto;
+        /* margin-bottom: -30px; */
+        margin-top: 91px;
+    }
+    .modal-pregunta-3{
+        font-size: 2rem;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: white;
+        text-align: center;
+    }
+    .persona-mod-3 {
+        width: 18%;
+        margin: auto;
+        margin-bottom: 0;
+    }
+    .modal-link-padre {
+       width: 120px;
+       height: 80px;
+    }
+    .modal-link-ine{
+        padding: 1rem;
+    }
+    .modal-link-segob{
+        padding: 1rem;
+    }
+    .modal-link-ift{
+        padding: 2rem;
+    }
+    .modal-link-3{
+        font-size: 1.5rem;
+    }
+
+    /* Modal No */
+    .modal-links-container-icons {
+        width: 100%;
+    }
+    .modal-link-img {
+        width: 150px;
+        height: 115px;
+        font-size: 1.5rem;
+    }
+    .modal-link-no {
+        font-size: 1.5rem;
+        padding: 14px;
+        margin-bottom: 51px;
+    }
+    .link-no{
+        width: 120px;
+    }
+
+    /* Modal Inputs */
+    .input-link {
+        width: 90%;
+    }
+
+    /* Modal evento del calendario */
+    .event-pregunta {
+        font-size: 2rem;
+    }
+
+    /* Modal final */
+    .modal-pregunta-final {
+        font-size: 2rem;
+    }
+    .modal-sub-pregunta-fin {
+        font-size: 1.5rem;
+    }
+    .person-fin {
+        width: 100%;
+        margin-left: 15%;
+        margin-top: 67px;
+    }
+
 }
