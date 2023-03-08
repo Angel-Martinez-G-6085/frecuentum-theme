@@ -64,7 +64,8 @@
 
     .contact-primera-seccion-description {
         margin-bottom: 0;
-        font-size: 1.5rem;
+        text-align: justify;
+        font-size: 3.8vw;
     }
 
     .contact-primera-seccion-ultimo-texto {

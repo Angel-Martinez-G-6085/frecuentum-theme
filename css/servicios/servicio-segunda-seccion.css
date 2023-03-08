@@ -116,4 +116,21 @@
         margin-right: auto;
         gap: 0;
     }
+
+    .segunda-seccion-opcion-title-container {
+        margin-top: 3%;
+    }
+
+    .servicios-segunda-seccion-title {
+        font-size: 3.5vw;
+    }
+
+    .servicios-segunda-seccion-subtitle {
+        font-size: 4.5vw;
+    }
+
+    .segunda-seccion-opcion-description {
+        text-align: justify;
+        font-size: 3.8vw;
+    }
 }
