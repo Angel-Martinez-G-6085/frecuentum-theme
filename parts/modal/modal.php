@@ -86,7 +86,12 @@
         <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
         <h4 class="modal-pregunta">¡Cuéntanos!¿Con quien haremos equipo hoy?</h4>
     <div class="modal-links-container-inputs">
-        <input id="nombre" class="input-link nombre-input" type="text" placeholder="Nombre..." required>
+        <div class="input-link-content">
+            <input id="nombre" name="nombre" class="input-link nombre-input" type="text" placeholder="Nombre..." required>
+        </div>
+        <div class="input-link-content">
+            <p class="formulario-input-error">Es importante llenar estos datos para brindarte nuestros servicios</p>
+        </div>
     </div>
     </div>
 </div>
@@ -99,12 +104,17 @@
         <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
         <h4 class="modal-pregunta">¿Cual es el nombre del proyecto/empresa en el que trabajas?</h4>
         <div class="modal-links-container-inputs">
-            <input id="empresa" class="input-link empresa-input" type="text" placeholder="Empresa...">
+            <div class="input-link-content">
+                <input id="empresa" name="empresa" class="input-link empresa-input"  type="text" placeholder="Empresa...">
+            </div>
+            <div class="input-link-content">
+                <p class="formulario-input-error-empresa">Es importante llenar estos datos para brindarte nuestros servicios</p>
+            </div>
         </div>
     </div>
 </div>
 
-<!-- --Nombre - empresa -->
+<!-- --Nummero - empresa -->
 <div class="modal-container modal-6">
     <div class="content-modal">
         <span class="btn-regreso left-mod-6">🡰</span>
@@ -112,7 +122,12 @@
         <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
         <h4 class="modal-pregunta">¿Dónde podemos contáctarte?</h4>
         <div class="modal-links-container-inputs">
-            <input id="contacto" class="input-link num-input" type="text" placeholder="+52...">
+            <div class="input-link-content">
+                <input id="contacto" class="input-link num-input" type="text" placeholder="+52...">
+            </div>
+            <div class="input-link-content">
+                <p class="formulario-input-error-numero">Introduce tu número a 10 digitos(Nuestros sercicios son solo para México)</p>
+            </div>
         </div>
     </div>
 </div>
@@ -125,7 +140,12 @@
     <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
     <h4 class="modal-pregunta">¿Cuál es tu correo electrónico?</h4>
         <div class="modal-links-container-inputs">
-            <input id="correo" class="input-link correo-input" type="text" placeholder="Correo@gmail.com">
+            <div class="input-link-content">
+                <input id="correo" class="input-link correo-input" type="email" placeholder="Correo@gmail.com">
+            </div>
+            <div class="input-link-content">
+                <p class="formulario-input-error-correo">Introduce tu correo eléctronico correctamente</p>
+            </div>
         </div>
     </div>
 </div>

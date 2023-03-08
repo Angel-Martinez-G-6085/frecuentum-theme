@@ -273,12 +273,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     height: 200px;
+    width: 100%;
+}
+.input-link-content{
     width: 100%;
 }
 .input-link{
     background-color: #66597B;
-    width: 50%;
+    width: 70%;
     height: 44px;
     border-radius: 31px;
     color: white;
@@ -287,6 +291,37 @@
     padding-left: 10px;
 }
 ::placeholder { color: white; }
+.formulario-input-error{
+    margin-top: -60px;
+    display: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: red;
+}
+.formulario-input-error-empresa{
+    margin-top: -60px;
+    display: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: red;
+}
+.formulario-input-error-numero{
+    margin-top: -60px;
+    display: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: red;
+}
+.formulario-input-error-correo{
+    margin-top: -60px;
+    display: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: red;
+}
+.formulario-input-error-activo{
+    display: block;
+}
 
 
 
@@ -447,7 +482,9 @@
 
 
 
-/* @media screen */
+
+
+/* @media screen móvil*/
 /* --------------------------------- */
 @media screen and (max-width: 576px){
     /* modal inicio*/
