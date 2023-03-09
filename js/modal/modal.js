@@ -52,7 +52,7 @@ const OpenModals = (BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,
     
 
     nombreInput.addEventListener("keyup", (e) =>{
-        console.log(e.target.value)
+        // console.log(e.target.value)
         if(expresiones.nombre.test(e.target.value)){
             document.querySelector(".formulario-input-error").classList.remove("formulario-input-error-activo");
             if(e.key === "Enter" && nombreInput.value !== ''){
@@ -69,7 +69,7 @@ const OpenModals = (BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,
 
 
     empresaInput.addEventListener("keyup", (e) =>{
-        console.log(e.target.name)
+        // console.log(e.target.name)
         if(expresiones.nombre.test(e.target.value)){
             document.querySelector(".formulario-input-error-empresa").classList.remove("formulario-input-error-activo");
             if(e.key === "Enter" && empresaInput.value !== ''){
@@ -94,7 +94,7 @@ const OpenModals = (BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,
                 const contacto = document.getElementById("contacto").value;
                 localStorage.setItem("contacto",contacto);
                 numeroInput.value = "";
-                console.log("con esto cambiaremos de modal")
+                // console.log("con esto cambiaremos de modal")
             }
         }else{
             document.querySelector(".formulario-input-error-numero").classList.add("formulario-input-error-activo");
@@ -110,7 +110,7 @@ const OpenModals = (BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,
                 const correo = document.getElementById("correo").value;
                 localStorage.setItem("correo",correo);
                 correoInput.value = "";
-                console.log("con esto cambiaremos de modal")
+                // console.log("con esto cambiaremos de modal")
             }
         }else{
             document.querySelector(".formulario-input-error-correo").classList.add("formulario-input-error-activo");

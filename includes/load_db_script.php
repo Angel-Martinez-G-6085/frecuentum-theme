@@ -17,4 +17,6 @@ function create_client_table() {
       dbDelta($sql);
 }
 
+
 add_action('init', 'create_client_table');
+

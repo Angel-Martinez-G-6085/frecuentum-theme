@@ -240,14 +240,13 @@
     color: white;
     font-size: 2rem;
     font-weight: bold;
-    height: 70px;
-    padding: 17px;
+    line-height: 60px;
     transition: transform 1s;
 }
 .modal-link-no:hover{
     border: 5px dashed white;
     color: var(--verde);
-    padding: 15px;
+    /* padding: 15px; */
 }
 .tele{
     margin-bottom: 29px;
@@ -482,6 +481,47 @@
 
 
 
+/* @media screen tablet */
+ @media screen and (max-width: 992px) {
+    .modal-link-img{
+        width: 120px;
+        height: 115px;
+    }
+    .img-modal-tv {
+        padding: 11px;
+    }
+    .img-modal-radio {
+        padding: 1px;
+    }
+    .img-modal-intert {
+        padding: 11px;
+    }
+    .img-modal-fon {
+        padding: 6px;
+    }
+    .modal-link-no {
+        font-size: 1.5rem;
+        line-height: 25px;
+    }
+    /* tercel moda */
+    .modal-links-container-modal3 {
+        width: 95%;
+    }
+    .modal-link-padre {
+       width: 134px;
+       font-size: 2rem;
+    }
+    .modal-link-ine {
+        padding: 1rem;
+    }
+    .modal-link-segob {
+        padding: 0;
+    }
+    .modal-link-ift {
+        padding: 1.8rem;
+    }
+
+}
 
 
 /* @media screen móvil*/
@@ -560,19 +600,39 @@
     /* Modal No */
     .modal-links-container-icons {
         width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+        gap: 0;
     }
     .modal-link-img {
         width: 150px;
-        height: 115px;
+        height: 140px;
         font-size: 1.5rem;
     }
     .modal-link-no {
         font-size: 1.5rem;
-        padding: 14px;
-        margin-bottom: 51px;
+        line-height: 40px;
+        /* padding: 14px;
+        margin-bottom: 51px; */
     }
-    .link-no{
+    /* .link-no{
         width: 120px;
+    } */
+    .img-modal-tv{
+        padding: 45px;
+    }
+    
+    .img-modal-radio{
+        padding: 33px;
+        color: white;
+    }
+    .img-modal-intert{
+        padding: 44px;
+        color: white;
+    }
+    .img-modal-fon{
+        padding: 37px;
+        color: white;
     }
 
     /* Modal Inputs */
