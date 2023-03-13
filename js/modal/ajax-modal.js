@@ -10,38 +10,39 @@
 //         }
 //     });
 // }
+// let datos = {
+//     nombre: nombre_usuario, 
+//     empresa: empresa_usuario,
+//     telefono: numero_usuario,
+//     correo:  correo_usuario
+// };
 
-let nombre_usuario = localStorage.getItem("nombre");
-let empresa_usuario = localStorage.getItem("empresa");
-let numero_usuario = localStorage.getItem("contacto");
-let correo_usuario = localStorage.getItem("correo");
 
-console.log(nombre_usuario);
 
-let datos = {
-     nombre: nombre_usuario, 
-     empresa: empresa_usuario,
-     telefono: numero_usuario,
-     correo:  correo_usuario
-};
 
-let enviar = document.querySelector('.enviar');
-
-enviar.addEventListener('click',()=>{
-    enviarDatos();
-})
+let url = urlTheme.templateUrl;
 
 function enviarDatos(){
-    console.log(datos)
-    fetch("peticion.php",{
+
+    let nombre_usuario = localStorage.getItem("nombre");
+    let empresa_usuario = localStorage.getItem("empresa");
+    let telefono_usuario = localStorage.getItem("telefono");
+    let correo_usuario = localStorage.getItem("correo");
+
+    let formData = new FormData();
+
+    formData.append("nombre",nombre_usuario);
+    formData.append("empresa",empresa_usuario);
+    formData.append("telefono",telefono_usuario);
+    formData.append("correo",correo_usuario);
+
+    fetch(`${url}/includes/peticion.php`,{
         method:"POST",
-        body: datos
+        body: formData
     })
-    .then((response) => response.json())
+    .then((response) => response.text())
     .then((response) => {
         console.log(response)
     }) 
-    .catch(err => console.error(err));
-
-     
- }
+    .catch(err => console.error(err));     
+}

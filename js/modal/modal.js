@@ -58,7 +58,7 @@ const OpenModals = (BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,
             if(e.key === "Enter" && nombreInput.value !== ''){
                 Modal5.classList.add('modal-show');
                 Modal4.classList.remove('modal-show');
-                const nombre = document.getElementById("nombre").value;
+                let nombre = document.getElementById("nombre").value;
                 localStorage.setItem("nombre",nombre)
                 nombreInput.value = "";
             }
@@ -75,7 +75,7 @@ const OpenModals = (BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,
             if(e.key === "Enter" && empresaInput.value !== ''){
                 Modal6.classList.add('modal-show');
                 Modal5.classList.remove('modal-show');
-                const empresa = document.getElementById("empresa").value;
+                let empresa = document.getElementById("empresa").value;
                 localStorage.setItem("empresa",empresa)
                 empresaInput.value = "";
                 console.log("con esto cambiaremos de modal")
@@ -91,8 +91,8 @@ const OpenModals = (BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,
             if(e.key === "Enter" && numeroInput.value !== ''){
                 Modal7.classList.add('modal-show');
                 Modal6.classList.remove('modal-show');
-                const contacto = document.getElementById("contacto").value;
-                localStorage.setItem("contacto",contacto);
+                let telefono = document.getElementById("telefono").value;
+                localStorage.setItem("telefono",telefono);
                 numeroInput.value = "";
                 // console.log("con esto cambiaremos de modal")
             }
@@ -107,7 +107,7 @@ const OpenModals = (BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,
             if(e.key === "Enter" && correoInput.value !== ''){
                 Modal8.classList.add('modal-show');
                 Modal7.classList.remove('modal-show');
-                const correo = document.getElementById("correo").value;
+                let correo = document.getElementById("correo").value;
                 localStorage.setItem("correo",correo);
                 correoInput.value = "";
                 // console.log("con esto cambiaremos de modal")

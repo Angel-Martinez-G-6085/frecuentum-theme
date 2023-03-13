@@ -123,7 +123,7 @@
         <h4 class="modal-pregunta">¿Dónde podemos contáctarte?</h4>
         <div class="modal-links-container-inputs">
             <div class="input-link-content">
-                <input id="contacto" name="contacto" class="input-link num-input" type="text" placeholder="+52...">
+                <input id="telefono" name="telefono" class="input-link num-input" type="text" placeholder="+52...">
             </div>
             <div class="input-link-content">
                 <p class="formulario-input-error-numero">Introduce tu número a 10 digitos(Nuestros sercicios son solo para México)</p>
@@ -162,10 +162,10 @@
                 <a target="_blank" href="https://wa.me/5215540370369" class="modal-link">Ir a Whatsapp</a>
             </div>
             <div class="modal-agendar">
-                <a href="#"  class="modal-link event-calendar">Agenda una llamada</a>
+                <a href="#" class="modal-link event-calendar">Agenda una llamada</a>
             </div>
             <div class="modal-agendar">
-                <a href="#"  class="enviar">Agenda una llamada</a>
+                <a href="#" onclick="enviarDatos()"  class="modal-link">Guardar en la BD</a>
             </div>
         </div>
     </div>
@@ -195,7 +195,7 @@
                 </div>
                 <br>
                 <div class="form-input">
-                    <button type="submit"  onclick="enviarDatos()" class="mod-fin  btn-enviar">Enviar</button>
+                    <button type="submit"   class="mod-fin  btn-enviar">Enviar</button>
                 </div>
             </div>
         </form>

@@ -65,6 +65,7 @@ add_action('wp_ajax_mi_ajax','mi_ajax');
 add_action('wp_ajax_nopriv_mi_ajax', 'mi_ajax');
 
 // Agregamos los includes esenciales
+require_once('includes/peticion.php');
 require_once('includes/load_db_script.php');
 require_once('includes/load_styles_script.php');
 require_once('includes/load_js_scripts.php');

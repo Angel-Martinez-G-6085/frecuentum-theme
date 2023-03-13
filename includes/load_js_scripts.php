@@ -13,6 +13,9 @@ function frequentum_custom_scripts() {
     wp_register_script( 'main-script', get_template_directory_uri() . '/js/main.js', array('jqueryScript', 'menuScript', 'sliderEquipoScript', 'contadorServiciosScript', 'contactoSliderScript','formulario', 'modal', 'ajax-modal'), '1.0', true );
 
     // Cargo el script principal
+    $translation_array = array('templateUrl' => get_template_directory_uri());
     wp_enqueue_script( 'main-script' );
+    wp_localize_script( 'modal', 'urlTheme', $translation_array);
+
 }
 add_action( 'wp_enqueue_scripts', 'frequentum_custom_scripts' );
