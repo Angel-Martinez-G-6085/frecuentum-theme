@@ -183,6 +183,7 @@
   }
 
   .team-member-description {
+    font-size: 1vw;
     text-align: justify;
   }
 
@@ -245,7 +246,7 @@
       }
 
       .team-member-description {
-        font-size: 1.7rem;
+        font-size: 3.8vw;
       }
 
       .team-member-icons-container {
@@ -254,7 +255,7 @@
         display: grid;
         margin: 0;
         width: 50%;
-        height: 150%;
+        height: 260%;
         grid-row-start: 2;
       }
 

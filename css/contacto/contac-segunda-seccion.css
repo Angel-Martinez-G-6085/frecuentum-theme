@@ -110,11 +110,11 @@
 }
 
 /* estilos para el tamaño de laptop */
-@media screen and (max-width: 1500px) {
+@media screen and (min-width: 1500px) {
     .contact-segunda-seccion-banner-container {
         margin-top: -9%;
-        height: 106%;
     }
+
     .ubicacion-icon,
     .telefono-icon,
     .correo-icon {
@@ -178,6 +178,7 @@
     .personas-blanco-image {
         width: 7rem;
         margin-left: 0;
+        margin-bottom: 3%;
     }
 
     .herramienta-title {

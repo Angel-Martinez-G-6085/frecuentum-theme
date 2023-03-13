@@ -106,7 +106,7 @@
                     <div class="slider__element slider__element--lightcoral grid col-2">
                         <div class="team-description-content-container grid col-1">
                             <div class="team-description-content">
-                                <p class="team-member-description">Licenciada en derecho con especialización en derecho administrativo, por la Facultad de Derecho de la Universidad Nacional Autónoma de México. Cuenta con más de 10 años de experiencia como especialista en regulación de los servicios públicos de radiodifusión y telecomunicaciones.</p>
+                                <p class="team-member-description">Egresada de la Facultad de Derecho de la Universidad Nacional Autónoma de México, su trayectoria profesional se ha desarrollado en el Derecho de las Telecomunicaciones y en materia de Propiedad Intelectual.</p>
                                 <h2 class="team-name">Bianidxi Resendiz</h2>
                             </div>
 
@@ -164,7 +164,7 @@
                     <div class="slider__element slider__element--lightcoral grid col-2">
                         <div class="team-description-content-container grid col-1">
                             <div class="team-description-content">
-                                <p class="team-member-description">Licenciada en derecho con especialización en derecho administrativo, por la Facultad de Derecho de la Universidad Nacional Autónoma de México. Cuenta con más de 10 años de experiencia en la consultoría en regulación de los servicios públicos de radiodifusión y telecomunicaciones y procedimientos de dictaminación técnica. Adriana Cortés Espidio. Abogada.</p>
+                                <p class="team-member-description">Licenciada en derecho con especialización en derecho administrativo, por la Facultad de Derecho de la Universidad Nacional Autónoma de México. Por su trayectoria profesional, se especializa en identificar y solucionar problemas diversos que enfrentan los interesados, concesionarios y/o autorizados en la presentación de los servicios públicos de radiodifusión y telecomunicaciones conforme al marco normativo aplicable.</p>
                                 <h2 class="team-name">Adriana Cortés Espidio</h2>
                             </div>
 
