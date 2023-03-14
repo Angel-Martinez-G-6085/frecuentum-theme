@@ -55,6 +55,7 @@
 
 .contact-footer-number-container {
     align-items: center;
+    color: var(--blanco);
 }
 
 .footer-number {
@@ -187,6 +188,7 @@
     .footer-mails-container {
         font-size: 1.6rem;
         justify-content: center;
+        color: var(--blanco);
     }
 
     .footer-location-seccion {
