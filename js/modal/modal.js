@@ -26,6 +26,7 @@ const ModalFinal = document.querySelector('.modal-final');
 const OpenModals = (BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,empresaInput,numeroInput,correoInput,BotonModalEvent,BotonFin) => {
     BotonModal.addEventListener("click",()=>{
         MODAL.classList.add('modal-show');
+        HeaderMenu.classList.toggle('open-menu');
     });
 
     BotonModal2.addEventListener("click", () => {
@@ -52,10 +53,10 @@ const OpenModals = (BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,
     
 
     nombreInput.addEventListener("keyup", (e) =>{
-        // console.log(e.target.value)
+        console.log(e)
         if(expresiones.nombre.test(e.target.value)){
             document.querySelector(".formulario-input-error").classList.remove("formulario-input-error-activo");
-            if(e.key === "Enter" && nombreInput.value !== ''){
+            if((e.key === "Enter" && nombreInput.value !== '') || e.key === "ArrowRight" ){
                 Modal5.classList.add('modal-show');
                 Modal4.classList.remove('modal-show');
                 let nombre = document.getElementById("nombre").value;

@@ -460,10 +460,11 @@
 
 /* boton regreso */
 .btn-regreso{
-    font-size: 3rem;
+    font-size: 5rem;
+    font-family: monospace;
     margin-left: 10px;
     position: absolute;
-    top: 10px;
+    top: 0;
     cursor: pointer;
 }
 
@@ -533,6 +534,9 @@
 /* @media screen móvil*/
 /* --------------------------------- */
 @media screen and (max-width: 576px){
+    .modal-show {
+        top: 12%;
+    }
     /* modal inicio*/
     .person{
         margin-left: 44%;    

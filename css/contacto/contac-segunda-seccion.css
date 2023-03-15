@@ -105,8 +105,9 @@
 }
 
 .correo {
-    font-weight: 100;
+    font-weight: 500;
     margin-bottom: 1rem;
+    font-size: 2.4rem;
 }
 
 /* estilos para el tamaño de laptop */
