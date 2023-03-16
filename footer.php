@@ -13,7 +13,7 @@
             <div class="footer-phone-section flex">
                 <img src="<?php echo(ICON. 'telefono-morado-icon.svg')?>" alt="footer-phone-icon" class="footer-phone-icon">
                 <div class="contact-footer-number-container flex f-column">
-                    <h4 class= "footer-number">Cel.. 55 4037 0369</h4>
+                    <h4 class= "footer-number">Cel. 55 4037 0369</h4>
                     <h4 class= "footer-number">Cel. 55 2486 9444</h4>
                 </div>
             </div>

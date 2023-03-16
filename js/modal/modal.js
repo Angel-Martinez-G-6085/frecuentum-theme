@@ -56,7 +56,7 @@ const OpenModals = (BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,
         console.log(e)
         if(expresiones.nombre.test(e.target.value)){
             document.querySelector(".formulario-input-error").classList.remove("formulario-input-error-activo");
-            if((e.key === "Enter" && nombreInput.value !== '') || e.key === "ArrowRight" ){
+            if(e.key === "Enter" && nombreInput.value !== '' ){
                 Modal5.classList.add('modal-show');
                 Modal4.classList.remove('modal-show');
                 let nombre = document.getElementById("nombre").value;
@@ -159,10 +159,10 @@ OpenModals(BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,empresaIn
 const modales = (Modal4,BotonModal4,Modal3,ModalNo,Modal2,cerrarModal4,leftMod4,leftMod5,leftMod6,leftMod7,leftMod8,leftModCalendar)=>{
     BotonModal4.forEach((click)=>{
         click.addEventListener("click",(e)=>{
-            console.log(e.srcElement.classList);
-            console.log(e);
+            // console.log(e.srcElement.classList);
+            // console.log(e);
             if(e.srcElement.classList[3] === "left3" ||  e.srcElement.classList.length === 0){
-                console.log("aqui estamos");
+                // console.log("aqui estamos");
                 leftMod4.addEventListener("click",()=>{
                     Modal4.classList.remove("modal-show");
                     Modal3.classList.add("modal-show");

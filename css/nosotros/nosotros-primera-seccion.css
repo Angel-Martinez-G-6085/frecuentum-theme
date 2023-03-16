@@ -13,8 +13,11 @@
     justify-content: center;
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 45%;
     height: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
 
 .nosotros-banner-title {
@@ -23,14 +26,18 @@
 
 .nosotros-banner-subtitle {
     color: var(--blanco);
-    font-size: 3.5rem;
+    font-size: 2.3rem;
+    /* margin-left: 330px;
+    margin-right: 330px; */
+    text-align: justify;
+    /* word-spacing: 6px;
+    letter-spacing: 1px; */
 }
 
 /* estilos para el tamaño de laptop */
-@media screen and (max-width: 1500px) {
+/* @media screen and (max-width: 1500px) {
     .nosotros-banner-subtitle {
         font-size: 2.3rem;
-    /* //nuevo cambios */
         font-size: 2.3rem;
         margin-left: 330px;
         margin-right: 330px;
@@ -38,7 +45,7 @@
         word-spacing: 6px;
         letter-spacing: 1px;
     }
-}
+} */
 
 /* estilos para el tamaño de celular */
 @media screen and (max-width: 576px) {
@@ -51,5 +58,8 @@
         font-size: 1.4rem;
         width: 90%;
         margin: 0 auto;
+    }
+    .nosotros-banner-text-container {
+        width: 90%;
     }
 }

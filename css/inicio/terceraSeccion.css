@@ -76,12 +76,15 @@
 }
 
 .tercera-seccion-buttons-container {
-    align-self: center;
+        align-self: center;
+        width: 90%;
+        margin: auto;
+        gap: 8rem;
 }
 
 .tercera-seccion-button-container {
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
     transition: transform 1s;
     width: 100%;
 }
@@ -101,6 +104,9 @@
     height: 100%;
     object-fit: cover;
     border-radius: 4rem;
+}
+.tercera-seccion-text-card-container {
+    height: 22vh;
 }
 
 /* estilos para el tamaño de laptop */
@@ -131,9 +137,9 @@
         padding: 0;
     }
 
-    .tercera-seccion-cards {
+    /* .tercera-seccion-cards {
         column-gap: 0;
-    }
+    } */
 
     .tercera-seccion-card {
         justify-content: center;
@@ -255,9 +261,14 @@
     .tercera-seccion-buttons-container {
         width: 100%;
         grid-row-start: 5;
+        grid-row-start: 5;
+        gap: 0;
     }
 
     .tercera-seccion-button {
         padding: 1rem 2rem;
+    }
+    .tercera-seccion-button-container {
+        justify-content: space-around;      
     }
 }
