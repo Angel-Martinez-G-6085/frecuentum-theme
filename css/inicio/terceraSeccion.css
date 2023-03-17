@@ -106,8 +106,19 @@
     border-radius: 4rem;
 }
 .tercera-seccion-text-card-container {
-    height: 22vh;
+    height: 20vh;
 }
+.tercera-seccion-title-card-title{
+    height: 4.5rem;
+    line-height: 40px;
+}
+.tercera-seccion-title-card-titulo{
+    height: 4.5rem;
+}
+/* .tercera-seccion-description-subtitulo{
+    background-color: blue;
+} */
+
 
 /* estilos para el tamaño de laptop */
 @media screen and (min-width: 1200px) {
@@ -117,6 +128,7 @@
 
     .tercera-seccion-title-card {
         font-size: clamp(1.3rem, 2vw + 1rem, 1.6rem);
+        height: 3rem;
     }
 
     .tercera-seccion-text {
@@ -148,6 +160,8 @@
     .tercera-seccion-description-card {
         font-size: clamp(1.3rem, 2vw + 1rem, 1.5rem);
         text-align: justify;
+        height: 10rem;
+        word-spacing: 2px;
     }
 }
 

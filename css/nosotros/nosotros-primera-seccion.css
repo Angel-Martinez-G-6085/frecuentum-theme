@@ -20,20 +20,20 @@
     margin: 0 auto;
 }
 
-.nosotros-banner-title {
+/* .nosotros-banner-title {
     margin-bottom: 6.7rem;
-}
+} */
 
 .nosotros-banner-subtitle {
     color: var(--blanco);
-    font-size: 2.3rem;
-    /* margin-left: 330px;
-    margin-right: 330px; */
+    font-size: 2.5rem;
     text-align: justify;
-    /* word-spacing: 6px;
-    letter-spacing: 1px; */
+    font-weight: 100;
 }
 
+h2.nosotros-banner-title.titulo.centrar {
+    margin-bottom: 3rem;
+}
 /* estilos para el tamaño de laptop */
 /* @media screen and (max-width: 1500px) {
     .nosotros-banner-subtitle {
