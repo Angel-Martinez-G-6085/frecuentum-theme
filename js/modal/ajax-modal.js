@@ -1,12 +1,14 @@
-function insertData(dataString) {
-    console.log("haciendo peticion")
-    jQuery.ajax({
-        url: 'functions',
-        type: "POST",
-        data: dataString,
-        dataType: "json",
-        success: function (response) {
-            console.log(response)
-        }
-    });
+function peticion() {
+    const Data = {
+        name: 'pedro'
+    }
+
+    JSON.stringify(Data)
+
+    fetch('wp-json/api/v1/product', {
+        method: 'POST',
+        body: Data
+    })
+    .then((response) => response.json())
+    .then((data) => console.log(data))
 }
