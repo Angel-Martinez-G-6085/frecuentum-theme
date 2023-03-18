@@ -1,4 +1,12 @@
 
+const expresiones = {
+	// usuario: /^[a-zA-Z0-9\_\-]{4,16}$/, // Letras, numeros, guion y guion_bajo
+	nombre: /^[a-zA-ZÀ-ÿ\s]{4,40}$/, // Letras y espacios, pueden llevar acentos.
+	// password: /^.{4,12}$/, // 4 a 12 digitos.
+	correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
+	telefono: /^\d{10}$/ // 7 a 14 numeros.
+}
+
 //Llamar a los modales
 const MODAL = document.querySelector('.modal-container');
 const Modal2 = document.querySelector('.modal-2');
@@ -18,6 +26,7 @@ const ModalFinal = document.querySelector('.modal-final');
 const OpenModals = (BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,empresaInput,numeroInput,correoInput,BotonModalEvent,BotonFin) => {
     BotonModal.addEventListener("click",()=>{
         MODAL.classList.add('modal-show');
+        HeaderMenu.classList.toggle('open-menu');
     });
 
     BotonModal2.addEventListener("click", () => {
@@ -35,47 +44,79 @@ const OpenModals = (BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,
         Modal2.classList.remove('modal-show');
     });
 
-    nombreInput.addEventListener("keydown", (e) =>{
-        if(e.key === "Enter" && nombreInput.value !== ''){
-            Modal5.classList.add('modal-show');
-            Modal4.classList.remove('modal-show');
-            const nombre = document.getElementById("nombre").value;
-            localStorage.setItem("nombre",nombre)
-            nombreInput.value = "";
-        }
+    // let formulario_input_error = document.querySelectorAll(".formulario-input-error");
+
+    // formulario_input_error.forEach((input)=>{
+    //     input.addEventListener
+
+    // })
+    
+
+    nombreInput.addEventListener("keyup", (e) =>{
+        console.log(e)
+        if(expresiones.nombre.test(e.target.value)){
+            document.querySelector(".formulario-input-error").classList.remove("formulario-input-error-activo");
+            if(e.key === "Enter" && nombreInput.value !== '' ){
+                Modal5.classList.add('modal-show');
+                Modal4.classList.remove('modal-show');
+                let nombre = document.getElementById("nombre").value;
+                localStorage.setItem("nombre",nombre)
+                nombreInput.value = "";
+            }
+        }else{
+            document.querySelector(".formulario-input-error").classList.add("formulario-input-error-activo");
+        }        
     });
 
-    empresaInput.addEventListener("keydown", (e) =>{
-        if(e.key === "Enter" && empresaInput.value !== ''){
-            Modal6.classList.add('modal-show');
-            Modal5.classList.remove('modal-show');
-            const empresa = document.getElementById("empresa").value;
-            localStorage.setItem("empresa",empresa)
-            empresaInput.value = "";
-            console.log("con esto cambiaremos de modal")
-        }
+
+    empresaInput.addEventListener("keyup", (e) =>{
+        // console.log(e.target.name)
+        if(expresiones.nombre.test(e.target.value)){
+            document.querySelector(".formulario-input-error-empresa").classList.remove("formulario-input-error-activo");
+            if(e.key === "Enter" && empresaInput.value !== ''){
+                Modal6.classList.add('modal-show');
+                Modal5.classList.remove('modal-show');
+                let empresa = document.getElementById("empresa").value;
+                localStorage.setItem("empresa",empresa)
+                empresaInput.value = "";
+                console.log("con esto cambiaremos de modal")
+            }
+        }else{
+            document.querySelector(".formulario-input-error-empresa").classList.add("formulario-input-error-activo");
+        }     
     });
 
-    numeroInput.addEventListener("keydown", (e) =>{
-        if(e.key === "Enter" && numeroInput.value !== ''){
-            Modal7.classList.add('modal-show');
-            Modal6.classList.remove('modal-show');
-            const contacto = document.getElementById("contacto").value;
-            localStorage.setItem("contacto",contacto);
-            numeroInput.value = "";
-            console.log("con esto cambiaremos de modal")
-        }
+    numeroInput.addEventListener("keyup", (e) =>{
+        if(expresiones.telefono.test(e.target.value)){
+            document.querySelector(".formulario-input-error-numero").classList.remove("formulario-input-error-activo");
+            if(e.key === "Enter" && numeroInput.value !== ''){
+                Modal7.classList.add('modal-show');
+                Modal6.classList.remove('modal-show');
+                let telefono = document.getElementById("telefono").value;
+                localStorage.setItem("telefono",telefono);
+                numeroInput.value = "";
+                // console.log("con esto cambiaremos de modal")
+            }
+        }else{
+            document.querySelector(".formulario-input-error-numero").classList.add("formulario-input-error-activo");
+        }      
     });
 
-    correoInput.addEventListener("keydown", (e) =>{
-        if(e.key === "Enter" && correoInput.value !== ''){
-            Modal8.classList.add('modal-show');
-            Modal7.classList.remove('modal-show');
-            const correo = document.getElementById("correo").value;
-            localStorage.setItem("correo",correo);
-            correoInput.value = "";
-            console.log("con esto cambiaremos de modal")
+    correoInput.addEventListener("keyup", (e) =>{
+        if(expresiones.correo.test(e.target.value)){
+            document.querySelector(".formulario-input-error-correo").classList.remove("formulario-input-error-activo");
+            if(e.key === "Enter" && correoInput.value !== ''){
+                Modal8.classList.add('modal-show');
+                Modal7.classList.remove('modal-show');
+                let correo = document.getElementById("correo").value;
+                localStorage.setItem("correo",correo);
+                correoInput.value = "";
+                // console.log("con esto cambiaremos de modal")
+            }
+        }else{
+            document.querySelector(".formulario-input-error-correo").classList.add("formulario-input-error-activo");
         }
+     
     });
 
     BotonModalEvent.addEventListener("click", () => {
@@ -118,10 +159,10 @@ OpenModals(BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,empresaIn
 const modales = (Modal4,BotonModal4,Modal3,ModalNo,Modal2,cerrarModal4,leftMod4,leftMod5,leftMod6,leftMod7,leftMod8,leftModCalendar)=>{
     BotonModal4.forEach((click)=>{
         click.addEventListener("click",(e)=>{
-            console.log(e.srcElement.classList);
-            console.log(e);
+            // console.log(e.srcElement.classList);
+            // console.log(e);
             if(e.srcElement.classList[3] === "left3" ||  e.srcElement.classList.length === 0){
-                console.log("aqui estamos");
+                // console.log("aqui estamos");
                 leftMod4.addEventListener("click",()=>{
                     Modal4.classList.remove("modal-show");
                     Modal3.classList.add("modal-show");
@@ -155,7 +196,6 @@ const modales = (Modal4,BotonModal4,Modal3,ModalNo,Modal2,cerrarModal4,leftMod4,
                 })
             }
             if(e.srcElement.classList[2] === "leftno" || e.srcElement.classList.length === 1){
-                console.log("por fi")
                 leftMod4.addEventListener("click",()=>{
                     Modal4.classList.remove("modal-show");
                     ModalNo.classList.add('modal-show');

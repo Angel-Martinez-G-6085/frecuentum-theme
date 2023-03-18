@@ -18,5 +18,7 @@ function frequentum_custom_scripts() {
     );
     wp_localize_script( 'ajax-modal', 'ajax_object', $Ajax_object );
     wp_enqueue_script( 'main-script' );
+    wp_localize_script( 'modal', 'urlTheme', $translation_array);
+
 }
 add_action( 'wp_enqueue_scripts', 'frequentum_custom_scripts' );

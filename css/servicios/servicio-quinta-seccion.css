@@ -49,13 +49,14 @@
     justify-content: center;
     color: var(--blanco);
     width: 80%;
+    height: 14rem;
     margin: 0 auto;
 }
 
 .solucion-description {
     height: 100%;
     display: flex;
-    align-items: center;
+    align-items: baseline;
     font-size: 1.5rem;
 }
 

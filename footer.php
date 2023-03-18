@@ -2,7 +2,7 @@
         <div class="footer-description-column flex f-column">
             <img class="footer-logo" src="<?php echo(IMG. 'logo-freq.webp')?>" alt="logo">
             <div class="description-text-container flex f-column">
-                <p class="footer-description">Somos una consultoría boutique, formada por un equipo con más de 15 años de experiencia en el sector regulatorio de la radiodifusión y las telecomunicaciones.</p>
+                <p class="footer-description">Somos un equipo conformado por un grupo de abogados con más de 10 años de experiencia en el sector regulatorio de la radiodifusión y las telecomunicaciones, nuestro objetivo es brindar servicios jurídicos y administrativos especializados en nuestras áreas de experiencia.</p>
                 <div class="privacidad-text-container">
                     <h4 class="privacidad-text centrar text-link">Aviso de privacidad</h4>
                 </div>

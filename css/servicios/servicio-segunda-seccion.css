@@ -12,7 +12,7 @@
     top: -27rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    margin-top: 270px;
+    margin-top: 220px;
     row-gap: 0;
     grid-template-rows: 36% 64%;
     position: absolute;
@@ -61,14 +61,16 @@
 }
 
 .segunda-seccion-opcion-description-container {
-    height: 78%;
+    /* height: 78%; */
+    height: 13rem;
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 
 .segunda-seccion-opcion-description {
     width: 100%;
-    text-align: center;
+    text-align: justify;
+    font-stretch: condensed;
     font-size: 1.5rem;
     color: var(--blanco);
 }
@@ -88,9 +90,12 @@
     }
 
     .servicios-segunda-seccion-opciones-container {
-        margin-left: auto;
-        margin-right: auto;
-        height: 100%;
+        /* margin-left: auto;
+        margin-right: auto; */
+        height: auto;
+        width: 85%;
+        margin: auto;
+        margin-top: -220px;
     }
 }
 
@@ -100,7 +105,7 @@
     }
 
     .segunda-seccion-opcion-title {
-        margin-top: 1rem;
+        margin-top: 5rem;
     }
 
     .servicios-segunda-seccion-title {
@@ -115,5 +120,26 @@
         margin-left: auto;
         margin-right: auto;
         gap: 0;
+    }
+
+    .segunda-seccion-opcion-title-container {
+        margin-top: 3%;
+    }
+
+    .servicios-segunda-seccion-title {
+        font-size: 3.5vw;
+    }
+
+    .servicios-segunda-seccion-subtitle {
+        font-size: 4.5vw;
+    }
+
+    .segunda-seccion-opcion-description {
+        text-align: justify;
+        font-size: 3.8vw;
+    }
+
+    .segunda-seccion-opcion-description-container {
+        height: 13vh;
     }
 }

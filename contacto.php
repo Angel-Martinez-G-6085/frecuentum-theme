@@ -36,7 +36,7 @@
 
                             <div class="opciones-titles-container">
                                 <h2 class="opciones-title">Contáctanos ahora</h2>
-                                <h3 class="opciones-subtitle">Estás a un click de resolver tus dudas de forma personalizada</h3>
+                                <!-- <h3 class="opciones-subtitle">Estás a un click de resolver tus dudas de forma personalizada</h3> -->
                             </div>
 
                             <div class="opciones-container">
@@ -59,7 +59,13 @@
 
                         <div class="contact-opciones-contacto-container">
                             <div class="contacto-container flex f-column">
-                                <div class="ubicacion-1-container flex">
+
+                                <div class="opciones-titles-container">
+                                        <h3 class="opciones-subtitle">Estás a un click de resolver tus dudas de forma personalizada</h3>
+                                </div>
+
+                                <div class="ubicacion-1-container flex"> 
+
                                     <div class="ubicacion-icon-container">
                                         <img src="<?php echo(ICON . 'ubicacion-morado-icon.svg')?>" alt="ubicacion" class="ubicacion-icon">
                                     </div>

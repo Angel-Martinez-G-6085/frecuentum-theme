@@ -12,7 +12,7 @@
 
 <div class="modal-container modal-2">
     <div class="content-modal">
-        <span class="btn-regreso left-mod-2">🡰</span>
+        <span class="btn-regreso left-mod-2">&#8592;</span>
         <span class="w3-closebtn closed-2">&times;</span>
         <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
         <h4 class="modal-pregunta">¿Eres actualmente concesionario y/o autorizado para la prestación de servicios de telecomunicaciones y/o radiofusión?</h4>
@@ -27,7 +27,7 @@
 <!-- No -->
 <div class="modal-container modalNo">
     <div class="content-modal">
-        <span class="btn-regreso left-mod-no">🡰</span>
+        <span class="btn-regreso left-mod-no">&#8592;</span>
         <span class="w3-closebtn closed-no">&times;</span>
         <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
         <h4 class="modal-pregunta">¿Estás interesado en prestar servicios relacionados con...?</h4>
@@ -54,7 +54,7 @@
 <!-- --si -->
 <div class="modal-container modal-3">
     <div class="content-modal-3">
-        <span class="btn-regreso left-mod-3">🡰</span>
+        <span class="btn-regreso left-mod-3">&#8592;</span>
         <span class="w3-closebtn closed-3">&times;</span>
         <img class="persona-mod-3" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
         <h4 class="modal-pregunta-3">¿Te gustaria recibir asesoría relacionada con algún trámite para...?</h4>
@@ -81,12 +81,21 @@
 <!-- --INE, SEGOG ETC. -->
 <div class="modal-container modal-4">
     <div class="content-modal">
-        <span class="btn-regreso left-mod-4">🡰</span>
+        <span class="btn-regreso left-mod-4">&#8592;</span>
         <span class="w3-closebtn closed-4">&times;</span>
         <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
         <h4 class="modal-pregunta">¡Cuéntanos!¿Con quien haremos equipo hoy?</h4>
     <div class="modal-links-container-inputs">
-        <input id="nombre" class="input-link nombre-input" type="text" placeholder="Nombre..." required>
+        <div class="input-link-content">
+            <input id="nombre" name="nombre" class="input-link nombre-input" type="text" placeholder="Nombre..." required>
+        </div>
+        <div class="input-link-content">
+            <p class="formulario-input-error">Es importante llenar estos datos para brindarte nuestros servicios</p>
+        </div>
+        <script src="https://gist.github.com/jmhdez/6405474/raw/8f4bdbb07b58eef2834ef72a66bdd56902e58419/console.js"></script>
+</body>
+</html>
+
     </div>
     </div>
 </div>
@@ -94,25 +103,35 @@
 <!-- --Nombre - empresa -->
 <div class="modal-container modal-5">
     <div class="content-modal">
-        <span class="btn-regreso left-mod-5">🡰</span>
+        <span class="btn-regreso left-mod-5">&#8592;</span>
         <span class="w3-closebtn closed-5">&times;</span>
         <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
         <h4 class="modal-pregunta">¿Cual es el nombre del proyecto/empresa en el que trabajas?</h4>
         <div class="modal-links-container-inputs">
-            <input id="empresa" class="input-link empresa-input" type="text" placeholder="Empresa...">
+            <div class="input-link-content">
+                <input id="empresa" name="empresa" class="input-link empresa-input"  type="text" placeholder="Empresa...">
+            </div>
+            <div class="input-link-content">
+                <p class="formulario-input-error-empresa">Es importante llenar estos datos para brindarte nuestros servicios</p>
+            </div>
         </div>
     </div>
 </div>
 
-<!-- --Nombre - empresa -->
+<!-- --Nummero - empresa -->
 <div class="modal-container modal-6">
     <div class="content-modal">
-        <span class="btn-regreso left-mod-6">🡰</span>
+        <span class="btn-regreso left-mod-6">&#8592;</span>
         <span class="w3-closebtn closed-6">&times;</span>
         <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
         <h4 class="modal-pregunta">¿Dónde podemos contáctarte?</h4>
         <div class="modal-links-container-inputs">
-            <input id="contacto" class="input-link num-input" type="text" placeholder="+52...">
+            <div class="input-link-content">
+                <input id="telefono" name="telefono" class="input-link num-input" type="text" placeholder="+52...">
+            </div>
+            <div class="input-link-content">
+                <p class="formulario-input-error-numero">Introduce tu número a 10 digitos(Nuestros sercicios son solo para México)</p>
+            </div>
         </div>
     </div>
 </div>
@@ -120,12 +139,17 @@
 <!-- --Correo -->
 <div class="modal-container modal-7">
     <div class="content-modal">
-    <span class="btn-regreso left-mod-7">🡰</span>
+    <span class="btn-regreso left-mod-7">&#8592;</span>
     <span class="w3-closebtn closed-7">&times;</span>
     <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
     <h4 class="modal-pregunta">¿Cuál es tu correo electrónico?</h4>
         <div class="modal-links-container-inputs">
-            <input id="correo" class="input-link correo-input" type="text" placeholder="Correo@gmail.com">
+            <div class="input-link-content">
+                <input id="correo" name="correo" class="input-link correo-input" type="email" placeholder="Correo@gmail.com">
+            </div>
+            <div class="input-link-content">
+                <p class="formulario-input-error-correo">Introduce tu correo eléctronico correctamente</p>
+            </div>
         </div>
     </div>
 </div>
@@ -133,7 +157,7 @@
 <!-- --Agendar llamada -->
 <div class="modal-container modal-8">
     <div class="content-modal">
-        <span class="btn-regreso left-mod-8">🡰</span>
+        <span class="btn-regreso left-mod-8">&#8592;</span>
         <span class="w3-closebtn closed-8">&times;</span>
         <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
         <h4 class="modal-pregunta">¿Te gustaría hablar con un consultor ahora?</h4>
@@ -144,6 +168,9 @@
             <div class="modal-agendar">
                 <a href="#" class="modal-link event-calendar">Agenda una llamada</a>
             </div>
+            <div class="modal-agendar">
+                <a href="#" onclick="enviarDatos()"  class="modal-link">Guardar en la BD</a>
+            </div>
         </div>
     </div>
 </div>
@@ -152,10 +179,12 @@
 <!-- --Enviar evento del calendario -->
 <div class="modal-container modal-envent-calendar">
     <div class="content-modal">
-        <span class="btn-regreso left-mod-calendar">🡰</span>
+        <span class="btn-regreso left-mod-calendar">&#8592;</span>
         <span class="w3-closebtn closed-event">&times;</span>
         <p  class="event-pregunta">Regístrate en el calendario</p>
-        <div class="modal-links-event">
+        <form action="" method="POST">
+
+            <div class="modal-links-event">
                 <div class="form-input">
                     <label for="inputName" class="col-form-label">Fecha</label>
                     <input type="date" class="form-control" id="fech1" required />
@@ -170,9 +199,10 @@
                 </div>
                 <br>
                 <div class="form-input">
-                    <button type="submit" onclick="execute()" class="mod-fin  btn-enviar">Enviar</button>
+                    <button type="submit"   class="mod-fin  btn-enviar">Enviar</button>
                 </div>
-        </div>
+            </div>
+        </form>
     </div>
 </div>
 <!-- --Modal final-->

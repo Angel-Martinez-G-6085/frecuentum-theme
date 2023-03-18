@@ -240,14 +240,13 @@
     color: white;
     font-size: 2rem;
     font-weight: bold;
-    height: 70px;
-    padding: 17px;
+    line-height: 60px;
     transition: transform 1s;
 }
 .modal-link-no:hover{
     border: 5px dashed white;
     color: var(--verde);
-    padding: 15px;
+    /* padding: 15px; */
 }
 .tele{
     margin-bottom: 29px;
@@ -273,12 +272,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     height: 200px;
+    width: 100%;
+}
+.input-link-content{
     width: 100%;
 }
 .input-link{
     background-color: #66597B;
-    width: 50%;
+    width: 70%;
     height: 44px;
     border-radius: 31px;
     color: white;
@@ -287,6 +290,43 @@
     padding-left: 10px;
 }
 ::placeholder { color: white; }
+.formulario-input-error{
+    margin-top: -60px;
+    display: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-left: 18px;
+    margin-right: 18px;
+    color: red;
+}
+.formulario-input-error-empresa{
+    margin-top: -60px;
+    display: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: red;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.formulario-input-error-numero{
+    margin-top: -60px;
+    display: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: red;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.formulario-input-error-correo{
+    margin-top: -60px;
+    display: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: red;
+}
+.formulario-input-error-activo{
+    display: block;
+}
 
 
 
@@ -420,10 +460,11 @@
 
 /* boton regreso */
 .btn-regreso{
-    font-size: 3rem;
+    font-size: 5rem;
+    font-family: monospace;
     margin-left: 10px;
     position: absolute;
-    top: 10px;
+    top: 0;
     cursor: pointer;
 }
 
@@ -447,29 +488,77 @@
 
 
 
-/* @media screen */
+/* @media screen tablet */
+ @media screen and (max-width: 992px) {
+    .modal-link-img{
+        width: 120px;
+        height: 115px;
+    }
+    .img-modal-tv {
+        padding: 11px;
+    }
+    .img-modal-radio {
+        padding: 1px;
+    }
+    .img-modal-intert {
+        padding: 11px;
+    }
+    .img-modal-fon {
+        padding: 6px;
+    }
+    .modal-link-no {
+        font-size: 1.5rem;
+        line-height: 25px;
+    }
+    /* tercel moda */
+    .modal-links-container-modal3 {
+        width: 95%;
+    }
+    .modal-link-padre {
+       width: 134px;
+       font-size: 2rem;
+    }
+    .modal-link-ine {
+        padding: 1rem;
+    }
+    .modal-link-segob {
+        padding: 0;
+    }
+    .modal-link-ift {
+        padding: 1.8rem;
+    }
+
+}
+
+
+/* @media screen móvil*/
 /* --------------------------------- */
 @media screen and (max-width: 576px){
+    .modal-show {
+        top: 12%;
+    }
     /* modal inicio*/
     .person{
-        margin-left: 45%;
+        margin-left: 44%;    
     }
     .modal-pregunta-inicio {
-        font-size: 2.2rem;
+        font-size: 1.4rem;
+        margin-left: 15px;
+        margin-right: 15px;
     }
     .modal-sub-pregunta {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .modal-subtitle-pregunta {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     /* Modal segundo */
     .modal-pregunta{
         width: 100%;
-        padding-left: 10px;
-        font-size: 2rem;
-        padding-right: 10px;
+        padding-left: 20px;
+        font-size: 1.5rem;
+        padding-right: 20px;
     }
     .modal-link-2{
         width: 60%;
@@ -523,19 +612,39 @@
     /* Modal No */
     .modal-links-container-icons {
         width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+        gap: 0;
     }
     .modal-link-img {
         width: 150px;
-        height: 115px;
+        height: 140px;
         font-size: 1.5rem;
     }
     .modal-link-no {
         font-size: 1.5rem;
-        padding: 14px;
-        margin-bottom: 51px;
+        line-height: 40px;
+        /* padding: 14px;
+        margin-bottom: 51px; */
     }
-    .link-no{
+    /* .link-no{
         width: 120px;
+    } */
+    .img-modal-tv{
+        padding: 45px;
+    }
+    
+    .img-modal-radio{
+        padding: 33px;
+        color: white;
+    }
+    .img-modal-intert{
+        padding: 44px;
+        color: white;
+    }
+    .img-modal-fon{
+        padding: 37px;
+        color: white;
     }
 
     /* Modal Inputs */
@@ -546,6 +655,11 @@
     /* Modal evento del calendario */
     .event-pregunta {
         font-size: 2rem;
+    }
+
+    /* Modal agendar una llamada */
+    .modal-link {
+        margin-top: 40px;
     }
 
     /* Modal final */
