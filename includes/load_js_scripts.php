@@ -13,12 +13,6 @@ function frequentum_custom_scripts() {
     wp_register_script( 'main-script', get_template_directory_uri() . '/js/main.js', array('jqueryScript', 'menuScript', 'sliderEquipoScript', 'contadorServiciosScript', 'contactoSliderScript','formulario', 'modal', 'ajax-modal'), '1.0', true );
 
     // Cargo el script principal
-    $Ajax_object = array(
-        'ajax_url' => admin_url( 'admin-ajax.php', 'relataive')
-    );
-    wp_localize_script( 'ajax-modal', 'ajax_object', $Ajax_object );
     wp_enqueue_script( 'main-script' );
-    wp_localize_script( 'modal', 'urlTheme', $translation_array);
-
 }
 add_action( 'wp_enqueue_scripts', 'frequentum_custom_scripts' );
