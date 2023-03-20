@@ -2,6 +2,7 @@
 const expresiones = {
 	// usuario: /^[a-zA-Z0-9\_\-]{4,16}$/, // Letras, numeros, guion y guion_bajo
 	nombre: /^[a-zA-ZÀ-ÿ\s]{4,40}$/, // Letras y espacios, pueden llevar acentos.
+    empresa: /^[a-zA-ZÀ-ÿ\s]{2,40}$/, // Letras y espacios, pueden llevar acentos.
 	// password: /^.{4,12}$/, // 4 a 12 digitos.
 	correo: /^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/,
 	telefono: /^\d{10}$/ // 7 a 14 numeros.
@@ -71,7 +72,7 @@ const OpenModals = (BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,
 
     empresaInput.addEventListener("keyup", (e) =>{
         // console.log(e.target.name)
-        if(expresiones.nombre.test(e.target.value)){
+        if(expresiones.empresa.test(e.target.value)){
             document.querySelector(".formulario-input-error-empresa").classList.remove("formulario-input-error-activo");
             if(e.key === "Enter" && empresaInput.value !== ''){
                 Modal6.classList.add('modal-show');
@@ -79,7 +80,7 @@ const OpenModals = (BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,
                 let empresa = document.getElementById("empresa").value;
                 localStorage.setItem("empresa",empresa)
                 empresaInput.value = "";
-                console.log("con esto cambiaremos de modal")
+                // console.log("con esto cambiaremos de modal")
             }
         }else{
             document.querySelector(".formulario-input-error-empresa").classList.add("formulario-input-error-activo");
@@ -111,6 +112,7 @@ const OpenModals = (BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,
                 let correo = document.getElementById("correo").value;
                 localStorage.setItem("correo",correo);
                 correoInput.value = "";
+                peticion();
                 // console.log("con esto cambiaremos de modal")
             }
         }else{
