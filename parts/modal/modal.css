@@ -370,6 +370,15 @@
 
 
 /* Modal evento del calendario */
+.content-modal-event{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 .event-pregunta{
     font-size: 3rem;
     text-align: center;
@@ -484,6 +493,19 @@
     top: 0;
     right: 10px;
 }
+
+
+
+
+
+/* @media screen escritorio */
+@media screen and (min-width: 1500px) {
+    .modal-container{
+        width: 75%;
+        left: 12%;
+    }
+}
+
 
 
 

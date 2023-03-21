@@ -21,6 +21,7 @@
 
 
 let url = urlTheme.templateUrl;
+console.log(url);
 
 function enviarDatos(){
 
@@ -36,7 +37,7 @@ function enviarDatos(){
     formData.append("telefono",telefono_usuario);
     formData.append("correo",correo_usuario);
 
-    fetch(`${url}/includes/peticion.php`,{
+    fetch(`${url}/peticion.php`,{
         method:"POST",
         body: formData
     })

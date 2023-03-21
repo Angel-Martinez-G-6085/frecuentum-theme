@@ -178,7 +178,7 @@
 
 <!-- --Enviar evento del calendario -->
 <div class="modal-container modal-envent-calendar">
-    <div class="content-modal">
+    <div class="content-modal-event">
         <span class="btn-regreso left-mod-calendar">&#8592;</span>
         <span class="w3-closebtn closed-event">&times;</span>
         <p  class="event-pregunta">Regístrate en el calendario</p>
