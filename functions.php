@@ -40,32 +40,9 @@ if ( ! function_exists( 'frequentumtheme_setup' ) ) :
 	}
 endif; // myfirsttheme_setup
 
-function mi_ajax() {
-	global $wpdb;
-
-	$empresa = esc_sql($_POST['empresa']);
-	$correo = esc_sql($_POST['correo']);
-	$contacto = esc_sql($_POST['contacto']);
-
-	$wpdb->insert('wp_clientes',
-              array(
-              'id' => '',
-              'nombre' => $empresa,
-              'empresa' => $empresa,
-              'telefono' => $contacto,
-              'correo' => $correo,
-              )
-            );
-            exit();
-}
-
-
 add_action( 'after_setup_theme', 'frequentumtheme_setup' );
-add_action('wp_ajax_mi_ajax','mi_ajax');
-add_action('wp_ajax_nopriv_mi_ajax', 'mi_ajax');
 
 // Agregamos los includes esenciales
-include_once('includes/peticion.php');
 require_once('includes/load_db_script.php');
 require_once('includes/load_styles_script.php');
 require_once('includes/load_js_scripts.php');
