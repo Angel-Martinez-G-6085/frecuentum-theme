@@ -43,7 +43,6 @@ endif; // myfirsttheme_setup
 add_action( 'after_setup_theme', 'frequentumtheme_setup' );
 
 // Agregamos los includes esenciales
-require_once('includes/peticion.php');
 require_once('includes/load_db_script.php');
 require_once('includes/load_styles_script.php');
 require_once('includes/load_js_scripts.php');
