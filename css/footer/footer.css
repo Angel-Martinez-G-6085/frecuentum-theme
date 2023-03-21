@@ -55,10 +55,11 @@
 
 .contact-footer-number-container {
     align-items: center;
+    color: var(--blanco);
 }
 
 .footer-number {
-    font-weight: 100;
+    font-weight: 500;
     margin-bottom: 0.6rem;
 }
 
@@ -73,7 +74,7 @@
 }
 
 .footer-mails-correo {
-    font-weight: 100;
+    font-weight: 500;
     margin-bottom: 0.6rem;
 }
 
@@ -185,8 +186,9 @@
     }
 
     .footer-mails-container {
-        font-size: 1.6rem;
+        /* font-size: 1.6rem; */
         justify-content: center;
+        color: var(--blanco);
     }
 
     .footer-location-seccion {

@@ -16,5 +16,4 @@ function create_client_table() {
       require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
       dbDelta($sql);
 }
-
 add_action('init', 'create_client_table');

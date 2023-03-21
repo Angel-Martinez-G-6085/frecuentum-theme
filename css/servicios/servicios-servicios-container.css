@@ -80,6 +80,7 @@
         font-size: clamp(1.3rem, 2vw + 1rem, 1.5rem);
         column-gap: 0;
         text-align: justify;
+        font-stretch: condensed;
         cursor: pointer;
         padding-bottom: 8%;
     }
@@ -111,5 +112,8 @@
     }
     .servicios-opcion-text-container {
         margin-bottom: 0;
+    }
+    .quinta-seccion-solucion-container {
+        height: 10rem;
     }    
 }

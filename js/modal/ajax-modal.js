@@ -1,9 +1,10 @@
+
 function peticion() {
     const Rawdata = {
-        nombre: 'Angel',
-        empresa : 'Código Geek',
-        telefono: '5610213865',
-        correo: 'ben6085@gmail.com'
+        nombre: localStorage.getItem("nombre"),
+        empresa : localStorage.getItem("empresa"),
+        telefono: localStorage.getItem("telefono"),
+        correo: localStorage.getItem("correo")
     }
 
     let data = JSON.stringify(Rawdata)
