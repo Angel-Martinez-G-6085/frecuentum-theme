@@ -76,11 +76,32 @@
         margin-left: 0;
         justify-content: center;
     }
+    .servicios-quinta-seccion-banner {
+        height: 0;
+    }
 }
+
 
 @media screen and (min-width: 375px) {
     .servicios-quinta-seccion-content-container {
         grid-template-rows: unset;
         left: 0;
     }
+    .servicios-quinta-seccion-banner {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .servicios-quinta-seccion-banner {
+        height: 92rem;
+    }
+    .servicios-quinta-seccion-content-container {
+        grid-template-rows: 6% 45%;
+        left: 0;
+    }
+    .quinta-seccion-solucion-container {
+       height: 11rem;
+    }
+
 }

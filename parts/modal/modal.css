@@ -22,6 +22,20 @@
 
 
 
+.persona-principal{
+    width: 7%;
+    margin-left: 40px;
+}
+.modal-pregunta-principal{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin-block: auto;
+}
+
+
+
 
 /* Modal inicio  */
 .content-modal-inicio{
@@ -84,11 +98,17 @@
     display: flex;
     flex-wrap: wrap;
 }
+.content-modal-persona{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
 .modal-pregunta {
     font-size: 3rem;
     color: white;
     text-align: center;
-    width: 82%;
+    width: auto;
     margin-block: auto;
 }
 .modal-links-container {
@@ -501,8 +521,8 @@
 /* @media screen escritorio */
 @media screen and (min-width: 1500px) {
     .modal-container{
-        width: 75%;
-        left: 12%;
+        width: 60%;
+        left: 20%;
     }
 }
 

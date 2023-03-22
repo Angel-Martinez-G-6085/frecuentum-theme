@@ -51,7 +51,7 @@
 
     /* nuevos cambios */
     width: 45%;
-    height: 500px;
+    height: 495px;
 }
 
 .herramienta-image,
@@ -90,7 +90,7 @@
 .ubicacion-icon,
 .telefono-icon,
 .correo-icon {
-    width: 9rem;
+    width: 8.6rem;    
     margin-right: 2rem;
 }
 
@@ -101,7 +101,7 @@
     color: var(--blanco);
     width: 100%;
     margin: 0 auto;
-    margin-bottom: 25px;
+    margin-bottom: 32px;
     /* margin-top: 27px;
     margin-bottom: 35px; */
 }
@@ -159,7 +159,7 @@
 @media screen and (max-width: 576px) {
 
     .contact-segunda-seccion-content-container {
-        top: 80px;
+        top: 55px;
     }
     .contacto-container {
         justify-content: flex-start;    
@@ -171,11 +171,13 @@
     }
 
     .contact-segunda-seccion-columns-container {
-        row-gap: 0;
+        row-gap: 5rem;
+        width: 100%;
     }
 
     .contact-opciones-container {
         width: 100%;
+        height: auto;
         justify-content: flex-start;
     }
     .contact-opciones-contacto-container {
@@ -185,12 +187,14 @@
     .opciones-title {
         text-align: center;
         margin-top: 1.5rem;
-        font-size: 2.5rem;
+        font-size: 2.3rem;
     }
 
     .opciones-subtitle {
-        font-size: 1.6rem;
+        font-size: 2rem;
         text-align: center;
+        margin-left: 12px;
+        margin-right: 12px;
     }
 
     .herramienta-container,
@@ -200,6 +204,9 @@
         flex-direction: column;
         align-items: center;
     }
+    .herramienta-title, .llamada-title, .consultora-title {
+        font-size: 2.3rem;
+    }
 
     .herramienta-image,
     .agenda-image,
@@ -208,9 +215,15 @@
         margin-left: 0;
         margin-bottom: 3%;
     }
+    .ubicacion-icon,
+    .telefono-icon,
+    .correo-icon {
+    width: 6.5rem;
+}
 
     .herramienta-title {
         text-align: center;
+        font-size: 2.3rem;
     }
 
     .ubicacion-1-container,
@@ -238,6 +251,7 @@
     .correo-title {
         text-align: center;
         margin-bottom: 1rem;
+        font-size: 2.3rem;
     }
 
     .ubicacion-address,

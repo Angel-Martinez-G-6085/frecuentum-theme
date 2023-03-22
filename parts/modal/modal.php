@@ -14,8 +14,8 @@
     <div class="content-modal">
         <span class="btn-regreso left-mod-2">&#8592;</span>
         <span class="w3-closebtn closed-2">&times;</span>
-        <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
-        <h4 class="modal-pregunta">¿Eres actualmente concesionario y/o autorizado para la prestación de servicios de telecomunicaciones y/o radiofusión?</h4>
+        <img class="persona-principal" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
+        <h4 class="modal-pregunta-principal">¿Eres actualmente concesionario y/o autorizado para la prestación de servicios de telecomunicaciones y/o radiofusión?</h4>
         <div class="modal-links-container">
             <a  href="#" class="modal-link-2 mod3">Si</a>
             <a  href="#" class="modal-link-2 modNo">No</a>
@@ -29,8 +29,8 @@
     <div class="content-modal">
         <span class="btn-regreso left-mod-no">&#8592;</span>
         <span class="w3-closebtn closed-no">&times;</span>
-        <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
-        <h4 class="modal-pregunta">¿Estás interesado en prestar servicios relacionados con...?</h4>
+        <img class="persona-principal" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
+        <h4 class="modal-pregunta-principal">¿Estás interesado en prestar servicios relacionados con...?</h4>
         <div class="modal-links-container-icons">
             <div class="modal-link-img">
                 <a href="#" class="img-modal-tv mod4 leftno"><img class="tele"  src="<?php echo(ICON. 'tele-verde.svg')?>" alt="opcion-image">Televisión</a>
@@ -83,8 +83,10 @@
     <div class="content-modal">
         <span class="btn-regreso left-mod-4">&#8592;</span>
         <span class="w3-closebtn closed-4">&times;</span>
-        <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
-        <h4 class="modal-pregunta">¡Cuéntanos!¿Con quien haremos equipo hoy?</h4>
+        <div class="content-modal-persona">
+            <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
+            <h4 class="modal-pregunta">¡Cuéntanos!¿Con quien haremos equipo hoy?</h4>
+        </div>
     <div class="modal-links-container-inputs">
         <div class="input-link-content">
             <input id="nombre" name="nombre" class="input-link nombre-input" type="text" placeholder="Nombre..." required>
@@ -105,8 +107,10 @@
     <div class="content-modal">
         <span class="btn-regreso left-mod-5">&#8592;</span>
         <span class="w3-closebtn closed-5">&times;</span>
-        <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
-        <h4 class="modal-pregunta">¿Cual es el nombre del proyecto/empresa en el que trabajas?</h4>
+        <div class="content-modal-persona">
+            <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
+            <h4 class="modal-pregunta">¿Cual es el nombre del proyecto/empresa en el que trabajas?</h4>
+        </div>
         <div class="modal-links-container-inputs">
             <div class="input-link-content">
                 <input id="empresa" name="empresa" class="input-link empresa-input"  type="text" placeholder="Empresa...">
@@ -123,8 +127,10 @@
     <div class="content-modal">
         <span class="btn-regreso left-mod-6">&#8592;</span>
         <span class="w3-closebtn closed-6">&times;</span>
-        <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
-        <h4 class="modal-pregunta">¿Dónde podemos contáctarte?</h4>
+        <div class="content-modal-persona">
+            <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
+            <h4 class="modal-pregunta">¿Dónde podemos contáctarte?</h4>
+        </div>
         <div class="modal-links-container-inputs">
             <div class="input-link-content">
                 <input id="telefono" name="telefono" class="input-link num-input" type="text" placeholder="+52...">
@@ -141,8 +147,10 @@
     <div class="content-modal">
     <span class="btn-regreso left-mod-7">&#8592;</span>
     <span class="w3-closebtn closed-7">&times;</span>
-    <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
-    <h4 class="modal-pregunta">¿Cuál es tu correo electrónico?</h4>
+    <div class="content-modal-persona">
+        <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
+        <h4 class="modal-pregunta">¿Cuál es tu correo electrónico?</h4>
+    </div>
         <div class="modal-links-container-inputs">
             <div class="input-link-content">
                 <input id="correo" name="correo" class="input-link correo-input" type="email" placeholder="Correo@gmail.com">
@@ -159,8 +167,10 @@
     <div class="content-modal">
         <span class="btn-regreso left-mod-8">&#8592;</span>
         <span class="w3-closebtn closed-8">&times;</span>
-        <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
-        <h4 class="modal-pregunta">¿Te gustaría hablar con un consultor ahora?</h4>
+        <div class="content-modal-persona">
+            <img class="persona" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
+            <h4 class="modal-pregunta">¿Te gustaría hablar con un consultor ahora?</h4>
+        </div>
         <div class="modal-links-agendar">
             <div class="modal-agendar">
                 <a target="_blank" href="https://wa.me/5215540370369" class="modal-link">Ir a Whatsapp</a>
