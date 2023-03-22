@@ -1,4 +1,5 @@
 @import url('./framework.css');
+@import url('./jquery-ui.min.css');
 @import url('../parts/whatssButton/whatssButton.css');
 @import url('../parts/modal/modal.css');
 @import url('./header/header.css');
