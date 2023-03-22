@@ -187,15 +187,11 @@
             <div class="modal-links-event">
                 <div class="form-input">
                     <label for="inputName" class="col-form-label">Fecha</label>
-                    <input type="date" class="form-control" id="fech1" required />
+                    <input type='text' name='calendario' id='date_cliente'>
                 </div>
                 <div class="form-input">
                     <label for="inputName" class="col-form-label">Hora inicio</label>
                     <input type="time" class="form-control" id="hinicio" required />
-                </div>
-                <div class="form-input">
-                    <label for="inputName" class="col-form-label">Hora fin</label>
-                    <input type="time" class="form-control" id="hfin" required />
                 </div>
                 <br>
                 <div class="form-input">
