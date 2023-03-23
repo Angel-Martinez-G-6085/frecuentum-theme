@@ -24,7 +24,7 @@ const ModalFinal = document.querySelector('.modal-final');
 
 
 // Open modals
-const OpenModals = (BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,empresaInput,numeroInput,correoInput,BotonModalEvent,BotonFin) => {
+const OpenModals = (BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,empresaInput,numeroInput,correoInput,BotonModalEvent) => {
     BotonModal.addEventListener("click",()=>{
         MODAL.classList.add('modal-show');
         HeaderMenu.classList.toggle('open-menu');
@@ -126,11 +126,11 @@ const OpenModals = (BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,
         Modal8.classList.remove('modal-show');
     });
 
-    BotonFin.addEventListener("click", () => {
-        ModalFinal.classList.add('modal-show');
-        ModalEvent.classList.remove('modal-show');
-        localStorage.clear();
-    })
+    // BotonFin.addEventListener("click", () => {
+    //     ModalFinal.classList.add('modal-show');
+    //     ModalEvent.classList.remove('modal-show');
+    //     localStorage.clear();
+    // })
     
 
 }
@@ -144,11 +144,13 @@ const empresaInput = document.querySelector('.empresa-input');
 const numeroInput = document.querySelector('.num-input');
 const correoInput = document.querySelector('.correo-input');
 const BotonModalEvent= document.querySelector(".event-calendar");
-const BotonFin = document.querySelector(".mod-fin");
+
+// aparte
+let BotonFin = document.querySelector(".mod-fin");
 
 
 
-OpenModals(BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,empresaInput,numeroInput,correoInput,BotonModalEvent,BotonFin);
+OpenModals(BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,empresaInput,numeroInput,correoInput,BotonModalEvent);
 
 
 
@@ -376,3 +378,65 @@ const cerrarrEvent = document.querySelector(".closed-event");
 const cerrarrFin = document.querySelector(".closed-fin");
 
 ClosedModal(closedModal,cerrarModal2,cerrarModalNo,cerrarModal3,cerrarModal5,cerrarModal6,cerrarModal7,cerrarModal8,cerrarrEvent,cerrarrFin);
+
+
+
+
+
+
+
+
+
+// Haciendo pruebas 
+
+
+  let token_usuario = "";
+  let nuevo_Token = "";      
+  let new_access_token = "";
+
+
+  function authenticationKey() {
+    let event = {
+        summary: "hola",
+        description: "hi",
+        start: {
+          dateTime: "2023-03-25T12:00:00-06:00",
+          //dateTime: fech1 + "T" + hinicio + ":00-06:00",
+          timeZone: "America/Mexico_City",
+        },
+        end: {
+          dateTime: "2023-03-25T12:40:00-06:00",
+          // dateTime: fech1 + "T" + hfin + ":00-06:00",
+          timeZone: "America/Mexico_City",
+        },
+      };
+
+    token_usuario = localStorage.getItem("tokenInicio");
+    new_access_token = localStorage.getItem("newTokenAccess");
+    if(new_access_token !== ''){
+        fetch(`https://www.googleapis.com/calendar/v3/calendars/primary/events?access_token=${token_usuario}`,{
+          method: "POST",
+          body: JSON.stringify(event)              
+          })
+        .then((respuesta) => respuesta.json())
+        .then((data) => console.log(data))
+        .catch((error) => console.log(error));
+    }else{    
+      
+      fetch(`https://www.googleapis.com/calendar/v3/calendars/primary/events?access_token=${new_access_token}`,{
+              method: "POST",
+              body: JSON.stringify(event)              
+              })
+          .then((respuesta) => respuesta.json())
+          .then((data) => {
+              console.log(data)
+          }) 
+          .catch((error) => console.log(error)); 
+    }
+  }
+
+  BotonFin.addEventListener("click",()=>{
+    authenticationKey();
+  })
+
+

@@ -60,7 +60,9 @@
 }
 .persona{
     width: 7%;
-    margin-left: 40px;
+    /* margin-left: 40px; */
+    margin-right: 20px;
+    margin-left: 0;
 }
 .person{
     width: 20%;
@@ -102,6 +104,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     width: 100%;
 }
 .modal-pregunta {
@@ -434,6 +437,14 @@
     background-color: #66597B;
     color: white;
 }
+.label-fecha{
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+.select-fecha{
+        width: 153px;
+        height: 20px;
+}
 .btn-enviar{
     width: 100px;
     height: 34px;
@@ -602,6 +613,12 @@
         font-size: 1.5rem;
         padding-right: 20px;
     }
+    .modal-pregunta-principal{
+        width: 100%;
+        padding-left: 20px;
+        font-size: 1.5rem;
+        padding-right: 20px;
+    }
     .modal-link-2{
         width: 60%;
         margin: auto;
@@ -609,6 +626,11 @@
         margin-top: 3rem;
     }
     .persona{
+        width: 18%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .persona-principal{
         width: 18%;
         margin: auto;
         margin-bottom: 10px;

@@ -178,9 +178,6 @@
             <div class="modal-agendar">
                 <a href="#" class="modal-link event-calendar">Agenda una llamada</a>
             </div>
-            <div class="modal-agendar">
-                <a href="#" onclick="enviarDatos()"  class="modal-link">Guardar en la BD</a>
-            </div>
         </div>
     </div>
 </div>
@@ -200,8 +197,15 @@
                     <input type='text' name='calendario' id='date_cliente'>
                 </div>
                 <div class="form-input">
-                    <label for="inputName" class="col-form-label">Hora inicio</label>
-                    <input type="time" class="form-control" id="hinicio" required />
+                    <!-- <label for="inputName" class="col-form-label">Hora inicio</label>
+                    <input type="time" class="form-control" id="hinicio" required /> -->
+                    <label class="label-fecha" for="lang">Hora inicio</label>
+                    <select class="select-fecha" name="select">
+                        <option selected disabled>Selecciona</option>
+                        <option value="value2">12:00:00</option>
+                        <option value="value3">13:00:00</option>
+                        <option value="value3">14:00:00</option>
+                    </select>
                 </div>
                 <br>
                 <div class="form-input">
