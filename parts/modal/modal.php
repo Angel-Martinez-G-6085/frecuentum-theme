@@ -189,30 +189,32 @@
         <span class="btn-regreso left-mod-calendar">&#8592;</span>
         <span class="w3-closebtn closed-event">&times;</span>
         <p  class="event-pregunta">Regístrate en el calendario</p>
-        <form action="" method="POST">
-
+        <div>
             <div class="modal-links-event">
                 <div class="form-input">
                     <label for="inputName" class="col-form-label">Fecha</label>
-                    <input type='text' name='calendario' id='date_cliente'>
+                    <input type='text' name='calendario' id='date_cliente' required>
                 </div>
                 <div class="form-input">
                     <!-- <label for="inputName" class="col-form-label">Hora inicio</label>
                     <input type="time" class="form-control" id="hinicio" required /> -->
                     <label class="label-fecha" for="lang">Hora inicio</label>
-                    <select class="select-fecha" name="select">
+                    <select class="select-fecha" id="mostrar-datos" name="select" required>
                         <option selected disabled>Selecciona</option>
-                        <option value="value2">12:00:00</option>
-                        <option value="value3">13:00:00</option>
-                        <option value="value3">14:00:00</option>
+                        <option value="12:00">12:00</option>
+                        <option value="13:00">13:00</option>
+                        <option value="14:00">14:00</option>
                     </select>
+                </div>
+                <div class="input-link-content">
+                    <p class="input-error-fech">Introduce tu fecha y hora</p>
                 </div>
                 <br>
                 <div class="form-input">
-                    <button type="submit"   class="mod-fin  btn-enviar">Enviar</button>
+                    <button type="submit" class="eventCalendar  btn-enviar">Enviar</button>
                 </div>
             </div>
-        </form>
+        </div>
     </div>
 </div>
 <!-- --Modal final-->

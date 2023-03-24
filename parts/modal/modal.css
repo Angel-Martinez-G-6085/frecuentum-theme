@@ -347,12 +347,20 @@
     font-weight: bold;
     color: red;
 }
+
+
+/* error calendar */
+.input-error-fech{
+    margin-top: -20px;
+    display: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: red;
+}
+
 .formulario-input-error-activo{
     display: block;
 }
-
-
-
 
 
 

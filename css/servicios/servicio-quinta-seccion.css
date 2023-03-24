@@ -76,11 +76,7 @@
         margin-left: 0;
         justify-content: center;
     }
-    .servicios-quinta-seccion-banner {
-        height: 0;
-    }
 }
-
 
 @media screen and (min-width: 375px) {
     .servicios-quinta-seccion-content-container {
