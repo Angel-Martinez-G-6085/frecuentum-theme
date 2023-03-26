@@ -196,14 +196,8 @@
                     <input type='text' name='calendario' id='date_cliente' required>
                 </div>
                 <div class="form-input">
-                    <!-- <label for="inputName" class="col-form-label">Hora inicio</label>
-                    <input type="time" class="form-control" id="hinicio" required /> -->
                     <label class="label-fecha" for="lang">Hora inicio</label>
                     <select class="select-fecha" id="mostrar-datos" name="select" required>
-                        <option selected disabled>Selecciona</option>
-                        <option value="12:00">12:00</option>
-                        <option value="13:00">13:00</option>
-                        <option value="14:00">14:00</option>
                     </select>
                 </div>
                 <div class="input-link-content">

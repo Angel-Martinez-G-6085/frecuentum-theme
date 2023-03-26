@@ -1,5 +1,7 @@
 let holiDays = localStorage.getItem("fechas");
 holiDays = JSON.parse(holiDays);
+let Horariosdefecto = localStorage.getItem("horarios");
+Horariosdefecto = JSON.parse(Horariosdefecto);
 
 function disableHoliday(date) {
     var string = $.datepicker.formatDate('yy-mm-dd', date);
@@ -14,3 +16,12 @@ function disableHoliday(date) {
  $( "#date_cliente" ).datepicker({
     beforeShowDay: disableHoliday
  });
+
+//Selector de horas
+const SelectordeHoras = document.querySelector(".select-fecha");
+Horariosdefecto.forEach(element => {
+   let option = document.createElement("option");
+   option.text = element;
+   option.value = element;
+   SelectordeHoras.appendChild(option);
+});
