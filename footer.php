@@ -14,7 +14,7 @@
                 <img src="<?php echo(ICON. 'telefono-morado-icon.svg')?>" alt="footer-phone-icon" class="footer-phone-icon">
                 <div class="contact-footer-number-container flex f-column">
                     <h4 class= "footer-number">Cel. 55 4037 0369</h4>
-                    <h4 class= "footer-number">Cel. 55 2486 9444</h4>
+                    <h4 class= "footer-number">Ofic. 55 2486 9444</h4>
                 </div>
             </div>
 
@@ -55,15 +55,15 @@
                 <img src="<?php echo(IMG.'MascotaCentada.webp')?>" alt="footer-mascota" class="footer-mascota">
 
                 <div class="footer-mascota-icons-container">
-                    <a target="_blank" href="https://wa.me/5215540370369">
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100090661321906&mibextid=ZbWKwL">
                         <img src="<?php echo(ICON. 'facebookBlanco.svg')?>" alt="footer-mascota-icon" class="flex face-icon footer-mascota-icon">
                     </a>
 
-                    <a target="_blank" href="https://wa.me/5215540370369">
+                    <a target="_blank" href="https://instagram.com/frequencylex?igshid=ZDdkNTZiNTM=">
                         <img src="<?php echo(ICON. 'insta-icon.svg')?>" alt="insta-icon" class="footer-mascota-icon">
                     </a>
 
-                    <a target="_blank" href="https://wa.me/5215540370369">
+                    <a target="_blank" href=" https://www.linkedin.com/in/frequencylex-consultor%C3%ADa">
                         <img src="<?php echo(ICON. 'linkedin-icon-blanco.svg')?>" alt="footer-mascota-icon" class="footer-mascota-icon">
                     </a>
 
@@ -71,7 +71,7 @@
                         <img src="<?php echo(ICON. 'whats-icon-blanco.svg')?>" alt="footer-mascota-icon" class="footer-mascota-icon">
                     </a>
 
-                    <a target="_blank" href="https://wa.me/5215540370369">
+                    <a target="_blank" href="https://twitter.com/FrequencyLex?t=8ROY8lq_-Uf2yzt1PdLA6Q&s=09">
                         <img src="<?php echo(ICON. 'twiter-icon-blanco.svg')?>" alt="footer-mascota-icon" class="footer-mascota-icon">
                     </a>
                 </div>

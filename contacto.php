@@ -83,7 +83,7 @@
                                         <h2 class="telefono-title">Celular</h2>
                                         <p class="telefonos">
                                             Cel. 55 4037 0369<br>
-                                            Cel. 55 2486 9444<br>
+                                            Ofic. 55 2486 9444<br>
                                         </p>
                                     </div>
                                 </div>
