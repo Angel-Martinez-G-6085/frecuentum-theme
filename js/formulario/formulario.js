@@ -15,6 +15,7 @@ function disableHoliday(date) {
 
 function verificarHorarios(fechas) {}
 
+
 //Selector de horas
 const SelectordeHoras = document.querySelector(".select-fecha");
 Horariosdefecto.forEach(element => {
@@ -26,7 +27,22 @@ Horariosdefecto.forEach(element => {
 
 SelectordeHoras.addEventListener("focus", () => {
    verificarHorarios(Horariosdefecto);
+   verificarFechas();
+   // console.log(SelectordeHoras)
 });
+
+// verificar si existen fechas, eliminar
+function verificarFechas(){
+   let fecha = localStorage.getItem("fecha");
+   let hora = localStorage.getItem("hora");
+   if(fecha !== ''){
+    console.log(e);
+   }else{
+      let ver = holiDays.filter(e => e !== fecha); 
+      localStorage.setItem("fechas",ver)
+   }
+
+}
 
 //Ubicamos el calendario del usuario
 $( "#date_cliente" ).datepicker({

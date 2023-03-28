@@ -21,7 +21,6 @@ function authenticationKey() {
   let correo = localStorage.getItem("correo");
   let fecha = localStorage.getItem("fecha");
 
-  console.log(fecha);
   let event = {
     summary: title,
     description: description,
@@ -78,6 +77,7 @@ enviarEventCalendar.addEventListener("click", () => {
    }else{
        authenticationKey();
        limpiar();
+       localStorage.setItem("hora", horaSelect);
     //    ModalFinal.classList.add('modal-show');
     //    ModalEvent.classList.remove('modal-show');
 
