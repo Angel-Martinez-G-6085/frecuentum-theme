@@ -104,9 +104,9 @@
 
 /* estilos para el tamaño de celular */
 @media screen and (max-width: 576px) {
-    .slider-text-container {
+    /* .slider-text-container {
         left: 0;
-    }
+    } */
 
     .titulo-slider {
         margin: 0 auto;
@@ -129,6 +129,7 @@
 
     .slider-comilla-container {
         width: 95%;
+        margin-bottom: 10px;
     }
 
     .slider-comilla-arriba, 

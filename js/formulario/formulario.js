@@ -27,7 +27,6 @@ Horariosdefecto.forEach(element => {
 
 SelectordeHoras.addEventListener("focus", () => {
    verificarHorarios(Horariosdefecto);
-   verificarFechas();
    // console.log(SelectordeHoras)
 });
 
@@ -41,7 +40,6 @@ function verificarFechas(){
       let ver = holiDays.filter(e => e !== fecha); 
       localStorage.setItem("fechas",ver)
    }
-
 }
 
 //Ubicamos el calendario del usuario

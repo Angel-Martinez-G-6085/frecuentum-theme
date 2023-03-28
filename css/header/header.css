@@ -225,4 +225,18 @@
     }
 }
 
+@media screen and (max-width: 360px) {
+    
+    .nav__mascota-container {
+        width: 7.5rem;
+    }
+    .nav-movil-button-container {
+        width: 5rem;
+    }
+
+  
+}
+
+
+
 @media screen and (min-width: 1500px) {}

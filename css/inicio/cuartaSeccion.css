@@ -201,6 +201,14 @@
         font-size: 5vw;
     }
 }
+@media screen and (max-width: 360px) {
+    .objetivo-description{
+        width: 100%;
+        margin-left: 10px;
+        margin-right: 10px;
+        line-height: inherit;
+    }
+}
 /* @media screen and (min-width: 1400px) {
     .cuarta-seccion-title {
         margin-top: 0;

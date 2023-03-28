@@ -262,3 +262,25 @@
         margin: 0 auto;
     }
 }
+
+@media screen and (max-width:360px) {
+    .contact-segunda-seccion-content-container {
+        top: 30px;
+    }
+    .opciones-title {
+        font-size: 2rem;
+    }
+    .herramienta-title, .llamada-title, .consultora-title {
+        font-size: 2rem;
+    }
+    .opciones-subtitle {
+        font-size: 2rem;
+    }
+    .ubicacion-title, .telefono-title, .correo-title {
+        font-size: 2rem;
+    }
+    .ubicacion-address, .telefonos, .correos {
+        font-size: 2rem;
+    }
+}
+

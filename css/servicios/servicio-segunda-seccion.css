@@ -143,3 +143,10 @@
         height: 13vh;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .servicios-segunda-seccion-content-container {
+        margin-top: 250px;
+    }
+    
+}

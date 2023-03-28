@@ -308,4 +308,8 @@
         margin: 0;
         width: 5rem;
     }
+
+    .face-icon {
+        width: 3.5rem;
+    }
 }
