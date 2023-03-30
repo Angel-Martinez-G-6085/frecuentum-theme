@@ -68,16 +68,45 @@ function authenticationKey() {
      document.getElementById("mostrar-datos").value = "";
  }
 
+//  ---Metodo para comprobar si aun hay fechas
+ let arrayFechasNuevas = [];
+ function verificarFechaHorarios(){  
+    let nuevaFecha = localStorage.getItem("fecha");
+    let nuevaHora = localStorage.getItem("hora");
+    arrayFechasNuevas.push(nuevaFecha);
+    localStorage.setItem("nuevafecha",JSON.stringify(arrayFechasNuevas));
+
+    let idx = arrayFechasNuevas.includes(nuevaFecha);
+    console.log(idx);
+    
+    let nuevoArrayHoras = JSON.parse(localStorage.getItem("horarios"));
+    let nuevoArrayFechas = JSON.parse(localStorage.getItem("fechas"));
+
+
+    if(idx === true && nuevoArrayHoras.length <= 1){
+        // let nuevoArrayHoras = JSON.parse(localStorage.getItem("horarios"));
+        nuevoArrayFechas.push(nuevaFecha);
+        localStorage.setItem("fechas",JSON.stringify(nuevoArrayFechas));
+        let eliminar = nuevoArrayHoras.filter((item) => item !== nuevaHora);
+        localStorage.setItem("horarios",JSON.stringify(eliminar));
+    }else{
+        let eliminar = nuevoArrayHoras.filter((item) => item !== nuevaHora);
+        localStorage.setItem("horarios",JSON.stringify(eliminar));
+    }
+ }
+
+
 enviarEventCalendar.addEventListener("click", () => {
-    let fecha = document.getElementById("date_cliente").value;
+    let fecha = document.querySelector(".value-date").value;
     localStorage.setItem("fecha",fecha);
     let fecha_storage = localStorage.getItem("fecha")
    if(horaSelect === '' || fecha_storage === '' ){
         document.querySelector(".input-error-fech").classList.add("formulario-input-error-activo");
    }else{
-       authenticationKey();
-       limpiar();
        localStorage.setItem("hora", horaSelect);
+       authenticationKey();
+       verificarFechaHorarios()
+       limpiar();
     //    ModalFinal.classList.add('modal-show');
     //    ModalEvent.classList.remove('modal-show');
 

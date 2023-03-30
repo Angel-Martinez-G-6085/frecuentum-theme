@@ -63,6 +63,7 @@ const OpenModals = (BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,
                 let nombre = document.getElementById("nombre").value;
                 localStorage.setItem("nombre",nombre)
                 nombreInput.value = "";
+                
             }
         }else{
             document.querySelector(".formulario-input-error").classList.add("formulario-input-error-activo");

@@ -89,7 +89,7 @@
         </div>
     <div class="modal-links-container-inputs">
         <div class="input-link-content">
-            <input id="nombre" name="nombre" class="input-link nombre-input" type="text" placeholder="Nombre..." required>
+                <input id="nombre" name="nombre" class="input-link nombre-input" type="text" placeholder="Nombre..." required>
         </div>
         <div class="input-link-content">
             <p class="formulario-input-error">Es importante llenar estos datos para brindarte nuestros servicios</p>
@@ -193,11 +193,12 @@
             <div class="modal-links-event">
                 <div class="form-input">
                     <label for="inputName" class="col-form-label">Fecha</label>
-                    <input type='text' name='calendario' id='date_cliente' required>
+                    <input type='text' class="value-date" name='calendario' id='date_cliente' required>
                 </div>
                 <div class="form-input">
                     <label class="label-fecha" for="lang">Hora inicio</label>
                     <select class="select-fecha" id="mostrar-datos" name="select" required>
+                        <option value="" selected disabled>Selecciona tu hora</option>
                     </select>
                 </div>
                 <div class="input-link-content">
