@@ -1,7 +1,8 @@
 // Insertar en Google calendar
-
 let enviarEventCalendar = document.querySelector(".eventCalendar");
 let mostrarSelect = document.getElementById("mostrar-datos");
+let fecha = document.getElementById("date_cliente");
+localStorage.setItem("citasAgendadas", JSON.stringify(citaAgendada));
 
 let horaSelect = "";
 mostrarSelect.addEventListener("change", () => {
@@ -69,18 +70,54 @@ function authenticationKey() {
      document.getElementById("mostrar-datos").value = "";
  }
 
+ function actulizarHorarioCita(fechaEscogida, nuevoHorarioEscogido) {
+  citaAgendada.forEach((cita, index) => {
+    if(cita.fecha == fechaEscogida) {
+      let posicionHorario = cita.horarios.indexOf(nuevoHorarioEscogido);
+      cita.horarios.splice(posicionHorario, 1);
+      let CitasAgendadasStorage = localStorage.getItem("citasAgendadas");
+      CitasAgendadasStorage = JSON.parse(CitasAgendadasStorage);
+
+      CitasAgendadasStorage[index] = {
+        fecha: cita.fecha,
+        horarios: cita.horarios
+      }
+      localStorage.setItem("citasAgendadas", JSON.stringify(CitasAgendadasStorage));
+    }
+  })
+ }
+
+function AgregarObjetoCitasAgendadas(fechaConsultar) {
+  let citas = localStorage.getItem("citasAgendadas");
+  citas = JSON.parse(citas);
+
+  if (!citas.some(item => JSON.stringify(item.fecha) === JSON.stringify(fechaConsultar))) {
+    let horarios = document.querySelectorAll(".opcionesCalendario");
+    let horarioEscogido = SelectordeHoras.value;
+    let indexHorarioEscogido = "";
+    
+    let objetoCita = {
+      fecha: fecha.value,
+      horarios: []
+    }
+    horarios.forEach((element) => {
+      objetoCita.horarios.push(element.value);
+    });
+    indexHorarioEscogido = objetoCita.horarios.indexOf(horarioEscogido);
+    objetoCita.horarios.splice(indexHorarioEscogido, 1);
+    citaAgendada.push(objetoCita);
+    localStorage.setItem("citasAgendadas", JSON.stringify(citaAgendada));
+  } else {
+    actulizarHorarioCita(fecha.value, mostrarSelect.value);
+  }
+}
+
 enviarEventCalendar.addEventListener("click", () => {
-    let fecha = document.getElementById("date_cliente").value;
     localStorage.setItem("fecha",fecha);
-    let fecha_storage = localStorage.getItem("fecha")
-   if(horaSelect === '' || fecha_storage === '' ){
-        document.querySelector(".input-error-fech").classList.add("formulario-input-error-activo");
-   }else{
-       authenticationKey();
-       limpiar();
-    //    ModalFinal.classList.add('modal-show');
-    //    ModalEvent.classList.remove('modal-show');
 
-   }
-
+  if(mostrarSelect.value === '' || fecha.value === '' ){
+    document.querySelector(".input-error-fech").classList.add("formulario-input-error-activo");
+  } else {
+    AgregarObjetoCitasAgendadas(fecha.value, mostrarSelect.value);
+  }
 });
