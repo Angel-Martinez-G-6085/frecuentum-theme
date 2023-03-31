@@ -22,6 +22,41 @@ const ModalFinal = document.querySelector('.modal-final');
 
 
 
+// // Modal para el aviso de privacidad
+// // llamamos al modal
+// const ModalAvisoPrivacidad = document.querySelector('.modal-aviso-privacidad');
+
+// const AvisoPrivacidad = (BotonAvisoPrivacidad,closedModalAviso)=>{
+//     BotonAvisoPrivacidad.forEach((click)=>{
+//         click.addEventListener("click",()=>{
+//             ModalAvisoPrivacidad.classList.add('modal-show');
+//             HeaderMenu.classList.toggle('open-menu');
+//         })
+//     })
+//     closedModalAviso.addEventListener("click",()=>{
+//         ModalAvisoPrivacidad.classList.remove('modal-show');
+//     })
+// }
+
+// const BotonAvisoPrivacidad = document.querySelectorAll(".abrir-modal-link");
+// const closedModalAviso = document.querySelector(".closed-aviso");
+
+// AvisoPrivacidad(BotonAvisoPrivacidad,closedModalAviso);
+// // -----------------------------------
+// // Validar checkbox
+// let test1 = document.querySelector("#test1");
+
+// test1.addEventListener("change", validaCheckbox,false);
+
+// function validarCheckbox(){
+//     let verificar = test1.checked;
+//     if(verificar){
+//         alert('checkbox seleccionado')
+//     }
+// }
+
+
+
 
 // Open modals
 const OpenModals = (BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,empresaInput,numeroInput,correoInput,BotonModalEvent) => {
@@ -151,6 +186,8 @@ const BotonModalEvent= document.querySelector(".event-calendar");
 
 
 OpenModals(BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,empresaInput,numeroInput,correoInput,BotonModalEvent);
+
+
 
 
 
@@ -365,7 +402,6 @@ const ClosedModal = (closedModal,cerrarModal2,cerrarModalNo,cerrarModal3,cerrarM
     })
 
 }
-
 const closedModal = document.querySelector(".closed-1");
 const cerrarModal2 = document.querySelector(".closed-2");
 const cerrarModalNo = document.querySelector(".closed-no");

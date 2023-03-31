@@ -89,7 +89,9 @@
         </div>
     <div class="modal-links-container-inputs">
         <div class="input-link-content">
+            <form action="" onsubmit="return false">
                 <input id="nombre" name="nombre" class="input-link nombre-input" type="text" placeholder="Nombre..." required>
+            </form>
         </div>
         <div class="input-link-content">
             <p class="formulario-input-error">Es importante llenar estos datos para brindarte nuestros servicios</p>
@@ -113,7 +115,9 @@
         </div>
         <div class="modal-links-container-inputs">
             <div class="input-link-content">
-                <input id="empresa" name="empresa" class="input-link empresa-input"  type="text" placeholder="Empresa...">
+                <form action="" onsubmit="return false">
+                    <input id="empresa" name="empresa" class="input-link empresa-input"  type="text" placeholder="Empresa...">
+                </form>
             </div>
             <div class="input-link-content">
                 <p class="formulario-input-error-empresa">Es importante llenar estos datos para brindarte nuestros servicios</p>
@@ -133,7 +137,9 @@
         </div>
         <div class="modal-links-container-inputs">
             <div class="input-link-content">
-                <input id="telefono" name="telefono" class="input-link num-input" type="text" placeholder="+52...">
+                <form action="" onsubmit="return false">
+                    <input id="telefono" name="telefono" class="input-link num-input" type="text" placeholder="+52...">
+                </form>
             </div>
             <div class="input-link-content">
                 <p class="formulario-input-error-numero">Introduce tu número a 10 digitos(Nuestros sercicios son solo para México)</p>
@@ -153,7 +159,9 @@
     </div>
         <div class="modal-links-container-inputs">
             <div class="input-link-content">
-                <input id="correo" name="correo" class="input-link correo-input" type="email" placeholder="Correo@gmail.com">
+                <form action="" onsubmit="return false">
+                    <input id="correo" name="correo" class="input-link correo-input" type="email" placeholder="Correo@gmail.com">
+                </form>
             </div>
             <div class="input-link-content">
                 <p class="formulario-input-error-correo">Introduce tu correo eléctronico correctamente</p>
