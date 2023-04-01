@@ -1,6 +1,7 @@
 const SelectordeHoras = document.querySelector(".select-fecha");
 const SelectorFecha = document.querySelector("#date_cliente");
-const citaAgendada = [];
+let citaAgendada = localStorage.getItem("citasAgendadas");
+citaAgendada = JSON.parse(citaAgendada);
 let holiDays = localStorage.getItem("fechas");
 holiDays = JSON.parse(holiDays);
 let Horariosdefecto = localStorage.getItem("horarios");
@@ -27,37 +28,64 @@ function cargarHorarios(horarios) {
    });
 }
 
+function LaFechaesEspecifica() {
+   let objetoFecha = {
+      fecha: SelectorFecha.value
+   }
+   if (HorariosEspecificos.some(item => JSON.stringify(item.fecha) === JSON.stringify(objetoFecha.fecha))) {
+      return true;
+   }
+}
+
+function LaFechaTieneCita() {
+   let objetoFecha = {
+      fecha: SelectorFecha.value
+   }
+   if (citaAgendada.some(item => JSON.stringify(item.fecha) === JSON.stringify(objetoFecha.fecha))) {
+      return true;
+   }
+}
+
 SelectordeHoras.addEventListener("focus", () => {
    let objetoBusca = {
       fecha: SelectorFecha.value
    }
 
-   if(HorariosEspecificos.length == 0) {
+   if(LaFechaTieneCita()) {
+      citaAgendada.forEach((cita) => {
+         if(cita.fecha == SelectorFecha.value) {
+            let opciones = document.querySelectorAll(".opcionesCalendario");
+            opciones.forEach(opcion => {
+               opcion.remove();
+            });
+            cargarHorarios(cita.horarios);
+         }
+      })
+   }
+
+   else if(HorariosEspecificos.length == 0) {
       let opciones = document.querySelectorAll(".opcionesCalendario");
          opciones.forEach(opcion => {
             opcion.remove();
          });
       cargarHorarios(Horariosdefecto);
-   } else {
-         HorariosEspecificos.forEach(element => {
-      if(element.fecha == objetoBusca.fecha) {
-         let opciones = document.querySelectorAll(".opcionesCalendario");
-         opciones.forEach(opcion => {
-            opcion.remove();
-         });
-         cargarHorarios(element.horarios);
-      } else {
-         let opciones = document.querySelectorAll(".opcionesCalendario");
-         opciones.forEach(opcion => {
-            opcion.remove();
-         });
-         cargarHorarios(Horariosdefecto);
-      }
-   });
    }
-
-   if(true){
-      console.log("la condicion fue evaluada")
+   
+   else if(!HorariosEspecificos.length == 0 && LaFechaesEspecifica()) {
+      HorariosEspecificos.forEach((element) => {
+            let opciones = document.querySelectorAll(".opcionesCalendario");
+            opciones.forEach(opcion => {
+               opcion.remove();
+            });
+            cargarHorarios(element.horarios);
+      })
+   }
+   else {
+      let opciones = document.querySelectorAll(".opcionesCalendario");
+      opciones.forEach(opcion => {
+         opcion.remove();
+      });
+      cargarHorarios(Horariosdefecto);
    }
 });
 

@@ -66,8 +66,8 @@ function authenticationKey() {
 }
 
  function limpiar(){
-     document.getElementById("date_cliente").value = "";
-     document.getElementById("mostrar-datos").value = "";
+  fecha.value = "";
+  mostrarSelect.value = "";
  }
 
  function actulizarHorarioCita(fechaEscogida, nuevoHorarioEscogido) {
@@ -119,5 +119,6 @@ enviarEventCalendar.addEventListener("click", () => {
     document.querySelector(".input-error-fech").classList.add("formulario-input-error-activo");
   } else {
     AgregarObjetoCitasAgendadas(fecha.value, mostrarSelect.value);
+    limpiar();
   }
 });
