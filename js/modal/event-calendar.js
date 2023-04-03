@@ -113,12 +113,15 @@ function AgregarObjetoCitasAgendadas(fechaConsultar) {
 }
 
 enviarEventCalendar.addEventListener("click", () => {
-    localStorage.setItem("fecha",fecha);
+    localStorage.setItem("fecha",fecha.value);
 
   if(mostrarSelect.value === '' || fecha.value === '' ){
     document.querySelector(".input-error-fech").classList.add("formulario-input-error-activo");
   } else {
     AgregarObjetoCitasAgendadas(fecha.value, mostrarSelect.value);
+    authenticationKey();
     limpiar();
+    ModalFinal.classList.add('modal-show');
+    ModalEvent.classList.remove('modal-show');
   }
 });
