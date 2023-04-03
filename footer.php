@@ -4,7 +4,8 @@
             <div class="description-text-container flex f-column">
                 <p class="footer-description">Somos un equipo conformado por un grupo de abogados con más de 10 años de experiencia en el sector regulatorio de la radiodifusión y las telecomunicaciones, nuestro objetivo es brindar servicios jurídicos y administrativos especializados en nuestras áreas de experiencia.</p>
                 <div class="privacidad-text-container">
-                    <h4 class="privacidad-text centrar text-link">Aviso de privacidad</h4>
+                <h4 class="privacidad-text centrar text-link"><a class="abrir-modal-link identifier color-aviso" href="#">Aviso de privacidad</a></h4>
+                    <!-- <h class="privacidad-text centrar text-link">Aviso de privacidad</h> -->
                 </div>
             </div>
         </div>

@@ -45,7 +45,7 @@
                         <a href="<?php echo site_url('/contacto'); ?>">Contacto</a>
                     </li>
                     <li class="menu-link">
-                        <a id="modal-link" class="formulario-link" href="#">Agenda una llamada</a>
+                        <a class="formulario-link abrir-modal-link privado" href="#">Agenda una llamada</a>
                     </li>
                 </ul>
             </nav>

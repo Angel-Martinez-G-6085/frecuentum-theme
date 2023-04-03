@@ -1,4 +1,3 @@
-
 const expresiones = {
 	// usuario: /^[a-zA-Z0-9\_\-]{4,16}$/, // Letras, numeros, guion y guion_bajo
 	nombre: /^[a-zA-ZÀ-ÿ\s]{4,40}$/, // Letras y espacios, pueden llevar acentos.
@@ -8,8 +7,9 @@ const expresiones = {
 	telefono: /^\d{10}$/ // 7 a 14 numeros.
 }
 
+
 //Llamar a los modales
-const MODAL = document.querySelector('.modal-container');
+const MODAL = document.querySelector('.primer-modal');
 const Modal2 = document.querySelector('.modal-2');
 const ModalNo = document.querySelector('.modalNo');
 const Modal3 = document.querySelector('.modal-3');
@@ -22,48 +22,104 @@ const ModalFinal = document.querySelector('.modal-final');
 
 
 
-// // Modal para el aviso de privacidad
-// // llamamos al modal
-// const ModalAvisoPrivacidad = document.querySelector('.modal-aviso-privacidad');
 
-// const AvisoPrivacidad = (BotonAvisoPrivacidad,closedModalAviso)=>{
-//     BotonAvisoPrivacidad.forEach((click)=>{
-//         click.addEventListener("click",()=>{
-//             ModalAvisoPrivacidad.classList.add('modal-show');
-//             HeaderMenu.classList.toggle('open-menu');
-//         })
-//     })
-//     closedModalAviso.addEventListener("click",()=>{
-//         ModalAvisoPrivacidad.classList.remove('modal-show');
-//     })
-// }
 
-// const BotonAvisoPrivacidad = document.querySelectorAll(".abrir-modal-link");
-// const closedModalAviso = document.querySelector(".closed-aviso");
+// Validar checkbox
 
-// AvisoPrivacidad(BotonAvisoPrivacidad,closedModalAviso);
-// // -----------------------------------
-// // Validar checkbox
-// let test1 = document.querySelector("#test1");
 
-// test1.addEventListener("change", validaCheckbox,false);
 
-// function validarCheckbox(){
-//     let verificar = test1.checked;
-//     if(verificar){
-//         alert('checkbox seleccionado')
-//     }
-// }
+// checkbox1.addEventListener("change",()=>{
+//     let validarCheck1 = checkbox1.checked;
+//     localStorage.setItem("check1",validarCheck1)
+// });
+// checkbox2.addEventListener("change",()=>{
+//     let validarCheck2 = checkbox2.checked;
+//     localStorage.setItem("check2",validarCheck2)
+// });
+// checkbox3.addEventListener("change",()=>{
+//     let validarCheck3 = checkbox3.checked;
+//     localStorage.setItem("check3",validarCheck3)
+// });
+
+
+let checkbox1 = document.querySelector("#check1");
+let checkbox2 = document.querySelector("#check2")
+let checkbox3 = document.querySelector("#check3")
+
+
+checkbox1.addEventListener("change", validarCheckbox);
+checkbox2.addEventListener("change", validarCheckbox);
+checkbox3.addEventListener("change", validarCheckbox);
+    
+
+ function validarCheckbox(){
+     let validarCheck1 = checkbox1.checked;
+     let validarCheck2 = checkbox2.checked;
+     let validarCheck3 = checkbox3.checked;
+     let vercheck = localStorage.getItem("check")
+     let vercheck2 = localStorage.getItem("check2")
+    if(validarCheck1&&validarCheck2&&validarCheck3&&vercheck=== 'identifier'){
+         ModalAvisoPrivacidad.classList.remove('modal-show');
+         console.log('checkbox seleccionado');
+         checkbox1.checked = false
+         checkbox2.checked = false
+         checkbox3.checked = false
+         localStorage.removeItem("check")
+    }
+    if(validarCheck1&&validarCheck2&&validarCheck3&&vercheck2=== 'privado'){
+        MODAL.classList.add('modal-show');
+        ModalAvisoPrivacidad.classList.remove('modal-show');
+        console.log('checkbox seleccionado');
+        checkbox1.checked = false
+        checkbox2.checked = false
+        checkbox3.checked = false
+        localStorage.removeItem("check2")
+    }
+        
+ }
+
+
+// Modal para el aviso de privacidad
+// llamamos al modal
+const ModalAvisoPrivacidad = document.querySelector('.modal-aviso-privacidad');
+
+const AvisoPrivacidad = (BotonAvisoPrivacidad,closedModalAviso)=>{
+    BotonAvisoPrivacidad.forEach((click)=>{
+        click.addEventListener("click",(e)=>{
+            console.log(e)
+            if(e.target.classList[1] === "identifier"){
+                ModalAvisoPrivacidad.classList.add('modal-show');
+                let verificarcheck = e.srcElement.classList[1];
+                localStorage.setItem("check",verificarcheck);
+            }
+            if(e.target.classList[2] === "privado"){
+                ModalAvisoPrivacidad.classList.add('modal-show');
+                HeaderMenu.classList.toggle('open-menu');
+                let verificarcheck2 = e.srcElement.classList[2];
+                localStorage.setItem("check2",verificarcheck2);
+            }
+        })
+    })
+    closedModalAviso.addEventListener("click",()=>{
+        ModalAvisoPrivacidad.classList.remove('modal-show');
+    })
+}
+
+const BotonAvisoPrivacidad = document.querySelectorAll(".abrir-modal-link");
+const closedModalAviso = document.querySelector(".closed-aviso");
+
+AvisoPrivacidad(BotonAvisoPrivacidad,closedModalAviso);
+
 
 
 
 
 // Open modals
-const OpenModals = (BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,empresaInput,numeroInput,correoInput,BotonModalEvent) => {
-    BotonModal.addEventListener("click",()=>{
-        MODAL.classList.add('modal-show');
-        HeaderMenu.classList.toggle('open-menu');
-    });
+const OpenModals = (BotonModal2,BotonModalNo,BotonModal3,nombreInput,empresaInput,numeroInput,correoInput,BotonModalEvent) => {
+    // BotonModal.addEventListener("click",()=>{
+    //     MODAL.classList.add('modal-show');
+    //     HeaderMenu.classList.toggle('open-menu');
+    // });
 
     BotonModal2.addEventListener("click", () => {
         Modal2.classList.add('modal-show');
@@ -171,7 +227,7 @@ const OpenModals = (BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,
 
 }
 
-const BotonModal = document.querySelector("#modal-link");
+// const BotonModal = document.querySelector("#modal-link");
 const BotonModal2 = document.querySelector(".mod2");
 const BotonModalNo = document.querySelector(".modNo");
 const BotonModal3 = document.querySelector(".mod3");
@@ -185,7 +241,7 @@ const BotonModalEvent= document.querySelector(".event-calendar");
 
 
 
-OpenModals(BotonModal,BotonModal2,BotonModalNo,BotonModal3,nombreInput,empresaInput,numeroInput,correoInput,BotonModalEvent);
+OpenModals(BotonModal2,BotonModalNo,BotonModal3,nombreInput,empresaInput,numeroInput,correoInput,BotonModalEvent);
 
 
 

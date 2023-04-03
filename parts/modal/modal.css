@@ -22,6 +22,67 @@
 
 
 
+/* Estilos para el aviso de privacidad  */
+.persona-aviso{
+    width: 7%;
+    margin-top: -35px;
+    margin-right: 20px;
+    margin-left: 0;
+}
+.content-modal-aviso{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.content-aviso-privacidad{
+    overflow: auto;
+    height: 370px;
+    width: 90%;
+    text-align: justify;
+    padding-right: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.8rem;
+    gap: 40px;
+}
+.modal-aviso-inicio{
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 23px;
+}
+.title-aviso{
+    margin: 0 auto;
+    font-size: 1.8rem;
+}
+.definicios{
+    text-align: left;
+    margin-bottom: 2rem;
+}
+.color-aviso{
+    color: var(--blanco);
+}
+.spaciar{
+    margin-bottom: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .persona-principal{
     width: 7%;
     margin-left: 40px;
@@ -598,6 +659,19 @@
     .modal-show {
         top: 12%;
     }
+    /* modal aviso de privacidad */
+    .modal-aviso-inicio{
+        font-size: 1.8rem;
+    }
+    .content-aviso-privacidad {
+        font-size: 1.2rem;
+    }
+    .title-aviso {
+        font-size: 1.3rem;
+    }
+    .persona-aviso {
+        width: 15%;
+    }
     /* modal inicio*/
     .person{
         margin-left: 44%;    
@@ -747,4 +821,13 @@
         margin-top: 67px;
     }
 
+}
+
+@media screen and (max-width: 360px){
+    .content-aviso-privacidad {
+        margin-bottom: -20px;    
+    }
+    .modal-aviso-inicio {
+        font-size: 1.5rem;
+    }
 }

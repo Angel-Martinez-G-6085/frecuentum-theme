@@ -107,8 +107,8 @@ enviarEventCalendar.addEventListener("click", () => {
        authenticationKey();
        verificarFechaHorarios()
        limpiar();
-    //    ModalFinal.classList.add('modal-show');
-    //    ModalEvent.classList.remove('modal-show');
+        ModalFinal.classList.add('modal-show');
+        ModalEvent.classList.remove('modal-show');
 
    }
 
