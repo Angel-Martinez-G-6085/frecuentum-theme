@@ -95,6 +95,11 @@ function authenticationKey() {
     }
  }
 
+function elminarUltimoModal(){
+    setTimeout(()=>{
+      ModalFinal.classList.remove("modal-show");
+    },5000)
+}
 
 enviarEventCalendar.addEventListener("click", () => {
     let fecha = document.querySelector(".value-date").value;
@@ -107,9 +112,8 @@ enviarEventCalendar.addEventListener("click", () => {
        authenticationKey();
        verificarFechaHorarios()
        limpiar();
-        ModalFinal.classList.add('modal-show');
-        ModalEvent.classList.remove('modal-show');
-
+       ModalFinal.classList.add('modal-show');
+       ModalEvent.classList.remove('modal-show');
+       elminarUltimoModal();
    }
-
 });

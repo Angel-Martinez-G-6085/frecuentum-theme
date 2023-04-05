@@ -219,6 +219,7 @@
     .telefono-icon,
     .correo-icon {
     width: 6.5rem;
+    margin-right: 0;
 }
 
     .herramienta-title {

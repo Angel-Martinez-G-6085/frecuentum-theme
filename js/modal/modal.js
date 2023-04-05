@@ -9,16 +9,16 @@ const expresiones = {
 
 
 //Llamar a los modales
-const MODAL = document.querySelector('.primer-modal');
-const Modal2 = document.querySelector('.modal-2');
-const ModalNo = document.querySelector('.modalNo');
-const Modal3 = document.querySelector('.modal-3');
-const Modal5 = document.querySelector('.modal-5');
-const Modal6 = document.querySelector('.modal-6');
-const Modal7 = document.querySelector('.modal-7');
-const Modal8 = document.querySelector('.modal-8');
-const ModalEvent = document.querySelector('.modal-envent-calendar');
-const ModalFinal = document.querySelector('.modal-final');
+const MODAL = document.querySelector('.primer-modal'),
+      Modal2 = document.querySelector('.modal-2'),
+      ModalNo = document.querySelector('.modalNo'),
+      Modal3 = document.querySelector('.modal-3'),
+      Modal5 = document.querySelector('.modal-5'),
+      Modal6 = document.querySelector('.modal-6'),
+      Modal7 = document.querySelector('.modal-7'),
+      Modal8 = document.querySelector('.modal-8'),
+      ModalEvent = document.querySelector('.modal-envent-calendar'),
+      ModalFinal = document.querySelector('.modal-final');
 
 
 
@@ -26,89 +26,120 @@ const ModalFinal = document.querySelector('.modal-final');
 
 // Validar checkbox
 
+let checkboxs = document.querySelectorAll(".check");
+
+const checkboxMultiple = (checkboxs)=>{
+            checkboxs.forEach((click)=>{
+                click.addEventListener("change",(e)=>{
+                    let validChexbox = e.target.checked;
+                    let validNameCheck = e.target.name;
+                    console.log(e)
+
+                    // if(validNameCheck === "check1"){
+                    //     localStorage.setItem("nameChek1",validNameCheck)
+                    //     localStorage.setItem("bool",validChexbox)
+                    // }
+
+                    validNameCheck === "check1" ? localStorage.setItem("nameChek1",validNameCheck) + localStorage.setItem("valueChek1",validChexbox): ""; 
+                    validNameCheck === "check2" ? localStorage.setItem("nameChek2",validNameCheck)+ localStorage.setItem("valueChek2",validChexbox): ""; 
+                    validNameCheck === "check3" ? localStorage.setItem("nameChek3",validNameCheck)+ localStorage.setItem("valueChek3",validChexbox): ""; 
+         
+                    let nameChek1 = localStorage.getItem("nameChek1")
+                    let nameChek2 = localStorage.getItem("nameChek2")
+                    let nameChek3 = localStorage.getItem("nameChek3")
+                    let valueChek1 = localStorage.getItem("valueChek1")
+                    let valueChek2 = localStorage.getItem("valueChek2")
+                    let valueChek3 = localStorage.getItem("valueChek3")
+
+                    let vercheck = localStorage.getItem("check")
+                    let vercheck2 = localStorage.getItem("check2")
+                    let vercheck3 = localStorage.getItem("check3")
+                    
+                   if(valueChek1 && valueChek2 && valueChek3 && nameChek1 === "check1" && nameChek2 === "check2" && nameChek3=== "check3" &&vercheck=== "identifier"){
+                        ModalAvisoPrivacidadFooter.classList.remove('modal-show');
+                        localStorage.removeItem("check");                        
+                        limpiarCheckbox();
+
+                    }else if(valueChek1 && valueChek2 && valueChek3 && nameChek1 === "check1" && nameChek2 === "check2" && nameChek3=== "check3"&&vercheck2=== "privado"){
+                        MODAL.classList.add('modal-show');
+                        ModalAvisoPrivacidad.classList.remove('modal-show');
+                        localStorage.removeItem("check2");
+                        limpiarCheckbox();
+                    }else if(valueChek1 && valueChek2 && valueChek3 && nameChek1 === "check1" && nameChek2 === "check2" && nameChek3=== "check3"&&vercheck3=== "modal-global"){
+                        MODAL.classList.add('modal-show');
+                        ModalAvisoPrivacidad.classList.remove('modal-show');
+                        localStorage.removeItem("check3");
+                        limpiarCheckbox();
+                    }
+                });
+
+            })
+}
+
+checkboxMultiple(checkboxs);
 
 
-// checkbox1.addEventListener("change",()=>{
-//     let validarCheck1 = checkbox1.checked;
-//     localStorage.setItem("check1",validarCheck1)
-// });
-// checkbox2.addEventListener("change",()=>{
-//     let validarCheck2 = checkbox2.checked;
-//     localStorage.setItem("check2",validarCheck2)
-// });
-// checkbox3.addEventListener("change",()=>{
-//     let validarCheck3 = checkbox3.checked;
-//     localStorage.setItem("check3",validarCheck3)
-// });
 
-
-let checkbox1 = document.querySelector("#check1");
-let checkbox2 = document.querySelector("#check2")
-let checkbox3 = document.querySelector("#check3")
-
-
-checkbox1.addEventListener("change", validarCheckbox);
-checkbox2.addEventListener("change", validarCheckbox);
-checkbox3.addEventListener("change", validarCheckbox);
-    
-
- function validarCheckbox(){
-     let validarCheck1 = checkbox1.checked;
-     let validarCheck2 = checkbox2.checked;
-     let validarCheck3 = checkbox3.checked;
-     let vercheck = localStorage.getItem("check")
-     let vercheck2 = localStorage.getItem("check2")
-    if(validarCheck1&&validarCheck2&&validarCheck3&&vercheck=== 'identifier'){
-         ModalAvisoPrivacidad.classList.remove('modal-show');
-         console.log('checkbox seleccionado');
-         checkbox1.checked = false
-         checkbox2.checked = false
-         checkbox3.checked = false
-         localStorage.removeItem("check")
-    }
-    if(validarCheck1&&validarCheck2&&validarCheck3&&vercheck2=== 'privado'){
-        MODAL.classList.add('modal-show');
-        ModalAvisoPrivacidad.classList.remove('modal-show');
-        console.log('checkbox seleccionado');
-        checkbox1.checked = false
-        checkbox2.checked = false
-        checkbox3.checked = false
-        localStorage.removeItem("check2")
-    }
-        
- }
+function limpiarCheckbox(){
+    let vaciarCheckbox  = document.querySelectorAll(".check");
+    vaciarCheckbox.forEach((e)=>{
+        e.checked = false
+    });
+    localStorage.removeItem("nameChek1")
+    localStorage.removeItem("nameChek2")
+    localStorage.removeItem("nameChek3")
+    localStorage.removeItem("valueChek1")
+    localStorage.removeItem("valueChek2")
+    localStorage.removeItem("valueChek3")
+}
+ 
 
 
 // Modal para el aviso de privacidad
 // llamamos al modal
-const ModalAvisoPrivacidad = document.querySelector('.modal-aviso-privacidad');
 
-const AvisoPrivacidad = (BotonAvisoPrivacidad,closedModalAviso)=>{
+const ModalAvisoPrivacidad = document.querySelector('.modal-aviso-privacidad');
+const ModalAvisoPrivacidadFooter = document.querySelector('.modal-footer');
+
+const AvisoPrivacidad = (BotonAvisoPrivacidad,closedModalAviso,closedModalAviso2)=>{
     BotonAvisoPrivacidad.forEach((click)=>{
         click.addEventListener("click",(e)=>{
             console.log(e)
             if(e.target.classList[1] === "identifier"){
-                ModalAvisoPrivacidad.classList.add('modal-show');
+                ModalAvisoPrivacidadFooter.classList.add('modal-show');
                 let verificarcheck = e.srcElement.classList[1];
                 localStorage.setItem("check",verificarcheck);
             }
-            if(e.target.classList[2] === "privado"){
+            if(e.target.classList[1] === "privado"){
                 ModalAvisoPrivacidad.classList.add('modal-show');
                 HeaderMenu.classList.toggle('open-menu');
-                let verificarcheck2 = e.srcElement.classList[2];
+                let verificarcheck2 = e.srcElement.classList[1];
                 localStorage.setItem("check2",verificarcheck2);
+            }
+            if(e.target.classList[1] === "modal-global"){
+                ModalAvisoPrivacidad.classList.add('modal-show');
+                let verificarcheck2 = e.srcElement.classList[1];
+                localStorage.setItem("check3",verificarcheck2);
             }
         })
     })
     closedModalAviso.addEventListener("click",()=>{
         ModalAvisoPrivacidad.classList.remove('modal-show');
-    })
+        localStorage.removeItem("check")
+    });
+    closedModalAviso2.addEventListener("click",()=>{
+        ModalAvisoPrivacidadFooter.classList.remove('modal-show');
+        localStorage.removeItem("check2")
+    });
 }
 
 const BotonAvisoPrivacidad = document.querySelectorAll(".abrir-modal-link");
 const closedModalAviso = document.querySelector(".closed-aviso");
+const closedModalAviso2 = document.querySelector(".closed-aviso2");
 
-AvisoPrivacidad(BotonAvisoPrivacidad,closedModalAviso);
+AvisoPrivacidad(BotonAvisoPrivacidad,closedModalAviso,closedModalAviso2);
+
+
 
 
 
@@ -228,14 +259,14 @@ const OpenModals = (BotonModal2,BotonModalNo,BotonModal3,nombreInput,empresaInpu
 }
 
 // const BotonModal = document.querySelector("#modal-link");
-const BotonModal2 = document.querySelector(".mod2");
-const BotonModalNo = document.querySelector(".modNo");
-const BotonModal3 = document.querySelector(".mod3");
-const nombreInput = document.querySelector('.nombre-input');
-const empresaInput = document.querySelector('.empresa-input');
-const numeroInput = document.querySelector('.num-input');
-const correoInput = document.querySelector('.correo-input');
-const BotonModalEvent= document.querySelector(".event-calendar");
+const BotonModal2 = document.querySelector(".mod2"),
+      BotonModalNo = document.querySelector(".modNo"),
+      BotonModal3 = document.querySelector(".mod3"),
+      nombreInput = document.querySelector('.nombre-input'),
+      empresaInput = document.querySelector('.empresa-input'),
+      numeroInput = document.querySelector('.num-input'),
+      correoInput = document.querySelector('.correo-input'),
+      BotonModalEvent= document.querySelector(".event-calendar");
 
 
 
@@ -369,15 +400,15 @@ const modales = (Modal4,BotonModal4,Modal3,ModalNo,Modal2,cerrarModal4,leftMod4,
     })
 }
 
-const Modal4 = document.querySelector('.modal-4');
-const BotonModal4 = document.querySelectorAll(".mod4");
-const cerrarModal4 = document.querySelector(".closed-4");
-const leftMod4 = document.querySelector(".left-mod-4");
-const leftMod5 = document.querySelector(".left-mod-5");
-const leftMod6 = document.querySelector(".left-mod-6");
-const leftMod7 = document.querySelector(".left-mod-7");
-const leftMod8 = document.querySelector(".left-mod-8");
-const leftModCalendar = document.querySelector(".left-mod-calendar");
+const Modal4 = document.querySelector('.modal-4'),
+      BotonModal4 = document.querySelectorAll(".mod4"),
+      cerrarModal4 = document.querySelector(".closed-4"),
+      leftMod4 = document.querySelector(".left-mod-4"),
+      leftMod5 = document.querySelector(".left-mod-5"),
+      leftMod6 = document.querySelector(".left-mod-6"),
+      leftMod7 = document.querySelector(".left-mod-7"),
+      leftMod8 = document.querySelector(".left-mod-8"),
+      leftModCalendar = document.querySelector(".left-mod-calendar");
 
 modales(Modal4,BotonModal4,Modal3,ModalNo,Modal2,cerrarModal4,leftMod4,leftMod5,leftMod6,leftMod7,leftMod8,leftModCalendar)
 
@@ -415,7 +446,7 @@ leftSolos(leftMod2,leftModNo,leftMod3);
 
 
 // Closed Modal
-const ClosedModal = (closedModal,cerrarModal2,cerrarModalNo,cerrarModal3,cerrarModal5,cerrarModal6,cerrarModal7,cerrarModal8,cerrarrEvent,cerrarrFin)=>{
+const ClosedModal = (closedModal,cerrarModal2,cerrarModalNo,cerrarModal3,cerrarModal5,cerrarModal6,cerrarModal7,cerrarModal8,cerrarrEvent)=>{
     closedModal.addEventListener("click",()=>{
         MODAL.classList.remove("modal-show")
     });
@@ -452,24 +483,20 @@ const ClosedModal = (closedModal,cerrarModal2,cerrarModalNo,cerrarModal3,cerrarM
     cerrarrEvent.addEventListener("click",()=>{
         ModalEvent.classList.remove("modal-show")
     });
-
-    cerrarrFin.addEventListener("click",()=>{
-        ModalFinal.classList.remove("modal-show")
-    })
-
 }
-const closedModal = document.querySelector(".closed-1");
-const cerrarModal2 = document.querySelector(".closed-2");
-const cerrarModalNo = document.querySelector(".closed-no");
-const cerrarModal3 = document.querySelector(".closed-3");
-const cerrarModal5 = document.querySelector(".closed-5");
-const cerrarModal6 = document.querySelector(".closed-6");
-const cerrarModal7 = document.querySelector(".closed-7");
-const cerrarModal8 = document.querySelector(".closed-8");
-const cerrarrEvent = document.querySelector(".closed-event");
-const cerrarrFin = document.querySelector(".closed-fin");
+const closedModal = document.querySelector(".closed-1"),
+      cerrarModal2 = document.querySelector(".closed-2"),
+      cerrarModalNo = document.querySelector(".closed-no"),
+      cerrarModal3 = document.querySelector(".closed-3"),
+      cerrarModal5 = document.querySelector(".closed-5"),
+      cerrarModal6 = document.querySelector(".closed-6"),
+      cerrarModal7 = document.querySelector(".closed-7"),
+      cerrarModal8 = document.querySelector(".closed-8"),
+      cerrarrEvent = document.querySelector(".closed-event");
 
-ClosedModal(closedModal,cerrarModal2,cerrarModalNo,cerrarModal3,cerrarModal5,cerrarModal6,cerrarModal7,cerrarModal8,cerrarrEvent,cerrarrFin);
+ClosedModal(closedModal,cerrarModal2,cerrarModalNo,cerrarModal3,cerrarModal5,cerrarModal6,cerrarModal7,cerrarModal8,cerrarrEvent);
+
+
 
 
 

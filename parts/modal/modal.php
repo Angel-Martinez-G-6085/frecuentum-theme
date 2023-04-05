@@ -158,8 +158,32 @@
                 <p>Última actualización de este aviso de privacidad: 20/03/2023</p>
             </div>
             <div>
-                <p><strong>Aviso de privacidad integral</strong></p>
-                <p class="spaciar">FREQUENTUM Consultoría S.C., mejor conocido como FREQUENCYLEX, con domicilio en Calle Ángel Urraza, número 807, interior 3, Colonia Del Valle, Delegación Benito Juárez, Código Postal 03100, Ciudad de México y portal de internet www.frequencylex.mx, teléfonos 55 4037 0369 y 55 2486 9444, es el responsable de recabar sus datos personales, así como del uso y protección de los mismos, al respecto le informamos lo siguiente:</p>
+                <p>*1)Si desea que sus datos personales no sean utilizados para nuestros fines secundarios detallados anteriormente por favor marque la siguiente casilla</p>
+                <input type="checkbox" name="check1" id="che1" class="check">
+                <label for="che1"></label>
+            </div>
+            <div>
+                <p>“Estoy de acuerdo en que mis datos personales sean utilizados de acuerdo a los términos descritos en este aviso de privacidad</p>
+                <input type="checkbox" id="che2" name="check2" class="check">
+                <label for="che2"></label>
+            </div>
+            <div>
+                <p>*2)Acepto que mis datos personales sean utilizados para los fines secundarios qué FREQUENCYLEX CONSULTORÍA ha detallado anteriormente en el cuerpo de este aviso de privacidad. Acepto “Estoy de acuerdo en que mis datos personales sean utilizados sólo para fines primarios* y no sus fines específicos descritos en este aviso de privacidad”</p>
+                <input type="checkbox" id="che3" name="check3" class="check">
+                <label for="che3"></label>
+            </div>             
+        </div>
+    </div>
+</div>
+<div class="modal-container modal-footer">
+    <div class="content-modal-aviso">
+        <span class="w3-closebtn closed-aviso2">&times;</span>
+        <img class="persona-aviso" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
+        <h4 class="modal-aviso-inicio">Aviso de privacidad FREQUENTUM CONSULTORÍA S.C</h4>
+        <div class="content-aviso-privacidad">
+        <h6 class="title-aviso"><strong>Aviso de privacidad integral</strong></h6>
+        <div>
+            <p class="spaciar">FREQUENTUM Consultoría S.C., mejor conocido como FREQUENCYLEX, con domicilio en Calle Ángel Urraza, número 807, interior 3, Colonia Del Valle, Delegación Benito Juárez, Código Postal 03100, Ciudad de México y portal de internet www.frequencylex.mx, teléfonos 55 4037 0369 y 55 2486 9444, es el responsable de recabar sus datos personales, así como del uso y protección de los mismos, al respecto le informamos lo siguiente:</p>
             </div>
             <div>
                 <p><strong>¿Para qué fines utilizaremos sus datos personales?</strong></p>
@@ -297,19 +321,21 @@
                 <p class="spaciar">Todo cambio o actualización a nuestro aviso de privacidad será notificado al inicio de nuestra página web para usuarios que no han compartido con nosotros sus datos personales a través de una ventana emergente que surgirá recién cargue el sitio además para los usuarios que hayan confiado sus datos personales nos comprometemos a enviar un correo electrónico haciendo aviso oportuno de dichos cambios o actualizaciones.</p>
             </div>
             <div>
-                <p> <p>*1) Si desea que sus datos personales no sean utilizados para nuestros fines secundarios detallados anteriormente por favor marque la siguiente casilla</p>
-                <label for="">
-                    <input type="checkbox" name="test"  class="check" id="check1">
-                    <span></span>
-                </label>
-                <p>“Estoy de acuerdo en que mis datos personales sean utilizados de acuerdo a los términos descritos en este aviso de privacidad</p>
-                <input type="checkbox" class="check" name="test" id="check2">
+                <p>*1)Si desea que sus datos personales no sean utilizados para nuestros fines secundarios detallados anteriormente por favor marque la siguiente casilla</p>
+                <input type="checkbox" id="che4" name="check1"  class="check">
+                <label for="che4"></label>   
             </div>
             <div>
-            <p>*2)< Acepto que mis datos personales sean utilizados para los fines secundarios qué FREQUENCYLEX CONSULTORÍA ha detallado anteriormente en el cuerpo de este aviso de privacidad. Acepto > “Estoy de acuerdo en que mis datos personales sean utilizados sólo para fines primarios* y no sus fines específicos descritos en este aviso de privacidad”</p>
-            <input type="checkbox" class="check" name="test" id="check3">
+                <p>“Estoy de acuerdo en que mis datos personales sean utilizados de acuerdo a los términos descritos en este aviso de privacidad</p>
+                <input type="checkbox" id="che5" name="check2" class="check">
+                <label for="che5"></label>
+            </div>
+            <div>
+                <p>*2)Acepto que mis datos personales sean utilizados para los fines secundarios qué FREQUENCYLEX CONSULTORÍA ha detallado anteriormente en el cuerpo de este aviso de privacidad. Acepto “Estoy de acuerdo en que mis datos personales sean utilizados sólo para fines primarios* y no sus fines específicos descritos en este aviso de privacidad”</p>
+                <input type="checkbox" id="che6" name="check3" class="check">
+                <label for="che6"></label>
             </div>  
-        </div>
+        </div>  
     </div>
 </div>
 <div class="modal-container primer-modal">
@@ -514,11 +540,11 @@
         <div>
             <div class="modal-links-event">
                 <div class="form-input">
-                    <label for="inputName" class="col-form-label">Fecha</label>
+                    <p class="col-form-label">Fecha</p>
                     <input type='text' class="value-date" name='calendario' id='date_cliente' required>
                 </div>
                 <div class="form-input">
-                    <label class="label-fecha" for="lang">Hora inicio</label>
+                    <p class="label-fecha" for="lang">Hora inicio</p>
                     <select class="select-fecha" id="mostrar-datos" name="select" required>
                         <option value="" selected disabled>Selecciona tu hora</option>
                     </select>
@@ -537,7 +563,6 @@
 <!-- --Modal final-->
 <div class="modal-container modal-final">
     <div class="content-modal-inicio">
-        <span class="w3-closebtn closed-fin">&times;</span>    
         <h4 class="modal-pregunta-final">¡Pronto nos pondremos en contacto contigo!</h4>
         <h6 class="modal-sub-pregunta-fin">¿Quieres hablar con un asesor ahora?</h6>
         <div class="img-content-final">

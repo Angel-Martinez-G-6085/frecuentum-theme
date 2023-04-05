@@ -28,7 +28,7 @@
 .servicios-segunda-seccion-opciones-container {
     gap: 4rem;
     width: 95%;
-    margin-top: -278px;
+    /* margin-top: -278px; */
 }
 
 .servicios-segunda-seccion-opcion-text-container {
@@ -115,11 +115,19 @@
 
 @media screen and (min-width: 1500px) {}
 
+@media screen and (max-width: 992px) {
+    .servicios-segunda-seccion-opciones-container {
+        margin-top: 0;
+    }
+}
+
+
 @media screen and (max-width: 576px) {
     .servicios-segunda-seccion-opciones-container {
         margin-left: auto;
         margin-right: auto;
         gap: 0;
+        margin-top: -278px
     }
 
     .segunda-seccion-opcion-title-container {
@@ -146,7 +154,7 @@
 
 @media screen and (max-width: 360px) {
     .servicios-segunda-seccion-content-container {
-        margin-top: 250px;
+        margin-top: 240px;
     }
     
 }
