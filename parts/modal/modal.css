@@ -24,8 +24,10 @@
 
 /* Estilos para el aviso de privacidad  */
 .persona-aviso{
-    width: 7%;
-    margin-top: -35px;
+    /* width: 7%;
+    margin-top: -35px; */
+    width: 5%;
+    margin-top: -27px;
     margin-right: 20px;
     margin-left: 0;
 }
@@ -205,6 +207,7 @@ input[type=checkbox]:checked + label:before{
     flex-wrap: wrap;
     width: 82%;
     margin: auto;
+    /* margin-top: -80px; */
 }
 .modal-link-2{
     border-radius: 0 50% 0 50%;    
@@ -237,11 +240,14 @@ input[type=checkbox]:checked + label:before{
     color: white;
     display: flex;
     flex-wrap: wrap;
+    /* height: 60vh; */
 }
 .persona-mod-3{
     width: 7%;
-    margin-left: 40px;
-    margin-bottom: -69px;
+    /* margin-left: 40px;
+    margin-bottom: -69px; */
+    margin-left: -63px;
+    margin-bottom: -52px;
 }
 .modal-pregunta-3{
     font-size: 3rem;
@@ -268,7 +274,7 @@ input[type=checkbox]:checked + label:before{
     justify-content: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    width: 75%;
+    width: 90%;
     gap: 30px;
     margin: auto;
     margin-bottom: -30px;
@@ -292,7 +298,10 @@ input[type=checkbox]:checked + label:before{
 .modal-link-padre:hover {
     transform: scale(1.1); 
 }
-
+.content-person-p{
+    width: 80%;
+    margin: auto;
+}
 
 
 
@@ -305,7 +314,7 @@ input[type=checkbox]:checked + label:before{
     width: 80%;
     gap: 20px;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 25px;
     margin-bottom: -50px;
 }
 .modal-link-img{
@@ -620,24 +629,33 @@ input[type=checkbox]:checked + label:before{
 
 
 
-
 /* @media screen escritorio */
 @media screen and (min-width: 1500px) {
     .modal-container{
-        width: 70%;
-        left: 15%;
+        width: 72%;
+        left: 13.8%;
     }
     .modal-links-container-modal3 {
         width: 80%;
     }
+    /* .persona-mod-3 {
+        margin-bottom: -40px;
+        margin-left: 70px;
+    } */
+    /* .ver {
+        width: 80%;
+        margin: auto;
+    } */
+  
 }
 
 
 
 
 
+
 /* @media screen tablet */
- @media screen and (max-width: 992px) {
+ @media screen and (max-width: 1245px) {
     .modal-link-img{
         width: 120px;
         height: 115px;
@@ -682,6 +700,7 @@ input[type=checkbox]:checked + label:before{
     }
 
 }
+
 
 
 /* @media screen móvil*/

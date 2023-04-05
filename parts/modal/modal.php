@@ -396,8 +396,10 @@
     <div class="content-modal-3">
         <span class="btn-regreso left-mod-3">&#8592;</span>
         <span class="w3-closebtn closed-3">&times;</span>
-        <img class="persona-mod-3" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
-        <h4 class="modal-pregunta-3">¿Te gustaria recibir asesoría relacionada con algún trámite para...?</h4>
+        <div class="content-person-p">
+            <img class="persona-mod-3" src="<?php echo(ICON . 'personas-blanco.svg')?>" alt="personas-blanco">
+            <h4 class="modal-pregunta-3">¿Te gustaria recibir asesoría relacionada con algún trámite para...?</h4>
+        </div>
         <div  class="modal-links-container-modal3">
             <div class="modal-link-padre">
                 <a href="#" class="modal-link-ine mod4 ine left3"><img src="<?php echo(ICON. 'INE-blanco.svg')?>" alt="opcion-image"></a>

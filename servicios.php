@@ -107,7 +107,7 @@
                 </div>
                 <div class="servicios-quinta-seccion-soluciones-container peq-col-1 grid col-4">
                     <div class="quinta-seccion-solucion-container">
-                        <p class="abrir-modal-link modal-global solucion-description text-link">Presentación del aviso de las manifestaciones de los concesionarios y autorizados sobre el ejercicio de medición de los índices de calidad, de las estaciones de Televisión, Equipos Auxiliares y Complementarios</p>
+                        <p class="solucion-description text-link">Presentación del aviso de las manifestaciones de los concesionarios y autorizados sobre el ejercicio de medición de los índices de calidad, de las estaciones de Televisión, Equipos Auxiliares y Complementarios</p>
                         <img src="<?php echo(ICON . "palito.svg")?>" alt="" class="servicios-palito">
                     </div>
 

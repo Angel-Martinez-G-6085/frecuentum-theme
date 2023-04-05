@@ -66,7 +66,7 @@
         </div>
             <div class="tercera-seccion-buttons-container grid col-2">
                 <div class="tercera-seccion-button-container">
-                    <a class="tercera-seccion-button button" href="<?php echo site_url('/herramienta');?>">Conoce más</a>
+                    <a class="abrir-modal-link modal-global tercera-seccion-button button" href="#">Conoce más</a>
                 </div>
 
                 <div class="tercera-seccion-button-container">

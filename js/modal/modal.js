@@ -33,7 +33,6 @@ const checkboxMultiple = (checkboxs)=>{
                 click.addEventListener("change",(e)=>{
                     let validChexbox = e.target.checked;
                     let validNameCheck = e.target.name;
-                    console.log(e)
 
                     // if(validNameCheck === "check1"){
                     //     localStorage.setItem("nameChek1",validNameCheck)
@@ -55,17 +54,17 @@ const checkboxMultiple = (checkboxs)=>{
                     let vercheck2 = localStorage.getItem("check2")
                     let vercheck3 = localStorage.getItem("check3")
                     
-                   if(valueChek1 && valueChek2 && valueChek3 && nameChek1 === "check1" && nameChek2 === "check2" && nameChek3=== "check3" &&vercheck=== "identifier"){
+                   if(valueChek1=== "true" && valueChek2 === "true" && valueChek3 === "true" && nameChek1 === "check1" && nameChek2 === "check2" && nameChek3=== "check3" &&vercheck=== "identifier"){
                         ModalAvisoPrivacidadFooter.classList.remove('modal-show');
                         localStorage.removeItem("check");                        
                         limpiarCheckbox();
 
-                    }else if(valueChek1 && valueChek2 && valueChek3 && nameChek1 === "check1" && nameChek2 === "check2" && nameChek3=== "check3"&&vercheck2=== "privado"){
+                    }else if(valueChek1 === "true" && valueChek2 === "true" && valueChek3 === "true" && nameChek1 === "check1" && nameChek2 === "check2" && nameChek3=== "check3"&&vercheck2=== "privado"){
                         MODAL.classList.add('modal-show');
                         ModalAvisoPrivacidad.classList.remove('modal-show');
                         localStorage.removeItem("check2");
                         limpiarCheckbox();
-                    }else if(valueChek1 && valueChek2 && valueChek3 && nameChek1 === "check1" && nameChek2 === "check2" && nameChek3=== "check3"&&vercheck3=== "modal-global"){
+                    }else if(valueChek1 === "true" && valueChek2 === "true" && valueChek3 === "true" && nameChek1 === "check1" && nameChek2 === "check2" && nameChek3=== "check3"&&vercheck3=== "modal-global"){
                         MODAL.classList.add('modal-show');
                         ModalAvisoPrivacidad.classList.remove('modal-show');
                         localStorage.removeItem("check3");
@@ -77,6 +76,7 @@ const checkboxMultiple = (checkboxs)=>{
 }
 
 checkboxMultiple(checkboxs);
+
 
 
 
@@ -125,11 +125,12 @@ const AvisoPrivacidad = (BotonAvisoPrivacidad,closedModalAviso,closedModalAviso2
     })
     closedModalAviso.addEventListener("click",()=>{
         ModalAvisoPrivacidad.classList.remove('modal-show');
-        localStorage.removeItem("check")
+        localStorage.removeItem("check2")
+        localStorage.removeItem("check3")
     });
     closedModalAviso2.addEventListener("click",()=>{
         ModalAvisoPrivacidadFooter.classList.remove('modal-show');
-        localStorage.removeItem("check2")
+        localStorage.removeItem("check")
     });
 }
 
