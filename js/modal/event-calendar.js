@@ -22,22 +22,22 @@ function authenticationKey() {
   let correo = localStorage.getItem("correo");
   let fecha = localStorage.getItem("fecha");
 
-  console.log(fecha);
   let event = {
     summary: title,
     description: description,
     start: {
       //   dateTime: "2023-03-25T12:00:00-06:00",
-      dateTime: fecha + "T" + horaSelect + ":00-06:00",
+      dateTime: fecha + "T" + mostrarSelect.value + ":00-06:00",
       timeZone: "America/Mexico_City",
     },
     end: {
       //   dateTime: "2023-03-25T12:40:00-06:00",
-      dateTime: fecha + "T" + horaSelect + ":00-06:00",
+      dateTime: fecha + "T" + mostrarSelect.value + ":00-06:00",
       timeZone: "America/Mexico_City",
     },
     attendees: [{ email: correo }],
   };
+  console.log(event);
 
   token_usuario = localStorage.getItem("tokenInicio");
   new_access_token = localStorage.getItem("newTokenAccess");
@@ -77,11 +77,11 @@ function authenticationKey() {
       cita.horarios.splice(posicionHorario, 1);
       let CitasAgendadasStorage = localStorage.getItem("citasAgendadas");
       CitasAgendadasStorage = JSON.parse(CitasAgendadasStorage);
-
       CitasAgendadasStorage[index] = {
         fecha: cita.fecha,
         horarios: cita.horarios
       }
+      console.log(CitasAgendadasStorage);
       localStorage.setItem("citasAgendadas", JSON.stringify(CitasAgendadasStorage));
     }
   })
@@ -90,7 +90,7 @@ function authenticationKey() {
 function AgregarObjetoCitasAgendadas(fechaConsultar) {
   let citas = localStorage.getItem("citasAgendadas");
   citas = JSON.parse(citas);
-
+  
   if (!citas.some(item => JSON.stringify(item.fecha) === JSON.stringify(fechaConsultar))) {
     let horarios = document.querySelectorAll(".opcionesCalendario");
     let horarioEscogido = SelectordeHoras.value;
@@ -100,6 +100,7 @@ function AgregarObjetoCitasAgendadas(fechaConsultar) {
       fecha: fecha.value,
       horarios: []
     }
+
     horarios.forEach((element) => {
       objetoCita.horarios.push(element.value);
     });
