@@ -566,7 +566,7 @@
         <h4 class="modal-pregunta-final">¡Pronto nos pondremos en contacto contigo!</h4>
         <h6 class="modal-sub-pregunta-fin">¿Quieres hablar con un asesor ahora?</h6>
         <div class="img-content-final">
-            <img  class="person-fin mod2" src="<?php echo(IMG. 'MascotaCentada.webp')?>" alt="opcion-image">
+            <img  class="person-fin mod2" src="<?php echo(IMG. 'Personaje-modal.webp')?>" alt="opcion-image">
         </div>
     </div>
 </div>
