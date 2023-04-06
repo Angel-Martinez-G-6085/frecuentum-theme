@@ -113,6 +113,12 @@ function AgregarObjetoCitasAgendadas(fechaConsultar) {
   }
 }
 
+function eliminarUltimoModal() {
+  setTimeout(() => {
+    ModalFinal.classList.remove("modal-show");
+  },5000)
+}
+
 enviarEventCalendar.addEventListener("click", () => {
     localStorage.setItem("fecha",fecha.value);
 
@@ -124,5 +130,6 @@ enviarEventCalendar.addEventListener("click", () => {
     limpiar();
     ModalFinal.classList.add('modal-show');
     ModalEvent.classList.remove('modal-show');
+    eliminarUltimoModal();
   }
 });
