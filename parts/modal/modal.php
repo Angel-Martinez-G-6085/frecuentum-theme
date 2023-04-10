@@ -548,7 +548,6 @@
                 <div class="form-input">
                     <p class="label-fecha" for="lang">Hora inicio</p>
                     <select class="select-fecha" id="mostrar-datos" name="select" required>
-                        <option value="" selected disabled>Selecciona tu hora</option>
                     </select>
                 </div>
                 <div class="input-link-content">
