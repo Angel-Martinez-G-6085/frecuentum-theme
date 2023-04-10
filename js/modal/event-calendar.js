@@ -81,7 +81,14 @@ function authenticationKey() {
         fecha: cita.fecha,
         horarios: cita.horarios
       }
-      console.log(CitasAgendadasStorage);
+
+      if(cita.horarios.length == 0) {
+        let fechasNoUsadas = localStorage.getItem("fechas");
+        fechasNoUsadas = JSON.parse(fechasNoUsadas);
+        let citaSinHorarios = cita.fecha;
+        fechasNoUsadas.push(citaSinHorarios);
+        localStorage.setItem("fechas", JSON.stringify(fechasNoUsadas));
+      }
       localStorage.setItem("citasAgendadas", JSON.stringify(CitasAgendadasStorage));
     }
   })
