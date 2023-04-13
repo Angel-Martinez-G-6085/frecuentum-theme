@@ -498,11 +498,4 @@ const closedModal = document.querySelector(".closed-1"),
 ClosedModal(closedModal,cerrarModal2,cerrarModalNo,cerrarModal3,cerrarModal5,cerrarModal6,cerrarModal7,cerrarModal8,cerrarrEvent);
 
 
-
-
-
-
-
-
-
-
+ClosedModal(closedModal,cerrarModal2,cerrarModalNo,cerrarModal3,cerrarModal5,cerrarModal6,cerrarModal7,cerrarModal8,cerrarrEvent,cerrarrFin);
