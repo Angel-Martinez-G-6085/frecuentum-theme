@@ -702,6 +702,13 @@ input[type=checkbox]:checked + label:before{
 }
 
 
+@media screen and (max-width: 800px) {
+    .modal-links-container-icons {
+        width: 80%;
+    }    
+}
+
+
 
 /* @media screen móvil*/
 /* --------------------------------- */
