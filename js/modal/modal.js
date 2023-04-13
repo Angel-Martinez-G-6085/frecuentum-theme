@@ -8,7 +8,7 @@ const expresiones = {
 }
 
 
-//Llamar a los modales
+//Selectores para llamar a los modales
 const MODAL = document.querySelector('.primer-modal'),
       Modal2 = document.querySelector('.modal-2'),
       ModalNo = document.querySelector('.modalNo'),
@@ -22,10 +22,22 @@ const MODAL = document.querySelector('.primer-modal'),
 
 
 
+//Selector para llamar al modal repetible y retroceder
+const Modal4 = document.querySelector('.modal-4'),
+      BotonModal4 = document.querySelectorAll(".mod4"),
+      cerrarModal4 = document.querySelector(".closed-4"),
+      leftMod4 = document.querySelector(".left-mod-4"),
+      leftMod5 = document.querySelector(".left-mod-5"),
+      leftMod6 = document.querySelector(".left-mod-6"),
+      leftMod7 = document.querySelector(".left-mod-7"),
+      leftMod8 = document.querySelector(".left-mod-8"),
+      leftModCalendar = document.querySelector(".left-mod-calendar");
 
 
+
+
+      
 // Validar checkbox
-
 let checkboxs = document.querySelectorAll(".check");
 
 const checkboxMultiple = (checkboxs)=>{
@@ -34,26 +46,21 @@ const checkboxMultiple = (checkboxs)=>{
                     let validChexbox = e.target.checked;
                     let validNameCheck = e.target.name;
 
-                    // if(validNameCheck === "check1"){
-                    //     localStorage.setItem("nameChek1",validNameCheck)
-                    //     localStorage.setItem("bool",validChexbox)
-                    // }
-
                     validNameCheck === "check1" ? localStorage.setItem("nameChek1",validNameCheck) + localStorage.setItem("valueChek1",validChexbox): ""; 
                     validNameCheck === "check2" ? localStorage.setItem("nameChek2",validNameCheck)+ localStorage.setItem("valueChek2",validChexbox): ""; 
                     validNameCheck === "check3" ? localStorage.setItem("nameChek3",validNameCheck)+ localStorage.setItem("valueChek3",validChexbox): ""; 
          
-                    let nameChek1 = localStorage.getItem("nameChek1")
-                    let nameChek2 = localStorage.getItem("nameChek2")
-                    let nameChek3 = localStorage.getItem("nameChek3")
-                    let valueChek1 = localStorage.getItem("valueChek1")
-                    let valueChek2 = localStorage.getItem("valueChek2")
-                    let valueChek3 = localStorage.getItem("valueChek3")
+                    let nameChek1 = localStorage.getItem("nameChek1"),
+                        nameChek2 = localStorage.getItem("nameChek2"),
+                        nameChek3 = localStorage.getItem("nameChek3"),
+                        valueChek1 = localStorage.getItem("valueChek1"),
+                        valueChek2 = localStorage.getItem("valueChek2"),
+                        valueChek3 = localStorage.getItem("valueChek3");
 
-                    let vercheck = localStorage.getItem("check")
-                    let vercheck2 = localStorage.getItem("check2")
-                    let vercheck3 = localStorage.getItem("check3")
-                    let vercheck4 = localStorage.getItem("check4")
+                    let vercheck = localStorage.getItem("check"),
+                        vercheck2 = localStorage.getItem("check2"),
+                        vercheck3 = localStorage.getItem("check3"),
+                        vercheck4 = localStorage.getItem("check4");
                     
                    if(valueChek1=== "true" && valueChek2 === "true" && valueChek3 === "true" && nameChek1 === "check1" && nameChek2 === "check2" && nameChek3=== "check3" &&vercheck=== "identifier"){
                         ModalAvisoPrivacidadFooter.classList.remove('modal-show');
@@ -76,6 +83,34 @@ const checkboxMultiple = (checkboxs)=>{
                         localStorage.removeItem("check3");
                         limpiarCheckbox();
                     }
+                    leftMod4.addEventListener("click",()=>{
+                        Modal4.classList.remove("modal-show");
+                        Modal2.classList.add("modal-show");
+                    });
+                    leftMod5.addEventListener("click",()=>{
+                        Modal5.classList.remove("modal-show");
+                        Modal4.classList.add("modal-show");
+                    });
+    
+                    leftMod6.addEventListener("click",()=>{
+                        Modal6.classList.remove("modal-show");
+                        Modal5.classList.add("modal-show");
+                    });
+                    
+                    leftMod7.addEventListener("click",()=>{
+                        Modal7.classList.remove("modal-show");
+                        Modal6.classList.add("modal-show");
+                    });
+    
+                    leftMod8.addEventListener("click",()=>{
+                        Modal8.classList.remove("modal-show");
+                        Modal7.classList.add("modal-show");
+                    });
+    
+                    leftModCalendar.addEventListener("click",()=>{
+                        ModalEvent.classList.remove("modal-show");
+                        Modal8.classList.add("modal-show");
+                    })
                 });
 
             })
@@ -412,15 +447,7 @@ const modales = (Modal4,BotonModal4,Modal3,ModalNo,Modal2,cerrarModal4,leftMod4,
     })
 }
 
-const Modal4 = document.querySelector('.modal-4'),
-      BotonModal4 = document.querySelectorAll(".mod4"),
-      cerrarModal4 = document.querySelector(".closed-4"),
-      leftMod4 = document.querySelector(".left-mod-4"),
-      leftMod5 = document.querySelector(".left-mod-5"),
-      leftMod6 = document.querySelector(".left-mod-6"),
-      leftMod7 = document.querySelector(".left-mod-7"),
-      leftMod8 = document.querySelector(".left-mod-8"),
-      leftModCalendar = document.querySelector(".left-mod-calendar");
+
 
 modales(Modal4,BotonModal4,Modal3,ModalNo,Modal2,cerrarModal4,leftMod4,leftMod5,leftMod6,leftMod7,leftMod8,leftModCalendar)
 
