@@ -160,39 +160,39 @@
                 </div>
 
                 <div class="quinta-seccion-servicios-container grid col-1">
-                    <a target="_blank" href="https://wa.me/5215540370369" class="quinta-seccion-servicio oculto flex">
+                    <a href="#" class="quinta-seccion-servicio oculto flex">
                         <img class="quinta-seccion-servicio-icon" src="<?php echo(ICON. 'mano-libro-blanco.svg')?>" alt="selloLapiz">
-                        <p class="quinta-seccion-servicio-description">Trámites y procedimientos especializados ante el Instituto Federal de Telecomunicaciones (IFT), Instituto Nacional Electoral (INE), Secretaría de Gobernación (SEGOB), Agencia Federal de Aviación Civil (AFAC), Organismo Promotor de Inversiones en Telecomunicaciones (PROMTEL), y Comisión Federal para la Protección contra Riesgos Sanitarios (COFEPRIS).</p>
+                        <p class="abrir-modal-link modal-global quinta-seccion-servicio-description">Trámites y procedimientos especializados ante el Instituto Federal de Telecomunicaciones (IFT), Instituto Nacional Electoral (INE), Secretaría de Gobernación (SEGOB), Agencia Federal de Aviación Civil (AFAC), Organismo Promotor de Inversiones en Telecomunicaciones (PROMTEL), y Comisión Federal para la Protección contra Riesgos Sanitarios (COFEPRIS).</p>
                     </a>
 
-                    <a target="_blank" href="https://wa.me/5215540370369" class="quinta-seccion-servicio oculto flex">
+                    <a href="#" class="quinta-seccion-servicio oculto flex">
                         <img class="quinta-seccion-servicio-icon" src="<?php echo(ICON. 'tabla-check.svg')?>" alt="selloLapiz">
-                        <p class="quinta-seccion-servicio-description">Asesoría y trámites para la obtención de concesiones de uso público, social (incluyendo las comunitarias e Indígenas) y para uso privado; para prestar servicios de telecomunicaciones y radiodifusión.</p>
+                        <p class="abrir-modal-link modal-global quinta-seccion-servicio-description">Asesoría y trámites para la obtención de concesiones de uso público, social (incluyendo las comunitarias e Indígenas) y para uso privado; para prestar servicios de telecomunicaciones y radiodifusión.</p>
                     </a>
 
-                    <a target="_blank" href="https://wa.me/5215540370369" class="quinta-seccion-servicio oculto flex">
+                    <a href="#" class="quinta-seccion-servicio oculto flex">
                         <img class="quinta-seccion-servicio-icon" src="<?php echo(ICON. 'torre-libros-blancos.svg')?>" alt="selloLapiz">
-                        <p class="quinta-seccion-servicio-description">Asesoría y seguimiento para la obtención de autorizaciones para establecer, operar y explotar una comercializadora de servicios de telecomunicaciones.</p>
+                        <p class="abrir-modal-link modal-global quinta-seccion-servicio-description">Asesoría y seguimiento para la obtención de autorizaciones para establecer, operar y explotar una comercializadora de servicios de telecomunicaciones.</p>
                     </a>
 
-                    <a target="_blank" href="https://wa.me/5215540370369" class="quinta-seccion-servicio flex">
+                    <a href="#" class="quinta-seccion-servicio flex">
                         <img class="quinta-seccion-servicio-icon" src="<?php echo(ICON. 'radio-blanco.svg')?>" alt="selloLapiz">
-                        <p class="quinta-seccion-servicio-description">Seguimiento y asesoría especializada para el cumplimiento de obligaciones ante las autoridades mencionadas en términos de la basta normatividad aplicable en la materia.</p>
+                        <p class="abrir-modal-link modal-global quinta-seccion-servicio-description">Seguimiento y asesoría especializada para el cumplimiento de obligaciones ante las autoridades mencionadas en términos de la basta normatividad aplicable en la materia.</p>
                     </a>
 
-                    <a target="_blank" href="https://wa.me/5215540370369" class="quinta-seccion-servicio flex">
+                    <a href="#" class="quinta-seccion-servicio flex">
                         <img class="quinta-seccion-servicio-icon" src="<?php echo(ICON. 'cabeza-lapiz.svg')?>" alt="selloLapiz">
-                        <p class="quinta-seccion-servicio-description">Atención especializada a concesionarios para uso público para el cumplimiento de sus obligaciones.</p>
+                        <p class="abrir-modal-link modal-global quinta-seccion-servicio-description">Atención especializada a concesionarios para uso público para el cumplimiento de sus obligaciones.</p>
                     </a>
 
-                    <a target="_blank" href="https://wa.me/5215540370369" class="quinta-seccion-servicio flex">
+                    <a href="#" class="quinta-seccion-servicio flex">
                         <img class="quinta-seccion-servicio-icon" src="<?php echo(ICON. 'tabla-blanca.svg')?>" alt="selloLapiz">
-                        <p class="quinta-seccion-servicio-description">Asesoría y trámites de acceso a la multiprogramación.</p>
+                        <p class="abrir-modal-link modal-global quinta-seccion-servicio-description">Asesoría y trámites de acceso a la multiprogramación.</p>
                     </a>
 
                     <div class="quinta-seccion-content-buttons-container flex">
                         <div class="quinta-seccion-button">
-                            <a href="<?php echo site_url('/servicios'); ?>" class="button">Conoce más</a>
+                            <a href="#" class="abrir-modal-link modal-global button">Conoce más</a>
                         </div>
 
                         <div class="quinta-seccion-button">
@@ -214,7 +214,7 @@
                 <h3 class="octava-seccion-title centrar">¿Dónde nos encontramos?</h3>
                 <h2 class="sexta-seccion-subtitle titulo centrar">Contáctanos y obtén la asesoría que necesitas</h2>
                 <div class="octava-seccion-button-container flex">
-                    <a href="#" class="octava-seccion-button button">Conócenos</a>
+                    <a href="#" class="abrir-modal-link modal-global octava-seccion-button button">Conócenos</a>
                 </div>
             </div>
         </div>

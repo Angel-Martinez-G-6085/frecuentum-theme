@@ -53,6 +53,7 @@ const checkboxMultiple = (checkboxs)=>{
                     let vercheck = localStorage.getItem("check")
                     let vercheck2 = localStorage.getItem("check2")
                     let vercheck3 = localStorage.getItem("check3")
+                    let vercheck4 = localStorage.getItem("check4")
                     
                    if(valueChek1=== "true" && valueChek2 === "true" && valueChek3 === "true" && nameChek1 === "check1" && nameChek2 === "check2" && nameChek3=== "check3" &&vercheck=== "identifier"){
                         ModalAvisoPrivacidadFooter.classList.remove('modal-show');
@@ -66,6 +67,11 @@ const checkboxMultiple = (checkboxs)=>{
                         limpiarCheckbox();
                     }else if(valueChek1 === "true" && valueChek2 === "true" && valueChek3 === "true" && nameChek1 === "check1" && nameChek2 === "check2" && nameChek3=== "check3"&&vercheck3=== "modal-global"){
                         MODAL.classList.add('modal-show');
+                        ModalAvisoPrivacidad.classList.remove('modal-show');
+                        localStorage.removeItem("check3");
+                        limpiarCheckbox();
+                    }else if(valueChek1 === "true" && valueChek2 === "true" && valueChek3 === "true" && nameChek1 === "check1" && nameChek2 === "check2" && nameChek3=== "check3"&&vercheck4=== "modal-agenda-llamada"){
+                        Modal4.classList.add("modal-show");
                         ModalAvisoPrivacidad.classList.remove('modal-show');
                         localStorage.removeItem("check3");
                         limpiarCheckbox();
@@ -118,8 +124,13 @@ const AvisoPrivacidad = (BotonAvisoPrivacidad,closedModalAviso,closedModalAviso2
             }
             if(e.target.classList[1] === "modal-global"){
                 ModalAvisoPrivacidad.classList.add('modal-show');
-                let verificarcheck2 = e.srcElement.classList[1];
-                localStorage.setItem("check3",verificarcheck2);
+                let verificarcheck3 = e.srcElement.classList[1];
+                localStorage.setItem("check3",verificarcheck3);
+            }
+            if(e.target.classList[1] === "modal-agenda-llamada"){
+                ModalAvisoPrivacidad.classList.add('modal-show');
+                let verificarcheck4 = e.srcElement.classList[1];
+                localStorage.setItem("check4",verificarcheck4);
             }
         })
     })
@@ -498,4 +509,4 @@ const closedModal = document.querySelector(".closed-1"),
 ClosedModal(closedModal,cerrarModal2,cerrarModalNo,cerrarModal3,cerrarModal5,cerrarModal6,cerrarModal7,cerrarModal8,cerrarrEvent);
 
 
-ClosedModal(closedModal,cerrarModal2,cerrarModalNo,cerrarModal3,cerrarModal5,cerrarModal6,cerrarModal7,cerrarModal8,cerrarrEvent,cerrarrFin);
+// ClosedModal(closedModal,cerrarModal2,cerrarModalNo,cerrarModal3,cerrarModal5,cerrarModal6,cerrarModal7,cerrarModal8,cerrarrEvent,cerrarrFin);

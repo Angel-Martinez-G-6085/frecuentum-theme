@@ -42,13 +42,13 @@
                             <div class="opciones-container">
                                 <div class="herramienta-container">
                                     <img src="<?php echo(ICON . 'calendario.svg')?>" alt="calendario-icon" class="herramienta-image">
-                                    <a target="_blank" href="https://wa.me/5215540370369" class="herramienta-title text-link">Conoce nuestra herramienta</a>
+                                    <a href="#" class="abrir-modal-link modal-global herramienta-title text-link">Conoce nuestra herramienta</a>
                                 </div>
                             </div>
 
                             <div class="llamada-container">
                                 <img src="<?php echo(ICON . 'audifonos.svg')?>" alt="agenda" class="agenda-image">
-                                <a target="_blank" href="https://wa.me/5215540370369" class="llamada-title text-link">Agenda una llamada</a>
+                                <a href="#" class="abrir-modal-link modal-agenda-llamada llamada-title text-link">Agenda una llamada</a>
                             </div>
 
                             <div class="consultora-container">

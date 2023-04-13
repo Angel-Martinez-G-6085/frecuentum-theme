@@ -210,7 +210,7 @@
             </picture>
             <div class="nosotros-octava-seccion-titles-container flex f-column">
                 <h2 class="nosotros-octava-seccion-subtitle centrar titulo">Queremos brindarte una asesoría personalizada</h2>
-                <a href="#" class="nosotros-octava-seccion-title centrar">Conoce nuestra herramienta</a>
+                <a href="#" class="abrir-modal-link modal-global nosotros-octava-seccion-title centrar">Conoce nuestra herramienta</a>
             </div>
         </div>
     </section>
