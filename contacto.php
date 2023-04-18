@@ -71,7 +71,7 @@
                                     </div>
                                     <div class="ubicacion-text-container">
                                         <h2 class="ubicacion-title">Ubicación</h2>
-                                        <p class="ubicacion-address">Ángel Urraza 807, Primer Piso Col. del Valle Centro, Benito Juárez, 03100 Ciudad de México, CDMX.</p>
+                                        <p class="ubicacion-address">Ángel Urraza 807, interior 3, Primer Piso Col. del Valle Centro, Benito Juárez, 03100 Ciudad de México, CDMX.</p>
                                     </div>
                                 </div>
                                 

@@ -131,6 +131,10 @@
     background-image: url('../../assets/images/Adri-final.webp');
 }
 
+.persona-4 {
+  background-image: url('../../assets/images/daniel.webp');
+}
+
 .flecha-azul {
   width: 7rem;
   cursor: pointer;
