@@ -106,6 +106,35 @@
                     <div class="slider__element slider__element--lightcoral grid col-2">
                         <div class="team-description-content-container grid col-1">
                             <div class="team-description-content">
+                                <p class="team-member-description">Licenciada en derecho con especialización en derecho administrativo, por la Facultad de Derecho de la Universidad Nacional Autónoma de México. Por su trayectoria profesional, se especializa en identificar y solucionar problemas diversos que enfrentan los interesados, concesionarios y/o autorizados en la presentación de los servicios públicos de radiodifusión y telecomunicaciones conforme al marco normativo aplicable.</p>
+                                <h2 class="team-name">Adriana Cortés Espidio</h2>
+                            </div>
+
+                            <div class="team-member-icons-container flex">
+                                <!-- <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
+                                    <img src="<?php echo(ICON . 'whattsIcon.svg')?>" alt="" class="team-card-icon">
+                                </a> -->
+                                <!-- <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
+                                    <img src="<?php echo(ICON . 'facebook-icon.svg')?>" alt="" class="team-card-icon">
+                                </a> -->
+                                <!-- <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
+                                    <img src="<?php echo(ICON . 'instagramIcon.svg')?>" alt="" class="team-card-icon">
+                                </a> -->
+                                <a class="nosotros-team-link" target="_blank" href="https://twitter.com/ACEc_1">
+                                    <img src="<?php echo(ICON . 'twiter-icon.svg')?>" alt="" class="team-card-icon">
+                                </a>
+                                <a class="nosotros-team-link" target="_blank" href="https://www.linkedin.com/in/adriana-cortes-741528169">
+                                    <img src="<?php echo(ICON . 'linkedin-icon.svg')?>" alt="" class="team-card-icon">
+                                </a>
+                            </div>
+                            <!-- <img src="<?php echo(IMG . 'OndSeparador.png')?>" alt="" class="nosotros-onda-image"> -->
+                        </div>
+                        <div class="team-foto-container persona-3"></div>
+                    </div>
+
+                    <div class="slider__element slider__element--lightcoral grid col-2">
+                        <div class="team-description-content-container grid col-1">
+                            <div class="team-description-content">
                                 <p class="team-member-description">Egresada de la Facultad de Derecho de la Universidad Nacional Autónoma de México, su trayectoria profesional se ha desarrollado en el Derecho de las Telecomunicaciones y en materia de Propiedad Intelectual.</p>
                                 <h2 class="team-name">Bianidxi Resendiz</h2>
                             </div>
@@ -152,7 +181,7 @@
                                 <a class="nosotros-team-link" target="_blank" href="https://twitter.com/CarlosE86Reyna">
                                     <img src="<?php echo(ICON . 'twiter-icon.svg')?>" alt="" class="team-card-icon">
                                 </a>
-                                <a class="nosotros-team-link" target="_blank" href="https://www.linkedin.com/in/carlos-espinosa-reyna-7649a924a/">
+                                <a class="nosotros-team-link" target="_blank" href="https://twitter.com/CarlosE86Reyna">
                                     <img src="<?php echo(ICON . 'linkedin-icon.svg')?>" alt="" class="team-card-icon">
                                 </a>
                             </div>
@@ -164,8 +193,8 @@
                     <div class="slider__element slider__element--lightcoral grid col-2">
                         <div class="team-description-content-container grid col-1">
                             <div class="team-description-content">
-                                <p class="team-member-description">Licenciada en derecho con especialización en derecho administrativo, por la Facultad de Derecho de la Universidad Nacional Autónoma de México. Por su trayectoria profesional, se especializa en identificar y solucionar problemas diversos que enfrentan los interesados, concesionarios y/o autorizados en la presentación de los servicios públicos de radiodifusión y telecomunicaciones conforme al marco normativo aplicable.</p>
-                                <h2 class="team-name">Adriana Cortés Espidio</h2>
+                                <p class="team-member-description">Estudiante por la facultad de Derecho en la Barra Ncional de Abogados, formando su trayectoria profesional en empresas como FREQUENCYLEX en las materias de Derecho Administrativo y Derecho de las telecomunicaciones y la radiodifusion</p>
+                                <h2 class="team-name">Diego Alcaraz Vadillo</h2>
                             </div>
 
                             <div class="team-member-icons-container flex">
@@ -178,16 +207,16 @@
                                 <!-- <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
                                     <img src="<?php echo(ICON . 'instagramIcon.svg')?>" alt="" class="team-card-icon">
                                 </a> -->
-                                <a class="nosotros-team-link" target="_blank" href="https://twitter.com/ACEc_1">
+                                <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
                                     <img src="<?php echo(ICON . 'twiter-icon.svg')?>" alt="" class="team-card-icon">
                                 </a>
-                                <a class="nosotros-team-link" target="_blank" href="https://www.linkedin.com/in/adriana-cortes-741528169">
+                                <a class="nosotros-team-link" target="_blank" href="https://wa.me/5215540370369">
                                     <img src="<?php echo(ICON . 'linkedin-icon.svg')?>" alt="" class="team-card-icon">
                                 </a>
                             </div>
                             <!-- <img src="<?php echo(IMG . 'OndSeparador.png')?>" alt="" class="nosotros-onda-image"> -->
                         </div>
-                        <div class="team-foto-container persona-3"></div>
+                        <div class="team-foto-container persona-4"></div>
                     </div>
                 </div>
             </div>
