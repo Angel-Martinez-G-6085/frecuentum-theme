@@ -1,6 +1,6 @@
 // Insertar en Google calendar
-const Client_Id = "400815097743-5catk8fbq4si91paar22rh36at0mp5a1.apps.googleusercontent.com";
-const Client_Secret = "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";
+const Client_Id = "67432885076-8teua21398sq7elvdn0cmkgr4a6e018l.apps.googleusercontent.com";
+const Client_Secret = "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";
 
 let enviarEventCalendar = document.querySelector(".eventCalendar");
 let mostrarSelect = document.getElementById("mostrar-datos");
@@ -12,7 +12,7 @@ let lanzarApiKeyJson = document.querySelector(".apikey");
 let nuevo_refresh_token = [];
 function refresToken() {
   fetch(
-    "http://localhost/wordpress/wp-content/plugins/admin_pluguin/js/google.json",
+    "http://localhost:9090/www/frequencylex/wp-content/plugins/admin_pluguin/js/google.json",
     {
       method: "POST",
     }
@@ -59,7 +59,7 @@ function insertarNuevoToken() {
   let objeto = { newTokenAccess: newTokenAccess };
 
   let obj = JSON.stringify(objeto);
-  fetch("http://localhost/wordpress/wp-json/api/v1/key", {
+  fetch("http://localhost:9090/www/frequencylex/wp-json/api/v1/key", {
     headers: {
       "Content-Type": "application/json",
     },
@@ -94,7 +94,7 @@ mostrarSelect.addEventListener("change", () => {
 let new_access_token = [];
 function traerNuevoToken() {
   fetch(
-    "http://localhost/wordpress/wp-content/plugins/admin_pluguin/js/key.json",
+    "http://localhost:9090/www/frequencylex/wp-content/plugins/admin_pluguin/js/key.json",
     {
       method: "POST",
     }
@@ -241,7 +241,7 @@ function insertarFechasActualizadas(fechasNoUsadas) {
   let objeto = { fechas: fechasNoUsadas };
 
   let obj = JSON.stringify(objeto);
-  fetch("http://localhost/wordpress/wp-json/api/v1/fechas", {
+  fetch("http://localhost:9090/www/frequencylex/wp-json/api/v1/fechas", {
     headers: {
       "Content-Type": "application/json",
     },
@@ -257,7 +257,7 @@ function insertarcitasAgendadasActualizadas(citasNuevas) {
 
   let obj = JSON.stringify(objeto);
 
-  fetch("http://localhost/wordpress/wp-json/api/v1/citaAgenda", {
+  fetch("http://localhost:9090/www/frequencylex/wp-json/api/v1/citaAgenda", {
     headers: {
       "Content-Type": "application/json",
     },

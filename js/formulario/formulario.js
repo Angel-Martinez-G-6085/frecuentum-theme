@@ -4,7 +4,7 @@ const SelectorFecha = document.querySelector("#date_cliente");
 let Horariosdefecto = [];
 let HorariosEspecificos = [];
 
-fetch('http://localhost/wordpress/wp-content/plugins/admin_pluguin/js/local.json', {
+fetch('http://localhost:9090/www/frequencylex/wp-content/plugins/admin_pluguin/js/local.json', {
    method: 'POST',
 })
    .then((response) => response.json())
@@ -19,7 +19,7 @@ fetch('http://localhost/wordpress/wp-content/plugins/admin_pluguin/js/local.json
 
 let holiDays = [];
 
-fetch('http://localhost/wordpress/wp-content/plugins/admin_pluguin/js/fechas.json', {
+fetch('http://localhost:9090/www/frequencylex/wp-content/plugins/admin_pluguin/js/fechas.json', {
    method: 'POST',
 })
    .then((response) => response.json())
@@ -32,7 +32,7 @@ fetch('http://localhost/wordpress/wp-content/plugins/admin_pluguin/js/fechas.jso
 
 let citaAgendada = [];
 
-fetch('http://localhost/wordpress/wp-content/plugins/admin_pluguin/js/citaAgenda.json', {
+fetch('http://localhost:9090/www/frequencylex/wp-content/plugins/admin_pluguin/js/citaAgenda.json', {
    method: 'POST',
 })
    .then((response) => response.json())

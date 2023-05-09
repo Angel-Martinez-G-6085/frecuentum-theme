@@ -158,17 +158,17 @@
                 <p>Última actualización de este aviso de privacidad: 20/03/2023</p>
             </div>
             <div>
-                <p>*1)Si desea que sus datos personales no sean utilizados para nuestros fines secundarios detallados anteriormente por favor marque la siguiente casilla</p>
+                <p>Estoy de acuerdo en que mis datos personales sean utilizados deacuerdo a los terminos descritos en este aviso de privacidad.</p>
                 <input type="checkbox" name="check1" id="che1" class="check">
                 <label for="che1"></label>
             </div>
             <div>
-                <p>“Estoy de acuerdo en que mis datos personales sean utilizados de acuerdo a los términos descritos en este aviso de privacidad</p>
+                <p>Estoy de acuerdo en que mis datos personales sean utilizados solo para fines primarios y en los terminos descritos en este aviso de privacidad.</p>
                 <input type="checkbox" id="che2" name="check2" class="check">
                 <label for="che2"></label>
             </div>
             <div>
-                <p>*2)Acepto que mis datos personales sean utilizados para los fines secundarios qué FREQUENCYLEX CONSULTORÍA ha detallado anteriormente en el cuerpo de este aviso de privacidad. Acepto “Estoy de acuerdo en que mis datos personales sean utilizados sólo para fines primarios* y no sus fines específicos descritos en este aviso de privacidad”</p>
+                <p>Estoy de acuerdo en que mis datos personales sean utilizados solo para secundarios en los terminos descritos en este aviso de privacidad.</p>
                 <input type="checkbox" id="che3" name="check3" class="check">
                 <label for="che3"></label>
             </div>             
@@ -321,17 +321,17 @@
                 <p class="spaciar">Todo cambio o actualización a nuestro aviso de privacidad será notificado al inicio de nuestra página web para usuarios que no han compartido con nosotros sus datos personales a través de una ventana emergente que surgirá recién cargue el sitio además para los usuarios que hayan confiado sus datos personales nos comprometemos a enviar un correo electrónico haciendo aviso oportuno de dichos cambios o actualizaciones.</p>
             </div>
             <div>
-                <p>*1)Si desea que sus datos personales no sean utilizados para nuestros fines secundarios detallados anteriormente por favor marque la siguiente casilla</p>
+                <p>Estoy de acuerdo en que mis datos personales sean utilizados deacuerdo a los terminos descritos en este aviso de privacidad.</p>
                 <input type="checkbox" id="che4" name="check1"  class="check">
                 <label for="che4"></label>   
             </div>
             <div>
-                <p>“Estoy de acuerdo en que mis datos personales sean utilizados de acuerdo a los términos descritos en este aviso de privacidad</p>
+                <p>Estoy de acuerdo en que mis datos personales sean utilizados solo para fines primarios y en los terminos descritos en este aviso de privacidad.</p>
                 <input type="checkbox" id="che5" name="check2" class="check">
                 <label for="che5"></label>
             </div>
             <div>
-                <p>*2)Acepto que mis datos personales sean utilizados para los fines secundarios qué FREQUENCYLEX CONSULTORÍA ha detallado anteriormente en el cuerpo de este aviso de privacidad. Acepto “Estoy de acuerdo en que mis datos personales sean utilizados sólo para fines primarios* y no sus fines específicos descritos en este aviso de privacidad”</p>
+                <p>Estoy de acuerdo en que mis datos personales sean utilizados solo para secundarios en los terminos descritos en este aviso de privacidad.</p>
                 <input type="checkbox" id="che6" name="check3" class="check">
                 <label for="che6"></label>
             </div>  

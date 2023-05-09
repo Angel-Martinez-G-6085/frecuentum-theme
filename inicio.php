@@ -86,7 +86,7 @@
             <div class="cuarta-seccion-primera-fila">
                 <div class="cuarta-seccion-titles-container flex f-column">
                     <h2 class="cuarta-seccion-title titulo centrar">Nos respalda nuestra experiencia</h2>
-                    <h4 class="cuarta-seccion-subtitle centrar">Nuestro equipo cuenta con más de 15 años de experiencia en el <br> sector regulatorio en temas de radiodifusión y telecomunicaciones.</h4>
+                    <h4 class="cuarta-seccion-subtitle centrar">Nuestro equipo cuenta con más de 10 años de experiencia en el <br> sector regulatorio en temas de radiodifusión y telecomunicaciones.</h4>
                 </div>
             </div>
 
@@ -231,19 +231,19 @@
                 <iframe class="map_frame_container" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.686211710604!2d-99.16857458561866!3d19.382735047297054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ffa038a977e3%3A0xc9ceb41bef9d7f55!2sAngel%20Urraza%20807%2C%20Col%20del%20Valle%20Centro%2C%20Benito%20Ju%C3%A1rez%2C%2003100%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1672792416181!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="maps-icon-container flex f-column">
-                <a class="maps-link map-auto-link" href="#" target="_blank" href="https://wa.me/5215540370369">
+                <a class="maps-link map-auto-link" target="_blank" href="https://www.google.com/maps/place/Angel+Urraza+807-interior+3,+Col+del+Valle+Centro,+Benito+Ju%C3%A1rez,+03100+Ciudad+de+M%C3%A9xico,+CDMX/@19.38273,-99.1663859,17z/data=!3m1!4b1!4m5!3m4!1s0x85d1ffa038a977e3:0x1da89df8c32262f0!8m2!3d19.38273!4d-99.1663859">
                     <img class="maps-icon" src="<?php echo(ICON. 'autoBlanco.svg')?>" alt="auto-blanco">
                 </a>
                 <a class="maps-link  map-whatts-link" target="_blank" href="https://wa.me/5215540370369">
                     <img class="maps-icon" src="<?php echo(ICON. 'whattsIcon.svg')?>" alt="whattsIcon">
                 </a>
-                <a class="maps-link map-facebook-link" target="_blank" href="https://wa.me/5215540370369">
+                <a class="maps-link map-facebook-link" target="_blank" href="https://www.facebook.com/profile.php?id=100090661321906&mibextid=ZbWKwL">
                     <img class="maps-icon" src="<?php echo(ICON. 'facebook-icon.svg')?>" alt="facebook-blanco">
                 </a>
-                <a class="maps-link map-twiter-link" target="_blank" href="https://wa.me/5215540370369">
+                <a class="maps-link map-twiter-link" target="_blank" href="https://twitter.com/FrequencyLex?t=8ROY8lq_-Uf2yzt1PdLA6Q&s=09">
                     <img class="maps-icon" src="<?php echo(ICON. 'twiter-icon.svg')?>" alt="twiter-blanco">
                 </a>
-                <a class="maps-link map-linkedin-link" target="_blank" href="https://wa.me/5215540370369">
+                <a class="maps-link map-linkedin-link" target="_blank" href="https://www.linkedin.com/in/frequencylex-consultor%C3%ADa">
                     <img class="maps-icon" src="<?php echo(ICON. 'linkedin-icon.svg')?>" alt="linkedin-blanco">
                 </a>
                 <a class="maps-link map-telefono-link" target="_blank" href="https://wa.me/5215540370369">
